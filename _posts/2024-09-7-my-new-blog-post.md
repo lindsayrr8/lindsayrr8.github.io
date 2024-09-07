@@ -28,7 +28,7 @@ In R, `<-`, (which looks like a little left-facing arrow) is the standard assign
 
 Our new function `myMean()` pulls in the data stored in `assignment2` and makes use of another pre-cooked function that comes packed in with R: the `sum()` function. This guy, `sum(assignment2)`, is calculating the sum of all the elements stored in `assignment2` for us.
 
-Then, with a good ol' `/`, R will divide the result by `length(assignment2)`. That guy is computing the number of elements in the `assignment2` vector so we don't have to!
+Then, with a good ol' `/`, R will divide the result by `length(assignment2)`. R's pre-made `length()` function is computing the number of elements in the `assignment2` vector so we don't have to!
 
 Thusly, we have `sum(assignment2)/length(assignment2)`, which divides the sum of our vector by the number of elements in it... AKA, the average (mean)!
 
