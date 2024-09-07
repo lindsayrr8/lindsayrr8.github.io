@@ -13,5 +13,7 @@ But since I'm all back end at this point, let's take a peek under the hood at wh
 `assignment2` is a vector of numbers: `6,18,14,22,27,17,22,20, and 22.`
 In R, **vectors** are one-dimensional arrays that can hold one data type, such as numeric, character, or logical data. (In other words, numbers, strings, or T/F values.)
 
-To create a vector in R, you use the **combine function, c().**
+To create a vector in R, you use the **combine function: c().**
+
+Splendid. Now that we have our vector full of numbers, we can create our own new function called **myMean()** to calculate the average of these numbers.
 
