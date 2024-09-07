@@ -21,6 +21,6 @@ assignment2<- c(6,18,14,22,27,17,22,20,22)
 
 Splendid. Now that we have our vector full of numbers, we can create our own new function called **myMean()** to calculate the average of these numbers.
 
-We'll designate **myMean()** as the name for the nice box our function will sit in. *Doing this in R gives me the heebie-jeebies because `=` is conventionally used for **assignment** in pretty much every other language.* In R, `<-`, (which looks like a little left-facing arrow) is the standard assignment syntax on variables. The `=` still gets used, but it's more-or-less officially designated for functions.
+We'll designate `myMean()` as the name for the nice box our function will sit in. *Doing this in R gives me the heebie-jeebies because `=` is conventionally used for variable **assignment** in pretty much every other language.* In R, `<-`, (which looks like a little left-facing arrow) is the standard assignment syntax. (The `=` still gets used, but it's more-or-less designated for use within functions.)
 
-
+Our new function `myMean()` pulls in the data stored in `assignment2` and makes use of another pre-cooked function that comes packed in with R: the `sum()` function. 
