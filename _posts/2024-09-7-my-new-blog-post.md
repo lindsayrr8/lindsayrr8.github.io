@@ -30,7 +30,7 @@ Our new function `myMean()` pulls in the data stored in `assignment2` and makes 
 
 Then, with a good ol' `/`, R will divide the result by `length(assignment2)`. R's pre-made `length()` function is computing the number of elements in the `assignment2` vector so we don't have to!
 
-Thusly, we have `sum(assignment2)/length(assignment2)`, which divides the sum of our vector by the number of elements in it... AKA, the average (mean)!
+Thusly, we have `sum(assignment2)/length(assignment2)`, which divides the sum of our vector by the number of elements in it... AKA the average (mean)!
 
 At last, the `return()` function tells R what to come back with whenever our `myMean()` function is called.
 
