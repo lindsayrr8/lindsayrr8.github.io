@@ -15,5 +15,12 @@ In R, **vectors** are one-dimensional arrays that can hold one data type, such a
 
 To create a vector in R, you use the **combine function: c().**
 
+```R
+assignment2<- c(6,18,14,22,27,17,22,20,22)
+```
+
 Splendid. Now that we have our vector full of numbers, we can create our own new function called **myMean()** to calculate the average of these numbers.
+
+We'll designate **myMean()** as the name for the nice box our function will sit in. *Doing this in R gives me the heebie-jeebies because `=` is conventionally used for **assignment** in pretty much every other language.* In R, `<-`, (which looks like a little left-facing arrow) is the standard assignment syntax on variables. The `=` still gets used, but it's more-or-less officially designated for functions.
+
 
