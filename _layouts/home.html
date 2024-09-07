@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<link href="/css/override.css" rel="stylesheet" type="text/css">
+
+{% for post in site.posts %}
+  <article class="post h-entry">
+    <header class="post-header">
+      <h2 class="post-title p-name"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p class="post-meta">
+        <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ post.date | date: site.minima.date_format }}
+        </time>
+      </p>
+    </header>
+
+    <div class="post-content e-content">
+      {{ post.content | markdownify }}
+    </div>
+  </article>
+{% endfor %}
