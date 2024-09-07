@@ -24,7 +24,7 @@ Splendid. Now that we have our vector full of numbers, we can create our own new
 `myMean <- function(assignment2) {return(sum(assignment2)/length(assignment2))}`
 
 We'll designate `myMean()` as the name for the nice box our function will sit in. Doing this in R gives me the *heebie-jeebies* because `=` is conventionally used for variable **assignment** in pretty much every other language.
-In R, `<-`, (which looks like a little left-facing arrow) is the standard assignment syntax. The `=` still gets used, but it's more-or-less designated for use within functions.
+In R, `<-`, (which looks like a little left-facing arrow) is the standard assignment syntax. The `=` still gets used, but it's more-or-less designated for use *inside* functions.
 
 Our new function `myMean()` pulls in the data stored in `assignment2` and makes use of another pre-cooked function that comes packed in with R: the `sum()` function. This guy, `sum(assignment2)`, is calculating the sum of all the elements stored in `assignment2` for us.
 
