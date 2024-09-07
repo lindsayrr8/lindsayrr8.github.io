@@ -21,6 +21,16 @@ assignment2<- c(6,18,14,22,27,17,22,20,22)
 
 Splendid. Now that we have our vector full of numbers, we can create our own new function called **myMean()** to calculate the average of these numbers.
 
-We'll designate `myMean()` as the name for the nice box our function will sit in. *Doing this in R gives me the heebie-jeebies because `=` is conventionally used for variable **assignment** in pretty much every other language.* In R, `<-`, (which looks like a little left-facing arrow) is the standard assignment syntax. (The `=` still gets used, but it's more-or-less designated for use within functions.)
+We'll designate `myMean()` as the name for the nice box our function will sit in. Doing this in R gives me the *heebie-jeebies* because `=` is conventionally used for variable **assignment** in pretty much every other language.
+In R, `<-`, (which looks like a little left-facing arrow) is the standard assignment syntax. The `=` still gets used, but it's more-or-less designated for use within functions.
 
-Our new function `myMean()` pulls in the data stored in `assignment2` and makes use of another pre-cooked function that comes packed in with R: the `sum()` function. 
+Our new function `myMean()` pulls in the data stored in `assignment2` and makes use of another pre-cooked function that comes packed in with R: the `sum()` function. This guy, `sum(assignment2)`, is calculating the sum of all the elements stored in `assignment2` for us.
+
+Then, with a good ol' `/`, R will divide the result by `length(assignment2)`. That guy is computing the number of elements in the `assignment2` vector so we don't have to!
+
+Thusly, we have `sum(assignment2)/length(assignment2)`, which divides the sum of our vector by the number of elements in it... AKA, the average (mean)!
+
+At last, the `return()` function tells R what to come back with whenever our `myMean()` function is called.
+
+## (Thanks, science!)
+
