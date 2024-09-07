@@ -34,5 +34,5 @@ Thusly, we have `sum(assignment2)/length(assignment2)`, which divides the sum of
 
 At last, the `return()` function tells R what to come back with whenever our `myMean()` function is called.
 
-## (Thanks, science!)
+#### (Thanks, science!)
 
