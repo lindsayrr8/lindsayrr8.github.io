@@ -10,7 +10,7 @@ layout: default
       <h2 class="post-title p-name"><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <p class="post-meta">
         <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-          {{ post.date | date: site.minima.date_format }}
+  {{ post.date | date: "%Y-%m-%d" }}
         </time>
       </p>
     </header>
