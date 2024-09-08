@@ -1,4 +1,4 @@
-## 9-7-24
+## A Simple Intro to Vectors and Custom Functions in R
 
 #### This week in Advanced Statistics & Analytics, we're given the following snippet of R code to work with:
 
