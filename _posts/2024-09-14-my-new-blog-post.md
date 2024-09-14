@@ -24,7 +24,7 @@ Right, then. This week, we're given our data set:
 <u>Set#1:</u>  10, 2, 3, 2, 4, 2, 5<br>
 <u>Set#2:</u>  20, 12, 13, 12, 14, 12, 15<br>
 
-#### Our task is to **compute the mean, median, and mode of these sets.** Then we wil get to computing the **range, interquartile, variance, and the standard deviation** of the data sets. (We will talk more about those next.)
+Our task is to **compute the mean, median, and mode of these sets.** Then we wil get to computing the **range, interquartile, variance, and the standard deviation** of the data sets. (We will talk more about those next.)
 
 In my humble opinion, a great place to start would be to *let R handle everything.* We can begin by turning our lovely data sets into vectors that R can understand and work with:
 
