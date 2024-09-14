@@ -86,3 +86,10 @@ get_mode <- function(x) {
 ```
 Now, let's break down what's happening here.
 
+Of course, we first assign a name to our function. With `function(x)`, we specify that the new thing we're creating will be a function that takes in a vector of values:
+`get_mode <- function(x) {`
+
+Then, to help R think about what it needs to do to give us the result we want, we first specify a vector called `unique_values_input`, which we then use with R's `unique()` function. That just gives us a little box, `unique_values_input`, for the result to sit in once R determines what values are in our original vector using `unique()`. This way, R will find out what's in there without duplicates, so it can see how many of each duplicate there are later!
+
+Next, the line `freq_table <- table(x)` will help R discover how many duplicates there are. Basically, R lays out all the values on a little table and makes a space to stick their corresponding counts with them (meaning how many times each unique value appears.)
+
