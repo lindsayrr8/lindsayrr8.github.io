@@ -168,3 +168,35 @@ As a quick review, each of these concepts pertains to:
 - `var()` - tells you how the data points are *spread out* or differ from the average (mean)
 - `sd()` - the square root of the variance; tells you *how far away* a value is from your average (mean)
 
+To achieve these measurements in R, it's as simple as plug and play:
+```R
+# Gets the ranges
+range(set_one)
+range(set_two)
+
+# Gets the IQR's
+IQR(set_one)
+IQR(set_two)
+
+# Gets the variances
+var(set_one)
+var(set_two)
+
+# Gets the standard deviations
+sd(set_one)
+sd(set_two)
+```
+Looks dandy. We could choose to store our results to variables, but for the purposes of this exercise, it's fine to just read the results as they print to the console.
+
+And those results output as:
+```R
+> range(set_one)
+[1]  2 10
+> IQR(set_one)
+[1] 2.5
+> var(set_one)
+[1] 8.333333
+> sd(set_one)
+[1] 2.886751
+> 
+```
