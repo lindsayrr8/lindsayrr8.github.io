@@ -72,8 +72,8 @@ Well, apparently you don't end up using the statistical mode very often later in
 
 Anyway, recovering from that headache, we still need our statistical mode. It will be up to us to create a custom function in order to do that.
 
-For sanity's sake, I'll call our new function `get_mode()`. This part was a little tricky at first. There are a lot of good tutorials online to help us accomplish this correctly. I used [this one:](https://www.tutorialspoint.com/r/r_mean_median_mode.htm)
-
+For sanity's sake, I'll call our new function `get_mode()`. This part was a little tricky at first. There are a lot of good tutorials online to help us accomplish this correctly. I used [this one](https://www.tutorialspoint.com/r/r_mean_median_mode.htm)
+and ended up with this:
 ```R
 # Creating a custom mode function
 get_mode <- function(x) {
