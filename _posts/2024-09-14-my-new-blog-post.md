@@ -91,7 +91,7 @@ Then, the line `freq_table <- table(x)` will help R discover how many duplicates
 
 Now it's mode time, folks! The line `max_freq <- max(freq_table)` uses R's `max()` function to figure out how many times the most frequent value appears in our little frequency table.
 
-Finally, on our `mode_values <- as.numeric(names(freq_table[freq_table == max_freq]))' line, R is comparing the frequencies found in `freq_table` to `max_freq` and making sure it is correct.
+Finally, on our `mode_values <- as.numeric(names(freq_table[freq_table == max_freq]))` line, R is comparing the frequencies found in `freq_table` to `max_freq` and making sure it is correct.
 Then, the `names()` function pulls out whatever is stored in the spot where R determines the highest frequency value is. Importantly, it does this by pulling out what's there as a character/string by default. Therefore, we need to make sure our data stays as a "numeric" type so we can continue doing calculations on it. This is what the `as.numeric()` function is doing.
 
 Of course, as always, we return our result as a last step. Here's what we get when it's all put together:
