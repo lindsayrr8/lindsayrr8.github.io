@@ -57,3 +57,16 @@ And here's our output when we run it:
 
 ### Hold on, where is the mode()?
 
+Okay. Bear with me. Yes, R does have a function called `mode()`. No, **it does not return the statistical mode.**
+In R, `mode()` returns the "mode" in the sense of *type* of data in an object. This is the output we get if we try to use the function on our data sets:
+
+```R
+> mode(set_one)
+[1] "numeric"
+> mode(set_two)
+[1] "numeric"
+```
+
+Um, why did they make that choice, you say? Even `Python` has a built in statistical mode function, you say?
+
+
