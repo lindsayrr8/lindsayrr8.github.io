@@ -217,3 +217,51 @@ First, a few observations.
 ### Concluding Thoughts
 Though computer programs and tools like R are significantly better at performing mathematical operations than humans are, it's still important to keep your thinker sharp enough to evaluate the results you get. You need to be able to interpret and decide what's correct and rational for yourself in order to be a good statistician/data scientist. I, for one, find it a powerful duo when my brain and my computer excel best: my PC humming away crunching the numbers, and me thinking creatively about analyzing them!
 
+### Our final result:
+```R
+
+set_one <- c(10, 2, 3, 2, 4, 2, 5)
+set_two <- c(20, 12, 13, 12, 14, 12, 15)
+
+
+# Creating a custom mode function
+get_mode <- function(x) {
+  # Creates frequency table for the values
+  freq_table <- table(x)
+  # Finds the max frequency value from the table
+  max_freq <- max(freq_table)
+  # Pulls out that value and keeps it numeric
+  mode_values <- as.numeric(names(freq_table[freq_table == max_freq]))
+  return(mode_values)
+}
+
+# Gets the means
+mean(set_one)
+mean(set_two)
+
+# Gets the medians
+median(set_one)
+median(set_two)
+
+# Gets the modes
+get_mode(set_one)
+get_mode(set_two)
+
+######
+
+# Gets the ranges
+range(set_one)
+range(set_two)
+
+# Gets the IQR's
+IQR(set_one)
+IQR(set_two)
+
+# Gets the variances
+var(set_one)
+var(set_two)
+
+# Gets the standard deviations
+sd(set_one)
+sd(set_two)
+```
