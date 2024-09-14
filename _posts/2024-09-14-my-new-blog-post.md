@@ -158,3 +158,8 @@ get_mode(set_two)
 ```
 Okay, we have our mean, median, and mode.
 ## Now it's range, interquartile, variance, and standard deviation time!
+And better yet, there's good news: we're done writing custom functions *(for now.)* This time, R comes with everything we need already packaged in:
+The `range()`, `max()` and `min()`, `IQR()`, `var()`, and `sd()` functions in R will help us calculate the range, interquartile, variance, and standard deviation, respectively.
+
+As a quick review, each of these concepts pertains to:
+
