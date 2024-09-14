@@ -157,4 +157,4 @@ get_mode(set_two)
 
 ```
 Okay, we have our mean, median, and mode.
-### Now it's range, interquartile, variance, and standard deviation time!
+## Now it's range, interquartile, variance, and standard deviation time!
