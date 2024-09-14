@@ -210,7 +210,7 @@ And those results output as:
 [1] 2.886751
 ```
 ### So what does this stuff tell us?
-First, a few observations. 
+First, a few observations:
 - **Range:** Both sets of data differ by 8, meaning they share the same distance between their highest values and lowest values.
 - **IQR:** Both sets have an IQR of 2.5, meaning the middle 50% of values in each set are spread similarly.
 - **Variance:** Both sets have the same variance of 8.33, meaning the data points in each set differ from the average by a similar amount.
