@@ -209,3 +209,11 @@ And those results output as:
 ```
 ### So what does this stuff tell us?
 First, a few observations. 
+- **Range:** Both sets of data differ by 8, meaning they share the same distance between their highest values and lowest values.
+- **IQR:** Both sets have an IQR of 2.5, meaning the middle 50% of values in each set are spread similarly.
+- **Variance:** Both sets have the same variance of 8.33, meaning the data points in each set differ from the average by a similar amount.
+- **Standard Deviation:** Both sets have a standard deviation of about 2.9, which is consistent with most of the data being relatively close to the mean.
+
+### Concluding Thoughts
+Though computer programs and tools like R are significantly better at performing mathematical operations than humans are, it's still important to keep your thinker sharp enough to evaluate the results you get. You need to be able to interpret and decide what's correct and rational for yourself in order to be a good statistician/data scientist. I, for one, find it a powerful duo when my brain and my computer excel best: my PC humming away crunching the numbers, and me thinking creatively about analyzing them!
+
