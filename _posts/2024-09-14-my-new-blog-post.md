@@ -192,11 +192,20 @@ And those results output as:
 ```R
 > range(set_one)
 [1]  2 10
+> range(set_two)
+[1] 12 20
 > IQR(set_one)
+[1] 2.5
+> IQR(set_two)
 [1] 2.5
 > var(set_one)
 [1] 8.333333
+> var(set_two)
+[1] 8.333333
 > sd(set_one)
 [1] 2.886751
-> 
+> sd(set_two)
+[1] 2.886751
 ```
+### So what does this stuff tell us?
+First, a few observations. 
