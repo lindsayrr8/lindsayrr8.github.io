@@ -82,7 +82,7 @@ get_mode <- function(x) {
   return(mode_values)
 }
 ```
-Now, let's break down what's happening here.
+### Now, let's break down what's happening here.
 
 Of course, we first assign a name to our function. With `function(x)`, we specify that the new thing we're creating will be a function that takes in a vector of values:
 `get_mode <- function(x) {`
