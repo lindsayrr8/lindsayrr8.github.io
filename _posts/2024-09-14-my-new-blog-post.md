@@ -43,6 +43,18 @@ median(set_two)
 median(set_one)
 median(set_two)
 ```
+And here's our output:
+```R
+> mean(set_one)
+[1] 4
+> mean(set_two)
+[1] 14
+> median(set_one)
+[1] 3
+> median(set_two)
+[1] 13
+> 
+```
 
-#### Hold on, where is the mode()?
+### Hold on, where is the mode()?
 
