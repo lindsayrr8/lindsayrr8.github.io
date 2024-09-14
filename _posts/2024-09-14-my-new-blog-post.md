@@ -3,6 +3,7 @@
 One thing that has always sat well with me about statistics is how simple and easy the very basic measures are. We all remember our old friends from grade school: mean, median, and mode. If you're like me, you can also remember trying to come up with a system to remember which one was which when test time came.
 
 ***Okay,***
+
 **Mean** - the *meanest* one with the most steps. You add up all the values then divide the total by the number of values...
 **Median** - the middle, like the median that divides the road,
 **& Mode** - which sounds like *"most..."* for the value that occurs most often...
