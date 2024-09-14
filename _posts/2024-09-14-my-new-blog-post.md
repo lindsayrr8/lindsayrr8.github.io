@@ -21,12 +21,12 @@ All three of these functions are what are called **Measures of Central Tendency.
 
 Right, then. This week, we're given our data set:
 
-Set#1:  10, 2, 3, 2, 4, 2, 5
-Set#2:  20, 12, 13, 12, 14, 12, 15
+Set#1:  10, 2, 3, 2, 4, 2, 5<br>
+Set#2:  20, 12, 13, 12, 14, 12, 15<br>
 
 Our task is to compute the mean, median, and mode of these sets. Then we wil get to computing the range, interquartile, variance, and the standard deviation of the data sets. (We will talk more about those next.)
 
 In my humble opinion, a great place to start would be to *let R handle everything.* We can begin by turning our lovely data sets into vectors that R can understand and work with:
 
-`set_1 <- c(10, 2, 3, 2, 4, 2, 5)`
-`set_2 <- c(20, 12, 13, 12, 14, 12, 15)`
+`set_1 <- c(10, 2, 3, 2, 4, 2, 5)`<br>
+`set_2 <- c(20, 12, 13, 12, 14, 12, 15)`<br>
