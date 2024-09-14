@@ -8,7 +8,9 @@ One thing that has always sat well with me about statistics is how simple and ea
 - **Median** - the middle, like the median that divides the road,
 - **& Mode** - which sounds like *"most..."* for the value that occurs most often...
 
-...Many years of crying in algebra classes later, I'm delighted to personally thank Occam's Razor that R makes these basic statistical functions even simpler and easier... (well, *sort of. Mostly. You'll see.)*
+...Many years of crying in algebra classes later, I'm delighted to personally thank Occam's Razor that R makes these basic statistical functions even simpler and easier. (Well, *sort of. Mostly.)*
+
+*(You'll see.)*
 
 ### R comes pre-packaged with the following functions:
 `mean()`, `median()`, and `mo--` *cough.* Um, actually. Sit down, we'll need to talk about that one later.
