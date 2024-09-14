@@ -68,7 +68,7 @@ In R, `mode()` returns the "mode" in the sense of *type* of data in an object. T
 ```
 
 Um, why did they make that choice, you say? Even `Python` has a built in statistical mode function, you say?
-Well, apparently you don't end up using the statistical mode much later in the game. Yes, it can be useful for qualitative data. No, I don't know why they made the choice to reserve the word "mode" in a statistical programming language for something other than the statistical mode. Maybe Google it and good luck?
+Well, apparently you don't end up using the statistical mode very often later in the game. Yes, it can be useful for qualitative data. No, I don't know why they made the choice to reserve the word "mode" in a statistical programming language for something other than the statistical mode. Maybe Google it and good luck?
 
 Anyway, recovering from that headache, we still need our statistical mode. It will be up to us to create a custom function in order to do that.
 
