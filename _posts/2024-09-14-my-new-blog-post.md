@@ -159,7 +159,12 @@ get_mode(set_two)
 Okay, we have our mean, median, and mode.
 ## Now it's range, interquartile, variance, and standard deviation time!
 And better yet, there's good news: we're done writing custom functions *(for now.)* This time, R comes with everything we need already packaged in:
-the `range()`, `max()` and `min()`, `IQR()`, `var()`, and `sd()` functions in R will help us calculate the range, interquartile, variance, and standard deviation, respectively.
+the `range()`, `IQR()`, `var()`, and `sd()` functions in R will help us calculate the range, interquartile, variance, and standard deviation, respectively.
 
 As a quick review, each of these concepts pertains to:
+
+- `range()` - the highest value and lowest value from your data set.
+- `IQR()` - measures the range of the middle 50% of your data, from the 25th percentile to the 75th percentile.
+- `var()` - tells you how the data points are *spread out* or differ from the average (mean)
+- `sd()` - the square root of the variance; tells you *how far away* a value is from your average (mean)
 
