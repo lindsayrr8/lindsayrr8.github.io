@@ -19,7 +19,7 @@ Thankfully, as with everything I love about computers, **mean, median, and mode 
 
 All three of these functions are what are called **Measures of Central Tendency.** In essence, they cut down a lot of work on an (often large) data set and present a generalized summary the values found within it. It's called *"central"* because it quite literally has a spatial relationship that falls in the *"middle"* or most significant part of your data set. This is all part of what's called **descriptive statistics**, because in doing all this we're aiming to *describe* features of things we're getting data on.
 
-Right, then. This week, we're given our data set:
+### Right, then. This week, we're given our data set:
 
 <u>Set#1:</u>  10, 2, 3, 2, 4, 2, 5<br>
 <u>Set#2:</u>  20, 12, 13, 12, 14, 12, 15<br>
