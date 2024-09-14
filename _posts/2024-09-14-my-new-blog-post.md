@@ -215,14 +215,12 @@ First, a few observations.
 - **Standard Deviation:** Both sets have a standard deviation of about 2.9, which is consistent with most of the data being relatively close to the mean.
 
 ### Concluding Thoughts
-Though computer programs and tools like R are significantly better at performing mathematical operations than humans are, it's still important to keep your thinker sharp enough to evaluate the results you get. You need to be able to interpret and decide what's correct and rational for yourself in order to be a good statistician/data scientist. I, for one, find it a powerful duo when my brain and my computer excel best: my PC humming away crunching the numbers, and me thinking creatively about analyzing them!
+Programming tools like R help tremendously with performing complex calculations and evaluating data, but it's still important to understand what's happening and keep your thinker sharp enough to interpret and analyze the results you get!
 
 ### Our final result:
 ```R
-
 set_one <- c(10, 2, 3, 2, 4, 2, 5)
 set_two <- c(20, 12, 13, 12, 14, 12, 15)
-
 
 # Creating a custom mode function
 get_mode <- function(x) {
