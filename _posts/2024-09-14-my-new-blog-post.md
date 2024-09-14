@@ -28,5 +28,5 @@ Our task is to compute the mean, median, and mode of these sets. Then we wil get
 
 In my humble opinion, a great place to start would be to *let R handle everything.* We can begin by turning our lovely data sets into vectors that R can understand and work with:
 
-`set_1 <- c(10, 2, 3, 2, 4, 2, 5)<br>
-set_2 <- c(20, 12, 13, 12, 14, 12, 15)`<br>
+```set_1 <- c(10, 2, 3, 2, 4, 2, 5)
+set_2 <- c(20, 12, 13, 12, 14, 12, 15)```
