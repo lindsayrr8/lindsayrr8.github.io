@@ -32,3 +32,17 @@ In my humble opinion, a great place to start would be to *let R handle everythin
 set_1 <- c(10, 2, 3, 2, 4, 2, 5)
 set_2 <- c(20, 12, 13, 12, 14, 12, 15)
 ```
+Fabulous. Now we just plug the vectors into R's built in `mean()` and `median()` functions:
+
+```R
+# Computing the means
+mean(set_1)
+median(set_1)
+
+# Computing the medians
+median(set_1)
+median(set_2)
+```
+
+#### Hold on, where is the mode()?
+
