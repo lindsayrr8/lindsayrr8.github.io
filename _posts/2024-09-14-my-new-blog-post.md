@@ -17,7 +17,7 @@ Moving on! Cool, cool. But what do any of these functions tell us? Why do they e
 
 Thankfully, as with everything I love about computers, **mean, median, and mode are ways to take a complicated task and make it much, much simpler.**
 
-All three of these functions are what are called **Measures of Central Tendency.** In essence, they cut down a lot of work on an (often large) data set and present a generalized summary the values found within it. It's called *"central"* because it quite literally has a spatial relationship that falls in the *"middle"* or most significant part of your data set. This is all part of what's called **descriptive statistics**, because in doing all this we're aiming to *describe* features of things we're getting data on.
+All three of these functions are what are called **Measures of Central Tendency.** In essence, they cut down a lot of work on an (often large) data set and present a generalized summary the values found within it. It's called *"central"* because it quite literally has a spatial relationship that falls in the *"middle"* or most significant part of your data set. This is all part of what's called **descriptive statistics**, because in doing all this we're aiming to *describe* features of the things we're getting data on.
 
 ### Right, then. This week, we're given our data set:
 
