@@ -43,7 +43,7 @@ median(set_two)
 median(set_one)
 median(set_two)
 ```
-And here's our output:
+And here's our output when we run it:
 ```R
 > mean(set_one)
 [1] 4
@@ -53,7 +53,6 @@ And here's our output:
 [1] 3
 > median(set_two)
 [1] 13
-> 
 ```
 
 ### Hold on, where is the mode()?
