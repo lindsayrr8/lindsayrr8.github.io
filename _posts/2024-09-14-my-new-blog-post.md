@@ -72,15 +72,13 @@ Well, apparently you don't end up using the statistical mode very often later in
 
 Anyway, recovering from that headache, we still need our statistical mode. It will be up to us to **create a custom function** in order to do that.
 
-For sanity's sake, I'll call our new function `get_mode()`. This part was a little tricky at first. There are a lot of good tutorials online to help us accomplish this correctly. I used [this one](https://www.tutorialspoint.com/r/r_mean_median_mode.htm)
-and ended up with this:
+For sanity's sake, I'll call our new function `get_mode()`. This part was a little tricky at first. There are a lot of good tutorials online to help us accomplish this correctly and I certainly used them.
 ```R
 # Creating a custom mode function
 get_mode <- function(x) {
-  unique_values_input <- unique(x)
   freq_table <- table(x)
   max_freq <- max(freq_table)
-  mode_values <- unique_values_input[freq_table == max_freq]
+ mode_values <- as.numeric(names(freq_table[freq_table == max_freq]))
   return(mode_values)
 }
 ```
@@ -89,7 +87,42 @@ Now, let's break down what's happening here.
 Of course, we first assign a name to our function. With `function(x)`, we specify that the new thing we're creating will be a function that takes in a vector of values:
 `get_mode <- function(x) {`
 
-Then, to help R think about what it needs to do to give us the result we want, we first specify a vector called `unique_values_input`, which we then use with R's `unique()` function. That just gives us a little box, `unique_values_input`, for the result to sit in once R determines what values are in our original vector using `unique()`. This way, R will find out what's in there without duplicates, so it can see how many of each duplicate there are later!
+Then, the line `freq_table <- table(x)` will help R discover how many duplicates there are. Basically, R lays out all the values on a little table and makes a space to stick their corresponding counts with them (meaning how many times each unique value appears.)
 
-Next, the line `freq_table <- table(x)` will help R discover how many duplicates there are. Basically, R lays out all the values on a little table and makes a space to stick their corresponding counts with them (meaning how many times each unique value appears.)
+Now it's mode time, folks! The line `max_freq <- max(freq_table)` uses R's `max()` function to figure out how many times the most frequent value appears in our original vector.
+
+Finally, on our `mode_values <- as.numeric(names(freq_table[freq_table == max_freq]))' line, R is comparing the frequencies found in `freq_table` to `max_freq` and making sure it is correct.
+Then, the `names()` function pulls out whatever is stored in the spot where R determines the highest frequency value is. Importantly, it does this by pulling out what's there as a character/string by default. Therefore, we need to make sure our data stays as a "numeric" type so we can continue doing calculations on it. This is what the `as.numeric()` function is doing.
+
+Of course, as always, we return our result as a last step. Here's what we get when it's all put together:
+
+```R
+# Creating a custom mode function
+get_mode <- function(x) {
+  # Creates frequency table for the values
+  freq_table <- table(x)
+  # Finds the max frequency value from the table
+  max_freq <- max(freq_table)
+  # Pulls out that value and keeps it numeric
+  mode_values <- as.numeric(names(freq_table[freq_table == max_freq]))
+  return(mode_values)
+}
+```
+
+Now we can call `get_mode()` to get the statistical mode for both of our data sets from above. It's about time.
+```R
+get_mode(set_one)
+get_mode(set_two)
+```
+And our output looks like:
+```R
+get_mode(set_one)
+> [1] 2
+get_mode(set_two)
+> [1] 12
+```
+
+All that work for the simplest measure of central tendency. At least R did it for us!
+
+But we're not done yet.
 
