@@ -70,7 +70,7 @@ In R, `mode()` returns the "mode" in the sense of *type* of data in an object. T
 Um, why did they make that choice, you say? Even `Python` has a built in statistical mode function, you say?
 Well, apparently you don't end up using the statistical mode very often later in the game. Yes, it can be useful for qualitative data. No, I don't know why they made the choice to reserve the word "mode" in a statistical programming language for something other than the statistical mode. Maybe Google it and good luck?
 
-Anyway, recovering from that headache, we still need our statistical mode. It will be up to us to create a custom function in order to do that.
+Anyway, recovering from that headache, we still need our statistical mode. It will be up to us to **create a custom function** in order to do that.
 
 For sanity's sake, I'll call our new function `get_mode()`. This part was a little tricky at first. There are a lot of good tutorials online to help us accomplish this correctly. I used [this one](https://www.tutorialspoint.com/r/r_mean_median_mode.htm)
 and ended up with this:
