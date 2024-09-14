@@ -126,3 +126,35 @@ All that work for the simplest measure of central tendency. At least R did it fo
 
 But we're not done yet.
 
+Let's put all of our code together so far and then we can move on to the next few tasks:
+```R
+
+set_one <- c(10, 2, 3, 2, 4, 2, 5)
+set_two <- c(20, 12, 13, 12, 14, 12, 15)
+
+# Creating a custom mode function
+get_mode <- function(x) {
+  # Creates frequency table for the values
+  freq_table <- table(x)
+  # Finds the max frequency value from the table
+  max_freq <- max(freq_table)
+  # Pulls out that value and keeps it numeric
+  mode_values <- as.numeric(names(freq_table[freq_table == max_freq]))
+  return(mode_values)
+}
+
+# Getting the means
+mean(set_one)
+mean(set_two)
+
+# Getting the medians
+median(set_one)
+median(set_two)
+
+# Getting the modes
+get_mode(set_one)
+get_mode(set_two)
+
+```
+Okay, we have our mean, median, and mode.
+# Now it's range, interquartile, variance, and standard deviation time!
