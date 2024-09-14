@@ -165,8 +165,8 @@ As a quick review, each of these concepts pertains to:
 
 - `range()` - the highest value and lowest value from your data set.
 - `IQR()` - measures the range of the middle 50% of your data, from the 25th percentile to the 75th percentile.
-- `var()` - tells you how the data points are *spread out* or differ from the average (mean)
-- `sd()` - the square root of the variance; tells you *how far away* a value is from your average (mean)
+- `var()` - tells you how the data points are spread out or differ from the average (mean)
+- `sd()` - the square root of the variance; tells you how far away a value is from your average (mean)
 
 To achieve these measurements in R, it's as simple as plug and play:
 ```R
