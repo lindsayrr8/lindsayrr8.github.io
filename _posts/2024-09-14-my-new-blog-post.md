@@ -4,10 +4,9 @@ One thing that has always sat well with me about statistics is how simple and ea
 
 ***Okay,***
 
-**Mean** - the *meanest* one with the most steps. You add up all the values then divide the total by the number of values...
-**Median** - the middle, like the median that divides the road,
-
-**& Mode** - which sounds like *"most..."* for the value that occurs most often...
+- **Mean** - the *meanest* one with the most steps. You add up all the values then divide the total by the number of values...
+- **Median** - the middle, like the median that divides the road,
+- **& Mode** - which sounds like *"most..."* for the value that occurs most often...
 
 ...Many years of crying in algebra classes later, I'm delighted to personally thank Occam's Razor that R makes these basic statistical functions even simpler and easier... (well, *sort of. Mostly. You'll see.)*
 
