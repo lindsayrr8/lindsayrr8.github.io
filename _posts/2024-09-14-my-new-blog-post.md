@@ -161,6 +161,8 @@ Okay, we have our mean, median, and mode.
 And better yet, there's good news: we're done writing custom functions *(for now.)* This time, R comes with everything we need already packaged in:
 the `range()`, `IQR()`, `var()`, and `sd()` functions in R will help us calculate the range, interquartile, variance, and standard deviation, respectively.
 
+Each of these statistical measures falls under **Measures of Variation.** Unlike measures of central tendency which focus on data centrality, measures of variation help us understand how consistent or variable the data is. They can show whether the values are clustered around the mean or very spread out.
+
 As a quick review, each of these concepts pertains to:
 
 - `range()` - the highest value and lowest value from your data set.
