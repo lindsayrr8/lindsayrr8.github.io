@@ -36,12 +36,12 @@ Fabulous. Now we just plug the vectors into R's built in `mean()` and `median()`
 
 ```R
 # Computing the means
-mean(set_1)
-median(set_1)
+mean(set_one)
+median(set_two)
 
 # Computing the medians
-median(set_1)
-median(set_2)
+median(set_one)
+median(set_two)
 ```
 
 #### Hold on, where is the mode()?
