@@ -1,4 +1,4 @@
-# The Statistical Basics in R: Mean, Median, and Mode
+# The Statistical Basics in R: Mean, Median, Mode, Range, Interquartile, Variance, & Standard Deviation
 
 One thing that has always sat well with me about statistics is how simple and easy the very basic measures are. We all remember our old friends from grade school: mean, median, and mode. If you're like me, you can also remember trying to come up with a system to remember which one was which when test time came.
 
