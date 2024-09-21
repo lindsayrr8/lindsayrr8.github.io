@@ -9,6 +9,7 @@ As a quick recap:
 To begin evaluating probability, we’re given the following table:
 
 <div class="no-header">
+|    |    |    |
 |----|----|----|  
 |    | B  | B1 |
 | A  | 10 | 20 |
