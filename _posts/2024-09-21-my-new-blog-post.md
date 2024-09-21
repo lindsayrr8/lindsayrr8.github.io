@@ -70,5 +70,5 @@ The following information accompanies our scenario:
 > 
 > - Event A1. It rains on Jane's wedding.
 > - Event A2. It does not rain on Marie's wedding.
-> -Event B. The weatherman predicts rain.
+> - Event B. The weatherman predicts rain.
 
