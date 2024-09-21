@@ -15,7 +15,7 @@ To begin evaluating probability, we’re given the following table:
 | A1 | 20 | 40 |
 
 From this table, we're given the prompt:
-### Based on Table 1 What is the probability of:
+### Based on Table 1, what is the probability of:
 1. Event A
 2. Event B?
 3. Event A or B
