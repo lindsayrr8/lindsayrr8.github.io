@@ -22,7 +22,7 @@ From this table, we're given the prompt:
 3. Event A or B
 4. P(A or B) = P(A) + P(B)
 
-To begin thinking about this problem, we should calculate the total number of observations in this case.
+To begin thinking about this problem, we should calculate the **total** number of observations in this case.
 <br>Total:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 + 20 + 20 + 40 = 90<br />
 
 1. Event A refers to the first row of the table. *(Remember, rows are horizontal like a row of crops, while columns are veritcal, as is a roman column!)* If we read this row across, we find that the total for row A is 10 + 20 = 30. Therefore, **the probability of Event A is:**
