@@ -43,7 +43,7 @@ $P(A \text{ or } B)$ $=$ $P(A)+P(B)-$ $P(A \text{ and } B)$
 From the table, we can fill in:
 $P(A \text{ and } B)$ $=$ $\frac{10}{90}$
 
-<br>And remember to omit this from our final results:<br />
+And remember to omit this from our final results:
 
 $P(A \text{ or } B)$ $=$ $\frac{30}{90}$ $+$ $\frac{30}{90}$ $-$ $\frac{10}{90}$ $=$ $0.555$
 
