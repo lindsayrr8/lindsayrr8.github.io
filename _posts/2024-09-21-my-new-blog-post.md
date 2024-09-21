@@ -1,6 +1,6 @@
 # An Intro to Probability Theory with R
 
-This week, we have a few different tasks ahead of us as we master the basics of Probability Theory.
+This week, we have a few different tasks ahead of us as we master the basics of **Probability Theory.**
 
 As a quick recap:
 - Probability predicts the likelihood of an event to occur.
