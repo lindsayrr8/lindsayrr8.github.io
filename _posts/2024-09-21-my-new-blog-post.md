@@ -72,8 +72,6 @@ The following information accompanies our scenario:
 > - Event A2. It does not rain on Marie's wedding.
 > - Event B. The weatherman predicts rain.
 
-With these possible events in mind, we can transform this information into **variables that R can handle** so it can perform calculations on potential outcomes for us.
-
 Laying out these variables in English looks something like this:
 - **P(A1)** = $\frac{5}{365}$ = 0.0136985 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *(It rains 5 days out of the year.)*
 - **P(A2)** = $\frac{360}{365}$ = 0.9863014 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *(It does not rain 360 days out of the year.)*
@@ -89,3 +87,18 @@ But this formula is a little cumbersome and hard for a human to read. Instead, I
 
 Instead, let's head over to RStudio and do the exact same thing more efficiently by **letting R handle everything for us.**
 
+We can take the same abbreviations we used to represent each prediction and plug those into R as our variables:
+
+``
+`# It rains 5 days out of the year.
+P_A1 <- 0.0137
+
+`# It does not rain 360 days out of the year.
+P_A2 <- 0.9863
+
+`# When it rains, the weatherman predicts rain 90% of the time.
+P_B_given_A1 <- 0.9
+
+`# When it does not rain, the weatherman predicts rain 10% of the time.
+P_B_given_A2 <- 0.1
+``
