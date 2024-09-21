@@ -49,5 +49,5 @@ $P(A \text{ or } B)$ $=$ $\frac{30}{90}$ $+$ $\frac{30}{90}$ $-$ $\frac{10}{90}$
 
 Therefore, the probability of either Event A or Event B is ~0.55 or about ~55%.
 
-4. As we just demonstrated in number 3, $P(A \text{ or } B)$ $=$ $P(A) + P(B)$ is False because it does not subtract the overlap of $P(A \text{ and } B)$.
+4. As we just demonstrated in number 3, $P(A \text{ or } B)$ $=$ $P(A) + P(B)$ is **False** because it does not subtract the overlap of $P(A \text{ and } B)$.
 
