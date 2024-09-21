@@ -58,6 +58,6 @@ What is it and why is it useful? **Bayes' Theorem** is essentially a way to upda
 
 $Posterior = \frac{Likelihood \times Prior}{Evidence}$
 
-With Prior Probability being our original belief, Likelihood being how likely the new evidence is if our belief was true, and Posterior Probability being our updated belief after considering the new evidence.
+With *Prior Probability* being our original belief, *Likelihood* being how likely the new evidence is if our belief was true, and *Posterior (Probability)* being our updated belief after considering the new evidence.
 
 
