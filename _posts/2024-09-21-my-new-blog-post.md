@@ -21,3 +21,7 @@ From this table, we're given the prompt:
 3. Event A or B
 4. P(A or B) = P(A) + P(B)
 
+To begin thinking about this problem, we should calculate the total number of observations in this case.
+Total: 10 + 20 + 20 + 40 = 90
+
+
