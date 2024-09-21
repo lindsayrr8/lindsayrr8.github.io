@@ -83,9 +83,9 @@ Laying out these variables in English looks something like this:
 Of these outcomes, we want to know $P(A1|B)$, the probability that it will rain on the day of Jane's wedding, given that there is a forecast for rain by the weatherman.
 
 One approach we could use is to write this out as a fraction in the form of Bayes' Theorem, as you can see below:
-$$
-P(A_1 | B) = \frac{P(A_1) \cdot P(B | A_1)}{P(A_1) \cdot P(B | A_1) + P(A_2) \cdot P(B | A_2)}
-$$
+$P(A_1 | B) = \frac{P(A_1) \cdot P(B | A_1)}{P(A_1) \cdot P(B | A_1) + P(A_2) \cdot P(B | A_2)}$
 
-But hold off with your abacus and mechanical calculator for a sec. That formula is a little impractical and hard for a human to read. As a programmer and an aspiring data scientist, I'd prefer to ✨ **let R handle everything.** ✨ So instead, we'll head over to RStudio and start declaring some variables:
+But that formula is a little cumbersome and hard for a human to read. Instead, I humbly ask you to put away your abacus and mechanical calculator and follow my advice: **never spend an hour doing what a computer can do in a second.**
+
+Instead, let's head over to RStudio and do the exact same thing more efficiently by **letting R handle everything** for us.
 
