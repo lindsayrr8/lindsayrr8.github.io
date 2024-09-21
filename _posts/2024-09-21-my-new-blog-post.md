@@ -43,6 +43,6 @@ $P(A or B)$ $=$ $P(A)+P(B)-P(A and B)$
 From the table, we can fill in:
 $P(A and B) =$ $\frac{10}{90}$
 And remember to omit this from our final results:
-$P(A or B) =$ $\frac{30}{90}$ $+$ $\frac{30}{90}$ $-$ $\frac{10}{90}$ $=$ $0.555$
+<br>$P(A or B) =$ $\frac{30}{90}$ $+$ $\frac{30}{90}$ $-$ $\frac{10}{90}$ $=$ $0.555$</br>
 Therefore, the probability of either Event A or Event B is ~0.55 or about ~55%.
 
