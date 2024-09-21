@@ -99,3 +99,11 @@ P_B_given_A1 <- 0.9
 # When it does not rain, the weatherman predicts rain 10% of the time.
 P_B_given_A2 <- 0.1
 ```
+
+Beautiful. Now we can use these to perform the calculation using Bayes' Theorem in R. We'll create a new variable called `P_A1_given_B` to assign our result to:
+
+```R
+P_A1_given_B <- (P_A1 * P_B_given_A1) / ((P_A1 * P_B_given_A1) + (P_A2 * P_B_given_A2))
+P_A1_given_B
+```
+
