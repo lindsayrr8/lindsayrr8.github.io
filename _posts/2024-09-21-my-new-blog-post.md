@@ -20,7 +20,7 @@ From this table, we're given the prompt:
 1. Event A
 2. Event B
 3. Event A or B
-4. P(A or B) = P(A) + P(B)
+4. P(A or B) = P(A) + P(B)? (True or False)
 
 To begin thinking about this problem, we should calculate the **total** number of observations in this case.
 <br>Total:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 + 20 + 20 + 40 = 90<br />
@@ -48,4 +48,6 @@ And remember to omit this from our final results:
 $P(A \text{ or } B)$ $=$ $\frac{30}{90}$ $+$ $\frac{30}{90}$ $-$ $\frac{10}{90}$ $=$ $0.555$
 
 Therefore, the probability of either Event A or Event B is ~0.55 or about ~55%.
+
+4. As we just demonstrated in number 3, $P(A \text{ or } B)$ $=$ $P(A) + P(B)$ is False because it does not subtract the overlap of $P(A \text{ and } B)$.
 
