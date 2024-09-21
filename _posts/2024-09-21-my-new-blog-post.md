@@ -7,6 +7,7 @@ As a quick recap:
 - In Statistics, probability is represented by a value between 0 and 1.
 
 To begin evaluating probability, we’re given the following table:
+| --- | --- | --- |
 | _  | B  | B1 |
 |:----:|:----:|:----:|
 | A  | 10 | 20 |
