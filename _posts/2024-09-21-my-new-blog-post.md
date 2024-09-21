@@ -80,5 +80,12 @@ Laying out these variables in English looks something like this:
 - **P(B|A1)** = 0.9 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *(When it rains, the weatherman predicts rain 90% of the time.)*
 - **P(B|A2)** = 0.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *(When it does not rain, the weatherman predicts rain 10% of the time.)*
 
-Of these outcomes, we want to know $P(A1|B)$, the probability it will rain on the day of Jane's wedding, given that there is a forecast for rain by the weatherman.
+Of these outcomes, we want to know $P(A1|B)$, the probability that it will rain on the day of Jane's wedding, given that there is a forecast for rain by the weatherman.
+
+One approach we could use is to write this out as a fraction in the form of Bayes' Theorem, as you can see below:
+$$
+P(A_1 | B) = \frac{P(A_1) \cdot P(B | A_1)}{P(A_1) \cdot P(B | A_1) + P(A_2) \cdot P(B | A_2)}
+$$
+
+But hold off with your abacus and mechanical calculator for a sec. That formula is a little impractical and hard for a human to read. As a programmer and an aspiring data scientist, I'd prefer to ✨ **let R handle everything.** ✨ So instead, we'll head over to RStudio and start declaring some variables:
 
