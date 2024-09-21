@@ -89,16 +89,13 @@ Instead, let's head over to RStudio and do the exact same thing more efficiently
 
 We can take the same abbreviations we used to represent each prediction and plug those into R as our variables:
 
-``
-`# It rains 5 days out of the year.
+```R
+# It rains 5 days out of the year.
 P_A1 <- 0.0137
-
-`# It does not rain 360 days out of the year.
+# It does not rain 360 days out of the year.
 P_A2 <- 0.9863
-
-`# When it rains, the weatherman predicts rain 90% of the time.
+# When it rains, the weatherman predicts rain 90% of the time.
 P_B_given_A1 <- 0.9
-
-`# When it does not rain, the weatherman predicts rain 10% of the time.
+# When it does not rain, the weatherman predicts rain 10% of the time.
 P_B_given_A2 <- 0.1
-``
+```
