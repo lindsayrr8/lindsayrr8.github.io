@@ -87,7 +87,7 @@ But this formula is a little cumbersome and hard for a human to read. Instead, I
 
 Instead, let's head over to RStudio and do the exact same thing more efficiently by **letting R handle everything for us.**
 
-We can take the same abbreviations we used to represent each prediction and plug those into R as our variables:
+We can take the same abbreviations we used to represent each variable from above and plug those into R:
 
 ```R
 # It rains 5 days out of the year.
