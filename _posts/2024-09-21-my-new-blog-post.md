@@ -68,7 +68,7 @@ With *Prior Probability* being our original belief, *Likelihood* being how likel
 The following information accompanies our scenario:
 > Solution: The sample space is defined by two mutually-exclusive events - it rains or it does not rain. Additionally, a third event occurs when the weatherman predicts rain. Notation for these events appears below.
 > 
-> <br>Event A1. It rains on Jane's wedding.
-Event A2. It does not rain on Marie's wedding.
-Event B. The weatherman predicts rain.<br />
+> - Event A1. It rains on Jane's wedding.
+> - Event A2. It does not rain on Marie's wedding.
+> -Event B. The weatherman predicts rain.
 
