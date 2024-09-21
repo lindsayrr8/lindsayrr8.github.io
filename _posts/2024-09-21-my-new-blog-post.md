@@ -41,8 +41,8 @@ It looks like the probabilities of Event A and Event B are independently equal!
 $P(A or B)$ $=$ $P(A)+P(B)-P(A and B)$
 
 From the table, we can fill in:
-$P(A and B) =$ $\frac{10}{90}$
+$P(A \text{ and } B)$ $=$ $\frac{10}{90}$
 And remember to omit this from our final results:
-<br>$P(A or B) =$ $\frac{30}{90}$ $+$ $\frac{30}{90}$ $-$ $\frac{10}{90}$ $=$ $0.555$</br>
+<br>$P(A \text{ or } B)$ $=$ $\frac{30}{90}$ $+$ $\frac{30}{90}$ $-$ $\frac{10}{90}$ $=$ $0.555$</br>
 Therefore, the probability of either Event A or Event B is ~0.55 or about ~55%.
 
