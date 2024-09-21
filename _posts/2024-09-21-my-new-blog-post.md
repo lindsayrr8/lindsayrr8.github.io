@@ -29,7 +29,7 @@ To begin thinking about this problem, we should calculate the **total** number o
 <br>$P(A \mid B)$ $=$ 	$\frac{30}{90}$ $=$ 	$\frac{1}{3}$<br />
 We can write this result as a decimal or a percent. The value is the same: ~0.333 or ~33%.
 
-2. Event B refers to the column labeled "B." The total for this colum is: 10 + 20 = 30. Therefore, the probability of Event B is:
+2. Event B refers to the column labeled "B." The total for this colum is: 10 + 20 = 30. Therefore, **the probability of Event B is:**
 <br>$P(A \mid B)$ $=$ 	$\frac{30}{90}$ $=$ 	$\frac{1}{3}$<br />
 Again, this can be written in either form as shown above in number 1.
 
