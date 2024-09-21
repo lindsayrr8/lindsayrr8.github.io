@@ -75,9 +75,9 @@ The following information accompanies our scenario:
 With these possible events in mind, we can transform this information into **variables that R can handle** so it can perform calculations on potential outcomes for us.
 
 Laying out these variables in English looks something like this:
-- **P(A1)** = $\frac{5}{365}$ = 0.0136985 *(It rains 5 days out of the year.)*
-- **P(A2)** = $\frac{360}{365}$ = 0.9863014 *(It does not rain 360 days out of the year.)*
-- **P(B|A1)** = 0.9 *(When it rains, the weatherman predicts rain 90% of the time.)*
-- **P(B|A2)** = 0.1 *(When it does not rain, the weatherman predicts rain 10% of the time.)*
+- **P(A1)** = $\frac{5}{365}$ = 0.0136985 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *(It rains 5 days out of the year.)*
+- **P(A2)** = $\frac{360}{365}$ = 0.9863014 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *(It does not rain 360 days out of the year.)*
+- **P(B|A1)** = 0.9 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *(When it rains, the weatherman predicts rain 90% of the time.)*
+- **P(B|A2)** = 0.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *(When it does not rain, the weatherman predicts rain 10% of the time.)*
 
 
