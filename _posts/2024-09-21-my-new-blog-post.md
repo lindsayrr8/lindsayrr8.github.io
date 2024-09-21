@@ -61,7 +61,7 @@ $Posterior = \frac{Likelihood \times Prior}{Evidence}$
 
 With *Prior Probability* being our original belief, *Likelihood* being how likely the new evidence is if our belief was true, and *Posterior (Probability)* being our updated belief after considering the new evidence.
 
-### To try applying Bayes' Theorem, we're given the following scenario:
+### To try applying Bayes' Theorem, we're given a scenario:
 > "Jane is getting married tomorrow at an outdoor ceremony in the desert. In recent years, it has rained only 5 days each year. Unfortunately, the weatherman has predicted rain for tomorrow. When it actually rains, the weatherman correctly forecasts rain 90% of the time. When it doesn't rain, he incorrectly forecasts rain 10% of the time."
 
 ### What is the probability that it will rain on the day of Jane's wedding? 
