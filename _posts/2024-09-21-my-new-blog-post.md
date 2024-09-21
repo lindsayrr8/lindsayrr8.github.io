@@ -6,6 +6,7 @@ As a quick recap:
 - Probability predicts the likelihood of an event to occur.
 - In Statistics, probability is represented by a value between 0 and 1.
 
+
 ### To begin evaluating probability, we’re given the following table:
 
 |    |    |    |
@@ -24,4 +25,7 @@ From this table, we're given the prompt:
 To begin thinking about this problem, we should calculate the total number of observations in this case.
 <br>Total:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 + 20 + 20 + 40 = 90<br />
 
+1. Event A refers to the first row of the table. *(Remember, rows are horizontal like a row of crops, while columns are veritcal, as is a roman column!)* If we read this row across, we find that the total for row A is 10 + 20 = 30. Therefore, the probability of Event A is:
+$P(A \mid B)$ = 	$\frac{30}{90}$ = 	$\frac{1}{3}$
+We can write this as a decimal or a percent. The value is the same: ~0.333 or ~33%.
 
