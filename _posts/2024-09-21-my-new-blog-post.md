@@ -87,5 +87,5 @@ $P(A_1 | B) = \frac{P(A_1) \cdot P(B | A_1)}{P(A_1) \cdot P(B | A_1) + P(A_2) \c
 
 But this formula is a little cumbersome and hard for a human to read. Instead, I humbly ask you to put away your abacus and mechanical calculator and follow my advice: **never spend an hour doing what a computer can do in a second.**
 
-Instead, let's head over to RStudio and do the exact same thing more efficiently by **letting R handle everything** for us.
+Instead, let's head over to RStudio and do the exact same thing more efficiently by **letting R handle everything for us.**
 
