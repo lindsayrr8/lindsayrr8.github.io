@@ -80,4 +80,5 @@ Laying out these variables in English looks something like this:
 - **P(B|A1)** = 0.9 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *(When it rains, the weatherman predicts rain 90% of the time.)*
 - **P(B|A2)** = 0.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *(When it does not rain, the weatherman predicts rain 10% of the time.)*
 
+Of these outcomes, we want to know $P(A1|B)$, the probability it will rain on the day of Jane's wedding, given that there is a forecast for rain by the weatherman.
 
