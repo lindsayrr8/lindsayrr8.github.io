@@ -22,6 +22,6 @@ From this table, we're given the prompt:
 4. P(A or B) = P(A) + P(B)
 
 To begin thinking about this problem, we should calculate the total number of observations in this case.
-<br><u>Total:<u /> 10 + 20 + 20 + 40 = 90<br />
+<br>Total:   10 + 20 + 20 + 40 = 90<br />
 
 
