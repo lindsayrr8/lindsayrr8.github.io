@@ -62,8 +62,12 @@ $Posterior = \frac{Likelihood \times Prior}{Evidence}$
 With *Prior Probability* being our original belief, *Likelihood* being how likely the new evidence is if our belief was true, and *Posterior (Probability)* being our updated belief after considering the new evidence.
 
 ### To try applying Bayes' Theorem, we're given the following scenario:
-> Jane is getting married tomorrow at an outdoor ceremony in the desert. In recent years, it has rained only 5 days each year. Unfortunately, the weatherman has predicted rain for tomorrow. When it actually rains, the weatherman correctly forecasts rain 90% of the time. When it doesn't rain, he incorrectly forecasts rain 10% of the time.
+> "Jane is getting married tomorrow at an outdoor ceremony in the desert. In recent years, it has rained only 5 days each year. Unfortunately, the weatherman has predicted rain for tomorrow. When it actually rains, the weatherman correctly forecasts rain 90% of the time. When it doesn't rain, he incorrectly forecasts rain 10% of the time."
 
 ### What is the probability that it will rain on the day of Jane's wedding? 
-
+The following information accompanies our scenario:
+> Solution: The sample space is defined by two mutually-exclusive events - it rains or it does not rain. Additionally, a third event occurs when the weatherman predicts rain. Notation for these events appears below.
+> <br>Event A1. It rains on Jane's wedding.
+Event A2. It does not rain on Marie's wedding.
+Event B. The weatherman predicts rain.<br />
 
