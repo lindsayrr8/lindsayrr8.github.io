@@ -52,7 +52,7 @@ Therefore, the probability of either Event A or Event B is ~0.55 or about ~55%.
 **4.** As we just demonstrated in number 3, $P(A \text{ or } B)$ $=$ $P(A) + P(B)$ is **False** because it does not subtract the overlap of $P(A \text{ and } B)$.
 
 
-## Now onto next: Bayes' Theorem
+# Now onto next: Bayes' Theorem
 What is it and why is it useful? **Bayes' Theorem** is essentially a way to update our beliefs about something based on new evidence we find. It combines our prior knowledge (how likely we think something is before seeing new data) with new information to get a revised probability.
 
 **Simply put, Bayes' Theorem says:**
