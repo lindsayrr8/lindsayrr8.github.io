@@ -104,6 +104,10 @@ Beautiful. Now we can use these to perform the calculation using Bayes' Theorem 
 
 ```R
 P_A1_given_B <- (P_A1 * P_B_given_A1) / ((P_A1 * P_B_given_A1) + (P_A2 * P_B_given_A2))
-P_A1_given_B
+```
+When we run this and call the variable to print its contents to the console, the output we get is:
+```R
+> P_A1_given_B
+[1] 0.1111211
 ```
 
