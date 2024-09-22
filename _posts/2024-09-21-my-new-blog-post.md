@@ -118,3 +118,6 @@ The explanation for this is because despite the weatherman's prediction, the ove
 Think of it this way: your odds of being struck by lightning are something like 1 in 15,300. If you see a 100% increase in your odds for getting zapped, then you now have just a 0.01309% chance (meaning roughly zero point zero one, or less than a fraction of 1%).
 
 ## Let's see another example
+From the textbook, we're asked to evaluate the following scenario:
+> For a disease known to have a postoperative complication frequency of 20%, a surgeon suggests a new procedure. She/he tests it on 10 patients and found there are not complications. What is the probability of operating on 10 patients successfully with the tradtional method?
+
