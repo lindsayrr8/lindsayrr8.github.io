@@ -33,7 +33,7 @@ We can write this result as a decimal or a percent. The value is the same: ~0.33
 <br>$P(A \mid B)$ $=$ 	$\frac{30}{90}$ $=$ 	$\frac{1}{3}$<br />
 Again, this can be written in either form as shown above in number 1.
 
-It looks like the probabilities of Event A and Event B are independently equal!
+It looks like the probabilities of Event A and Event B are represented in equal proportions in the total!
 
 **3.** But what about **the probability of either Event A *or* Event B?** To calculate $P(A \mid B)$, we need to find the sum of the probability of A *and* B, but subtract the quantity where they overlap to avoid factoring it into our calculations twice.
 <br> *(Remember, we want to find the probability of A **or** B, not A **and** B, because we're not calculating if they will happen at the same time in this case. We're interested in the probability of either occuring separately.)* <br />
