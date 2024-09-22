@@ -129,4 +129,17 @@ Once again, I defer us to R to evaluate the numbers for this problem.
 
 In R, we can use the `dbinom()` function *(short for "density of the binomial distribution")* to calculate a given number of successes from a series of trial runs. You can use this function to figure out the probability of successes in events with two possible outcomes.
 
+Here's how we can start to think about the numbers we're working with so we can plug them into R:
+- Number of patients: 10
+- Probability of success (no complications): 80% or 0.8
+
+Now we can simply convert these **parameters** into variables for R to use:
+```R
+# Parameters
+# number of patients
+size <- 10 
+# probability of no complications (success)
+prob <- 0.8          
+```
+
 
