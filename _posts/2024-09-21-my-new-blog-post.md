@@ -147,3 +147,8 @@ result <- dbinom(10, size = size, prob = prob)
 # Print the result
 print(result)
 ```
+You'll notice that the function `dibinom()` takes **three arguments: "x"** (the number of successes), **size** (the number of trials), and **prob** (the probability of successes on each trial.)
+```
+dbinom(x, size = _, prob = _)
+```
+
