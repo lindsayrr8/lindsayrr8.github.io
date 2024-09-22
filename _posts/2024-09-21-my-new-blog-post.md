@@ -45,7 +45,9 @@ $$P(A \text{ and } B) = \frac{10}{90}$$
 
 And remember to omit this from our final results:
 
-$$P(A \text{ or } B) = \frac{30}{90} + \frac{30}{90} - \frac{10}{90} = 0.555$$
+$$
+P(A \text{ or } B) = \frac{30}{90} + \frac{30}{90} - \frac{10}{90} = 0.555
+$$
 
 Therefore, the probability of either Event A or Event B is ~0.55 or about ~55%.
 
