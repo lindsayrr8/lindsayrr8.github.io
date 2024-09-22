@@ -73,8 +73,8 @@ The following information accompanies our scenario:
 > - Event B. The weatherman predicts rain.
 
 Laying out these variables in English looks something like this:
-|                    |                             |                                                                      |
 |--------------------|-----------------------------|----------------------------------------------------------------------|
+|                    |                             |                                                                      |
 | **P(A1)**          | $\frac{5}{365}$ = 0.0136985 | It rains 5 days out of the year.                                     |
 | **P(A2)**          | $\frac{360}{365}$ = 0.9863014 | It does not rain 360 days out of the year.                         |
 | **P(B|A1)**        | 0.9                         | When it rains, the weatherman predicts rain 90% of the time.         |
