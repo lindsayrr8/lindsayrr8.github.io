@@ -110,4 +110,9 @@ When we run this and call the variable to print its contents to the console, the
 > P_A1_given_B
 [1] 0.1111211
 ```
+...which is about ~11%. Is that really true? Even when the weatherman predicts rain, it only rains about 11% of the time? It appears that prospects for Jane's wedding are sunnier than they may seem.
+
+### Why, though?
+The explanation for this is because despite the weatherman's prediction, the overall probability of rain remains low because the prior probability of rain on any given day is very low (about ~1%). The weatherman's prediction itself does not significantly increase the chances of rain on the day of Jane's wedding.
+
 
