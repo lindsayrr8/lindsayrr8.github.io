@@ -45,11 +45,13 @@ $$P(A \text{ and } B) = \frac{10}{90}$$
 
 And remember to omit this from our final results:
 
-$$ P(A \text{ or } B) = \frac{30}{90} + \frac{30}{90} - \frac{10}{90} = 0.555 $$
+$$
+P(A \text{ or } B) = \frac{30}{90} + \frac{30}{90} - \frac{10}{90} = 0.555
+$$
 
 Therefore, the probability of either Event A or Event B is ~0.55 or about ~55%.
 
-**4.** As we just demonstrated in number 3, $P(A \text{ or } B) = P(A) + P(B)$ is **False** because it does not subtract the overlap of $P(A \text{ and } B)$.
+**4.** As we just demonstrated in number 3, $P(A \text{ or } B)$ $=$ $P(A) + P(B)$ is **False** because it does not subtract the overlap of $P(A \text{ and } B)$.
 
 
 # Now onto next: Bayes' Theorem
@@ -57,7 +59,9 @@ What is it and why is it useful? **Bayes' Theorem** is essentially a way to upda
 
 **Simply put, Bayes' Theorem says:**
 
-$Posterior = \frac{Likelihood \times Prior}{Evidence}$
+$$
+Posterior = \frac{Likelihood \times Prior}{Evidence}
+$$
 
 With *Prior Probability* being our original belief, *Likelihood* being how likely the new evidence is if our belief was true, and *Posterior (Probability)* being our updated belief after considering the new evidence.
 
