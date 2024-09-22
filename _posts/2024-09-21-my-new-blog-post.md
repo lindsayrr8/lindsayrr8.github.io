@@ -140,5 +140,10 @@ size <- 10
 # probability of no complications (success)
 prob <- 0.8          
 ```
-
-
+Then, it's just a matter of telling R to perform our calculation and to print the result:
+```R
+# Calculate the probability of 10 successes
+result <- dbinom(10, size = size, prob = prob)
+# Print the result
+print(result)
+```
