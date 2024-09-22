@@ -133,9 +133,8 @@ Here's how we can start to think about the numbers we're working with so we can 
 - Number of patients: 10
 - Probability of success (no complications): 80% or 0.8
 
-Now we can simply convert these **parameters** into variables for R to use:
+Now we can simply type these **parameters** into variables for R to use:
 ```R
-# Parameters
 # number of patients
 size <- 10 
 # probability of no complications (success)
