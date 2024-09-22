@@ -26,7 +26,7 @@ To begin thinking about this problem, we should calculate the **total** number o
 <br>Total:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 + 20 + 20 + 40 = 90<br />
 
 **1.** Event A refers to the first row of the table. If we read this row across, we find that the total for row A is 10 + 20 = 30. Therefore, **the probability of Event A is:**
-<br>$P(A \mid B)$ $=$ 	$\frac{30}{90}$ $=$ 	$\frac{1}{3}$<br />
+<br>$$P(A \mid B) =  \frac{30}{90} = 	\frac{1}{3}$$<br />
 We can write this result as a decimal or a percent. The value is the same: ~0.33 or ~33%.
 
 **2.** Event B refers to the column labeled "B." The total for this column is: 10 + 20 = 30. Therefore, **the probability of Event B is:**
