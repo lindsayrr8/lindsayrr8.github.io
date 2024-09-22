@@ -30,7 +30,7 @@ To begin thinking about this problem, we should calculate the **total** number o
 We can write this result as a decimal or a percent. The value is the same: ~0.33 or ~33%.
 
 **2.** Event B refers to the column labeled "B." The total for this column is: 10 + 20 = 30. Therefore, **the probability of Event B is:**
-<br>$P(A \mid B)$ $=$ 	$\frac{30}{90}$ $=$ 	$\frac{1}{3}$<br />
+<br>$$P(A \mid B) = 	\frac{30}{90} = 	\frac{1}{3}$$<br />
 Again, this can be written in either form as shown above in number 1.
 
 It looks like the probabilities of Event A and Event B are represented in equal proportions in the total!
@@ -38,18 +38,18 @@ It looks like the probabilities of Event A and Event B are represented in equal 
 **3.** But what about **the probability of either Event A *or* Event B?** To calculate $P(A \mid B)$, we need to find the sum of the probability of A *and* B, but subtract the quantity where they overlap to avoid factoring it into our calculations twice.
 <br> *(Remember, we want to find the probability of A **or** B, not A **and** B, because we're not calculating if they will happen at the same time in this case. We're interested in the probability of either occuring separately.)* <br />
 <br> Therefore, we can use the formula:<br />
-$P(A \text{ or } B)$ $=$ $P(A)+P(B)-$ $P(A \text{ and } B)$
+$$P(A \text{ or } B) = P(A)+P(B)- P(A \text{ and } B)$$
 
 From the table, we can fill in:
-$P(A \text{ and } B)$ $=$ $\frac{10}{90}$
+$$P(A \text{ and } B) = \frac{10}{90}$$
 
 And remember to omit this from our final results:
 
-$P(A \text{ or } B)$ $=$ $\frac{30}{90}$ $+$ $\frac{30}{90}$ $-$ $\frac{10}{90}$ $=$ $0.555$
+$$P(A \text{ or } B) = \frac{30}{90} + \frac{30}{90} - \frac{10}{90} = 0.555$$
 
 Therefore, the probability of either Event A or Event B is ~0.55 or about ~55%.
 
-**4.** As we just demonstrated in number 3, $P(A \text{ or } B)$ $=$ $P(A) + P(B)$ is **False** because it does not subtract the overlap of $P(A \text{ and } B)$.
+**4.** As we just demonstrated in number 3, $P(A \text{ or } B) = P(A) + P(B)$ is **False** because it does not subtract the overlap of $P(A \text{ and } B)$.
 
 
 # Now onto next: Bayes' Theorem
