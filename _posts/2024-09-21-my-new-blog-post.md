@@ -113,6 +113,7 @@ When we run this and call the variable to print its contents to the console, the
 ...which is about ~11%. Is that really true? Even when the weatherman predicts rain, it only rains about 11% of the time? It appears that prospects for Jane's wedding are sunnier than they may seem.
 
 ### Why, though?
-The explanation for this is because despite the weatherman's prediction, the overall probability of rain remains low. The prior probability of rain on any given day is actually very low (about ~1%). The weatherman's prediction itself does not significantly increase the chances of rain on the day of Jane's wedding.
+The explanation for this is because despite the weatherman's prediction, the overall probability of rain remains low. The prior probability of rain on any given day is actually very low (about ~1%). The weatherman's prediction itself does not significantly increase the chances of rain on the day of Jane's wedding. In other words, **prior probabilities influence the outcome** even when considering the weatherman's predictions. Therefore, Jane's 11% chance for rain and accompanying 89% chance for clear skies is **True.**
 
+Think of it this way: your odds of being struck by lightning are something like 1 in 15,300. If you see a 100% increase in your odds for getting zapped, then you now have just a 0.01309% chance (meaning roughly zero point zero one, or less than a fraction of 1%).
 
