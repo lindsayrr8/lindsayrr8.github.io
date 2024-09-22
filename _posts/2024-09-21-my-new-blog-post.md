@@ -162,4 +162,4 @@ It means the likelihood of success when operating on all 10 patients using the o
 > dbinom(10, size = 10, prob = 0.8)
 [1] 0.1073742
 ```
-###### ~~*So that's why health informatics is the most popular concentration in my degree's department... Recruiters, call me*~~
+###### ~~*So that's why health informatics is the most popular concentration in my degree's department... Recruiters, email me!*~~
