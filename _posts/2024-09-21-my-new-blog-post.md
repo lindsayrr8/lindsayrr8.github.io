@@ -125,4 +125,8 @@ From the textbook, we're asked to evaluate the following scenario:
 
 Okay, this problem is essentially asking us to figure out based on the given information which procedure is riskier: the old way or the new way our surgeon just tried.
 
+Once again, I defer us to R to evaluate the numbers for this problem.
+
+In R, we can use the `dbinom()` function *(short for "density of the binomial distribution")* to calculate a given number of successes from a series of trial runs. You can use this function to figure out the probability of successes in events with two possible outcomes.
+
 
