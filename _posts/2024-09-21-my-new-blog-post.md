@@ -123,6 +123,6 @@ From the textbook, we're asked to evaluate the following scenario:
 
 **What is the probability of operating on 10 patients successfully with the traditional method?**
 
-<br> Okay, this problem is essentially asking us to figure out based on the given information which procedure is riskier: the old way or the new way our surgeon just tried.<br />
+Okay, this problem is essentially asking us to figure out based on the given information which procedure is riskier: the old way or the new way our surgeon just tried.
 
 
