@@ -158,5 +158,8 @@ Fantastic. The result we get when we run our code is:
 
 ### What does it mean?
 It means the likelihood of success when operating on all 10 patients using the original method of surgery is about 10.74%. In other words, there is about an ~11% chance that all 10 patients would have no complications from the surgery. This indicates that about 89% of the time, we could expect surgical complications. That's not very comforting.
-
+```R
+> dbinom(10, size = size, prob = prob)
+[1] 0.1073742
+```
 
