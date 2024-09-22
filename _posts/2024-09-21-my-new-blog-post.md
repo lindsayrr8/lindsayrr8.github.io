@@ -122,4 +122,6 @@ From the textbook, we're asked to evaluate the following scenario:
 > For a disease known to have a postoperative complication frequency of 20%, a surgeon suggests a new procedure. She/he tests it on 10 patients and found there are not complications.
 
 **What is the probability of operating on 10 patients successfully with the tradtional method?**
+Okay, this problem is essentially asking us to figure out based on the given information which procedure is riskier: the old way or the new way our surgeon just tried.
+
 
