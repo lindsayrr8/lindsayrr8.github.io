@@ -73,7 +73,7 @@ The following information accompanies our scenario:
 > - Event B. The weatherman predicts rain.
 
 Laying out these variables in English looks something like this:
-| Probability | Value       | Description                                                          |
+| Probability | Value       | Event Description                                                    |
 |-------------|-------------|----------------------------------------------------------------------|
 | P(A1)       | 0.0136985   | It rains 5 days out of the year.                                     |
 | P(A2)       | 0.9863014   | It does not rain 360 days out of the year.                           |
