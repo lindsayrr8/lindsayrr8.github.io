@@ -81,7 +81,7 @@ Laying out these variables in English looks something like this:
 | P(B or A1)     | 0.9         | When it rains, the weatherman predicts rain 90% of the time.         |
 | P(B or A2)     | 0.1         | When it does not rain, the weatherman predicts rain 10% of the time. |
 
-Of these outcomes, we want to know $$P(A1|B)$$, the probability that it will rain on the day of Jane's wedding, given that there is a forecast for rain by the weatherman.
+Of these outcomes, we want to know $P(A1 \text{ or }B)$, the probability that it will rain on the day of Jane's wedding, given that there is a forecast for rain by the weatherman.
 
 One approach we could use is to write this out as a fraction in the form of Bayes' Theorem, as you can see below:
 <br><br />
