@@ -81,7 +81,9 @@ Laying out these variables in English looks something like this:
 Of these outcomes, we want to know $P(A1|B)$, the probability that it will rain on the day of Jane's wedding, given that there is a forecast for rain by the weatherman.
 
 One approach we could use is to write this out as a fraction in the form of Bayes' Theorem, as you can see below:
-$P(A_1 | B) = \frac{P(A_1) \cdot P(B | A_1)}{P(A_1) \cdot P(B | A_1) + P(A_2) \cdot P(B | A_2)}$
+$$
+P(A_1 | B) = \frac{P(A_1) \cdot P(B | A_1)}{P(A_1) \cdot P(B | A_1) + P(A_2) \cdot P(B | A_2)}
+$$
 
 But this formula is a little cumbersome and hard for a human to read. Instead, I humbly ask you to put away your abacus and mechanical calculator and follow my advice: **never spend an hour doing what a computer can do in a second.**
 
@@ -115,7 +117,7 @@ When we run this and call the variable to print its contents to the console, the
 ### Why, though?
 The explanation for this is because despite the weatherman's prediction, the overall probability of rain remains low. The prior probability of rain on any given day is actually very low (about ~1%). The weatherman's prediction itself does not significantly increase the chances of rain on the day of Jane's wedding. In other words, **prior probabilities influence the outcome** even when considering the weatherman's predictions. Therefore, Jane's 11% chance for rain and accompanying 89% chance for clear skies is **True.**
 
-Think of it this way: your odds of being struck by lightning are something like 1 in 15,300. If you see a 100% increase in your odds for getting zapped, then you now have just a 0.01309% chance (meaning roughly zero point zero one, or less than a fraction of 1%).
+Think of it this way: your odds of being struck by lightning are something like 1 in 15,300. If you see a 100% increase in your odds for getting zapped, then you now have just a 0.01309% chance (meaning roughly zero point zero one, or about 1%).
 
 ## Let's see another example
 From the textbook, we're asked to evaluate the following scenario:
