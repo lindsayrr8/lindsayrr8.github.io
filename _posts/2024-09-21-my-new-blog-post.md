@@ -57,8 +57,9 @@ What is it and why is it useful? **Bayes' Theorem** is essentially a way to upda
 
 **Simply put, Bayes' Theorem says:**
 
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>P</mi><mi>o</mi><mi>s</mi><mi>t</mi><mi>e</mi><mi>r</mi><mi>i</mi><mi>o</mi><mi>r</mi><mo>=</mo><mfrac><mrow><mtext>Likelihood</mtext><mo>×</mo><mtext>Prior</mtext></mrow><mtext>Evidence</mtext></mfrac></mrow><annotation encoding="application/x-tex">Posterior = \frac{\text{Likelihood} \times \text{Prior}}{\text{Evidence}}
-</annotation></semantics></math>
+$$
+Posterior = \frac{Likelihood \times Prior}{Evidence}
+$$
 
 With *Prior Probability* being our original belief, *Likelihood* being how likely the new evidence is if our belief was true, and *Posterior (Probability)* being our updated belief after considering the new evidence.
 
