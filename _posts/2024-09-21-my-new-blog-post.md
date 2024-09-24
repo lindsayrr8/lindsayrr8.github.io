@@ -84,6 +84,7 @@ Laying out these variables in English looks something like this:
 Of these outcomes, we want to know $$P(A1|B)$$, the probability that it will rain on the day of Jane's wedding, given that there is a forecast for rain by the weatherman.
 
 One approach we could use is to write this out as a fraction in the form of Bayes' Theorem, as you can see below:
+<br><br />
 $$
 P(A_1 | B) = \frac{P(A_1) \cdot P(B | A_1)}{P(A_1) \cdot P(B | A_1) + P(A_2) \cdot P(B | A_2)}
 $$
