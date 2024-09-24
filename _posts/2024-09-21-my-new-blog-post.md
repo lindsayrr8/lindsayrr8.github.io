@@ -75,10 +75,10 @@ The following information accompanies our scenario:
 Laying out these variables in English looks something like this:
 | Probability | Value       | Description                                                          |
 |-------------|-------------|----------------------------------------------------------------------|
-| **P(A1)**   | 0.0136985   | It rains 5 days out of the year.                                     |
-| **P(A2)**   | 0.9863014   | It does not rain 360 days out of the year.                           |
-| **P(B|A1)** | 0.9         | When it rains, the weatherman predicts rain 90% of the time.         |
-| **P(B|A2)** | 0.1         | When it does not rain, the weatherman predicts rain 10% of the time. |
+| P(A1)       | 0.0136985   | It rains 5 days out of the year.                                     |
+| P(A2)       | 0.9863014   | It does not rain 360 days out of the year.                           |
+| P(B|A1)     | 0.9         | When it rains, the weatherman predicts rain 90% of the time.         |
+| P(B|A2)     | 0.1         | When it does not rain, the weatherman predicts rain 10% of the time. |
 
 Of these outcomes, we want to know $$P(A1|B)$$, the probability that it will rain on the day of Jane's wedding, given that there is a forecast for rain by the weatherman.
 
