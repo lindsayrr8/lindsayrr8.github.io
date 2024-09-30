@@ -24,7 +24,8 @@ In this case: <br />
 - The alternative hypothesis (H1) is: the machine is not producing cookies according to the specification *(the circumstances we're going to test for)* <br /> 
 
 So, to make that less wordy with the use of statistical symbols: <br />
+$$
 H0: μ = 70 <br />
 H1: μ ≠ 70 <br />
-
+$$
 *Reminder: The greek letter μ ("mew") represents the population mean.*
