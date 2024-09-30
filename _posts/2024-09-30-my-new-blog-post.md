@@ -41,5 +41,8 @@ n (sample size) = 49 <br />
 Magnificent. Now we simply translate this information into code that R can understand so it can perform the calculation.
 
 ```R
-
+xbar <- 69.1
+mu <- 70
+sigma <- 3.5
+n <- 49
 ```
