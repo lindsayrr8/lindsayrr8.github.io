@@ -45,4 +45,9 @@ xbar <- 69.1
 mu <- 70
 sigma <- 3.5
 n <- 49
+
+# Using the formula for z test
+z <- (xbar - mu) / (sigma / sqrt(n))
 ```
+Notice we've made use of another one of R's handy built-in functions: sqrt(), which, as you can guess, is used to calculate the square root of a number. (Who'd have thunk it?)
+
