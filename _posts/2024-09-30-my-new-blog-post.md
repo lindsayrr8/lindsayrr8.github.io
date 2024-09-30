@@ -30,3 +30,12 @@ $ H1: μ ≠ 70 $ <br />
 *Reminder: The greek letter μ ("mew") represents the population mean.* <br />
 
 **B.** Is there **evidence** that the machine is **not** meeting the manufacturer's specifications for average strength? (Use a 0.05 level of significance.)
+We've made it, folks. This requires conducting a hypothesis test. Technically, we will be performing a **z test,** which is used to check if there is a difference between a sample mean and a population mean when the population standard deviation is known. Let's use the formula:
+$ z = (x – μ0) / (σ/√n) $
+...and fill in the values we know for each variable.
+x̄ (sample mean) = 69.1
+μ (population mean) = 70
+σ (standard deviation) = 3.5
+n (sample size) = 49
+
+Magnificent. Now we simply translate this information into code that R can understand.
