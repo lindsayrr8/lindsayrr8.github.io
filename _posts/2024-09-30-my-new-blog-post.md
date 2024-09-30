@@ -21,5 +21,5 @@ Phenomenal. So, what are the null and alternative hypotheses and what are they t
 
 In this case: <br />
 - The null hypothesis is: the machine is producing cookies with an average weight equal to the manufacturer's specification *(the circumstances we started with)* <br />
-- The alternative hypothesis is: the machine is not producing ocokies according to the specification *(the circumstances we're going to test for)* <br /> 
+- The alternative hypothesis is: the machine is not producing cookies according to the specification *(the circumstances we're going to test for)* <br /> 
 
