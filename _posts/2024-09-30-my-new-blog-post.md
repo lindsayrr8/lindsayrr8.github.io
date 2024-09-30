@@ -4,7 +4,7 @@ This week, we're biting into the meat of the statistics burger. We're still work
 
 To begin, let's explore **hypothesis testing.** Specifically, we'll be focusing on **p-values** and **one-tailed hypothesis testing.**
 
-To perform our first hypothesis test, we're given the following scenario:
+### To perform our first hypothesis test, we're given the following scenario:
 
 > The director of manufacturing at a cookies company needs to determine whether a new machine is able to produce a particular type of cookies according to the manufacturer's specifications, which indicate that cookies should have a mean of 70 and standard deviation of 3.5 pounds. A sample of 49 cookies reveals a sample mean breaking strength of 69.1 pounds.
 
