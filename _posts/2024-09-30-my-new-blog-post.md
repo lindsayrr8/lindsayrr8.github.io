@@ -23,3 +23,8 @@ In this case: <br />
 - The null hypothesis (H0) is: the machine is producing cookies with an average weight equal to the manufacturer's specification *(the circumstances we started with)* <br />
 - The alternative hypothesis (H1) is: the machine is not producing cookies according to the specification *(the circumstances we're going to test for)* <br /> 
 
+So, to make that less wordy with the use of statistical symbols:
+H0: μ = 70
+H1: μ ≠ 70
+
+*Reminder: The greek letter μ ("mew") represents the population mean.*
