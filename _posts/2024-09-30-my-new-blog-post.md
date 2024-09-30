@@ -27,4 +27,6 @@ So, to make that less wordy with the use of statistical symbols: <br />
 $ H0: μ = 70 $ <br />
 $ H1: μ ≠ 70 $ <br />
 
-*Reminder: The greek letter μ ("mew") represents the population mean.*
+*Reminder: The greek letter μ ("mew") represents the population mean.* <br />
+
+**B.** Is there **evidence** that the machine is **not** meeting the manufacturer's specifications for average strength? (Use a 0.05 level of significance.)
