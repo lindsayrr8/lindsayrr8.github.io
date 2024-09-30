@@ -18,7 +18,7 @@ To begin, let's explore **hypothesis testing.** Specifically, we'll be focusing 
 Phenomenal. So, what are the null and alternative hypotheses and what are they talking about?
 
 **A.** The **null hypothesis** is our original, starting hypothesis or "idea." You can think of "null" sort of like nothing, because we haven't changed anything or presented anything new yet. The **alternative hypothesis** is what we're looking to test against our original hypothesis to see which is correct. Seems straightforward, right? <br />
-In this case:
-The null hypothesis is: 
-The alternative hypothesis is: 
+In this case: <br />
+The null hypothesis is: <br />
+The alternative hypothesis is: <br /> 
 
