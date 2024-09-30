@@ -38,4 +38,8 @@ x̄ (sample mean) = 69.1 <br />
 σ (standard deviation) = 3.5 <br />
 n (sample size) = 49 <br />
 
-Magnificent. Now we simply translate this information into code that R can understand.
+Magnificent. Now we simply translate this information into code that R can understand so it can perform the calculation.
+
+```R
+
+```
