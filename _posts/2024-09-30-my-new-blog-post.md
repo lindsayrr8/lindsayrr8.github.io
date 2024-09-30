@@ -24,18 +24,18 @@ In this case: <br />
 - The alternative hypothesis (H1) is: the machine is not producing cookies according to the specification *(the circumstances we're going to test for)* <br /> 
 
 So, to make that less wordy with the use of statistical symbols: <br />
-$ H0: μ = 70 $ <br />
-$ H1: μ ≠ 70 $ <br />
+H0: μ = 70 <br />
+H1: μ ≠ 70 <br />
 
 *Reminder: The greek letter μ ("mew") represents the population mean.* <br />
 
 **B.** Is there **evidence** that the machine is **not** meeting the manufacturer's specifications for average strength? (Use a 0.05 level of significance.)
-We've made it, folks. This requires conducting a hypothesis test. Technically, we will be performing a **z test,** which is used to check if there is a difference between a sample mean and a population mean when the population standard deviation is known. Let's use the formula:
-$ z = (x – μ0) / (σ/√n) $
-...and fill in the values we know for each variable.
-x̄ (sample mean) = 69.1
-μ (population mean) = 70
-σ (standard deviation) = 3.5
-n (sample size) = 49
+We've made it, folks. This requires conducting a hypothesis test. Technically, we will be performing a **z test,** which is used to check if there is a difference between a sample mean and a population mean when the population standard deviation is known. Let's use the formula: <br />
+$ z = (x – μ0) / (σ/√n) $ <br />
+...and fill in the values we know for each variable. <br />
+x̄ (sample mean) = 69.1 <br />
+μ (population mean) = 70 <br />
+σ (standard deviation) = 3.5 <br />
+n (sample size) = 49 <br />
 
 Magnificent. Now we simply translate this information into code that R can understand.
