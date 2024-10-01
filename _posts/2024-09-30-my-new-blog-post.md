@@ -210,4 +210,7 @@ $$
 Which, in English, reads:<br />
 *Confidence interval = sample mean + or - margin of error*
 
+If we start setting this formula up in R with our variables, here's what we get:
+```R
 
+```
