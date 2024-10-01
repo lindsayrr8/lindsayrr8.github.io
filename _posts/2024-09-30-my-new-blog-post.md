@@ -177,4 +177,4 @@ Then, the output we get is:
 It seems 0.1 lb can really make a difference. Now, given that our p-value (0.04) is lower than our significance level (0.05), we **reject** our original hypothesis (H0).
 
 # Cool. Onto Confidence Intervals
-## Quick review - what is that?
+### Quick review - what is that?
