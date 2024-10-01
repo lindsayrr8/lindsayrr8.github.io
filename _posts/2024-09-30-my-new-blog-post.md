@@ -49,7 +49,7 @@ n (sample size) = 49 <br />
 - *"Mew" (μ) kind of looks like a funky capital letter "M," which you might associate with the word "mean." Being a capital letter, you might think to remember it as the population mean, which is the larger pool of data/source size than the sample mean would be.*
 - *I like to remember "sigma" (σ) as the symbol for standard deviation by imagining the little "o" circle spinning around and around forever. But suddenly, the little line up top... deviates!*
 - *The sample size, little "n," you might associate with the word "number," as in the "number of units in the sample."*
-- *"Alpha
+- *"Alpha (α) is a measure of a level of uncertainty. For example, if our α is 0.05, then we'd say there's about a 5% chance we accidentally reject a true null hypothesis. It's not exactly equivalent, but you might think to associate the letter "a" with "approximate uncertainty" for significance level.*
 
 ...Magnificent. Now we simply translate this information into code that R can understand so it can perform the calculation.
 
