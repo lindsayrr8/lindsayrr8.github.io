@@ -74,6 +74,8 @@ Output:
 
 ## C.
 Now we'll compute the p-value and interpret its meaning. <br />
+
 We can use the p-value to determine whether or not we should reject the null hypothesis because when the p-value is less than the value of α (our significance level), then there is significant evidence to conclude that the original hypotheses was incorrect. <br />
+
 **Remember the golden rule: When the p is low, we reject H0!**
 
