@@ -37,7 +37,6 @@ We've made it, folks. This requires conducting a hypothesis test. Technically, w
 
 Let's use the formula:<br />
 $z = (x̄ – μ0) / (σ/√n)$
-
 <br> which reads in english as:<br />
 <br >*"Z test value = (sample mean - population mean) / (population standard deviation / square root of sample size)"*<br />
 
