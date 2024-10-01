@@ -111,3 +111,5 @@ And the output we get is:
 > pvalue < alpha
 [1] FALSE
 ```
+Therefore, it seems our p-value is ***not*** less than our significance level α. Since the "p isn't low," we will **fail to reject H0** (our original/starting hypothesis.)
+
