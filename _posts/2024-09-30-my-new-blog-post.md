@@ -79,7 +79,9 @@ We can use the p-value to determine whether or not we should reject the null hyp
 
 ***Remember the golden rule: When the p is low, we reject H0!***
 
-So what do we need to do to get our p-value? We'll have to decide what kind of "tail" test we'll be doing. On the bell curve, a **one-tailed test** only checks specifically for an increase or a decrease in whichever direction. A **two-tailed test** checks for a change in either direction. According to our alternative hypothesis (H1), which question are we asking? We didn't specify if we think the cookie machine might be producing more or less than specification, just if it's producing something other than the manufacturer specified average.
+So what do we need to do to get our p-value? We'll have to decide what kind of "tail" test we'll be doing. On the bell curve, a **one-tailed test** only checks specifically for an increase or a decrease in whichever direction. A **two-tailed test** checks for a change in either direction.
+
+According to our alternative hypothesis (H1), which question are we asking? We didn't specify if we think the cookie machine might be producing more or less than specification, just if it's producing something other than the manufacturer specified average.
 
 Therefore, we'll be conducting a two-tailed test using R to suit our alternative hypothesis.
 
