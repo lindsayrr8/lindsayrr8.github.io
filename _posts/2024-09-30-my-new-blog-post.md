@@ -73,6 +73,6 @@ Output:
 ```
 
 ## C.
-Now we'll compute the p-value and interpret its meaning.
+Now we'll compute the p-value and interpret its meaning. <br />
 **Remember the golden rule: When the p is low, we reject H0!**
 
