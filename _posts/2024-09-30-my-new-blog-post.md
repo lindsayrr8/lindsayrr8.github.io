@@ -118,3 +118,5 @@ Therefore, it seems our p-value is ***not*** less than our significance level α
 *(Remember: this is science! In science, we never "accept" something as true. We just fail to reject it as false!)*
 
 ## D.
+D is for devil's advocate. What would our answer be if if the standard deviation were specified as 1.75 pounds of cookies instead?
+
