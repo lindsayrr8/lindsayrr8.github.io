@@ -101,7 +101,7 @@ And we can convert this into R code just like before:
 pvalue <- 2 * pnorm(-abs(z))
 print(pvalue)
 ```
-Here, we've made use of two more handy built-in R functions: `pnorm()` and `abs()`. As you might have guessed, `abs()` is short for absolute value, and this is precisely what this function does. Our other function, `pnorm()`, helps to find the Z-score. It does this by giving the area to the left of the bell curve. Then, it multiplies that times 2, which covers values on both the left and right side because the bell curve is symmetrical. (The details can get a little more complicated, but basically, doing it this way ensures the calculation is always correct.)
+Here, we've made use of two more handy built-in R functions: `pnorm()` and `abs()`. As you might have guessed, `abs()` is short for absolute value, and this is precisely what this function does. Our other function, `pnorm()`, helps to find the Z-score. It does this by giving the area to the left of the bell curve. Then, it multiplies that times 2, which covers values on both the left and right side because the bell curve is symmetrical. *(The details can get a little more complicated, but basically, doing it this way ensures the calculation is always correct.)*
 
 When we print our `pvalue` to the console, the output we get is:
 ```R
