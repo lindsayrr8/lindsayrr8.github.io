@@ -113,5 +113,5 @@ And the output we get is:
 ```
 Therefore, it seems our p-value is ***not*** less than our significance level α. Since the "p isn't low," we will **fail to reject H0** (our original/starting hypothesis.)
 
-*(Remember: this is science! In science, we never accept something as true. We just fail to reject it as false!)*
+*(Remember: this is science! In science, we never "accept" something as true. We just fail to reject it as false!)*
 
