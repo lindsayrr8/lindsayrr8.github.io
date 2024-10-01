@@ -188,5 +188,10 @@ In other words, we may not be able to predict an exact outcome, but we can tell 
 To start pinning down confidence intervals, we're given the following problem:
 > If x̅ = 85, σ = standard deviation = 8, and n=64, set up 95% confidence interval estimate of the population mean μ.
 
-
+Alright, let's begin by setting up the values we know in R. (Note, to avoid confusion, either clear out your R environment and console, start a new file, or use different variable names than we did before):
+```R
+xbar <- 85
+sigma <- 8
+n <- 64
+```
 
