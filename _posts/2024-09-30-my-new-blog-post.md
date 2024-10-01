@@ -199,6 +199,7 @@ To start pinning down confidence intervals, we're given the following problem:
 xbar <- 85
 sigma <- 8
 n <- 64
+# confidence level
 ```
 The formula for confidence intervals is as follows: <br />
 $$
