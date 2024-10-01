@@ -86,7 +86,7 @@ According to our alternative hypothesis (H1), which question are we asking? We d
 Therefore, we'll be conducting a two-tailed test using R to suit our alternative hypothesis.
 
 The formula for this is: <br />
-$p value = 2 * P(|test statistic| > |critical value|)$
+$p\text{ }value = 2 * P(|test statistic| > |critical value|)$
 
 And we can convert this into R code just like before:
 ```R
