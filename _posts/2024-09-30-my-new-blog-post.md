@@ -178,3 +178,5 @@ It seems 0.1 lb can really make a difference. Now, given that our p-value (0.04)
 
 # Cool. Onto Confidence Intervals
 ### Quick review - what is that?
+If you've already taken an introductory statistics course, you've probably heard the phrase: "We are 95% confident that... (the value we're looking for falls within a range between "x" and "y".)
+
