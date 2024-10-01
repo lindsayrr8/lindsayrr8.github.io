@@ -179,7 +179,7 @@ Then, the output we get is:
 It seems 0.1 lb can really make a difference. Now, given that our p-value (0.04) is lower than our significance level (0.05), we **reject** our original hypothesis (H0).
 
 # Cool. Onto Confidence Intervals
-### Quick review - what is that?
+#### Quick review - what is that?
 If you've already taken an introductory statistics course, you've probably heard the phrase: **"We are 95% confident that** the value we're looking for falls within a range between 'x' and 'y'."
 
 Here's the thing. There are a lot of moving parts in nature which make it difficult to create a perfect prediction. But our math has gotten precise enough that we can corner an area of the system where things are likely to occur.<br />
