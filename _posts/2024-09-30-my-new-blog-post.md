@@ -87,6 +87,7 @@ Therefore, we'll be conducting a two-tailed test using R to suit our alternative
 
 The formula for this is: <br />
 $p\text{ }value = 2 * P(|test statistic| > |critical value|)$
+<br > *With "test statistic" being our Z-score and critical value being the significance level (α)* <br />
 
 And we can convert this into R code just like before:
 ```R
