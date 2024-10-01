@@ -200,7 +200,7 @@ xbar <- 85
 sigma <- 8
 n <- 64
 ```
-The formula for confidence intervals is as follows:
+The formula for confidence intervals is as follows: <br />
 $$
 CI = x̄ +/- z/(s/√n)
 $$
