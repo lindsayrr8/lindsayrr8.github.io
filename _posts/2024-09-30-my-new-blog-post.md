@@ -204,9 +204,9 @@ The formula for confidence intervals is as follows:
 $$
 CI = x̄ +/- z/(s/√n)
 $$
-(With "x̄" being the sample mean, "z" being the confidence level value, "s" being the sample standard deviation, and "n" being the sample size.)
+<br > (With "x̄" being the sample mean, "z" being the confidence level value, "s" being the sample standard deviation, and "n" being the sample size.) <br />
 
-Which, in English, reads:
+Which, in English, reads:<br />
 *Confidence interval = sample mean + or - margin of error*
 
 
