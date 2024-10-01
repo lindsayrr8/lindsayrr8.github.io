@@ -98,3 +98,15 @@ When we print `pvalue` to the console, the output we get is:
 > print(pvalue)
 [1] 0.07186064
 ```
+Is our p-value less than our significance level (α)? It might be easy enough to look at and determine (0.05 < 0.07), but we can also have R check this with a few simple lines of code:
+```R
+# Declares the significance level value
+alpha <- 0.05
+# Asks: is pvalue less than significance level?
+pvalue < alpha
+```
+And the output we get is:
+```R
+> pvalue < alpha
+[1] FALSE
+```
