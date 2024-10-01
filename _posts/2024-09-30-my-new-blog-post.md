@@ -41,6 +41,7 @@ x̄ (sample mean) = 69.1 <br />
 μ (population mean) = 70 <br />
 σ (standard deviation) = 3.5 <br />
 n (sample size) = 49 <br />
+α (significance level) = 0.05 <br />
 
 *Optional tips - If you're anything like me, then explanations really help to understand and memorize all these random letters and variables:*
 - *A "Z-test" gets its name from a "Z-score," which is itself a measure of how many standard deviations a sample statistic is from the population mean. The "Z" comes from what is referred to as the Z-axis, which is the horizontal axis on the bottom of the bell curve (the standard normal distribution.)*
@@ -48,6 +49,7 @@ n (sample size) = 49 <br />
 - *"Mew" (μ) kind of looks like a funky capital letter "M," which you might associate with the word "mean." Being a capital letter, you might think to remember it as the population mean, which is the larger pool of data/source size than the sample mean would be.*
 - *I like to remember "sigma" (σ) as the symbol for standard deviation by imagining the little "o" circle spinning around and around forever. But suddenly, the little line up top... deviates!*
 - *The sample size, little "n," you might associate with the word "number," as in the "number of units in the sample."*
+- *"Alpha
 
 ...Magnificent. Now we simply translate this information into code that R can understand so it can perform the calculation.
 
@@ -70,4 +72,7 @@ Output:
 [1] -1.8
 ```
 
+## C.
+Now we'll compute the p-value and interpret its meaning.
+**Remember the golden rule: When the p is low, we reject H0!**
 
