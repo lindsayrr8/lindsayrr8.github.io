@@ -35,10 +35,8 @@ H1: μ ≠ 70 <br />
 Is there **evidence** that the machine is **not** meeting the manufacturer's specifications for average strength? (Use a 0.05 level of significance.) <br />
 We've made it, folks. This requires conducting a hypothesis test. Technically, we will be performing a **Z-test,** which is used to check if there is a difference between a sample mean and a population mean when the population standard deviation is known. <br />
 
-Let's use the formula: <br />
-$$<br />
-z = (x̄ – μ0) / (σ/√n) <br />
-$$<br />
+Let's use the formula:<br />
+$z = (x̄ – μ0) / (σ/√n)$
 
 <br> which reads in english as:<br />
 <br >*"Z test value = (sample mean - population mean) / (population standard deviation / square root of sample size)"*<br />
