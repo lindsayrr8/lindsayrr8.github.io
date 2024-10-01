@@ -17,7 +17,8 @@ To begin, let's explore **hypothesis testing.** Specifically, we'll be focusing 
 
 Phenomenal. So, what are the null and alternative hypotheses and what are they talking about?
 
-**A.** The **null hypothesis** is our original, starting hypothesis or "idea." You can think of "null" sort of like nothing, because we haven't changed anything or presented anything new yet. The **alternative hypothesis** is what we're looking to test against our original hypothesis to see which is correct. Seems straightforward, right? <br />
+## A.
+The **null hypothesis** is our original, starting hypothesis or "idea." You can think of "null" sort of like nothing, because we haven't changed anything or presented anything new yet. The **alternative hypothesis** is what we're looking to test against our original hypothesis to see which is correct. Seems straightforward, right? <br />
 
 In this case: <br />
 - The null hypothesis (H0) is: the machine is producing cookies with an average weight equal to the manufacturer's specification *(the circumstances we started with)* <br />
@@ -29,7 +30,8 @@ H1: μ ≠ 70 <br />
 
 *Reminder: The greek letter μ ("mew") represents the population mean.* <br />
 
-**B.** Is there **evidence** that the machine is **not** meeting the manufacturer's specifications for average strength? (Use a 0.05 level of significance.) <br />
+## B.
+Is there **evidence** that the machine is **not** meeting the manufacturer's specifications for average strength? (Use a 0.05 level of significance.) <br />
 We've made it, folks. This requires conducting a hypothesis test. Technically, we will be performing a **Z-test,** which is used to check if there is a difference between a sample mean and a population mean when the population standard deviation is known. <br />
 
 Let's use the formula: <br />
