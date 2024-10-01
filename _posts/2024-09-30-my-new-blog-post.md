@@ -186,5 +186,7 @@ Here's the thing. There are a lot of moving parts in nature which make it diffic
 In other words, we may not be able to predict an exact outcome, but we can tell you to a relative degree of certainty what's most likely to happen. In statistics, that's a **confidence interval.**
 
 To start pinning down confidence intervals, we're given the following problem:
+> If x̅ = 85, σ = standard deviation = 8, and n=64, set up 95% confidence interval estimate of the population mean μ.
+
 
 
