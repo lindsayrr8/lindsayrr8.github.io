@@ -180,3 +180,6 @@ It seems 0.1 lb can really make a difference. Now, given that our p-value (0.04)
 ### Quick review - what is that?
 If you've already taken an introductory statistics course, you've probably heard the phrase: **"We are 95% confident that...** (the value we're looking for falls within a range between "x" and "y".)
 
+Here's the thing. There are a lot of moving parts in nature which make it difficult to create a perfect prediction. But our math has gotten precise enough that we can corner an area of the system where things are likely to occur.<br />
+In other words, we may not be able to predict an exact outcome, but we can tell you to a relative degree of certainty what's most likely. In statistics, that's a **confidence interval.**
+
