@@ -93,5 +93,8 @@ And we can convert this into R code just like before:
 pvalue <- 2 * pnorm(-abs(z))
 print(pvalue)
 ```
-
-
+When we print `pvalue` to the console, the output we get is:
+```R
+> print(pvalue)
+[1] 0.07186064
+```
