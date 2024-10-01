@@ -183,3 +183,6 @@ If you've already taken an introductory statistics course, you've probably heard
 Here's the thing. There are a lot of moving parts in nature which make it difficult to create a perfect prediction. But our math has gotten precise enough that we can corner an area of the system where things are likely to occur.<br />
 In other words, we may not be able to predict an exact outcome, but we can tell you to a relative degree of certainty what's most likely. In statistics, that's a **confidence interval.**
 
+To start pinning down confidence intervals, we're given the following problem:
+
+
