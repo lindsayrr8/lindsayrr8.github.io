@@ -96,7 +96,7 @@ print(pvalue)
 ```
 Here, we've made use of two more handy built-in R functions: `pnorm()` and `abs()`. As you might have guessed, `abs()` is short for absolute value, and this is precisely what this function does. Our other function, `pnorm()`, calculates the area to the left of a Z-score (aka, the cumulative distribution function of a normal distribution.)
 
-When we print `pvalue` to the console, the output we get is:
+When we print our `pvalue` to the console, the output we get is:
 ```R
 > print(pvalue)
 [1] 0.07186064
