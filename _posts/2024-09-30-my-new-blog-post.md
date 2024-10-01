@@ -47,7 +47,7 @@ n (sample size) = 49 <br />
 - *I like to remember "sigma" (σ) as the symbol for standard deviation by imagining the little "o" circle spinning around and around forever. But suddenly, the little line up top... deviates!*
 - *The sample size, little "n," you might associate with the word "number," as in the "number of units in the sample."*
 
-Magnificent. Now we simply translate this information into code that R can understand so it can perform the calculation.
+...Magnificent. Now we simply translate this information into code that R can understand so it can perform the calculation.
 
 ```R
 xbar <- 69.1
