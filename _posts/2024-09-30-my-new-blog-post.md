@@ -115,3 +115,4 @@ Therefore, it seems our p-value is ***not*** less than our significance level α
 
 *(Remember: this is science! In science, we never "accept" something as true. We just fail to reject it as false!)*
 
+## D.
