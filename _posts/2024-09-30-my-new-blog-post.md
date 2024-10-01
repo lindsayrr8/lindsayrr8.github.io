@@ -64,7 +64,7 @@ n <- 49
 # Using the formula for z test
 z <- (xbar - mu) / (sigma / sqrt(n))
 ```
-Notice we've made use of another one of R's handy built-in functions: sqrt(), which, as you can guess, is used to calculate the square root of a number. (Who'd've thunk it?)
+Notice we've made use of another one of R's handy built-in functions: `sqrt()`, which, as you can guess, is used to calculate the square root of a number. (Who'd've thunk it?)
 
 When we run this code, the calculation gives us the z-value. From the z-value, we can calculate the p-value. We'll use that to decide if there's **evidence** that the machine is **not** meeting the manufacturer's specifications.
 
