@@ -145,7 +145,7 @@ And this is the output we get:
 > pvalue < alpha
 [1] TRUE
 ```
-Aha, it seems this time our p-value (0.00) is way less than our significance level α (0.05). R agrees that it's TRUE, so you know the rule. *"If the p is low..."*
+Aha, it seems this time our p-value (0.00) is way **less** than our significance level α (0.05). R agrees that it's TRUE, so you know the rule. *"If the p is low..."*
 
 ## E.
 E is also for dEvil's advocate. What would our answer for (B.) be if the sample mean were 69 pounds and the standard deviation is 3.5 pounds? Let's tweak some of our variables again:
@@ -174,6 +174,5 @@ Then, the output we get is:
 > pvalue < alpha
 [1] TRUE
 ```
-It seems 0.1 lb can really make a difference. Now, given that our p-value (0.04) is lower than our significance level (0.05), we reject our original hypothesis (H0).
-
+It seems 0.1 lb can really make a difference. Now, given that our p-value (0.04) is lower than our significance level (0.05), we **reject** our original hypothesis (H0).
 
