@@ -36,8 +36,8 @@ Is there **evidence** that the machine is **not** meeting the manufacturer's spe
 We've made it, folks. This requires conducting a hypothesis test. Technically, we will be performing a **Z-test,** which is used to check if there is a difference between a sample mean and a population mean when the population standard deviation is known. <br />
 
 Let's use the formula: <br />
-$$<br >
-z = (x̄ – μ0) / (σ/√n)
+$$<br />
+z = (x̄ – μ0) / (σ/√n) <br />
 $$<br />
 
 <br> which reads in english as:<br />
