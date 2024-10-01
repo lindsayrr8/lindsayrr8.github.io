@@ -44,7 +44,7 @@ x̄ (sample mean) = 69.1 <br />
 n (sample size) = 49 <br />
 α (significance level) = 0.05 <br />
 
-#### *Optional tips*
+### *Optional tips*
 *If you're anything like me, then explanations really help to understand and memorize all these random letters and variables:* <br />
 - *A "Z-test" gets its name from a "Z-score," which is itself a measure of how many standard deviations a sample statistic is from the population mean. The "Z" comes from what is referred to as the Z-axis, which is the horizontal axis on the bottom of the bell curve (the standard normal distribution.)*
 - *You could strategize to remember x-bar (x̄) by process of elimination when recalling the other basic statistical symbols. Or, you could really stretch your imagination and imagine x wearing a cool hat because he's very important as the sample mean!*
