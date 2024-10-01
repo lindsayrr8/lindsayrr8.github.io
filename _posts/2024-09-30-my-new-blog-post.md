@@ -103,7 +103,7 @@ Is our p-value less than our significance level (α)? It might be easy enough to
 ```R
 # Declares the significance level value
 alpha <- 0.05
-# Asks: is pvalue less than significance level?
+# Asks: is pvalue less than the significance level?
 pvalue < alpha
 ```
 And the output we get is:
