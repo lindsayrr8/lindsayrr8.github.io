@@ -91,7 +91,7 @@ $p-value = 2 * P(|test statistic| > |critical value|)$
 And we can convert this into R code just like before:
 ```R
 pvalue <- 2 * pnorm(-abs(z))
-pvalue
+print(pvalue)
 ```
 
 
