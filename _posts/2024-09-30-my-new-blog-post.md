@@ -200,4 +200,13 @@ xbar <- 85
 sigma <- 8
 n <- 64
 ```
+The formula for confidence intervals is as follows:
+$$
+CI = x̄ +/- z/(s/√n)
+$$
+(With "x̄" being the sample mean, "z" being the confidence level value, "s" being the sample standard deviation, and "n" being the sample size.)
+
+Which, in English, reads:
+*Confidence interval = sample mean + or - margin of error*
+
 
