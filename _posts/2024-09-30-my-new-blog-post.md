@@ -208,7 +208,8 @@ $$
 <br > (With "x̄" being the sample mean, "z" being the confidence level value, "s" being the sample standard deviation, and "n" being the sample size.) <br />
 
 Which, in English, reads:<br />
-*Confidence interval = sample mean + or - margin of error*
+*Confidence interval = sample mean + or - margin of error* <br />
+*(Note: margin of error is another formula... we'll get to that. Just know that they're the same thing in this case.)*
 
 If we start setting this formula up in R with our variables, here's what we get:
 ```R
