@@ -285,11 +285,13 @@ Cool! We have our confidence interval values. Thanks, R! **Our confidence interv
 Wow, you made it this far (I'm sorry.) Brace yourself - it's time to start **plotting.** (No, I promise it really isn't that bad.)
 
 We're given the following **data set** and **prompt** to start out with our first correlation analysis:
+*Data Set:*
 > girls_goals <- c(4, 5, 6) <br />
 girls_time_spend <- c(19, 22, 28) <br />
 boys_goals <- c(4, 5, 6) <br />
 boys_time_spend <- c(18.9, 22.2, 27.8) <br />
 
+*Prompt:*
 > The accompanying data are: x= girls and y =boys. (goals, time spend on assignment)  
 a. Calculate the correlation coefficient for this data set _____ <br />
 b. Pearson correlation coefficient _____ <br />
