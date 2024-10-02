@@ -355,4 +355,23 @@ pearson_boys <- cor(boys_goals, boys_time_spend, method = "pearson")
 ```
 
 ## Awesome - it's plotting time.
-As you might expect, `plot()` is another very useful R function we will be employing for this task. 
+As you might expect, `plot()` is another very useful R function we will be employing for this task. The `plot()` function takes several **arguments** (some of which are optional):
+```R
+# plot() basic format: plot(x, y, ...)
+
+### plot() function essential arguments:
+# x = data for the x/horizontal axis
+# y = data for the y/vertical axis
+
+### plot() function optional arguments:
+# main = title
+# xlab = x-axis label
+# ylab = y-axis label
+# pch = shape of points on the plot; (pch 19 makes solid circles)
+# col = sets color of points on the plot
+# and more...
+```
+
+
+
+
