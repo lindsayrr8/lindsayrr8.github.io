@@ -354,5 +354,5 @@ pearson_girls <- cor(girls_goals, girls_time_spend, method = "pearson")
 pearson_boys <- cor(boys_goals, boys_time_spend, method = "pearson")
 ```
 
-
+## Awesome - it's plotting time.
 
