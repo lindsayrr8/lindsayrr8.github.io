@@ -1,6 +1,6 @@
 # Hypothesis Testing, Confidence Intervals, & Correlation Analysis with R
 
-This week, we're biting into the meat of the statistics burger. We're still working with the statistical basics, but this time we'll be applying them with a few new formulas to do some basic analyses. The topics covered will be slightly more advanced, but as always, we'll be *letting R handle everything for us.*
+This week, we're biting into the meat of the statistics burger. We're still working with the statistical basics, but this time we'll be applying them with a few new formulas to do some analyses. The topics covered will be slightly more advanced, but as always, we'll be *letting R handle everything for us.*
 
 ## To begin, let's explore hypothesis testing.
 Specifically, we'll be focusing on **p-values,**  **one-tailed hypothesis testing,** and **two-tailed hypothesis testing** first.
