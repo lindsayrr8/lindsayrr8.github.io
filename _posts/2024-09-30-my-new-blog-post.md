@@ -281,7 +281,7 @@ print(confidence_interval)
 
 Cool! We have our confidence interval values. Thanks, R! **Our confidence interval is ~(83.04, 86.96).**
 
-## Now it's time for: Correlation Analysis
+# Now it's time for: Correlation Analysis
 Wow, you made it this far (I'm sorry.) Brace yourself - it's time to start **plotting.** (No, I promise it really isn't that bad.)
 
 We're given the following **data set** and **prompt** to start out with our first correlation analysis: <br />
@@ -298,7 +298,7 @@ a. Calculate the correlation coefficient for this data set _____ <br />
 b. Pearson correlation coefficient _____ <br />
 c. Create plot of the correlation <br />
 
-Here are the steps we can take to achieve this: <br />
+## Here are the steps we can take to achieve this: <br />
 - Input the data into vectors
 - Calculate the correlation coefficients
 - Create a data frame
