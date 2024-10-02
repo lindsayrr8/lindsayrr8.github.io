@@ -254,7 +254,7 @@ print(standard_error)
 ```
 So our standard error is 1. Excellent. Onto next:
 
-Again, take the simplified formula for margin of error (MOE); (the amount of random samping error): <br />
+**2)** Again, take the simplified formula for margin of error (MOE); (the amount of random samping error): <br />
 ME = `z_half_alpha` * standard_error
 ```R
 # Calculate margin of error
@@ -266,7 +266,7 @@ print(margin_of_error)
 ```
 
 ### And at last, it's confidence interval time:
-To recap, the confidence interval is the range within which you expect the actual population mean (μ) to fall. <br />
+**3)** To recap, the confidence interval is the range within which you expect the actual population mean (μ) to fall. <br />
 It's determined by subtracting and adding the margin of error to the sample mean, which represents both sides of the bell curve (positive and negative):
 ```R
 # Calculate confidence interval
