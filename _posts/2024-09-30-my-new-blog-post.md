@@ -267,5 +267,18 @@ print(margin_of_error)
 
 ### And at last, it's confidence interval time:
 To recap, the confidence interval is the range within which you expect the actual population mean (μ) to fall. <br />
+It's determined by subtracting and adding the margin of error to the sample mean, which represents both sides of the bell curve (positive and negative):
+```R
+# Calculate confidence interval
+lower_bound <- xbar - margin_of_error
+upper_bound <- xbar + margin_of_error
+confidence_interval <- c(lower_bound, upper_bound)
+print(confidence_interval)
+### Output:
+> print(confidence_interval)
+[1] 83.04004 86.95996
+```
+And **don't forget the last step:** we still need to subtract 
 
+Cool! We have our confidence interval values. Thanks, R! **Our confidence interval is ~(83.04, 86.96).**
 
