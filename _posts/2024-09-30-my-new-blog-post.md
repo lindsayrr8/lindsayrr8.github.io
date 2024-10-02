@@ -375,8 +375,10 @@ As you might expect, `plot()` is another very useful R function we will be emplo
 And we can (make R) get to work plugging in our data with `plot()` and a few optional arguments for clarity. (This was pretty painful at first, admittedly):
 ```R
 # Data sets
+# x = girls
 girls_goals <- c(4, 5, 6)
 girls_time_spend <- c(19, 22, 28)
+# y = boys
 boys_goals <- c(4, 5, 6)
 boys_time_spend <- c(18.9, 22.2, 27.8)
 
