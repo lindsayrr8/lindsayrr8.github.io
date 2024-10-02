@@ -284,7 +284,7 @@ Cool! We have our confidence interval values. Thanks, R! **Our confidence interv
 ## Now it's time for: Correlation Analysis
 Wow, you made it this far (I'm sorry.) Brace yourself - it's time to start **plotting.** (No, I promise it really isn't that bad.)
 
-We're given the following **data set** and **prompt** to start out with our first correlation analysis:
+We're given the following **data set** and **prompt** to start out with our first correlation analysis: <br />
 *Data Set:*
 > girls_goals <- c(4, 5, 6) <br />
 girls_time_spend <- c(19, 22, 28) <br />
