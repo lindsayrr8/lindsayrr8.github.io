@@ -306,14 +306,23 @@ c. Create plot of the correlation <br />
 
 First, let's add the data to R:
 ```R
-# Data sets; x = girls & y = boys
-
+# Data sets
+# x = girls
 girls_goals <- c(4, 5, 6)
 girls_time_spend <- c(19, 22, 28)
-
+# y = boys
 boys_goals <- c(4, 5, 6)
 boys_time_spend <- c(18.9, 22.2, 27.8)
 ```
 
 Next, let's cook these up as a data frame. This is simple enough; you just specify to R that you want to create a data frame by using `data.frame` as the data type specifier:
-
+```R
+# Combining the data into a data frame
+df <- data.frame(
+  girls_goals = girls_goals,
+  girls_time_spend = girls_time_spend,
+  boys_goals = boys_goals,
+  boys_time_spend = boys_time_spend
+)
+```
+Notice: We've started using `=` more now that we're working inside functions more often. Remember that in R, the `<-` arrow is typically used for variable assignment by convention, while `=` is typically used in the context of function arguments.
