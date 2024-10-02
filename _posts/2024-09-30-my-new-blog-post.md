@@ -298,3 +298,9 @@ a. Calculate the correlation coefficient for this data set _____ <br />
 b. Pearson correlation coefficient _____ <br />
 c. Create plot of the correlation <br />
 
+Here are the steps we can take to achieve this: <br />
+- Input the data into vectors
+- Calculate the correlation coefficients
+- Create a data frame
+- Plot the correlation
+
