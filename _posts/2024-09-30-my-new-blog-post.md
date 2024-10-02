@@ -336,3 +336,6 @@ The **value** of a correlation coefficient ranges from -1 to 1.
 - -1 means there is a perfect negative relationship (as one variable increases, the other decreases)
 - 0 means there's no relationship at all between the variables
 
+The **Pearson Correlation Coefficient** measures the **linear** relationship between two continuous variables.
+It also ranges from -1 to 1. The meanings are also the same.
+
