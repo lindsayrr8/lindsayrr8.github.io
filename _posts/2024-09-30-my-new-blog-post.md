@@ -395,5 +395,5 @@ plot(girls_time_spend, boys_time_spend,
 # Add boys' goals vs girls' goals to the same plot in blue with round points
 points(girls_goals, boys_goals, pch = 19, col = "blue")
 ```
-As you can see, I also had to use R's `points()` function, which is used to add points to an existing plot. That's how I got it all together as one, given the specifications.
-
+As you can see, I also had to use R's `points()` function, which is used to add points to an existing plot. That's how I got it all together as one, given the specifications. *Thank you internet for your help!*
+![Image of girls and boys times, goals scatterplot]([URL_to_your_image](https://github.com/lindsayrr8/lindsayrr8.github.io/blob/main/_posts/Module_5_girls_boys_scatterplot.png?raw=true))
