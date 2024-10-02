@@ -304,5 +304,16 @@ c. Create plot of the correlation <br />
 3) Create a data frame
 4) Plot the correlation
 
+First, let's add the data to R:
+```R
+# Data sets; x = girls & y = boys
 
+girls_goals <- c(4, 5, 6)
+girls_time_spend <- c(19, 22, 28)
+
+boys_goals <- c(4, 5, 6)
+boys_time_spend <- c(18.9, 22.2, 27.8)
+```
+
+Next, let's cook these up as a data frame. This is simple enough; you just specify to R that you want to create a data frame by using `data.frame` as the data type specifier:
 
