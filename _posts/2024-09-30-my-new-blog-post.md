@@ -385,8 +385,8 @@ plot(girls_time_spend, boys_time_spend,
      main = "Time Spent vs Goals: Girls vs Boys",
      xlab = "Girls' Time Spent (minutes) / Goals",
      ylab = "Boys' Time Spent (minutes) / Goals",
-     pch = 19,                    # Solid circle shape
-     col = "pink",                # Girls' data points in pink
+     pch = 19,
+     col = "pink",
      xlim = range(c(girls_time_spend, girls_goals)),
      ylim = range(c(boys_time_spend, boys_goals)))
 
