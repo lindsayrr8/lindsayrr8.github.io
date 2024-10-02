@@ -347,4 +347,12 @@ There's yet another pre-baked function for this task: `cor()`:
 correlation_girls <- cor(girls_goals, girls_time_spend)
 correlation_boys <- cor(boys_goals, boys_time_spend)
 ```
+As for the Pearson Correlation Coefficients: R actually uses this method by default. But, we can also **explicitly specify which method** we want to use in the function arguments:
+```R
+# Specifying Pearson Correlation Coefficients
+pearson_girls <- cor(girls_goals, girls_time_spend, method = "pearson")
+pearson_boys <- cor(boys_goals, boys_time_spend, method = "pearson")
+```
+
+
 
