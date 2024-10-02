@@ -203,13 +203,13 @@ n <- 64
 alpha <- 0.05
 ```
 
-A 95% confidence level means that we're 5% uncertain. Of that 5% uncertainty, it's split between the two tail ends of the bell curve. Therefore, each tail contains 2.5% (half) of the distribution of uncertainty. Since we're interested in the area of the bell curve that pertains to our 95% certainty, we can find the z-values for the left and right sides of this middle area, which mark its boundaries.
+A 95% confidence level means that we're 5% uncertain. Of that 5% uncertainty, it's **split** between the two tail ends of the bell curve. Therefore, each tail contains 2.5% (half) of the distribution of uncertainty. Since we're interested in the area of the bell curve that pertains to our 95% certainty, we can find the z-values for the left and right sides of this middle area, which mark its boundaries.
 
 So, because they're symmetrical, we just need to find one side - and then we've got them both.
 
 Lucky for us, R has more great functions cooked in that we can use to plug-and-play to get our z-value(s). In this case, we'll be using `qnorm()`.
 
-We need o **find the z-score,** which corresponds to the value at the **boundary** on the tips of the tails before we dip into each of our 2.5% uncertainty zones. To do this, we need to look at the whole picture of the bell curve and **ask R for the value** that lies at 97.5% on one of the sides. *(Yes, 97.5%. Don't let "95%" confuse you - that doesn't refer to a number in the distribution. It refers to how certain we are.)*
+We need o **find the z-score,** which corresponds to the value at the **boundary** on the tips of the tails before we dip into each of our 2.5% uncertainty zones. To do this, we need to look at the whole picture of the bell curve and **ask R for the value** that lies at 97.5% on one of the sides. *(Yes, 97.5%. Don't let "95%" confuse you - that doesn't refer to a number in the distribution. It refers to how certain we are. We want the number at the boundary of certainty.)*
 
 This is the formula to find the **critical z-score:** <br />
 $ z = qnorm(1-α/2)$ <br />
@@ -226,6 +226,12 @@ z_half_alpha <- qnorm(0.975)
 ```
 
 <br> In both cases of our code, we've told R to find the value at 97.5%. We're also using the same formula either way. <br />
+
+R returns this output:
+```R
+> print(z_half_alpha)
+[1] 1.959964
+```
 
 
 
