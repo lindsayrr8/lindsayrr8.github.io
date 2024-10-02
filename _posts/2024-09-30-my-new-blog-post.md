@@ -234,7 +234,24 @@ R returns this output:
 ```
 Fantastic, we have our number for our z-score.
 ## Now what do we do with it?
-We're not done yet. We have our z-score. We need our shiny, finished confidence interval. There's a few more steps to get to that.
+We're not done yet. We have our z-score. We need our shiny, finished confidence interval. There's a few more steps to get to that:
 
+1) Calculate the **standard error**
+2) Calculate the **margin of error**
+3) Calculate the **confidence interval**
+ 
+**1)** Starting with the standard error (the standard deviation of a sample population): <br />
+We will plug the formula into R: <br />
+SE = (σ / √n) <br />
+In R, with our output:
+```R
+# Calculate the standard error
+standard_error <- sigma / sqrt(n)
+print(standard_error)
+### Output:
+> print(standard_error)
+[1] 1
+```
+So our standard error is 1. Excellent. Onto next:
 
-
+Again, take the simplified formula for margin of error (MOE); (the amount of random samping error):
