@@ -397,4 +397,5 @@ points(girls_goals, boys_goals, pch = 19, col = "blue")
 ```
 As you can see, I also had to use R's `points()` function, which is used to add points to an existing plot. That's how I got it all together as one, given the specifications. *Thank you internet for your help!*
 ![Image of girls and boys times, goals scatterplot](https://github.com/lindsayrr8/lindsayrr8.github.io/blob/main/_posts/Module_5_girls_boys_scatterplot.png?raw=true))
-*Disclaimer: I am definitely not a front-end dev.*
+
+<br > *Disclaimer: I am definitely not a front-end dev.* <br />
