@@ -255,7 +255,7 @@ print(standard_error)
 So our standard error is 1. Excellent. Onto next:
 
 **2)** Again, take the simplified formula for margin of error (MOE); (the amount of random samping error): <br />
-$ ME = `z_half_alpha` * standard_error $
+ME = `z_half_alpha` * `standard_error`
 ```R
 # Calculate margin of error
 margin_of_error <- z_half_alpha * standard_error
@@ -278,7 +278,6 @@ print(confidence_interval)
 > print(confidence_interval)
 [1] 83.04004 86.95996
 ```
-And **don't forget the last step:** we still need to subtract 
 
 Cool! We have our confidence interval values. Thanks, R! **Our confidence interval is ~(83.04, 86.96).**
 
