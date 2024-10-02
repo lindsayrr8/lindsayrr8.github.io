@@ -223,6 +223,24 @@ Lucky for us, R has more great functions cooked in that we can use to plug-and-p
 
 We need o **find the z-score,** which corresponds to the value at the **boundary** on the tips of the tails before we dip into each of our 2.5% uncertainty zones. To do this, we need to look at the whole picture of the bell curve and **ask R for the value** that lies at 97.5% on one of the sides. *(Yes, 97.5%. Don't let "95%" confuse you - that doesn't refer to a number in the distribution. It refers to how certain we are.)*
 
-```R
+This is the formula to find the **critical z-score:** <br />
+$ z = qnorm(1-α/2)$ <br />
 
+We could write the formula out literally like this in R:
+```R
+# Getting the critical z-score
+z_half_alpha <- qnorm(1 - alpha / 2)
 ```
+Or, personally, I find that difficult for a human to read and overly complicated. So the following code is equivalent and will return the exact same value, still using the `qnorm()` function:
+```R
+# Getting the critical z-score
+z_half_alpha <- qnorm(0.975)
+```
+
+<br> In both cases of our code, we've told R to find the value at 97.5%. We're also using the same formula either way. <br />
+
+
+
+
+
+
