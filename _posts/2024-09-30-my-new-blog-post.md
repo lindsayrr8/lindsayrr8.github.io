@@ -221,3 +221,8 @@ So, because they're symmetrical, we just need to find one side - and then we've 
 
 Lucky for us, R has more great functions cooked in that we can use to plug-and-play to get our z-value(s). In this case, we'll be using `qnorm()`.
 
+We need o **find the z-score,** which corresponds to the value at the **boundary** on the tips of the tails before we dip into each of our 2.5% uncertainty zones. To do this, we need to look at the whole picture of the bell curve and **ask R for the value** that lies at 97.5% on one of the sides. *(Yes, 97.5%. Don't let "95%" confuse you - that doesn't refer to a number in the distribution. It refers to how certain we are.)*
+
+```R
+
+```
