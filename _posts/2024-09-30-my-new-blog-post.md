@@ -355,4 +355,4 @@ pearson_boys <- cor(boys_goals, boys_time_spend, method = "pearson")
 ```
 
 ## Awesome - it's plotting time.
-
+As you might expect, `plot()` is another very useful R function we will be employing for this task. 
