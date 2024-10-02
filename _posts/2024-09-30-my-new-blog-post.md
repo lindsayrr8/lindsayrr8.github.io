@@ -300,8 +300,8 @@ c. Create plot of the correlation <br />
 
 ## Here are the steps we can take to achieve this: <br />
 1) Input the data into vectors
-2) Calculate the correlation coefficients
-3) Create a data frame
+2) Create a data frame
+3) Calculate the correlation coefficients
 4) Plot the correlation
 
 First, let's add the data to R:
@@ -326,3 +326,5 @@ df <- data.frame(
 )
 ```
 Notice: We've started using `=` more now that we're working inside functions more often. Remember that in R, the `<-` arrow is typically used for variable assignment by convention, while `=` is typically used in the context of function arguments.
+
+
