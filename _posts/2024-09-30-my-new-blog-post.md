@@ -327,7 +327,7 @@ df <- data.frame(
 ```
 Notice: We've started using `=` more now that we're working inside functions more often. Remember that in R, the `<-` arrow is typically used for variable assignment by convention, while `=` is typically used in the context of function arguments.
 
-It's time to calculate our **correlation coefficients.**
+Now it's time to calculate our **correlation coefficients.**
 ## But what are correlation coefficients?
 
 
