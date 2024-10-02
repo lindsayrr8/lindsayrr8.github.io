@@ -232,9 +232,9 @@ R returns this output:
 > print(z_half_alpha)
 [1] 1.959964
 ```
-
-
-
+Fantastic, we have our number for our z-score.
+## Now what do we do with it?
+We're not done yet. We have our z-score. We need our shiny, finished confidence interval. There's a few more steps to get to that.
 
 
 
