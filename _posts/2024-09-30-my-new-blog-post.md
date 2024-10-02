@@ -254,4 +254,16 @@ print(standard_error)
 ```
 So our standard error is 1. Excellent. Onto next:
 
-Again, take the simplified formula for margin of error (MOE); (the amount of random samping error):
+Again, take the simplified formula for margin of error (MOE); (the amount of random samping error): <br />
+ME = `z_half_alpha` * standard_error
+```R
+# Calculate margin of error
+margin_of_error <- z_half_alpha * standard_error
+print(margin_of_error)
+### Output:
+> print(margin_of_error)
+[1] 1.959964
+```
+
+
+
