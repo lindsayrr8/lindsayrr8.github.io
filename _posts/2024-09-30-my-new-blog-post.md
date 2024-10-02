@@ -199,22 +199,10 @@ To start pinning down confidence intervals, we're given the following problem:
 xbar <- 85
 sigma <- 8
 n <- 64
-# confidence level 95%
+# Confidence level 95%, so alpha (uncertainty = 5%)
+alpha <- 0.05
 ```
-The formula for confidence intervals is as follows: <br />
-$$
-CI = x̄ +/- z/(s/√n)
-$$
-<br > (With "x̄" being the sample mean, "z" being the confidence level value, "s" being the sample standard deviation, and "n" being the sample size.) <br />
 
-Which, in English, reads:<br />
-*Confidence interval = sample mean + or - margin of error* <br />
-*(Note: margin of error is another formula... we'll get to that. Just know that they're the same thing in this case.)*
-
-If we start setting this formula up in R with our variables, here's what we get:
-```R
-
-```
 A 95% confidence level means that we're 5% uncertain. Of that 5% uncertainty, it's split between the two tail ends of the bell curve. Therefore, each tail contains 2.5% (half) of the distribution of uncertainty. Since we're interested in the area of the bell curve that pertains to our 95% certainty, we can find the z-values for the left and right sides of this middle area, which mark its boundaries.
 
 So, because they're symmetrical, we just need to find one side - and then we've got them both.
