@@ -338,5 +338,13 @@ The **value** of a correlation coefficient ranges from -1 to 1.
 
 The **Pearson Correlation Coefficient** measures the **linear** relationship between two continuous variables.
 It also ranges from -1 to 1. The meanings are also the same. <br />
-*Remember: "continuous" means the variable can be an infinite number of values within a given range.*
+*Remember: "continuous" means the variable can be an infinite number of values within a given range, such as time, temperature, etc.*
+
+## Nice. How do we do this in R?
+There's yet another pre-baked function for this task: `cor()`:
+```R
+# Calculating correlation coefficients
+correlation_girls <- cor(girls_goals, girls_time_spend)
+correlation_boys <- cor(boys_goals, boys_time_spend)
+```
 
