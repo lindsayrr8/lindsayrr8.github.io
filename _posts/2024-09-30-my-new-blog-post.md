@@ -265,5 +265,7 @@ print(margin_of_error)
 [1] 1.959964
 ```
 
+### And at last, it's confidence interval time:
+To recap, the confidence interval is the range within which you expect the actual population mean (μ) to fall. <br />
 
 
