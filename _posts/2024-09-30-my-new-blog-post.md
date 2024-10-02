@@ -329,5 +329,10 @@ Notice: We've started using `=` more now that we're working inside functions mor
 
 Now it's time to calculate our **correlation coefficients.**
 ## But what are correlation coefficients?
+Essentially, a correlation coefficient is a value that represents how closely two variables correlate. In other words, it is a statistical measure that describes the type of **relationship between two variables.**
 
+The **value** of a correlation coefficient ranges from -1 to 1.
+- 1 means there is a perfect positive relationship (as one variable increases, so does the other)
+- -1 means there is a perfect negative relationship (as one variable increases, the other decreases)
+- 0 means there's no relationship at all between the variables
 
