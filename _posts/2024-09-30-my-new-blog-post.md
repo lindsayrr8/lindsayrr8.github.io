@@ -372,6 +372,26 @@ As you might expect, `plot()` is another very useful R function we will be emplo
 # and more...
 ```
 
+And we can (make R) get to work plugging in our data with `plot()` and a few optional arguments for clarity. (This was pretty painful at first, admittedly):
+```R
+# Data sets
+girls_goals <- c(4, 5, 6)
+girls_time_spend <- c(19, 22, 28)
+boys_goals <- c(4, 5, 6)
+boys_time_spend <- c(18.9, 22.2, 27.8)
 
+# Create a scatter plot with girls' time on the x-axis and boys' time on the y-axis
+plot(girls_time_spend, boys_time_spend,
+     main = "Time Spent vs Goals: Girls vs Boys",
+     xlab = "Girls' Time Spent (minutes) / Goals",
+     ylab = "Boys' Time Spent (minutes) / Goals",
+     pch = 19,                    # Solid circle shape
+     col = "pink",                # Girls' data points in pink
+     xlim = range(c(girls_time_spend, girls_goals)),
+     ylim = range(c(boys_time_spend, boys_goals)))
 
+# Add boys' goals vs girls' goals to the same plot in blue with round points
+points(girls_goals, boys_goals, pch = 19, col = "blue")
+```
+As you can see, I also had to use R's `points()` function, which is used to add points to an existing plot. That's how I got it all together as one, given the specifications.
 
