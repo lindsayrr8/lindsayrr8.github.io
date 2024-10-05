@@ -71,3 +71,27 @@ And here is what our ouput shows:
 [1] 1.414214
 ```
 
+### Sweet. We have our sample statistics. Now it's time to compare them to the population:
+```R
+# Compare the mean and standard deviation of the sample to the population
+sd_population <- sd(population)
+print(mean_population)
+print(mean_sample)
+
+print(sd_population)
+print(sd_sample)
+```
+Really quickly, we assigned the value R gets for the population standard deviation to a variable. Then, we compared the mean and standard deviations between the sample and population. Here's the output we get:
+```R
+> print(mean_population)
+[1] 11.8
+> print(mean_sample)
+[1] 15
+> print(sd_population)
+[1] 3.193744
+> print(sd_sample)
+[1] 1.414214
+```
+
+
+
