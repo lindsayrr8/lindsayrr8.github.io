@@ -137,7 +137,7 @@ In English, this means in order to have enough successes/failures in our sample,
 **Condition for failures:** <br />
 n * q = 100 * 0.05 = 5 <br />
 (number for proportion of failures (q) is calculated: q = 1 - p = 1 - 0.95 = 0.05) <br />
-n * q = 100 * 0.05 = 5
+n * q = 100 * 0.05 = 5 <br />
 (number in sample (n = 100) times number for proportion of failures (q = 0.05) == 5 or more than 5? Yes, 5 = 5.)
 
 So, if our success condition = `TRUE` and our failure condition = `TRUE`, then we have met both conditions to qualify as "normal." Importantly, **both conditions must be met** in order for the distribution to be approximately normal. Normal distribution is an `AND` case, not an `OR` case.
