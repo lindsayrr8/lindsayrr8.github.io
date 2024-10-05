@@ -101,3 +101,11 @@ These results are expected because the sample data R selected have **variance** 
 
 Today, our sample outcome was also affected by our small sample size. This is due to the **Law of Large Numbers**, which essentially says the more data you get, the more accurate it is. In this case, because we have a small sample, we should be careful about making inferences or coming to conclusions about the overall population based on our sample data alone.
 
+### Bodacious. It's time to move on to a quick mathematical concept about Sample Proportions.
+To help demonstrate the concept, we're given the following questions:
+> Suppose that the sample size n = 100 and the population proportion p = 0.95.
+> 
+> Does the sample proportion p have approximately a normal distribution? Explain.
+> What is the smallest value of n for which the sampling distribution of p is approximately normal? 
+
+
