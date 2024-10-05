@@ -108,4 +108,14 @@ To help demonstrate the concept, we're given the following questions:
 > 1. Does the sample proportion p have approximately a normal distribution? Explain. <br />
 > 2. What is the smallest value of n for which the sampling distribution of p is approximately normal? 
 
+Ok. To start, data check on what we know:
+- The sample size (n) is 100
+- The population proportion (p) is 0.95
+A population proportion of 0.95 **means that 95% of the population is considered a "success"** for whatever the question is that we're asking about the population. The question itself doesn't even matter here, because the math rules are the same no matter what we ask in this case.
+
+What we want to know is if the sample proportion, called "p-hat" and abbreviated with "p̂" *(yes, that name tickles me)* behaves like a normal distribution. Recall that **a normal distribution is one that is roughly bell-shaped,** aka, symmetric about the mean.
+
+
+
+
 
