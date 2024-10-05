@@ -12,6 +12,7 @@ To run a few simple statistics using R's selection of built in functions, we're 
 
 To begin, we can take our dataset and plug the values into vectors:
 ```R
-# Number of ice cream purchases in an academic year per each of five housemates
+# Number of ice cream purchases in an academic year
+# per each of five housemates
 population <- c(8, 14, 16, 10, 11)
 ```
