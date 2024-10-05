@@ -124,4 +124,7 @@ With humans, it's hard to say. With statistics, thankfully, there are some simpl
 *The sample proportion is normal if:* <br />
 n * p ≥ 5 (enough successes) <br />
 n * q ≥ 5 (enough failures) <br />
+*where:* <br />
+q = 1 - p = 0.05 (this means 5% of the population is a "failure) <br />
+
 
