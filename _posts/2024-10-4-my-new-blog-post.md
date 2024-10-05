@@ -34,3 +34,7 @@ In this case, we have a relatively small number of individuals in our population
 
 As you might already know, this is where sampling becomes especially useful. Even if we could get ahold of every single person living in Florida for a survey (which is very unlikely,) it probably wouldn't be smart resource-wise to invest the time and money in doing so. Therefore, the idea behind sampling is that given a certain amount of sample data, **a sample group from the overall population will have similar characteristics as the rest of it.**
 
+Naturally, there are some rules about this that govern ensuring you're getting accurate numbers. But for the purposes of this exercise, we'll just be calculating a simple, small sample statistic using R's `set.seed()` and `sample()` functions:
+```R
+
+```
