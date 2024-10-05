@@ -55,3 +55,19 @@ Printing the result we get from R's calculation gives us this output:
 ```
 Note that if we run this block of code multiple times, it always gives us this same output. That's the purpose of using `set.seed()`.
 
+Now that we have our sample information, we can start doing calculations with it. We'll use R's `mean()` and `sd()` functions to get the mean and standard deviation for the sample:
+```R
+# Compute the mean and standard deviation of the sample
+mean_sample <- mean(sample)
+sd_sample <- sd(sample)
+print(mean_sample)
+print(sd_sample)
+```
+And here is what our ouput shows:
+```R
+> print(mean_sample)
+[1] 15
+> print(sd_sample)
+[1] 1.414214
+```
+
