@@ -44,7 +44,7 @@ print(sample)
 ```
 What's happening here breaks down into a few basic steps. First, the `set.seed()` function will help R decide how to generate the numbers in order to **make the outcome reproducible.** This is because of the way computers handle generating "random" numbers. The concept can get complicated, but more or less, `set.seed()` is a function you'd want to use for running simulations under controlled conditions in order to make your results reproducible. But it's not necessarily a function you'd use when working with real-world data.
 
-*(Note: even the "123" plugged into the function is arbitrary. It's just a common value used with `set.seed()`. But "random number generation" is a big concept to talk about - so big that it would derail the rest of our simple exercise. So we're moving on:)*
+*(Note: even the "123" plugged into the function is arbitrary. It's just a common value used with `set.seed()`. But random number generation is a big concept to talk about - so big that it would derail the rest of our simple exercise. So we're moving on:)*
 
 With `sample_size`, we just designate a little box in R's memory for our sample size to sit in. Then, `sample` tells R to **grab a sample from our population** using the number we stored in `sample_size`. Storing the value this way is optional. You could just in plug a "2" instead if you really wanted to.
 
