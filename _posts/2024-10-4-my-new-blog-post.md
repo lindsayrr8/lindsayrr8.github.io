@@ -24,5 +24,9 @@ Then, using R's `mean()` function, we get our first statistic measure from the d
 mean_population <- mean(population)
 print(mean_population)
 ```
-
+Calling the population mean prints our results to the console:
+```R
+> print(mean_population)
+[1] 11.8
+```
 
