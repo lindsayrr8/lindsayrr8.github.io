@@ -18,7 +18,7 @@ population <- c(8, 14, 16, 10, 11)
 ```
 Our total population in this case is the five housemates, since that defines the boundaries of our group of interest. <br />
 
-Then, using R's `mean()` function, we get our first statistic measure from the data:
+Then, using R's `mean()` function, we'll get our first statistical measure from the data:
 ```R
 # Compute the mean of this population
 mean_population <- mean(population)
