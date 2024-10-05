@@ -46,7 +46,7 @@ What's happening here breaks down into a few basic steps. First, the `set.seed()
 
 *(Note: even the "123" plugged into the function is arbitrary. It's just a common value used with `set.seed()`. But random number generation is a big concept to talk about - so big that it would derail the rest of our simple exercise. So we're moving on:)*
 
-With `sample_size`, we just designate a little box in R's memory for our sample size to sit in. Then, `sample` tells R to **grab a sample from our population** using the number we stored in `sample_size`. Storing the value this way is optional. You could just in plug a "2" instead if you really wanted to.
+With `sample_size`, we just designate a little box in R's memory for our sample size to sit in. Then, `sample <- sample(population, sample_size)` tells R to **grab a sample from our population** using the number we stored in `sample_size`. Storing the value this way is optional. You could just in plug a "2" instead if you really wanted to.
 
 Printing the result we get from R's calculation gives us this output:
 ```R
