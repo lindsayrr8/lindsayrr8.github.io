@@ -103,9 +103,9 @@ Today, our sample outcome was also affected by our small sample size. This is du
 
 ### Bodacious. It's time to move on to a quick mathematical concept about Sample Proportions.
 To help demonstrate the concept, we're given the following questions:
-> Suppose that the sample size n = 100 and the population proportion p = 0.95.
+> Suppose that the sample size n = 100 and the population proportion p = 0.95. <br />
 > 
-> Does the sample proportion p have approximately a normal distribution? Explain.
-> What is the smallest value of n for which the sampling distribution of p is approximately normal? 
+> 1. Does the sample proportion p have approximately a normal distribution? Explain. <br />
+> 2. What is the smallest value of n for which the sampling distribution of p is approximately normal? 
 
 
