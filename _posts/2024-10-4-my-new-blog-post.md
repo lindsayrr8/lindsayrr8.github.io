@@ -127,4 +127,14 @@ n * q ≥ 5 (enough failures) <br />
 *where:* <br />
 q = 1 - p = 0.05 (this means 5% of the population is a "failure) <br />
 
+In English, this means in order to have enough successes/failures in our sample, the number of successes/failures needs to be at least 5.
+
+### Lovely. We can use these formulas to evaluate the scenario we were given: <br />
+Condition for successes: <br />
+ n * p = 100. So, 100 * 0.95 = 95 <br />
+(number in sample (n = 100) times the number of the population proportion (p = 0.95) == more than 5? Yes, 95 > 5. <br />
+
+Condition for failures: <br />
+n * q = 100 * 0.05 = 5
+
 
