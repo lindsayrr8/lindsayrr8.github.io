@@ -132,9 +132,13 @@ In English, this means in order to have enough successes/failures in our sample,
 ### Lovely. We can use these formulas to evaluate the scenario we were given: <br />
 Condition for successes: <br />
  n * p = 100. So, 100 * 0.95 = 95 <br />
-(number in sample (n = 100) times the number of the population proportion (p = 0.95) == more than 5? Yes, 95 > 5. <br />
+(number in sample (n = 100) times the number of the population proportion (p = 0.95) == 5 or more than 5? Yes, 95 > 5. <br />
 
 Condition for failures: <br />
+n * q = 100 * 0.05 = 5 <br />
+(number for proportion of failures (q) is calculated: q = 1 - p = 1 - 0.95 = 0.05) <br />
 n * q = 100 * 0.05 = 5
+(number in sample (n = 100) times number for proportion of failures (q = 0.05) == 5 or more than 5? Yes, 5 = 5.)
 
+So, if our success condition = `TRUE` and our failure condition = `TRUE`, then we have met both conditions to qualify as "normal."
 
