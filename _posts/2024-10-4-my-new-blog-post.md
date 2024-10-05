@@ -8,4 +8,4 @@ Using this information, we're to perform the following tasks with R:
 > **a.** Compute the mean of this population.
 > **b.** Select a random sample of size 2 out of the five members.
 > **c.** Compute the mean and standard deviation of your sample.
-> **d.** Compare the Mean and Standard deviation of your sample to the entire population of this set (8,14, 16, 10, 11).
+> **d.** Compare the Mean and Standard deviation of your sample to the entire population of this set (8, 14, 16, 10, 11).
