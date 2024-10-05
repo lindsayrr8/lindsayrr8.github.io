@@ -94,5 +94,8 @@ Really quickly, we assigned the value R gets for the population standard deviati
 ```
 
 ### So, interpreting these results:
+- The sample mean (15) is higher than the population mean (11.8).
+- The sample standard deviation (1.41) is lower than the population standard deviation (3.19).
 
+These results are expected because the sample data R selected have **variance** from the rest of the individuals in the dataset. In fact, R happened to sample the 2 largest values from the set. This illustrates the concept of **sampling variability**, meaning that little differences between individuals amount to differences in sample data compared to the overall population. In fact, if we hadn't used `set.seed()`, we would have gotten largely different results if we ran the code many times.
 
