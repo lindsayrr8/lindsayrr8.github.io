@@ -116,7 +116,7 @@ A population proportion of 0.95 **means that 95% of the population is considered
 
 What we want to know is if the sample proportion, called "p-hat" and abbreviated with "p̂" *(yes, that name tickles me)* behaves like a normal distribution. Recall that **a normal distribution is one that is roughly bell-shaped,** aka, symmetric about the mean.
 
-
-
+### So what's the rule for "normal?"
+With humans, it's hard to say. With statistics, thankfully, there are some simple checks:
 
 
