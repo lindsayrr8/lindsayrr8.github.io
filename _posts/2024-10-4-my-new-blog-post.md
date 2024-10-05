@@ -142,3 +142,5 @@ n * q = 100 * 0.05 = 5 <br />
 
 So, if our success condition = `TRUE` and our failure condition = `TRUE`, then we have met both conditions to qualify as "normal." Importantly, **both conditions must be met** in order for the distribution to be approximately normal. Normal distribution is an `AND` case, not an `OR` case. If both cases are not met, the distribution of the sample proportion might be too skewed or irregular to assume it's a normal distribution.
 
+## Question C. 
+
