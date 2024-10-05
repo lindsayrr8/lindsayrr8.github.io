@@ -16,3 +16,11 @@ To begin, we can take our dataset and plug the values into vectors:
 # per each of five housemates
 population <- c(8, 14, 16, 10, 11)
 ```
+Then, using R's `mean()` function, we get our first statistic measure from the data:
+```R
+# Compute the mean of this population
+mean_population <- mean(population)
+print(mean_population)
+```
+
+
