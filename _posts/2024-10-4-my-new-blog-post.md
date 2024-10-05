@@ -34,7 +34,24 @@ In this case, we have a relatively small number of individuals in our population
 
 As you might already know, this is where sampling becomes especially useful. Even if we could get ahold of every single person living in Florida for a survey (which is very unlikely,) it probably wouldn't be smart resource-wise to invest the time and money in doing so. Therefore, the idea behind sampling is that given a certain amount of sample data, **a sample group from the overall population will have similar characteristics as the rest of it.**
 
-Naturally, there are some rules about this that govern ensuring you're getting accurate numbers. But for the purposes of this exercise, we'll just be calculating a simple, small sample statistic using R's `set.seed()` and `sample()` functions:
+Naturally, there are some rules about this that govern ensuring you're getting accurate numbers. But for the purposes of this exercise, we'll just be calculating a simple, small sample statistic of the 5 housemates using R's `set.seed()` and `sample()` functions:
 ```R
-
+# Select a random sample of size 2 from the population
+set.seed(123)
+sample_size <- 2
+sample <- sample(population, sample_size)
+print(sample)
 ```
+What's happening here breaks down into a few basic steps. First, the `set.seed()` function will help R decide how to generate the numbers in order to **make the outcome reproducible.** This is because of the way computers handle generating "random" numbers. The concept can get complicated, but more or less, `set.seed()` is a function you'd want to use for running simulations under controlled conditions in order to make your results reproducible. But it's not necessarily a function you'd use when working with real-world data.
+
+*Note: even the "123" plugged into the function is arbitrary. It's just a common value used with `set.seed()`. But "random number generation" is a big concept to talk about, so big that it would derail the rest of our simple exercise. So we're moving on:*
+
+With `sample_size`, we just designate a little box in R's memory for our sample size to sit in. Then, `sample` tells R to **grab a sample from our population** using the number we stored in `sample_size`. Storing the value this way is optional. You could just in plug a "2" instead if you really wanted to.
+
+Printing the result we get from R's calculation gives us this output:
+```R
+> print(sample)
+[1] 16 14
+```
+Note that if we run this block of code multiple times, it always gives us this same output. That's the purpose of using `set.seed()`.
+
