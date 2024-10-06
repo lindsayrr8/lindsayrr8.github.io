@@ -142,7 +142,8 @@ n * q = 100 * 0.05 = 5 <br />
 
 So, if our success condition = `TRUE` and our failure condition = `TRUE`, then we have met both conditions to qualify as "normal." Importantly, **both conditions must be met** in order for the distribution to be approximately normal. Normal distribution is an `AND` case, not an `OR` case. If both cases are not met, the distribution of the sample proportion might be too skewed or irregular to assume it's a normal distribution.
 
-## Question C. 
+## Question C.
+# Probabilities in R using rbinom() vs. sample()
 To explain the difference between two different approaches to probability using R functions, we're asked to evaluate the following:
 > Simulated coin tossing probability is better done using the function called rbinom() than using the function called sample().  Explain why.
 
