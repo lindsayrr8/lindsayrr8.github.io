@@ -157,7 +157,7 @@ An example of this using `rbinom()`:
 set.seed(123)
 
 # Simulate 10 coin tosses
-n_tosses <- 1
+n_tosses <- 10
 # Probability of getting heads
 prob_heads <- 0.5
 
@@ -167,15 +167,14 @@ coin_tosses <- rbinom(1, n_tosses, prob_heads)
 # Result
 coin_tosses
 ```
-And from the output, it looks like we didn't get lucky. There were 0 successes:
+And from the output, it looks like we weren't extremely lucky. There were 4 successes:
 ```R
 > # Result
 > coin_tosses
-[1] 0
+[1] 4
 ```
 
 Alternatively, the `sample()` function **randomly selects values from a specified vector.** You can also use it for coin tosses, but it requires more steps, particularly if you are going to run multiple trials. The format of the function is: `sample(x, size, replace = FALSE, prob = NULL)`. Here, "x" is a vector which you sample from, "size" is the number of samples to draw, "replace" is whether or not to sample with replacement (which isn't usually required for a coin toss), and "prob" is a vector of probabilities for each element in "x."
-
 
 
 
