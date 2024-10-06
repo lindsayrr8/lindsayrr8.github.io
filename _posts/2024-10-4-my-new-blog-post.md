@@ -174,12 +174,29 @@ And from the output, it looks like we weren't extremely lucky. There were 4 succ
 [1] 4
 ```
 
-Alternatively, the `sample()` function **randomly selects values from a specified vector.** You can also use it for coin tosses, but it requires more steps, particularly if you are going to run multiple trials. The format of the function is: `sample(x, size, replace = FALSE, prob = NULL)`. Here, "x" is a vector which you sample from, "size" is the number of samples to draw, "replace" is whether or not to sample with replacement (which isn't usually required for a coin toss), and "prob" is a vector of probabilities for each element in "x."
+Alternatively, the `sample()` function **randomly selects values from a specified vector.** You can also use it for coin tosses, but it requires more steps, particularly if you are going to run multiple trials. The format of the function is: `sample(x, size, replace = FALSE, prob = NULL)`. Here, "x" is a vector which you sample from, "size" is the number of samples to draw, "replace" is whether or not to sample with replacement ("with replacement" meaning you can draw the same value multiple times), and "prob" is a vector of probabilities for each element in "x."
 
+Here's an example in R using `sample()`:
+```R
+# Set seed for reproducibility
+set.seed(123)
 
+# Simulate 10 coin tosses
+coin_sides <- c("Heads", "Tails")
 
+# Generate results
+coin_tosses_sample <- sample(coin_sides, size = 10, replace = TRUE)
 
-
-
+# Print results
+coin_tosses_sample
+```
+And our output looks a little luckier. It seems we landed on heads about 6 times:
+```R
+> # Print results
+> coin_tosses_sample
+ [1] "Heads" "Heads" "Heads" "Tails" "Heads" "Tails" "Tails" "Tails" "Heads"
+[10] "Heads"
+```
+But this output is clunky and difficult to work with. We'd either have to write additional code or sit and count out the results by hand (have fun with this one in a large data set.) 
 
 
