@@ -145,7 +145,7 @@ So, if our success condition = `TRUE` and our failure condition = `TRUE`, then w
 
 # Probabilities in R using rbinom() vs. sample()
 ## Question C.
-To explain the difference between two different approaches to probability using R functions, we're asked to evaluate the following:
+To explain the difference between two approaches to probability using R functions, we're asked to evaluate the following:
 > Simulated coin tossing probability is better done using the function called rbinom() than using the function called sample().  Explain why.
 
 
