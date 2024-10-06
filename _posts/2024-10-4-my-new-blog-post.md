@@ -103,7 +103,7 @@ These results are expected because the sample data R selected have **variance** 
 Today, our sample outcome was also affected by our small sample size. This is due to the **Law of Large Numbers**, which essentially says the more data you get, the more accurate it is. In this case, because we have a small sample, we should be careful about making inferences or coming to conclusions about the overall population based on our sample data alone.
 
 
-# Bodacious. It's time to move on to a quick concept about Sample Proportions and Normal Distribution.
+## Bodacious. It's time to move on to a quick concept about Sample Proportions and Normal Distribution.
 ## Question B.
 To help demonstrate the concept, we're given the following questions:
 > Suppose that the sample size n = 100 and the population proportion p = 0.95. <br />
@@ -143,7 +143,7 @@ n * q = 100 * 0.05 = 5 <br />
 So, if our success condition = `TRUE` and our failure condition = `TRUE`, then we have met both conditions to qualify as "normal." Importantly, **both conditions must be met** in order for the distribution to be approximately normal. Normal distribution is an `AND` case, not an `OR` case. If both cases are not met, the distribution of the sample proportion might be too skewed or irregular to assume it's a normal distribution. <br />
 
 
-# Probabilities in R using rbinom() vs. sample()
+## Probabilities in R using rbinom() vs. sample()
 ## Question C.
 To explain the difference between two approaches to probability using R functions, we're asked to evaluate the following:
 > Simulated coin tossing probability is better done using the function called rbinom() than using the function called sample().  Explain why.
