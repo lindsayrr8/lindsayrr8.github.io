@@ -199,4 +199,4 @@ And our output looks a little luckier. It seems we landed on heads about 6 times
 ```
 But this output is clunky and difficult to work with. We'd either have to write additional code or sit and count out the results by hand (have fun with this one in a large data set.) 
 
-
+Meaningfully, your takeaway from this should be that `rbinom()` and `sample()` in R **do different things for different intended purposes.** The `rbinom()` function directly gives the count of successes, while the `sample()` function returns the actual outcomes of each trial. Understanding this difference will very much come in handy once we begin working with truly large datasets.
