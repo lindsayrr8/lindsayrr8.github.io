@@ -148,4 +148,10 @@ So, if our success condition = `TRUE` and our failure condition = `TRUE`, then w
 To explain the difference between two approaches to probability using R functions, we're asked to evaluate the following:
 > Simulated coin tossing probability is better done using the function called rbinom() than using the function called sample().  Explain why.
 
+### First, what do they do?
+In R, the `rbinom()` function **generates random numbers** following the biomial distribution. This is ideal for scenarios that simulate two outcomes, like a coin toss. The format of the function is: `rbinom(n, size, probability)`. Here, "n" is the number of random values to generate, "size" is the number of "coin tosses" per trial (such as 1 for a single coin toss), and probability is the probability of success (ex: heads rather than tails.)
+
+
+
+
 
