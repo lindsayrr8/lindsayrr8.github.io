@@ -181,7 +181,7 @@ Here's an example in R using `sample()`:
 # Set seed for reproducibility
 set.seed(123)
 
-# Simulate 10 coin tosses
+# Coin toss possibilities
 coin_sides <- c("Heads", "Tails")
 
 # Generate results
