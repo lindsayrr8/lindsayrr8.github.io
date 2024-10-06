@@ -149,7 +149,7 @@ To explain the difference between two approaches to probability using R function
 > Simulated coin tossing probability is better done using the function called rbinom() than using the function called sample().  Explain why.
 
 ### First, what do they do?
-In R, the `rbinom()` function **generates random numbers** following the biomial distribution. This is ideal for scenarios that simulate two outcomes, like a coin toss. The format of the function is: `rbinom(n, size, prob)`. Here, "n" is the number of random values to generate, "size" is the number of coin tosses per trial (such as 1 for a single coin toss), and "prob" is the probability of success (ex: heads rather than tails.)
+In R, the `rbinom()` function **generates random numbers following the biomial distribution.** This is ideal for scenarios that simulate two outcomes, like a coin toss. The format of the function is: `rbinom(n, size, prob)`. Here, "n" is the number of random values to generate, "size" is the number of coin tosses per trial (such as 1 for a single coin toss), and "prob" is the probability of success (ex: heads rather than tails.)
 
 An example of this using `rbinom()`:
 ```R
@@ -173,5 +173,14 @@ And from the output, it looks like we didn't get lucky. There were 0 successes:
 > coin_tosses
 [1] 0
 ```
+
+Alternatively, the `sample()` function **randomly selects values from a specified vector.** You can also use it for coin tosses, but it requires more steps, particularly if you are going to run multiple trials. The format of the function is: `sample(x, size, replace = FALSE, prob = NULL). Here, "x" is a vector which you sample from, "size" is the number of samples to draw, "replace" is whether or not to sample with replacement (which isn't usually required for a coin toss), and "prob" is a vector of probabilities for each element in "x."
+
+
+
+
+
+
+
 
 
