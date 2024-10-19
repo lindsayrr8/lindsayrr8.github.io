@@ -4,7 +4,7 @@ Linear Regression is an important concept in predictive analytics. But what do w
 
 The word "regression" in this context literally refers to a measurement of a relationship between two variables. However, it might also make some sense to apply the alternate definition of regression here, which means to return to a previous or more basic state.
 
-I like to associate it with the idea of untying a knot. When a shoelace, for example, is tied into a neat bow, someone just stumbling upon it for the first time might have difficulty figuring out where the knot begins and ends (or frankly, what the heck happened here.) Thankfully, with shoes as in mathematics, we've developed a process to untie the knot, making it simpler and easier to figure out where it started. That way, we can derive a **reasonable explanation for how 'A' probably led to 'B.'**
+I like to associate it with the idea of untying a knot. When a shoelace, for example, is tied into a neat bow, someone just stumbling upon it for the first time might have difficulty figuring out where the knot begins and ends (or frankly, what the heck happened here.) Thankfully, with shoes as in mathematics, we've developed a process to untie the knot, making it simpler and easier to figure out where it started. That way, we can derive a reasonable explanation for how 'A' probably led to 'B.'
 
 However, it's very important to note that linear regression **does not inherently describe a causal relationship.** The relationship it finds (or doesn't find) could indeed turn out to be causal in the real world, but at minimum, we can only know for certain from our initial analysis if the relationship is *correlational.* **That's what linear regression does: it describes correlation.** 
 
