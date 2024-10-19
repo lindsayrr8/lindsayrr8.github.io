@@ -8,6 +8,6 @@ I like to associate it with the idea of untying a knot. When a shoelace, for exa
 
 However, it's very important to note that linear regression **does not inherently describe a causal relationship.** The relationship it finds (or doesn't find) could indeed turn out to be causal in the real world, but at minimum, we can only know for certain from our initial analysis if the relationship is *correlational.* **That's what linear regression does: it describes correlation.** 
 
-With that in mind, correlation can be either positive or negative. **Positive correlation** means that the relationship trends in an "upward" or positive pointing way (ex: 1, to 5, 10, 20+). Conversely, **negative correlation** means that the relationship trends in a "downward" or negative pointing way (ex: 1, -5, -10, -20+). Using linear regression, we look for a summary of this trending relationship in the form of a **best fitting line.** It is what it sounds like: a line that follows the direction of the data.
+With that in mind, correlation can be either positive or negative. **Positive correlation** means that the relationship trends in an "upward" or positive pointing way (ex: 1, to 5, 10, 20+). Conversely, **negative correlation** means that the relationship trends in a "downward" or negative pointing way (ex: 1, -5, -10, -20+). Using linear regression, we look for a summary of this trending relationship in the form of a **best fitting line.** It is what it sounds like: a line that essentially follows the direction of the data.
 
 
