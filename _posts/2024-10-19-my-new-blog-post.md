@@ -131,12 +131,14 @@ This means that the Estimate for our (Intercept) value 'a' is 19.206 and our Est
 4     2.283      62 
 5     4.533      85 
 6     2.883      55 
-
+> 
 > Employ the following formula:
 > *discharge ~ waiting* and data=visit)
-
+> 
 > **2.1** Define the relationship model between the predictor and the response variable. <br />
+> 
 > **2.2** Extract the parameters of the estimated regression equation with the coefficients function. <br />
+> 
 > **2.3** Determine the fit of the eruption duration using the estimated regression equation. <br />
 
 
