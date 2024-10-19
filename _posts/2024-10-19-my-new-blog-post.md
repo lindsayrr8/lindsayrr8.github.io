@@ -106,8 +106,8 @@ x              3.269      1.088   3.006   0.0169 *
 - **t value** is a measure of how far the estimate is from 0 in terms of our standard error. Higher values suggest more confidence in the estimate.
 - **Pr(>|t|)** is our p-value. It tells us how likely it is that the intercept could be zero. That would mean there's no relationship at all between our variables. A high p-value (greater than 0.05) means that it's not statistically significant.
 
-
-
+**Now, onto `x` (Slope):**
+- 
 
 
 
