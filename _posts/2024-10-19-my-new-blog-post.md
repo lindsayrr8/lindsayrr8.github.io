@@ -28,7 +28,15 @@ First thing's first: remember that "predictor variable" = independent variable a
 So, we have our data sets and our tasks. First, let's let R handle finding the "relationship model" between the sets. We can do this using R's built-in `lm()` function ("lm" stands for linear model.")
 
 ```R
+# Define the datasets
+x <- c(16, 17, 13, 18, 12, 14, 19, 11, 11, 10)
+y <- c(63, 81, 56, 91, 47, 57, 76, 72, 62, 48)
 
+# Create a linear regression model
+model <- lm(y ~ x)
+
+# View the summary of the model
+summary(model)
 ```
 ### What are we looking at here? Let's break it down line by line.
 
