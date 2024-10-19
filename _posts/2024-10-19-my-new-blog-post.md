@@ -89,7 +89,7 @@ Thanks to `summary()`, we have all the numbers we need already. Now we need to i
 **Y = a + bX + e**
 ###### *(Editing note: MathJax y u no parse equations. Also, I am not a front-end dev.)*
 
-*Wait... that looks familiar...* Yes. Beginning algebra is back to haunt us. But thankfully all we have to do is plug and play since `R` has already done the heavy lifting.
+*Wait... that equation looks familiar...* Yes. Beginning algebra is back to haunt us. But thankfully all we have to do is plug and play since `R` has already done the heavy lifting.
 
 
 
