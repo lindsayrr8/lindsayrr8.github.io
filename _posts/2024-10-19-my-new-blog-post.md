@@ -75,6 +75,9 @@ Look at all that tasty data! Just think of all the time this is going to save in
 We already know that **this is a linear relationship model** because that's what `lm()` does. We also know that **Y is the response variable** and **X is the predictor variable.**
 
 ### How do we calculate the coefficients?
+Thanks to `summary()`, we have all the numbers we need already. Now we need to interpret them using **the regression equation:**
+$$ Y = a + bX +e $$
+*Wait... that looks familiar...* Yes. Beginning algebra is back to haunt us. But thankfully all we have to do is plug and play since `R` has already done the heavy lifting.
 
 
 
