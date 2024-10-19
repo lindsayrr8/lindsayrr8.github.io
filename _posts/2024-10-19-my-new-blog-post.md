@@ -40,12 +40,40 @@ summary(model)
 ```
 ### What are we looking at here? Let's break it down line by line.
 
-Did we really just create a linear regression model basically using 2 lines of code? Yes we did! (Thank you, `R`!)
+Did we really just create a linear regression model using basically 2 lines of code? Yes we did! (Thank you, `R`!)
 ```R
 # Create a linear regression model
 model <- lm(y ~ x)
 ```
-In this case, the formula `Y ~ X` translates in English to: "response variable ('Y') is explained by ('~') the predictor variable ('X')." Computers really are short on words, aren't they? Note that 'Y' and 'X' represent their respective response/predictor variables by convention using this formula. In other words, when we're talking about `lm()`, 'Y' is always the response variable and 'X' is always the predictor variable.
+In this case, the formula `Y ~ X` translates in English to: "response variable ('Y') is explained by ('~') the predictor variable ('X')." Computers really are short on words, aren't they? Note that 'Y' and 'X' represent their respective response/predictor variables by convention using this formula. In other words, when we're talking about `lm()`, 'Y' is always the response/dependent variable and 'X' is always the predictor/independent variable.
 
 In `R`speak, `Y ~ X` is instructing `R` to predict 'Y' using 'X'.
+
+We've talked about the `summary()` function in `R` before. Here's the output we get when we run it and instruct `R` to tell us what it found:
+```R
+Call:
+lm(formula = y ~ x)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-11.435  -7.406  -4.608   6.681  16.834 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept)   19.206     15.691   1.224   0.2558  
+x              3.269      1.088   3.006   0.0169 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 10.48 on 8 degrees of freedom
+Multiple R-squared:  0.5303,	Adjusted R-squared:  0.4716 
+F-statistic: 9.033 on 1 and 8 DF,  p-value: 0.01693
+```
+Look at all that tasty data! Just think of all the time this is going to save in the future. (I'm definitely thinking about that right now!)
+
+Now, how do we **interpret these results?**
+
+
+
+
 
