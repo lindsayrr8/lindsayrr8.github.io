@@ -100,6 +100,15 @@ Coefficients:
 x              3.269      1.088   3.006   0.0169 *
 ---
 ```
+**Starting with `(Intercept)`:**
+- **Estimate** is value of 'a' in our regression equation. It's also the value of Y when X = 0. So, when X is 0, the model predicts that Y would be ~19.206.
+- **Std. Error** measures the accuracy of the estimate. The bigger the standard error compared to the estimate suggests that our estimate might not be very precise.
+- **t value** 
+
+
+
+
+
 
 
 
