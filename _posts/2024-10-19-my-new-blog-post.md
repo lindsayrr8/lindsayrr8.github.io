@@ -92,7 +92,14 @@ Thanks to `summary()`, we have all the numbers we need already. Now we need to i
 
 *Wait... that equation looks familiar...* Yes. Beginning algebra is back to haunt us. But thankfully all we have to do is plug and play since `R` has already done the heavy lifting.
 
-The **coefficients** are the values that define the linear relationship between X and Y. In the output, there are two rows under `"Coefficients":` **(Intercept) which is 'a', and 'x' which is slope.**
+The **coefficients** are the values that define the linear relationship between X and Y. In the output, there are two rows under `"Coefficients":` **(Intercept) which is 'a', and 'x' which is slope.** Let's look at this snippet of the output again and interpret these rows:
+```R
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept)   19.206     15.691   1.224   0.2558  
+x              3.269      1.088   3.006   0.0169 *
+---
+```
 
 
 
