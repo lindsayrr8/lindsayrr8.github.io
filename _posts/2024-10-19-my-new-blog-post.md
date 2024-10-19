@@ -75,7 +75,7 @@ Look at all that tasty data! Just think of all the time this is going to save in
 #### For Question 1.1:
 We already know that **this is a linear relationship model** because that's what `lm()` does. We also know that **Y is the response variable** and **X is the predictor variable.**
 
-As for our "Residuals:"
+As for our `"Residuals:"`
 - Min = The largest *negative* difference between the actual and predicted values.
 - 1Q (1st quartile) = The point at which 25% of the residuals are below this value.
 - Median = The middle residual (half the residuals are above, half below).
