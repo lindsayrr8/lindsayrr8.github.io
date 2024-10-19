@@ -142,7 +142,8 @@ Here, we'll be applying more of the same approach with a few extras:
 > 
 > **2.3** Determine the fit of the eruption duration using the estimated regression equation. <br />
 
-#### Okay, we have three different tasks to complete with this prompt. First, we'll define the relationship model and specify the variables, since we already know from the last exercise what those will be: <br />
+#### Okay, we have three different tasks to complete with this prompt.
+##### First, we'll define the relationship model and specify the variables, since we already know from the last exercise what those will be: <br />
 
 ```R
 # Create data frame for discharge duration and waiting time
