@@ -118,6 +118,28 @@ This means that the Estimate for our (Intercept) value 'a' is 19.206 and our Est
 **y = 19.206 + 3.269x** <br />
 
 
+## Question 2:
+
+> *(The following question is posted by Chi Yau, the author of  R Tutorial With Bayesian Statistics Using Stan and his blog post regarding Regression analysis.)*
+> Problem -
+Apply the simple linear regression model for the data set called "visit" (see below), and estimate the the discharge duration if the waiting time since the last eruption has been 80 minutes.
+> head(visit) 
+  discharge  waiting 
+1     3.600      79 
+2     1.800      54 
+3     3.333      74 
+4     2.283      62 
+5     4.533      85 
+6     2.883      55 
+
+> Employ the following formula discharge ~ waiting and data=visit)
+
+> **2.1** Define the relationship model between the predictor and the response variable.
+> **2.2** Extract the parameters of the estimated regression equation with the coefficients function.
+> **2.3** Determine the fit of the eruption duration using the estimated regression equation.
+
+
+
 
 
 
