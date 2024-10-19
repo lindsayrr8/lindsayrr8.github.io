@@ -113,10 +113,8 @@ x              3.269      1.088   3.006   0.0169 *
 - **Pr(>|t|)** is the p-value, which tells us the probability that the slope could be zero. If it was 0, that would mean there's no relationship between X and Y. In this case, since our value is less than 0.05, it indicates that the relationship is statistically significant.
 <br />
 
-This means that the Estimate for our (Intercept) value 'a' is 19.206 and our Estimate value for our 'x' (Slope) is 3.269. Therefore, the relationship between variables X and Y is given when we plug those values into our equation:
-$$
-y = 19.206 + 3.269x
-$$
+This means that the Estimate for our (Intercept) value 'a' is 19.206 and our Estimate value for our 'x' (Slope) is 3.269. Therefore, the relationship between variables X and Y is given when we plug those values into our equation: <br />
+**y = 19.206 + 3.269x** <br />
 
 
 
