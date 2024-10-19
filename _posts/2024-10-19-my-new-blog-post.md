@@ -32,6 +32,11 @@ So, we have our data sets and our tasks. First, let's let R handle finding the "
 ```
 ### What are we looking at here? Let's break it down line by line.
 
+Did we really just create a linear regression model basically using 2 lines of code? Yes we did! (Thank you, `R`!)
+```R
+# Create a linear regression model
+model <- lm(y ~ x)
+```
 In this case, the formula `Y ~ X` translates in English to: "response variable ('Y') is explained by ('~') the predictor variable ('X')." Computers really are short on words, aren't they? Note that 'Y' and 'X' represent their respective response/predictor variables by convention using this formula. In other words, when we're talking about `lm()`, 'Y' is always the response variable and 'X' is always the predictor variable.
 
 
