@@ -92,7 +92,7 @@ Thanks to `summary()`, we have all the numbers we need already. Now we need to i
 
 *Wait... that equation looks familiar...* Yes. Beginning algebra is back to haunt us. But thankfully all we have to do is plug and play since `R` has already done the heavy lifting.
 
-The **coefficients** are the values that define the linear relationship between X and Y. In the output, there are two rows under `"Coefficients":` **(Intercept) which is 'a' and 'x' which is slope.** Let's look at this snippet of the output again and interpret these rows:
+The **coefficients** are the values that define the linear relationship between X and Y. In the output, there are two rows under `"Coefficients":` **(Intercept) which is 'a' and 'x' which is slope.** **These two are our coefficients.** Let's look at this snippet of the output again and interpret the information under Coefficients:
 ```R
 Coefficients:
             Estimate Std. Error t value Pr(>|t|)  
@@ -112,7 +112,10 @@ x              3.269      1.088   3.006   0.0169 *
 - **t value** measures how far the slope is from 0 in terms of standard errors. Since it's bigger than 2, we can say the slops is statistically significant.
 - **Pr(>|t|)** is the p-value, which tells us the probability that the slope could be zero. If it was 0, that would mean there's no relationship between X and Y. In this case, since our value is less than 0.05, it indicates that the relationship is statistically significant.
 
-
+This means that the Estimate for our (Intercept) value 'a' is 19.206 and our Estimate value for our 'x' (Slope) is 3.269. Therefore, the relationship between variables X and Y is given when we plug those values into our equation:
+$$
+y = 19.206 + 3.269x
+$$
 
 
 
