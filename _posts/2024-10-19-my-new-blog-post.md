@@ -103,7 +103,10 @@ x              3.269      1.088   3.006   0.0169 *
 **Starting with `(Intercept)`:**
 - **Estimate** is value of 'a' in our regression equation. It's also the value of Y when X = 0. So, when X is 0, the model predicts that Y would be ~19.206.
 - **Std. Error** measures the accuracy of the estimate. The bigger the standard error compared to the estimate suggests that our estimate might not be very precise.
-- **t value** 
+- **t value** is a measure of how far the estimate is from 0 in terms of our standard error. Higher values suggest more confidence in the estimate.
+- **Pr(>|t|)** is our p-value. It tells us how likely it is that the intercept could be zero. That would mean there's no relationship at all between our variables. A high p-value (greater than 0.05) means that it's not statistically significant.
+
+
 
 
 
