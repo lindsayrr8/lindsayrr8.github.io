@@ -4,5 +4,10 @@ Linear Regression is an important concept in predictive analytics. But what do w
 
 The word "regression" in this context literally refers to a measurement of a relationship between two variables. However, it might also make some sense to apply the alternate definition of regression here, which means to return to a previous or more basic state.
 
-I like to associate it with the idea of untying a knot. When a shoelace, for example, is tied into a neat bow, someone just stumbling upon it for the first time might have difficulty figuring out where the knot begins and ends. Thankfully, with shoes as in mathematics, we've developed a process to untie the knot, making it simpler and easier to figure out where it started. That way, we can derive a reasonable explanation for how 'A' probably led to 'B.'
+I like to associate it with the idea of untying a knot. When a shoelace, for example, is tied into a neat bow, someone just stumbling upon it for the first time might have difficulty figuring out where the knot begins and ends. Thankfully, with shoes as in mathematics, we've developed a process to untie the knot, making it simpler and easier to figure out where it started. That way, we can derive a **reasonable explanation for how 'A' probably led to 'B.'**
+
+However, it's very important to note that linear regression **does not inherently describe a causal relationship.** The relationship it finds (or doesn't find) could indeed turn out to be causal in the real world, but at minimum, we can only know for certain from our initial analysis if the relationship is *correlational.* **That's what linear regression does: it describes correlation.** 
+
+With that in mind, correlation can be either positive or negative. **Positive correlation** means that the relationship trends in an "upward" or positive pointing way (ex: 1, to 5, 10, 20+). Conversely, **negative correlation** means that the relationship trends in a "downward" or negative pointing way (ex: 1, -5, -10, -20+). Using linear regression, we look for a summary of this trending relationship in the form of a **best fitting line.** It is what it sounds like: a line that follows the direction of the data.
+
 
