@@ -107,6 +107,7 @@ x              3.269      1.088   3.006   0.0169 *
 - **Pr(>|t|)** is our p-value. It tells us how likely it is that the intercept could be zero. That would mean there's no relationship at all between our variables. A high p-value (greater than 0.05) means that it's not statistically significant.
 
 **Now, onto `x` (Slope):**
+- **Estimate** is the value of 'b' in our regression equation. It tells us the slope of the line. Here we see that for every 1 unit increase in X, the value of Y increases by ~3.269 units.
 - 
 
 
