@@ -110,7 +110,7 @@ x              3.269      1.088   3.006   0.0169 *
 - **Estimate** is the value of 'b' in our regression equation. It tells us the slope of the line. Here we see that for every 1 unit increase in X, the value of Y increases by ~3.269 units.
 - **Std. Error** measures the accuracy of the slope estimate. Again, a larger error suggests we lack precision and a smaller error value means our estimation is more precise.
 - **t value** measures how far the slope is from 0 in terms of standard errors. Since it's bigger than 2, we can say the slops is statistically significant.
-- 
+- **Pr(>|t|)** is the p-value, which tells us the probability that the slope could be zero. If it was 0, that would mean there's no relationship between X and Y. In this case, since our value is less than 0.05, it indicates that the relationship is statistically significant.
 
 
 
