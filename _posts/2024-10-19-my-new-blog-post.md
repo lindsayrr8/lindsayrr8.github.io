@@ -121,6 +121,7 @@ This means that the Estimate for our (Intercept) value 'a' is 19.206 and our Est
 ## Question 2:
 
 > *(The following question is posted by Chi Yau, the author of  R Tutorial With Bayesian Statistics Using Stan and his blog post regarding Regression analysis.)* <br />
+
 > Problem -
 > Apply the simple linear regression model for the data set called "visit" (see below), and estimate the the discharge duration if the waiting time since the last eruption has been 80 minutes.
 > head(visit) 
