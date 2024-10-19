@@ -144,7 +144,7 @@ Here, we'll be applying more of the same approach with a few extras:
 
 ### Okay, we have three different tasks to complete with this prompt.
 #### For Question 2.1:
-First, we'll define the relationship model and specify the variables, since we already know from the last exercise what those will be: <br />
+First, we'll define the relationship model and specify the variables, since we already know from the last exercise what those will be thanks to the formula: <br />
 
 ```R
 # Create data frame for discharge duration and waiting time
@@ -159,7 +159,9 @@ head(visit)
 model <- lm(discharge ~ waiting, data = visit)
 ```
 
-Here, we're inputting our data to `R` as two vectors within a data frame. Then, we use the `lm()` function again to create a linear model using the data from our discharge duration and waiting times. In this case, `discharge` is the response variable (Y) and `waiting` is the predictor variable (X), because our **hypothesis** is that changes in waiting time (X) will lead to changes in the discharge duration (Y).
+Here, we're inputting our data to `R` as two vectors within a data frame. Then, we use the `lm()` function again to create a linear model using the data from our discharge duration and waiting times. In this case, `discharge` is the response variable (Y) and `waiting` is the predictor variable (X), because our **hypothesis** is that: changes in waiting time (X) will lead to changes in the discharge duration (Y).
+
+**Remember: Y is the response variable (in this case, `duration`) and X is the predictor variable (in this case, `waiting`.)**
 
 Notice that this time, since we pulled our data from a data frame, our formula looks a little different on this line:
 ```R
