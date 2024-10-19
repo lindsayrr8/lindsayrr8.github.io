@@ -114,6 +114,7 @@ x              3.269      1.088   3.006   0.0169 *
 <br />
 
 This means that the Estimate for our (Intercept) value 'a' is 19.206 and our Estimate value for our 'x' (Slope) is 3.269. Therefore, the relationship between variables X and Y is given when we plug those values into our equation: <br />
+
 **y = 19.206 + 3.269x** <br />
 
 
