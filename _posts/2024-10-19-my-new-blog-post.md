@@ -72,15 +72,24 @@ F-statistic: 9.033 on 1 and 8 DF,  p-value: 0.01693
 Look at all that tasty data! Just think of all the time this is going to save in the future. (I'm definitely thinking about that right now!)
 
 ### Now, how do we interpret these results?
+#### For Question 1.1:
 We already know that **this is a linear relationship model** because that's what `lm()` does. We also know that **Y is the response variable** and **X is the predictor variable.**
 
+As for our "Residuals:"
+- Min = The largest *negative* difference between the actual and predicted values.
+- 1Q (1st quartile) = The point at which 25% of the residuals are below this value.
+- Median = The middle residual (half the residuals are above, half below).
+- 3Q (3rd quartile) = The point at which 75% of the residuals are below this value.
+- Max = The largest *positive* difference between the actual and predicted values.
+
+Cool. But then...
 ### How do we calculate the coefficients?
+#### For Question 1.2:
 Thanks to `summary()`, we have all the numbers we need already. Now we need to interpret them using **the regression equation:** <br />
 **Y = a + bX + e**
 ###### *(Editing note: MathJax y u no parse equations. Also, I am not a front-end dev.)*
 
 *Wait... that looks familiar...* Yes. Beginning algebra is back to haunt us. But thankfully all we have to do is plug and play since `R` has already done the heavy lifting.
-
 
 
 
