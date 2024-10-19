@@ -12,7 +12,7 @@ With that in mind, correlation can be either positive or negative. **Positive co
 
 Under the hood, this is accomplished by minimizing the sum of the squared distances between the line and the actual data points on a scatter plot. Thankfully, as always, *we will be letting R handle this for us.*
 
-#### This week, we're asked to evaluate several questions to demonstrate working knowledge of analyzing linear regression problems in R.
+### This week, we're asked to evaluate several questions to demonstrate working knowledge of analyzing linear regression problems in R.
 
 
 
