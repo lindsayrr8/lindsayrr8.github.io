@@ -152,6 +152,8 @@ visit <- data.frame(
   discharge = c(3.600, 1.800, 3.333, 2.283, 4.533, 2.883),
   waiting = c(79, 54, 74, 62, 85, 55)
 )
+# Viewing the data frame
+head(visit)
 
 # Define the linear relationship model
 model <- lm(discharge ~ waiting, data = visit)
