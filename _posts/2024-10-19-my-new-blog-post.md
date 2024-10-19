@@ -144,7 +144,7 @@ Here, we'll be applying more of the same approach with a few extras:
 
 ### Okay, we have three different tasks to complete with this prompt.
 ### For Question 2.1:
-#### First, we'll define the relationship model and specify the variables, since we already know from the last exercise what those will be: <br />
+First, we'll define the relationship model and specify the variables, since we already know from the last exercise what those will be: <br />
 
 ```R
 # Create data frame for discharge duration and waiting time
