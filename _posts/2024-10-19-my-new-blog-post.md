@@ -77,7 +77,7 @@ We already know that **this is a linear relationship model** because that's what
 ### How do we calculate the coefficients?
 Thanks to `summary()`, we have all the numbers we need already. Now we need to interpret them using **the regression equation:** <br />
 **Y = a + bX + e**
-###### *(Editing note: mathjax y u no parse equations. Also, I am not a frontend dev.)*
+###### *(Editing note: MathJax y u no parse equations. Also, I am not a front-end dev.)*
 
 *Wait... that looks familiar...* Yes. Beginning algebra is back to haunt us. But thankfully all we have to do is plug and play since `R` has already done the heavy lifting.
 
