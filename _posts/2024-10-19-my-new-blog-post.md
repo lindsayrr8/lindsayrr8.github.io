@@ -73,6 +73,7 @@ Look at all that tasty data! Just think of all the time this is going to save in
 
 ### Now, how do we interpret these results?
 We already know that **this is a linear relationship model** because that's what `lm()` does. We also know that **Y is the response variable** and **X is the predictor variable.**
+
 ### How do we calculate the coefficients?
 
 
