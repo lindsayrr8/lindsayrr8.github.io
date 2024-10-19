@@ -188,7 +188,9 @@ head(visit)
 model <- lm(discharge ~ waiting, data = visit)
   
 # Get the coefficients
-coefficients(model)
+coefficients <- coefficients(model)
+# Call to view stored result
+print(coefficients)
 ```
 And the output we get from the `coefficients()` function is:
 ```R
@@ -198,4 +200,6 @@ And the output we get from the `coefficients()` function is:
 -1.53317418  0.06755757 
 >
 ```
+There's our X and our Y. I've stored what `R` returned as our coefficients to the variable `coefficients` so we can use them again easily.
+
 
