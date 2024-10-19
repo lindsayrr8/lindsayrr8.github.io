@@ -1,6 +1,6 @@
 # Linear Regression with R
 
-Linear Regression is an important concept in predictive analytics. But what do we use it for? ***Simple Linear Regression*** is a way to describe a relationship between two variables. Typically, we think of these two variables as a **dependent variable** and an **independent variable.**
+Linear Regression is an important concept in predictive analytics. But what do we use it for? ***Simple Linear Regression*** is a way to describe a relationship between two variables. Typically, we think of these two variables as a **dependent variable** and an **independent variable.** Equivalent terms that we'll be using for these variables are the **response and predictor variables,** respectively.
 
 The word "regression" in this context literally refers to a measurement of a relationship between two variables. However, it might also make some sense to apply the alternate definition of regression here, which means to return to a previous or more basic state.
 
@@ -23,5 +23,5 @@ Under the hood, this is accomplished by minimizing the sum of the squared distan
 > **1.1 Define the relationship model between the predictor and the response variable;** <br />
 > **1.2 Calculate the coefficients** <br />
 
-
+First thing's first: remember that "predictor variable" = independent variable and "response variable" = dependent variable.
 
