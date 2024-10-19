@@ -198,7 +198,6 @@ And the output we get from the `coefficients()` function is:
 > coefficients(model)
 (Intercept)     waiting 
 -1.53317418  0.06755757 
->
 ```
 There's our X and our Y. I've stored what `R` returned as our coefficients to the variable `coefficients` so we can use them again easily.
 
