@@ -30,7 +30,7 @@ So, we have our data sets and our tasks. First, let's let R handle finding the "
 ```R
 
 ```
-What are we looking at here? Let's break it down line by line.
+### What are we looking at here? Let's break it down line by line.
 
 In this case, the formula `Y ~ X` translates in English to: "response variable ('Y') is explained by ('~') the predictor variable ('X')." Computers really are short on words, aren't they? Note that 'Y' and 'X' represent their respective response/predictor variables by convention using this formula. In other words, when we're talking about `lm()`, 'Y' is always the response variable and 'X' is always the predictor variable.
 
