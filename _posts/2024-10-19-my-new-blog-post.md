@@ -19,6 +19,7 @@ Under the hood, this is accomplished by minimizing the sum of the squared distan
 > 
 > x <- c(16, 17, 13, 18, 12, 14, 19, 11, 11, 10) <br />
 > y <- c(63, 81, 56, 91, 47, 57, 76, 72, 62, 48) <br />
+
 > **1.1 Define the relationship model between the predictor and the response variable;** <br />
 > **1.2 Calculate the coefficients** <br />
 
