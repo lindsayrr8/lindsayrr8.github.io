@@ -81,6 +81,7 @@ As for our `"Residuals:"`
 - Median = The middle residual (half the residuals are above, half below).
 - 3Q (3rd quartile) = The point at which 75% of the residuals are below this value.
 - Max = The largest *positive* difference between the actual and predicted values.
+<br />
 
 Cool. But then...
 ### How do we calculate the coefficients?
