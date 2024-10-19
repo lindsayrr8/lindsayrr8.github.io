@@ -159,5 +159,13 @@ model <- lm(discharge ~ waiting, data = visit)
 
 Here, we're inputting our data to `R` as two vectors within a data frame. Then, we use the `lm()` function again to create a linear model using the data from our discharge duration and waiting times. In this case, `discharge` is the response variable (Y) and `waiting` is the predictor variable (X), because our **hypothesis** is that changes in waiting time (X) will lead to changes in the discharge duration (Y).
 
+Notice that this time, since we pulled our data from a data frame, our formula looks a little different on this line:
+```R
+model <- lm(discharge ~ waiting, data = visit)
+```
+What we see here is the same formula, only we've specified to `R` the data frame from which we're taking the data. In `R` speak, it says: "look for `discharge` and `waiting` in the data frame called `visit`."
+
+
+
 
 
