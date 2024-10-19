@@ -15,12 +15,12 @@ Under the hood, this is accomplished by minimizing the sum of the squared distan
 ## This week, we're asked to evaluate several questions to demonstrate working knowledge of analyzing linear regression problems in R.
 
 ## Question 1:
-> The datasets in this assignment:
+> The datasets in this assignment: <br />
 > 
-> x <- c(16, 17, 13, 18, 12, 14, 19, 11, 11, 10)
-> y <- c(63, 81, 56, 91, 47, 57, 76, 72, 62, 48)
-> **1.1 Define the relationship model between the predictor and the response variable;**
-> **1.2 Calculate the coefficients**
+> x <- c(16, 17, 13, 18, 12, 14, 19, 11, 11, 10) <br />
+> y <- c(63, 81, 56, 91, 47, 57, 76, 72, 62, 48) <br />
+> **1.1 Define the relationship model between the predictor and the response variable;** <br />
+> **1.2 Calculate the coefficients** <br />
 
 
 
