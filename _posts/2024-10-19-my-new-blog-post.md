@@ -167,7 +167,33 @@ model <- lm(discharge ~ waiting, data = visit)
 ```
 What we see here is the same formula, only we've specified to `R` the data frame from which we're taking the data. In `R` speak, it says: "look for `discharge` and `waiting` in the data frame called `visit`."
 
+Sweet. So, we have our data, we have linear regression model, and now it's time to get our coefficients.
+
+Before, we used the `summary()` function that we're familiar with to get this information. That helped us understand what the model returns so we could interpret what we were looking at. But what if I told you there's an even simpler way to get the coefficients?
+
+Yes, that's right. `R` has another handy-dandy built-in function for us: `coefficients()`
+```R
+# Create data frame for discharge duration and waiting time
+visit <- data.frame(
+  discharge = c(3.600, 1.800, 3.333, 2.283, 4.533, 2.883),
+  waiting = c(79, 54, 74, 62, 85, 55)
+)
+# Viewing the data frame
+head(visit)
 
 
-
+# Define the linear relationship model
+model <- lm(discharge ~ waiting, data = visit)
+  
+# Get the coefficients
+coefficients(model)
+```
+And the output we get from the `coefficients()` function is:
+```R
+> # Get the coefficients
+> coefficients(model)
+(Intercept)     waiting 
+-1.53317418  0.06755757 
+>
+```
 
