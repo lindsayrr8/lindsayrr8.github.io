@@ -142,7 +142,17 @@ This means that the Estimate for our (Intercept) value 'a' is 19.206 and our Est
 > 
 > **2.3** Determine the fit of the eruption duration using the estimated regression equation. <br />
 
+Okay, we have three different tasks to complete with this prompt. First, we'll define the relationship model and specify the variables, since we already know from the last exercise what those will be:
+```R
+# Create data frame for discharge duration and waiting time
+visit <- data.frame(
+  discharge = c(3.600, 1.800, 3.333, 2.283, 4.533, 2.883),
+  waiting = c(79, 54, 74, 62, 85, 55)
+)
 
+# Define the linear relationship model
+model <- lm(discharge ~ waiting, data = visit)
+```
 
 
 
