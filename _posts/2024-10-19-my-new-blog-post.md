@@ -71,7 +71,7 @@ F-statistic: 9.033 on 1 and 8 DF,  p-value: 0.01693
 ```
 Look at all that tasty data! Just think of all the time this is going to save in the future. (I'm definitely thinking about that right now!)
 
-Now, how do we **interpret these results?**
+### Now, how do we interpret these results?
 
 
 
