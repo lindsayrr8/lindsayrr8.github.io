@@ -119,7 +119,7 @@ This means that the Estimate for our (Intercept) value 'a' is 19.206 and our Est
 
 
 ## Question 2:
-
+Here, we'll be applying more of the same approach with a few extras:
 > *(The following question is posted by Chi Yau, the author of  R Tutorial With Bayesian Statistics Using Stan and his blog post regarding Regression analysis.)* <br />
 
 > Problem -
