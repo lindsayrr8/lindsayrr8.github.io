@@ -235,17 +235,21 @@ Wouldn't you know it, there's our Y value (Intercept)! That's all we've done: we
 
 ## Question 3:
 This question has to do with **multiple regression.** Here's the prompt we're given:
-> We will use a very famous datasets in R called mtcars. This dateset was extracted from the 1974 Motor Trend US magazine, > and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973--74 models).
+> We will use a very famous datasets in R called mtcars. This dateset was extracted from the 1974 Motor Trend US magazine, > and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973--74 models). <br />
 >
-> This data frame contain 32 observations on 11 (numeric) variables.
+> This data frame contain 32 observations on 11 (numeric) variables. <br />
 >
-> [, 1]	mpg	Miles/(US) gallon
-> [, 2]	cyl	Number of cylinders
-> [, 3]	disp	Displacement (cu.in.)
-> [, 4]	hp	Gross horsepower
-> [, 5]	drat	Rear axle ratio
-> [, 6]	wt	Weight (1000 lbs)
-> [, 7]	qsec	1/4 mile time
-> [, 8]	vs	Engine (0 = V-shaped, 1 = straight)
-> [, 9]	am	Transmission (0 = automatic, 1 = manual)
-> [,10]	gear	Number of forward gears
+> [, 1]	mpg	Miles/(US) gallon <br />
+> [, 2]	cyl	Number of cylinders <br />
+> [, 3]	disp	Displacement (cu.in.) <br />
+> [, 4]	hp	Gross horsepower <br />
+> [, 5]	drat	Rear axle ratio <br />
+> [, 6]	wt	Weight (1000 lbs) <br />
+> [, 7]	qsec	1/4 mile time <br />
+> [, 8]	vs	Engine (0 = V-shaped, 1 = straight) <br />
+> [, 9]	am	Transmission (0 = automatic, 1 = manual) <br />
+> [,10]	gear	Number of forward gears <br />
+
+Ah yes, there's `mtcars` again. If you're familiar with `R` already, you know this guy. If you're not, then prepare yourself, because you're going to know this guy very well. `mtcars` is a built-in data set in `R` intended for playing around with functions, which is precisely what we're about to do.
+
+
