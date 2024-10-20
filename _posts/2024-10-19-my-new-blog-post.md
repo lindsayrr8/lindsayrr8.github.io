@@ -376,7 +376,7 @@ And viewing `head(rmr)` gives the output:
 5        57.6           1325
 6        61.4           1351
 ```
-Wow, we're already half way there. Now we just have to set up our formula and create our scatter plot. The prompt indicates that we want to know what the predicted metabolic rate is for a bodyweight of 70 kg. Therefore, in this case **`body.weight` is the predictor variable** because we want to use it to **predict changes in `metabolic.rate`.**
+Wow, we're already half way there. Now we just have to set up our formula and create our scatter plot. The prompt indicates that we want to know what the predicted metabolic rate is for a bodyweight of 70 kg. Therefore, in this case **`body.weight` is the predictor variable** (X) because we want to use it to **predict changes in `metabolic.rate`** (Y).
 
 I've already covered plotting before, in addition to several other subjects in great detail this time. So for now, I'm referring to the documentation to set up the plot (which you can also do using `?plot`:
 
@@ -406,7 +406,24 @@ And our output gives us the following image: <br />
 
 ![Scatter plot](https://github.com/lindsayrr8/lindsayrr8.github.io/blob/main/_posts/Module_7_metabolic%20rate%20vs%20body%20weight.png?raw=true)
 
-
-
-
+### Sweet. There's our line of best fit from our linear regression. At last, it's prediction time.
+We can use the fitted model to predict the metabolic rate for a body weight of 70 kg:
+```R
+# predict the metabolic rate for a body weight of 70 kg
+# Create a new data frame
+new_data <- data.frame(body.weight = 70)
+# Predict using the model
+predicted_rate <- predict(model, new_data)
+# Display the predicted metabolic rate
+print(predicted_rate)
+```
+And the output of our predicted rate gives:
+```R
+> # Display the predicted metabolic rate
+> print(predicted_rate)
+       1 
+1305.394
+```
+### How do we interpret this result?
+In English, the value our prediction returned indicates that a person who weighs 70 kg is expected to have a metabolic rate of about 1305.394 kcal/day, based on our model.
 
