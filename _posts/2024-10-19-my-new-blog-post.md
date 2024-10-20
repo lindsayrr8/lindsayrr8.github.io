@@ -346,7 +346,7 @@ Lastly, **"`F-Statistic`"** also tests whether the overall model is significant.
 Weight (`wt`) and horsepower (`hp`) are the most important factors in predicting `mpg`. Displacement (`disp`), on the other hand, doesn't seem to significantly impact `mpg`.
 
 ## Question 4:
-Here we'll be plotting a linear regression line (and it's truly not bad):
+#### Here we'll be plotting a linear regression line (and it's truly not bad):
 > From our textbook pp. 110 Exercises # 5.1.
 > 
 > With the rmr data set, plot metabolic rate versus body weight. Fit a linear regression to the relation. According to the > fitted model, what is the predicted metabolic rate for a body weight of 70 kg?
