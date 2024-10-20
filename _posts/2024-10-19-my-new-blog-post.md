@@ -376,9 +376,18 @@ And viewing `head(rmr)` gives the output:
 5        57.6           1325
 6        61.4           1351
 ```
+Wow, we're already half way there. Now we just have to set up our formula and create our scatter plot. The prompt indicates that we want to know what the predicted metabolic rate is for a bodyweight of 70 kg. Therefore, in this case **`body.weight` is the predictor variable** because we want to use it to **predict changes in `metabolic.rate`.**
 
+I've already covered plotting before, in addition to several other subjects in great detail this time. So for now, I'm referring to the documentation to set up the plot (which you can also do using `?plot`:
 
-
+```R
+# Set up the formula and customize the plot points
+plot(metabolic.rate ~ body.weight, data = rmr, 
+     main = "Metabolic Rate vs Body Weight", 
+     xlab = "Body Weight (kg)", 
+     ylab = "Metabolic Rate (kcal/day)", 
+     pch = 19, col = "blue")
+```
 
 
 
