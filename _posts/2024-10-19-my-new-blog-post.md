@@ -388,7 +388,7 @@ plot(metabolic.rate ~ body.weight, data = rmr,
      ylab = "Metabolic Rate (kcal/day)", 
      pch = 19, col = "blue")
 ```
-If you run this code, you should see your initial plot pop up right about now under "Plots" in RStudio.
+If you run this code, you should see your initial plot pop up under "Plots" in RStudio.
 
 Now we're going to fit a linear regression model to this data:
 ```R
