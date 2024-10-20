@@ -325,6 +325,18 @@ Here's what that looks like if we isolate it out from the rest using the `coeffi
 - For `hp`: this means each for additional `hp` unit, `mpg` decreases by 0.031157 units. Again, this is while `disp` and `wt` are constant. The resulting p-value for `hp`, 0.01097, is statistically significant, so `hp` has a meaningful negative effect on `mpg`.
 - For `wt`: this result means for each additional unit of `wt`, `mpg` decreases by about 3.80 units, which in combination with our p-value of 0.00133 tells us that `wt` has a strong, negative impact on `mpg`.
 
+Lovely. That sounds right enough.
+
+It's also helpful to interpret what `R` outputs as **"significance codes."** Briefly, the number of asterisks you get corresponds to the level of certainty:
+- 3*** being: Very significant (p-value < 0.001).
+- 2** being: Significant (p-value between 0.001 and 0.01).
+- 1* being: Moderately significant (p-value between 0.01 and 0.05).
+- & No stars being: Not significant
+
+### But what does it mean for our model's fit?
+Under our output for "`Multiple R Squared`," the given number 0.8268 means that around 82.68% of the variation in `mpg` is explained by our three predictor variables: `disp`, `hp`, & `wt`. In other words, that's a strong fit for the model!
+
+Further, the field "`Adjusted R-squared`" takes into account additional complexity in it's calculation. It still gave us a solid passing score with ~80.83% variation explanation in `mpg`.
 
 
 
