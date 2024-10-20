@@ -334,10 +334,10 @@ It's also helpful to interpret what `R` outputs as **"significance codes."** Bri
 - & No stars being: Not significant
 
 ### But what does it mean for our model's fit?
-Under our output for "`Multiple R Squared`," the given number 0.8268 means that around 82.68% of the variation in `mpg` is explained by our three predictor variables: `disp`, `hp`, & `wt`. In other words, that's a strong fit for the model!
+Under our output for **"`Multiple R Squared`,"** the given number 0.8268 means that around 82.68% of the variation in `mpg` is explained by our three predictor variables: `disp`, `hp`, & `wt`. In other words, that's a strong fit for the model!
 
-Further, the field "`Adjusted R-squared`" takes into account additional complexity in it's calculation. It still gave us a solid passing score with ~80.83% variation explanation in `mpg`.
+Further, the field **"`Adjusted R-squared`"** takes into account additional complexity in it's calculation. It still gave us a solid passing score with ~80.83% variation explanation in `mpg`.
 
-
+The output field **"`Residual Error`"**, which returns 2.639, refers to the average distance between the observed values and the values predicted for `mpg`. As a general rule of thumb, a lower residual standard error means better model accuracy.
 
 
