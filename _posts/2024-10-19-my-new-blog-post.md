@@ -311,8 +311,17 @@ In English, our formula reads: some predicted value = the (Intercept) plus the f
 
 You can know which coefficient or 'b' is which because they go together with their neighbor; in this problem, 'b1' is the coefficient that corresponds with `disp`, which `R` has output for us under "`Coefficients:`". Likewise, coefficient 'b2' goes with `hp`, and coefficient 'b3' goes with `wt`. There's no guesswork involved.
 
-
-
+Here's what that looks like if we isolate it out from the rest using the `coefficients()` function:
+```R
+> # View just the coefficients
+> coefficients <- coefficients(model)
+> print(coefficients)
+  (Intercept)          disp            hp            wt 
+37.1055052690 -0.0009370091 -0.0311565508 -3.8008905826 
+```
+### When interpreting these results, what we want to know is how well `disp`, `hp`, and `wt` predict a given car's `mpg`. This is what we find:
+- For `(Intercept)`: this value (about 37.106) is what we get when the other variable values all = 0. In the real world, no car is going to have 0 displacement, horsepower, or weight. But in the math world, it helps to set a baseline for calculating things.
+- For `disp`: this tells us that for each unit of `disp`, `mpg` is expected to decrease by 0.000937 units. At the same time, `hp` and `wt` remain constant (unchanged.) 
 
 
 
