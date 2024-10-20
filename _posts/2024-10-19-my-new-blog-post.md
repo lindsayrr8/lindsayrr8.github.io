@@ -397,6 +397,15 @@ model <- lm(metabolic.rate ~ body.weight, data = rmr)
 # View the model summary
 summary(model)
 ```
+Lovely. We have all the necessary information to proceed and we're almost done. Next we need to visualize the fitted model onto our plot. This is what the regression line does:
+```R
+# Add regression line in red
+abline(model, col = "red")
+```
+And our output gives us the following image:
+
+
+
 
 
 
