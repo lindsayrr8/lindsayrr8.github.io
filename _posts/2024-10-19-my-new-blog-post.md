@@ -201,4 +201,10 @@ And the output we get from the `coefficients()` function is:
 ```
 There's our X and our Y. I've stored what `R` returned as our coefficients to the variable `coefficients` so we can use them again easily.
 
+Wonderful. We have our linear relationship model, our X and Y variables, our coefficients, and now we'll place them into an estimated regression equation:
+
+**ŷ = -1.533 + 0.068 * X**
+
+Note that yes, this is "y-hat," (another one of my favorite terms.) We use ŷ here because in statistics lingo, plain old 'y' is used to represent actual *observations,* while 'ŷ' is used to represent *predictions.*
+
 
