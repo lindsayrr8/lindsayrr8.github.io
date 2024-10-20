@@ -340,4 +340,14 @@ Further, the field **"`Adjusted R-squared`"** takes into account additional comp
 
 The output field **"`Residual Error`"**, which returns 2.639, refers to the average distance between the observed values and the values predicted for `mpg`. As a general rule of thumb, a lower residual standard error means better model accuracy.
 
+Lastly, **"`F-Statistic`"** also tests whether the overall model is significant. Its corresponding p-value of 8.65e-11 is infinitesimally small, meaning our model as a whole is very significant. In other words, it also shows that our predictor variables have a meaningful impact on `mpg`.
+
+### Conclusion:
+Weight (`wt`) and horsepower (`hp`) are the most important factors in predicting `mpg`. Displacement (`disp`), on the other hand, doesn't seem to significantly impact `mpg`.
+
+## Question 4:
+
+
+
+
 
