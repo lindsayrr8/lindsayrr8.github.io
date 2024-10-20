@@ -364,5 +364,21 @@ library(ISwR)
 # View the first rows of the rmr dataset
 head(rmr)
 ```
+And viewing the `head()` of `rmr` gives the output:
+```R
+> # View the first rows of the rmr dataset
+> head(rmr)
+  body.weight metabolic.rate
+1        49.9           1079
+2        50.8           1146
+3        51.8           1115
+4        52.6           1161
+5        57.6           1325
+6        61.4           1351
+```
+
+
+
+
 
 
