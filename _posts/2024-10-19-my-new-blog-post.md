@@ -403,8 +403,7 @@ Lovely. We have all the necessary information to proceed and we're almost done. 
 abline(model, col = "red")
 ```
 And our output gives us the following image:
-
-
+![Scatter plot](https://github.com/lindsayrr8/lindsayrr8.github.io/blob/main/_posts/Module_7_metabolic%20rate%20vs%20body%20weight.png?raw=true)
 
 
 
