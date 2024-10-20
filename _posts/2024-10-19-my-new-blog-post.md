@@ -322,6 +322,7 @@ Here's what that looks like if we isolate it out from the rest using the `coeffi
 ### When interpreting these results, what we want to know is how well `disp`, `hp`, and `wt` predict a given car's `mpg`. This is what we find:
 - For `(Intercept)`: this value (about 37.106) is what we get when the other variable values all = 0. In the real world, no car is going to have 0 displacement, horsepower, or weight. But in the math world, it helps to set a baseline for calculating things.
 - For `disp`: this tells us that for each unit of `disp`, `mpg` is expected to decrease by 0.000937 units. At the same time, `hp` and `wt` remain constant (unchanged.) However, the p-value (listed under the Pr(>|t|) column in our summary) is 0.92851, making it not statistically significant. In English, this means `disp` doesn't have a meaningful effect on `mpg` in our model.
+- For `hp`: each additional `hp` unit, `mpg` decreases by 0.031157 units. Again, this is while `disp` and `wt` are constant. The resulting p-value for `hp`, 0.01097, is statistically significant, so `hp` has a meaningful negative effect on `mpg`.
 - 
 
 
