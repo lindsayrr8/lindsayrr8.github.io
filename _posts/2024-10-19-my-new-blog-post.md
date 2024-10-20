@@ -259,8 +259,49 @@ input <- mtcars[,c("mpg","disp","hp","wt")]
 # View result
 print(head(input))
 ```
+We've got it, and I've stored just our selection to a new data frame called `input`.
 
+Now we can create a multiple regression model using our data. In this case, the instructions tell us to use `mpg` as the response variable and `disp`, `hp`, and `wt` as the predictor variables.
 
+### Hold on, what?
+We're using 3 predictor variables? Yep. It's still a linear regression, as you'll see we'll still be using `lm()`. But there are **multiple predictor variables**, thusly make it a **multiple linear regression.** The equation doesn't get too much different either. On the math side, instead of one slope, now we have several (one for each predictor.) As always, we'll be letting `R` handle everything:
+```R
+# Get 4 variables in mtcars
+input <- mtcars[,c("mpg","disp","hp","wt")]
+# View result
+print(head(input))
+
+# Create the multiple regression model
+model <- lm(formula = mpg ~ disp + hp + wt, data = input)
+
+# Print to view results
+summary(model)
+```
+Still looking pretty familiar, right? Here's what `summary` returns:
+```R
+> # Print to view results
+> summary(model)
+
+Call:
+lm(formula = mpg ~ disp + hp + wt, data = input)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-3.891 -1.640 -0.172  1.061  5.861 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 37.105505   2.110815  17.579  < 2e-16 ***
+disp        -0.000937   0.010350  -0.091  0.92851    
+hp          -0.031157   0.011436  -2.724  0.01097 *  
+wt          -3.800891   1.066191  -3.565  0.00133 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.639 on 28 degrees of freedom
+Multiple R-squared:  0.8268,	Adjusted R-squared:  0.8083 
+F-statistic: 44.57 on 3 and 28 DF,  p-value: 8.65e-11
+```
 
 
 
