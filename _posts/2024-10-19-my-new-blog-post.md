@@ -364,7 +364,7 @@ library(ISwR)
 # View the first rows of the rmr dataset
 head(rmr)
 ```
-And viewing the `head()` of `rmr` gives the output:
+And viewing `head(rmr)` gives the output:
 ```R
 > # View the first rows of the rmr dataset
 > head(rmr)
