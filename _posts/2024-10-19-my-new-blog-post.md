@@ -235,7 +235,7 @@ Wouldn't you know it, there's our Y value (Intercept)! That's all we've done: we
 
 ## Question 3:
 This question has to do with **multiple regression.** Here's the prompt we're given:
-> We will use a very famous datasets in R called mtcars. This dateset was extracted from the 1974 Motor Trend US magazine, > and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973--74 models). <br />
+> We will use a very famous dataset in R called mtcars. This dateset was extracted from the 1974 Motor Trend US magazine, > and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973--74 models). <br />
 >
 > This data frame contain 32 observations on 11 (numeric) variables. <br />
 >
@@ -250,6 +250,6 @@ This question has to do with **multiple regression.** Here's the prompt we're gi
 > [, 9]	am	Transmission (0 = automatic, 1 = manual) <br />
 > [,10]	gear	Number of forward gears <br />
 
-Ah yes, there's `mtcars` again. If you're familiar with `R` already, you know this guy. If you're not, then prepare yourself, because you're going to know this guy very well. `mtcars` is a built-in data set in `R` intended for playing around with functions, which is precisely what we're about to do.
+Ah yes, there's `mtcars` again. If you're familiar with `R` already, you know this guy. If you're not, then prepare yourself, because you're going to know this guy very well. `mtcars` is a built-in dataset in `R` intended for playing around with functions, which is precisely what we're about to do.
 
 
