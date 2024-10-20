@@ -353,6 +353,16 @@ Weight (`wt`) and horsepower (`hp`) are the most important factors in predicting
 > 
 > The data set rmr is R, make sure to install the book R package: ISwR. After installing the ISwR package, here is a simple > illustration to the set of the problem.
 
+To start, we should install the ISwR package and load it into the library:
+```R
+# Install the ISwR package
+install.packages("ISwR")
 
+# Load the ISwR package
+library(ISwR)
+
+# View the first rows of the rmr dataset
+head(rmr)
+```
 
 
