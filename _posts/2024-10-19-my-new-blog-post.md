@@ -222,7 +222,7 @@ predicted_dd <- coefficients[1] + coefficients[2] * waiting_time
 # View result
 print(predicted_dd)
 ```
-In English, this reads across like our formula. In `R` speak, it reads: "take the value in position 1 in `coefficients` plus the value in position 2 in `coefficients` times the value stored in `waiting_time`. Put that in the box called `predicted_dd`.
+In English, this reads across like our formula above. In `R` speak, it reads: "take the value in position 1 in `coefficients` plus the value in position 2 in `coefficients` times the value stored in `waiting_time`. Put that in the box called `predicted_dd`.
 
 And here's our resulting output:
 ```R
