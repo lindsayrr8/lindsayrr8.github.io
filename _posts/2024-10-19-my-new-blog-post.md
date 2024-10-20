@@ -252,4 +252,15 @@ This question has to do with **multiple regression.** Here's the prompt we're gi
 
 Ah yes, there's `mtcars` again. If you're familiar with `R` already, you know this guy. If you're not, then prepare yourself, because you're going to know this guy very well. `mtcars` is a built-in dataset in `R` intended for playing around with functions, which is precisely what we're about to do.
 
+Calling `mtcars` is simple enough. But we've been instructed to use only 4 of the variables found in this data frame: `mpg`, `disp`, `hp`, `wt`. Here's what that looks like in R:
+```R
+# Get 4 variables in mtcars
+input <- mtcars[,c("mpg","disp","hp","wt")]
+# View result
+print(head(input))
+```
+
+
+
+
 
