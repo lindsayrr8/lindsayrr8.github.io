@@ -309,12 +309,9 @@ First, let's look at setting up our equation so we can see where to plug in the 
 
 In English, our formula reads: some predicted value = the (Intercept) plus the first coefficient times `disp`, plus the second coefficient times `hp`, plus the third coefficient times `wt`.
 
-You can know which coefficient or 'b' is which because they go together with their neighbor; in this problem, 'b1' is the coefficient that corresponds with `disp` which `R` will output for us. Likewise, coefficient 'b2' goes with `hp`, and coefficient 'b3' goes with `wt`.
+You can know which coefficient or 'b' is which because they go together with their neighbor; in this problem, 'b1' is the coefficient that corresponds with `disp`, which `R` has output for us under `Coefficients`. Likewise, coefficient 'b2' goes with `hp`, and coefficient 'b3' goes with `wt`. There's no guesswork involved.
 
-When we translate that into `R`, this is what we get:
-```R
 
-```
 
 
 
