@@ -183,7 +183,6 @@ visit <- data.frame(
 # Viewing the data frame
 head(visit)
 
-
 # Define the linear relationship model
 model <- lm(discharge ~ waiting, data = visit)
   
@@ -207,6 +206,31 @@ There's our X and our Y. I've stored what `R` returned as our coefficients to th
 
 Note that yes, this is "y-hat," (another one of my favorite terms.) We use ŷ here because in statistics lingo, plain old 'y' is used to represent actual *observations,* while 'ŷ' is used to represent *predictions.*
 
-#### Now it's time to check out our best-fit using our estimated regression equation.
+#### Now it's time to check out the fit of the discharge duration using our estimated regression equation.
+
+Our task is to do this given that the waiting time (X value) is 80 minutes. This is more of the same deal, only this time we're plugging in '80' for 'X' in the equation:
+
+**ŷ = -1.533 + 0.068 * 80**
+
+If you're mathematically ~~(or, in my opinion, sadistically)~~ inclined, you could calculate this by hand and the result would be the same. But let's have `R` handle it:
+```R
+# Create X value of '80' for waiting time
+waiting_time <- 80
+
+# Calculate predicted discharge duration with regression equation
+predicted_dd <- coefficients[1] + coefficients[2] * waiting_time
+# View result
+print(predicted_dd)
+```
+In English, this reads across like our formula. In `R` speak, it reads: "take the value in position 1 in `coefficients` plus the value in position 2 in `coefficients` times the value stored in `waiting_time`. Put that in the box called `predicted_dd`.
+
+And here's our resulting output:
+```R
+> # View result
+> print(predicted_dd)
+(Intercept) 
+   3.871431 
+```
+Wouldn't you know it, there's our Y value (Intercept)! That's all we've done: we've given `R` the parameters and it has predicted the Y value we should expect in our equation under those circumstances. Pretty neat.
 
 
