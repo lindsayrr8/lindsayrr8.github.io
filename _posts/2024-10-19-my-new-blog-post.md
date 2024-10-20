@@ -302,6 +302,20 @@ Residual standard error: 2.639 on 28 degrees of freedom
 Multiple R-squared:  0.8268,	Adjusted R-squared:  0.8083 
 F-statistic: 44.57 on 3 and 28 DF,  p-value: 8.65e-11
 ```
+### With that, it's time to interpret the results.
+First, let's look at setting up our equation so we can see where to plug in the values `R` gave us. The format for the equation is the same as our previous linear regressions, just with multiple predictor variables (X):
+
+**ŷ = a + b1 * `disp` + b2 * `hp` + b3 * `wt`**
+
+In English, our formula reads: some predicted value = the (Intercept) plus the first coefficient times `disp`, plus the second coefficient times `hp`, plus the third coefficient times `wt`.
+
+You can know which coefficient or 'b' is which because they go together with their neighbor; in this problem, 'b1' is the coefficient that corresponds with `disp` which `R` will output for us. Likewise, coefficient 'b2' goes with `hp`, and coefficient 'b3' goes with `wt`.
+
+When we translate that into `R`, this is what we get:
+```R
+
+```
+
 
 
 
