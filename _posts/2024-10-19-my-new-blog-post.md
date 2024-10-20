@@ -351,7 +351,7 @@ Weight (`wt`) and horsepower (`hp`) are the most important factors in predicting
 > 
 > With the rmr data set, plot metabolic rate versus body weight. Fit a linear regression to the relation. According to the > fitted model, what is the predicted metabolic rate for a body weight of 70 kg?
 > 
-> The data set rmr is R, make sure to install the book R package: ISwR. After installing the ISwR package, here is a simple > illustration to the set of the problem.
+> For the data set rmr, make sure to install the book R package: ISwR.
 
 To start, we should install the ISwR package and load it into the library:
 ```R
