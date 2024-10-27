@@ -35,7 +35,7 @@ stress_data <- data.frame(
   Reaction_Time = c(10, 9, 8, 9, 10, 8, 8, 10, 6, 7, 8, 8, 4, 6, 6, 4, 2, 2)
 )
 ```
-#### Looks good. But what's happening here?
+### Looks good. But what's happening here?
 
 First, we've taken the data we were given and stuffed it into a data frame for `R` to work with. Then, we've defined two columns for "Stress Level" and "Reaction Time."
 
