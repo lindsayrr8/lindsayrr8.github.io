@@ -137,7 +137,9 @@ To start, we're creating a new data frame called `zelazo_data`. Inside it, there
 Then, the line `c(zelazo$active, zelazo$passive, zelazo$none, zelazo$ctr.8w)` concatenates all individual vectors (active, passive, none, ctr.8w) into a single column.
 
 ### Step 2.2: Consider ANOVA test (one way or two-way) for this dataset (zelazo)
-
+First, a quick recap about the differences between a "one way" or "two way" ANOVA test:
+A **one way** tests for differences between groups based on a **single independent variable.**
+A **two-way** ANOVA includes two independent variables and is used to examine the **main effect of each independent variable** on the dependent variable, and any **interaction effect between the two independent variables** (how one variable’s effect depends on the level of the other.)
 
 
 
