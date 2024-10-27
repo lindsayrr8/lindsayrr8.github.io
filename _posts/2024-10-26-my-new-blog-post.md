@@ -77,5 +77,16 @@ The information returned from our ANOVA test tells us:
 - F valule: This is the test statistic for ANOVA. A higher F-value suggests greater likelihood that there is a statistically significant difference between group means
 - Pr(>F) (the p-value): aka, the probability which is associated with the F statistic
 
+### What this output tells us:
+There are a few key takeaways here. Our p-value was calculated as 4.08e-05, which means 0.0000408. That's quite a bit lower than 0.05, which indicates there is statistical significance. In other words, it suggests a highly significant effect of `Stress_Level` on `Reaction_Time`. _(You could also observe the "`***`", which means "high degree of statistical significance" in R-speak. More stars = more significant.)_
 
+Our F-value is also high (21.36). This indicates that the variance between groups (due to different stress levels) is much greater than the variance within groups (individual differences.)
 
+A total breakdown of the results we got could be summarized by the following:
+- Df:
+- Sum:
+- Sq:
+- F value:
+- Pr(>F):
+
+  
