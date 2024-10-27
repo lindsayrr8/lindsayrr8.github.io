@@ -119,5 +119,14 @@ zelazo_data <- data.frame(
 )
 ```
 ### Wonderful. What's going on here?
+To start, we're creating a new data frame called `zelazo_data`. Inside it, there are two columns. `Group` is the first column, which refers to the stress level for each observation. The second column is `Time`, which refers to the reaction times for each observation.
+
+`Group` goes in typed as a factor so R can compare its values ordinally. Then, there's `rep()` again repeating each group name according to the number of values in each subgroup (using `length()`.)
+
+Then, the line `c(zelazo$active, zelazo$passive, zelazo$none, zelazo$ctr.8w)` concatenates all individual vectors (active, passive, none, ctr.8w) into a single column.
+
+
+
+
 
 
