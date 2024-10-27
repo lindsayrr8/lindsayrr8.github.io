@@ -94,8 +94,8 @@ The residuals in our results consist of: `Df` (Degrees of Freedom), `Sum Sq` (Su
 ### Question 2:
 We are instructed to complete tasks given the following prompt:
 > The zelazo data (taken from the R package called ISwR) are in the form of a list of vectors, one for each of the four groups.
-> **2.1.** Convert the data to a form suitable for the user of lm, and calculate the relevant test. Consider t-tests comparing selected subgroups or obtained by combing groups.
-> **2.2.** Consider ANOVA test (one way or two-way) for this dataset (zelazo)
+> <br > **2.1.** Convert the data to a form suitable for the user of lm, and calculate the relevant test. Consider t-tests comparing selected subgroups or obtained by combing groups. <br />
+> <br > **2.2.** Consider ANOVA test (one way or two-way) for this dataset (zelazo) <br />
 
 Okay, to get started, we need to load up the `ISwR` package in RStudio so we can start working with the `zelazo` dataset:
 ```R
