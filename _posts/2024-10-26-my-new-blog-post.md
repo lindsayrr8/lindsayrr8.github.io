@@ -143,5 +143,14 @@ A **one way** ANOVA tests for differences between groups based on a **single ind
 
 A **two-way** ANOVA includes two independent variables and is used to examine the **main effect of each independent variable** on the dependent variable, and any **interaction effect between the two independent variables** (how one variable’s effect depends on the level of the other.)
 
+Here, **we'll be doing a one way ANOVA test** because in this scenario we’re interested in whether different intervention types lead to different reaction times. In other words, our one-way ANOVA test answers the question: Does the type of intervention (active, passive, none, or ctr.8w) affect reaction time?
 
+### How do we do a one way ANOVA test with R?
+Thankfully, as is often the case with R, we'll be accomplishing this task with just a few lines of code:
+```R
+# Perform a one-way ANOVA test
+anova_zelazo <- aov(Time ~ Group, data = zelazo_data)
+summary(anova_zelazo)
+```
+#### Here's the breakdown of our code:
 
