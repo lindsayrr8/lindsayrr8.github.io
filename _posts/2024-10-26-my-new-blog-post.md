@@ -165,6 +165,6 @@ Group        3  14.78   4.926   2.142  0.129
 Residuals   19  43.69   2.299 
 ```
 ### Briefly interpreting these results:
-Since the p-value (0.129) is greater than 0.05, this suggests that there is no statistically significant difference in reaction times between the different intervention groups at the 5% significance level.
+Since the p-value (0.129) is greater than 0.05, this suggests that **there is no statistically significant difference in reaction times** between the different intervention groups at the 5% significance level.
 
-These results imply that the intervention type (active, passive, none, ctr.8w) does not significantly affect the reaction time based on the data provided.
+These results imply that the intervention type (active, passive, none, ctr.8w) does **not** significantly affect the reaction time based on the data provided.
