@@ -52,8 +52,12 @@ stress_data <- data.frame(
 ```
 Not very pleasing to the eye or to my nerves, so instead, we'll be proceeding with `rep()`, which again, does the exact same thing more conveniently.
 
-
-
+Now we can perform ANOVA with just with just 1-2 lines of code using the `aov` function. Yes, really. (Thanks `R`!).
+```R
+# Performing ANOVA test
+anova_results <- aov(Reaction_Time ~ Stress_Level, data = stress_data)
+summary(anova_results)
+```
 
 
 
