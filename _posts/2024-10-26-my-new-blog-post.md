@@ -152,5 +152,18 @@ Thankfully, as is often the case with R, we'll be accomplishing this task with j
 anova_zelazo <- aov(Time ~ Group, data = zelazo_data)
 summary(anova_zelazo)
 ```
-#### Here's the breakdown of our code:
+### Here's the breakdown of our code:
+The line `aov(Time ~ Group, data = zelazo_data)` runs a one-way ANOVA using the `aov()` function to determine if there’s a statistically significant difference in reaction times across the four groups.
+
+`Time ~ Group` specifies that `Time` is the dependent variable and `Group` is the independent variable. `data = zelazo_data` tells `R` where to get the data from. Pretty straightforward, right?
+
+We run it, we get our results, and they come back with this:
+```R
+> summary(anova_zelazo)
+            Df Sum Sq Mean Sq F value Pr(>F)
+Group        3  14.78   4.926   2.142  0.129
+Residuals   19  43.69   2.299 
+```
+### Interpreting these results:
+
 
