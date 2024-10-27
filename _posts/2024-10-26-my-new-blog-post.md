@@ -92,7 +92,7 @@ A total breakdown of the results we got could be **summarized** by the following
 The residuals in our results consist of: `Df` (Degrees of Freedom), `Sum Sq` (Sum of Squares), and `Mean Sq` (Mean Square).
 
 ### Question 2:
-We are instructed to complete tasks given the following prompt:
+We are instructed to complete the tasks for Question 2 given the following prompt:
 > The zelazo data (taken from the R package called ISwR) are in the form of a list of vectors, one for each of the four groups. <br />
 > <br > **2.1.** Convert the data to a form suitable for the user of lm, and calculate the relevant test. Consider t-tests comparing selected subgroups or obtained by combing groups. <br />
 > <br > **2.2.** Consider ANOVA test (one way or two-way) for this dataset (zelazo) <br />
