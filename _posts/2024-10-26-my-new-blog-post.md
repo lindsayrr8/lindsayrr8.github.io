@@ -58,7 +58,7 @@ Now we can perform ANOVA with just with just 1-2 lines of code using the `aov` f
 anova_results <- aov(Reaction_Time ~ Stress_Level, data = stress_data)
 summary(anova_results)
 ```
-
+You might recognize the `~` as indicating that we're building an analysis model. Remember that the `~` separates the dependent variable (in this case, `Reaction_Time`) from the independent variable (`Stress_Level`). In English, `Reaction_Time ~ Stress_Level` reads as: "see if `Stress_Level` has any effect on `Reaction_Time`."
 
 
 
