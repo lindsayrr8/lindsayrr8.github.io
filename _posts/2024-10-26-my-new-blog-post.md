@@ -83,7 +83,7 @@ There are a few key takeaways here. Our p-value was calculated as 4.08e-05, whic
 Our F-value is also high (21.36). This indicates that the variance between groups (due to different stress levels) is much greater than the variance within groups (individual differences.)
 
 A total breakdown of the results we got could be **summarized** by the following:
-- Df: The result we got is "2." This is because there are three levels (High, Moderate, Low) of `Stress_Level`, so degrees of freedom = number of groups - 1 which is 3 - 1 = 2.
+- Df: The result we got is 2. This is because there are three levels (High, Moderate, Low) of `Stress_Level`, so degrees of freedom = number of groups - 1 which is 3 - 1 = 2.
 - Sum Sq: We got 82.11. This is the variability in reaction times that can be attributed to differences in stress levels.
 - Mean Sq: We got 41.06. This is the Sum Sq divided by the degrees of freedom, which represents the average variation for `Stress_Level`.
 - F value: We got 21.36. This statistic indicates the ratio of variation between groups (Stress levels) to the variation within groups (Residuals).
