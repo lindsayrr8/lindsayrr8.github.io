@@ -15,6 +15,7 @@ Briefly, ANOVA is used when:
 The data that was collected is then displayed in this table:
 
 | High Stress	| Moderate Stress |	Low Stress |
+|---|---|---|
 | 10 | 8 | 4 |
 | 9 |	10 | 6 |
 | 8 |	6 |	6 |
