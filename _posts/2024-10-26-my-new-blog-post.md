@@ -70,4 +70,12 @@ Residuals    15  28.83    1.92
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 ```
 ### How do we interpret these results?
+The information returned from our ANOVA test tells us:
+- Df (degree of freedom): This represents the numer of levels in `Stress_Level` minus 1
+- Sum sq (sum of squares): This represents the total variability in reaction times resulting from differences between groups
+- Mean sq (mean square): This represents the average variability for each source (between and within groups)
+- F valule: This is the test statistic for ANOVA. A higher F-value suggests greater likelihood that there is a statistically significant difference between group means
+- Pr(>F) (the p-value): aka, the probability which is associated with the F statistic
+
+
 
