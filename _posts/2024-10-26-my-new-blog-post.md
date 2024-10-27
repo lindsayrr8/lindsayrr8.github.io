@@ -22,5 +22,5 @@ The data that was collected is then displayed in this table:
 | 9 |	7	| 4 |
 | 10 | 8 | 2 |
 | 8 |	8 |	2 |
-#### Question 1:
-#### Report on drug and stress level by using R. Provide a full summary report on the result of ANOVA testing and what does it mean. More specifically, report the following: Df, Sum, Sq Mean, Sq, F value, Pr(>F)
+### Question 1:
+Report on drug and stress level by using R. Provide a full summary report on the result of ANOVA testing and what does it mean. More specifically, report the following: Df, Sum, Sq Mean, Sq, F value, Pr(>F)
