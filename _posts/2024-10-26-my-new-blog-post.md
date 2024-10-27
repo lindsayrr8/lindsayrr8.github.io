@@ -108,6 +108,17 @@ data("zelazo")
 # Check out zelazo format
 str(zelazo)
 ```
+Splendid. Our output gives us a first look at `zelazo`:
+```R
+> # Check out zelazo format
+> str(zelazo)
+List of 4
+ $ active : num [1:6] 9 9.5 9.75 10 13 9.5
+ $ passive: num [1:6] 11 10 10 11.8 10.5 ...
+ $ none   : num [1:6] 11.5 12 9 11.5 13.2 ...
+ $ ctr.8w : num [1:5] 13.2 11.5 12 13.5 11.5
+```
+
 ### Step 2.1: Convert the Data to a Suitable Format for lm()
 Running `str(zelazo)` reveals that the `zelazo` object is typed as a list by default. The `lm()` function in R requires a data frame format. So, let’s **convert zelazo from a list to a data frame:**
 ```R
