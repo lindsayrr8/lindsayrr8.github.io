@@ -58,7 +58,16 @@ Now we can perform ANOVA with just with just 1-2 lines of code using the `aov` f
 anova_results <- aov(Reaction_Time ~ Stress_Level, data = stress_data)
 summary(anova_results)
 ```
-You might recognize the `~` as indicating that we're building an analysis model. Remember that the `~` separates the dependent variable (in this case, `Reaction_Time`) from the independent variable (`Stress_Level`). In English, `Reaction_Time ~ Stress_Level` reads as: "see if `Stress_Level` has any effect on `Reaction_Time`."
+You might recognize the `~` as indicating that we're building an analysis model. Remember that the `~` separates the dependent variable (in this case, `Reaction_Time`) from the independent variable (`Stress_Level`). In English, `Reaction_Time ~ Stress_Level` reads as: "see if `Stress_Level` has any effect on `Reaction_Time`." Lastly, `data = stress_data` tells `R` where to pull the data from (in this case, the data frame we created.)
 
+Running the summary results in the output:
+```R
+> summary(anova_results)
+             Df Sum Sq Mean Sq F value   Pr(>F)    
+Stress_Level  2  82.11   41.06   21.36 4.08e-05 ***
+Residuals    15  28.83    1.92                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+```
 
 
