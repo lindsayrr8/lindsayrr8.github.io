@@ -90,3 +90,14 @@ A total breakdown of the results we got could be **summarized** by the following
 - Pr(>F): Again, this is the p-value, which represents the probability that the observed differences in reaction times are due to chance. In this case, it seems highly unlikely that they are explained by chance.
 
 The residuals in our results consist of: `Df` (Degrees of Freedom), `Sum Sq` (Sum of Squares), and `Mean Sq` (Mean Square).
+
+### Question 2:
+We are instructed to complete tasks given the following prompt:
+> The zelazo data (taken from the R package called ISwR) are in the form of a list of vectors, one for each of the four groups.
+> **2.1.** Convert the data to a form suitable for the user of lm, and calculate the relevant test. Consider t-tests comparing selected subgroups or obtained by combing groups.
+> **2.2.** Consider ANOVA test (one way or two-way) for this dataset (zelazo)
+
+Okay, to get started, we need to load up the `ISwR` package in RStudio so we can start working with the `zelazo` dataset:
+```R
+
+```
