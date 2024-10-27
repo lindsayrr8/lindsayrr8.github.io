@@ -89,7 +89,7 @@ A total breakdown of the results we got could be **summarized** by the following
 - F value: We got 21.36. This statistic indicates the ratio of variation between groups (Stress levels) to the variation within groups (Residuals).
 - Pr(>F): Again, this is the p-value, which represents the probability that the observed differences in reaction times are due to chance. In this case, it seems highly unlikely that they are explained by chance.
 
-The residuals in our results consist of: `Df` (Degrees of Freedom), `Sum Sq` (Sum of Squares), and `Mean Sq` (Mean Square).
+The **residuals** in our results consist of: `Df` (Degrees of Freedom), `Sum Sq` (Sum of Squares), and `Mean Sq` (Mean Square).
 
 ### Question 2:
 We are instructed to complete the tasks for Question 2 given the following prompt:
@@ -99,5 +99,25 @@ We are instructed to complete the tasks for Question 2 given the following promp
 
 Okay, to get started, we need to load up the `ISwR` package in RStudio so we can start working with the `zelazo` dataset:
 ```R
-
+# Install ISwR package if not already installed
+install.packages(ISwR)
+# Add to library
+library(ISwR)
+# Load in zelazo dataset
+data("zelazo")
+# Check out zelazo format
+str(zelazo)
 ```
+### Step 2.1: Convert the Data to a Suitable Format for lm()
+Running `str(zelazo)` reveals that the `zelazo` object is typed as a list by default. The `lm()` function in R requires a data frame format. So, let’s **convert zelazo from a list to a data frame:**
+```R
+# Convert the zelazo list to a data frame suitable for lm()
+zelazo_data <- data.frame(
+  Group = factor(rep(c("active", "passive", "none", "ctr.8w"), 
+                     times = c(length(zelazo$active), length(zelazo$passive), length(zelazo$none), length(zelazo$ctr.8w)))),
+  Time = c(zelazo$active, zelazo$passive, zelazo$none, zelazo$ctr.8w)
+)
+```
+
+
+
