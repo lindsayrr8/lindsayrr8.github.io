@@ -23,7 +23,7 @@ The data that was collected is displayed in this table:
 | 9 |	7	| 4 |
 | 10 | 8 | 2 |
 | 8 |	8 |	2 |
-### Question 1:
+## Question 1:
 > Report on drug and stress levels by using R. Provide a full summary report on the result of ANOVA testing and what it means. More specifically, report the following: `Df, Sum, Sq Mean, Sq, F value, Pr(>F)`
 
 Alright. Let's approach this one step at a time. A good place to start will be to convert the information we've been given to `R` for analysis:
@@ -91,7 +91,7 @@ A total breakdown of the results we got could be **summarized** by the following
 
 The **residuals** in our results consist of: `Df` (Degrees of Freedom), `Sum Sq` (Sum of Squares), and `Mean Sq` (Mean Square).
 
-### Question 2:
+## Question 2:
 We are instructed to complete the tasks for Question 2 given the following prompt:
 > The zelazo data (taken from the R package called ISwR) are in the form of a list of vectors, one for each of the four groups. <br />
 > <br > **2.1.** Convert the data to a form suitable for the user of lm, and calculate the relevant test. Consider t-tests comparing selected subgroups or obtained by combing groups. <br />
@@ -118,6 +118,6 @@ zelazo_data <- data.frame(
   Time = c(zelazo$active, zelazo$passive, zelazo$none, zelazo$ctr.8w)
 )
 ```
-
+### Wonderful. What's going on here?
 
 
