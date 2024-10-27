@@ -136,7 +136,7 @@ To start, we're creating a new data frame called `zelazo_data`. Inside it, there
 
 Then, the line `c(zelazo$active, zelazo$passive, zelazo$none, zelazo$ctr.8w)` concatenates all individual vectors (active, passive, none, ctr.8w) into a single column.
 
-
+### Step 2.2: Consider ANOVA test (one way or two-way) for this dataset (zelazo)
 
 
 
