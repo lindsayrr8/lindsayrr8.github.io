@@ -4,7 +4,7 @@ Yes, it's exactly what it sounds like. Tabular refers to **"tables,"** as in dat
 ### Why does tabular data matter?
 There are several good reasons. Put simply, because it lets people easily see and do things quickly with the data. Additionally, it allows for the creation of relationships between different fields of data. This is especially important when you get into relational databases.
 
-### To get a grip on tabular data, we'll be answering the following questions:
+## To get a grip on tabular data, we'll be answering the following questions:
 > From the given data frame:
 > Generate (1) a one-way table for "purchased" and (2) a two-way table for "country" and "purchased."
 
@@ -18,4 +18,4 @@ df <- data.frame(
 ```
 Not very pleasing to the eye, if I'm honest. Just looking at the data in this form, it's cumbersome and time consuming to try to gleam insights about it.
 
-### This is where tables come in.
+## This is where tables come in.
