@@ -5,7 +5,7 @@ Yes, it's exactly what it sounds like. Tabular refers to **"tables,"** as in dat
 There are several good reasons. Put simply, because it lets people easily see and do things quickly with the data. Additionally, it allows for the creation of relationships between different fields of data. This is especially important when you get into relational databases.
 
 ## To get a grip on tabular data, we'll be answering the following questions:
-> From the given data frame:
+> _From the given data frame:_
 > 
 > **Question 1:** <br />
 > Generate (1) a one-way table for "purchased" and (2) a two-way table for "country" and "purchased." <br />
