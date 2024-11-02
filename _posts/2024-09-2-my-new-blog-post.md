@@ -100,3 +100,20 @@ Gears  4  6  8 Sum
   5    2  1  2   5
   Sum 11  7 14  32
 ```
+## Question 2.2:
+From here, we can: add the `prop.tables()` function and report on the proportional weight of each value in the "mtcars_df" table, as instructed.
+```R
+# Proportional table for mtcars_df
+mtcars_df_prop <- prop.table(mtcars_df)
+print(mtcars_df_prop)
+```
+Which gives the output:
+```R
+> print(mtcars_df_prop)
+     Cylinders
+Gears       4       6       8
+    3 0.03125 0.06250 0.37500
+    4 0.25000 0.12500 0.00000
+    5 0.06250 0.03125 0.06250
+```
+Looking much better than when we started, right? This is just a basic taste of how powerful analyzing tabular data can be with R.
