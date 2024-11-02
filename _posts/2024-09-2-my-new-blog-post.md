@@ -66,4 +66,13 @@ Which gives us the output:
 Nice. As you can see, a one-way or a two-way table have different applications and can tell us different things depending on what we'd like to know about our data. In other words, a two-way table lets you see relationships between two variables, while a one-way table summarizes only one variable.
 
 ## Question 2.
+## Here, we'll be generating a contingency table using the mtcars dataset. 
+Yep, there's `mtcars` again. And we're even given a starting point in `R`:
+```R
+data(mtcars)
+mtcars_df <- table(mtcars$gear, mtcars$cyl, dnn = c("Gears", "Cylinders"))
+```
+## Question 2.1:
+**Add the addmargins() function to report on the sum totals of the rows and columns of the "mtcars_df" table.**
+
 
