@@ -28,5 +28,17 @@ Not very pleasing to the eye, if I'm honest. Just looking at the data in this fo
 ## This is where tables come in.
 Thankfully, R makes this very easy for us. We can use the `table()` function to put the data in a format that is more readable and useful to us.
 
+A **one-way table** is a very basic kind of table that we can start with to display this data coherently:
+```R
+# Create one-way table for "purchased"
+one_way_table <- table(df$purchased)
+print(one_way_table)
+```
+Doing so yields the output:
+```R
+> print(one_way_table)
 
-
+ No Yes 
+  5   5 
+> 
+```
