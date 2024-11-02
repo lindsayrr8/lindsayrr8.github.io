@@ -42,3 +42,12 @@ Doing so yields the output:
   5   5 
 > 
 ```
+Pretty simple, right? Much more readable, too. In a nutshell, the `table()` function takes one or more vectors and counts the occurrences of each unique value in a given column, depending on what you specify. Putting the data into a table like this is called **tabulating.**
+
+
+
+
+
+
+
+Speaking of more vectors, we can also use `table()` to create a two-way table:
