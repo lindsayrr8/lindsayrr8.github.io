@@ -46,7 +46,7 @@ Pretty simple, right? Much more readable, too. Putting the data into a table lik
 
 In a nutshell, the `table()` function takes one or more vectors and counts the occurrences of each unique value in a given column, depending on what you specify.
 
-And speaking of more vectors, we can also use `table()` to create a two-way table:
+And speaking of more vectors, we can also use `table()` to create a **two-way table:**
 ```R
 # Create two-way table for "country" and "purchased"
 two_way_table <- table(df$country, df$purchased)
@@ -62,7 +62,7 @@ Which gives us the output:
   Spain    2   1
 > 
 ```
-
+Nice. As you can see, a one-way or a two-way table have different applications and can tell us different things depending on what we'd like to know about our data. In other words, a two-way table lets you see relationships between two variables, while a one-way table only summarizes one variable.
 
 
 
