@@ -15,6 +15,7 @@ There are several good reasons. Put simply, because it lets people easily see an
 > **2.1** Add the addmargins() function to report on the sum totals of the rows and columns of "mtcars_df" table <br />
 > **2.2** Add prop.tables() function, and report on the proportional weight of each value in the "mtcars_df" table <br />
 
+## Question 1.
 The data frame we already have to work with is:
 ```R
 df <- data.frame(
@@ -64,5 +65,5 @@ Which gives us the output:
 ```
 Nice. As you can see, a one-way or a two-way table have different applications and can tell us different things depending on what we'd like to know about our data. In other words, a two-way table lets you see relationships between two variables, while a one-way table summarizes only one variable.
 
-
+## Question 2.
 
