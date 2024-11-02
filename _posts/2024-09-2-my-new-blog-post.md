@@ -73,6 +73,15 @@ data(mtcars)
 mtcars_df <- table(mtcars$gear, mtcars$cyl, dnn = c("Gears", "Cylinders"))
 ```
 ## Question 2.1:
-**Add the addmargins() function to report on the sum totals of the rows and columns of the "mtcars_df" table.**
+The instructions say to: add the addmargins() function to report on the sum totals of the rows and columns of the "mtcars_df" table.
 
+Okay, fortunately for us there's also a function for that. To do so, we can use `addmargins()`:
+```R
+# Add margins to show row and column totals
+mtcars_df_with_margins <- addmargins(mtcars_df)
+print(mtcars_df_with_margins)
+```
+And if we check out the result, this is what we get:
+```R
 
+```
