@@ -117,3 +117,9 @@ Gears       4       6       8
     5 0.06250 0.03125 0.06250
 ```
 Looking much better than when we started, right? This is just a basic taste of how powerful analyzing tabular data can be with R.
+
+## Interpreting the results:
+A few glances at the data can tell us several things:
+- Cars with 3 gears and 8 cylinders occupy the largest proportion of the data set at 37.5%.
+- Cars with 4 gears and 4 cylinders are also common, making up 25%.
+- There are no cars that have 4 gears and 8 cylinders. This definitely checks out.
