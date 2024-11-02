@@ -15,7 +15,7 @@ There are several good reasons. Put simply, because it lets people easily see an
 > **2.1** Add the addmargins() function to report on the sum totals of the rows and columns of "mtcars_df" table <br />
 > **2.2** Add prop.tables() function, and report on the proportional weight of each value in the "mtcars_df" table <br />
 
-The data frame we have to work with is:
+The data frame we already have to work with is:
 ```R
 df <- data.frame(
   country = c("France", "Spain", "Germany", "Spain", "Germany", "France", "Spain", "France", "Germany", "France"),
