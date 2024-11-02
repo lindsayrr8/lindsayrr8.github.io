@@ -42,12 +42,27 @@ Doing so yields the output:
   5   5 
 > 
 ```
-Pretty simple, right? Much more readable, too. In a nutshell, the `table()` function takes one or more vectors and counts the occurrences of each unique value in a given column, depending on what you specify. Putting the data into a table like this is called **tabulating.**
+Pretty simple, right? Much more readable, too. Putting the data into a table like this is called **tabulating.**
+
+In a nutshell, the `table()` function takes one or more vectors and counts the occurrences of each unique value in a given column, depending on what you specify.
+
+And speaking of more vectors, we can also use `table()` to create a two-way table:
+```R
+# Create two-way table for "country" and "purchased"
+two_way_table <- table(df$country, df$purchased)
+print(two_way_table)
+```
+Which gives us the output:
+```R
+> print(two_way_table)
+         
+          No Yes
+  France   1   3
+  Germany  2   1
+  Spain    2   1
+> 
+```
 
 
 
 
-
-
-
-Speaking of more vectors, we can also use `table()` to create a two-way table:
