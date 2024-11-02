@@ -62,7 +62,7 @@ Which gives us the output:
   Spain    2   1
 > 
 ```
-Nice. As you can see, a one-way or a two-way table have different applications and can tell us different things depending on what we'd like to know about our data. In other words, a two-way table lets you see relationships between two variables, while a one-way table only summarizes one variable.
+Nice. As you can see, a one-way or a two-way table have different applications and can tell us different things depending on what we'd like to know about our data. In other words, a two-way table lets you see relationships between two variables, while a one-way table summarizes only one variable.
 
 
 
