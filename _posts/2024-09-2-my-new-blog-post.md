@@ -72,6 +72,15 @@ Yep, there's `mtcars` again. And we're even given a starting point in `R`:
 data(mtcars)
 mtcars_df <- table(mtcars$gear, mtcars$cyl, dnn = c("Gears", "Cylinders"))
 ```
+Which, by default, outputs the table:
+```R
+> mtcars_df
+     Cylinders
+Gears  4  6  8
+    3  1  2 12
+    4  8  4  0
+    5  2  1  2
+```
 ## Question 2.1:
 The instructions say to: add the addmargins() function to report on the sum totals of the rows and columns of the "mtcars_df" table.
 
@@ -83,5 +92,11 @@ print(mtcars_df_with_margins)
 ```
 And if we check out the result, this is what we get:
 ```R
-
+> print(mtcars_df_with_margins)
+     Cylinders
+Gears  4  6  8 Sum
+  3    1  2 12  15
+  4    8  4  0  12
+  5    2  1  2   5
+  Sum 11  7 14  32
 ```
