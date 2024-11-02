@@ -6,7 +6,12 @@ There are several good reasons. Put simply, because it lets people easily see an
 
 ## To get a grip on tabular data, we'll be answering the following questions:
 > From the given data frame:
+> Question 1:
 > Generate (1) a one-way table for "purchased" and (2) a two-way table for "country" and "purchased."
+> Question 2:
+> Generate a contingency table, also known as rx C table, using the mtcars dataset.
+> 2.1 Add the addmargins() function to report on the sum totals of the rows and columns of "mtcars_df" table
+> 2.2 Add prop.tables() function, and report on the proportional weight of each value in the "mtcars_df" table
 
 The data frame we have to work with is:
 ```R
@@ -19,3 +24,7 @@ df <- data.frame(
 Not very pleasing to the eye, if I'm honest. Just looking at the data in this form, it's cumbersome and time consuming to try to gleam insights about it.
 
 ## This is where tables come in.
+Thankfully, R makes this very easy for us. We can use the `table()` function to put the data in a format that is more readable and useful to us.
+
+
+
