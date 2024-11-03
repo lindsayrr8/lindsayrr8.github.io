@@ -125,7 +125,7 @@ The model shows that height is a strongly significant predictor of age, while we
 # Question 2:
 For this, we're instructed to log-transform the birth weight, the abdominal, and the biparietal diameters, and build regression models using the "secher" dataset.
 
-To start, we'll import the requested dataset:
+## To start, we'll import the requested dataset:
 ```R
 # Load the dataset
 data("secher")
