@@ -73,7 +73,33 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 - **F value:** height has an F value of 145.4600, indicating a very strong relationship with age. Weight has an F value of 3.1583, which is weaker. Sex has a low F value of 0.0001, indicating no relationship.
 - **Pr(>F) (P-value):** Height has a very small p-value of 6.634e-11, indicating that height is highly significant in predicting age. Weight has a p-value of 0.09003, which is marginally significant. Sex has a p-value of 0.99283, indicating that sex does not significantly affect age.
 
+#### All this seems logical. Let's see what happens when we focus solely on our coefficients and significance with the `summary()` function:
+```R
+> # Check coefficients and significance
+> summary(model)
 
+Call:
+lm(formula = age ~ height + weight + sex, data = cystfibr)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.9270 -1.1129 -0.3369  0.8373  4.1802 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)   
+(Intercept) -11.040546   5.204316  -2.121  0.04595 * 
+height        0.142149   0.046302   3.070  0.00581 **
+weight        0.098872   0.055856   1.770  0.09122 . 
+sex           0.007107   0.781185   0.009  0.99283   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.903 on 21 degrees of freedom
+Multiple R-squared:  0.8762,	Adjusted R-squared:  0.8585 
+F-statistic: 49.54 on 3 and 21 DF,  p-value: 1.061e-09
+
+> 
+```
 
 
 
