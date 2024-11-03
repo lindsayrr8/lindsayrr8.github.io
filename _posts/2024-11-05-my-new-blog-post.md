@@ -50,7 +50,21 @@ Sweet. This looks pretty familiar by now. Now we simply pass our model to `anova
 anova_results <- anova(model)
 print(anova_results)
 ```
+...which gives us the output:
+```R
+> print(anova_results)
+Analysis of Variance Table
 
+Response: pemax
+          Df  Sum Sq Mean Sq F value    Pr(>F)    
+age        1 10098.5 10098.5 18.4385 0.0003538 ***
+weight     1   945.2   945.2  1.7258 0.2038195    
+bmp        1  2379.7  2379.7  4.3450 0.0501483 .  
+fev1       1  2455.6  2455.6  4.4836 0.0469468 *  
+Residuals 20 10953.7   547.7                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+```
 
 
 
