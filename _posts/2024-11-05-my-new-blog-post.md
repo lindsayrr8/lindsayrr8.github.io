@@ -123,6 +123,15 @@ This is the predicted value of age when all independent variables (height, weigh
 The model shows that height is a strongly significant predictor of age, while weight may have a weak influence, and sex has essentially no influence. That checks out.
 
 # Question 2:
+For this, we're instructed to log-transform the birth weight, the abdominal, and the biparietal diameters, and build regression models using the "secher" dataset.
+
+To start, we'll import the requested dataset:
+```R
+# Load the dataset
+data("secher")
+# Initial view of dataset
+head(secher)
+```
 
 
 
