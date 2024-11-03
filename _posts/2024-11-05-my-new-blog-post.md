@@ -73,7 +73,7 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 - **F value:** height has an F value of 145.4600, indicating a very strong relationship with age. Weight has an F value of 3.1583, which is weaker. Sex has a low F value of 0.0001, indicating no relationship.
 - **Pr(>F) (P-value):** Height has a very small p-value of 6.634e-11, indicating that height is highly significant in predicting age. Weight has a p-value of 0.09003, which is marginally significant. Sex has a p-value of 0.99283, indicating that sex does not significantly affect age.
 
-All this seems logical. Let's see what happens when we focus solely on our coefficients and significance with the `summary()` function:
+All this seems logical. Let's see what happens when we focus solely on our **coefficients** and **significance** with the `summary()` function:
 ```R
 > # Check coefficients and significance
 > summary(model)
@@ -100,6 +100,28 @@ F-statistic: 49.54 on 3 and 21 DF,  p-value: 1.061e-09
 
 > 
 ```
+
+As for **Residuals:**
+- These values indicate how the residuals are distributed:
+- **Min:** -2.9270
+- **1Q (First Quartile):** -1.1129
+- **Median:** -0.3369
+- **3Q (Third Quartile):** 0.8373
+- **Max:** 4.1802
+The distribution seems to be fairly symmetric, meaning the model fits the data well enough.
+
+As for **Coefficients:**
+- **(Intercept):**
+**Estimate:** -11.040546
+This is the predicted value of age when all independent variables (height, weight, sex) are zero. However, this interpretation is not practically meaningful because no one can have a height of -11 in the real world.
+- **Significance:** p-value of 0.04595 indicates that the intercept is very nearly statistically significant at the 0.05 level.
+- As for **height:** this tells us more of the same; it suggests that for each one-unit increase in height, age is expected to increase by approximately 0.142 years, holding weight and sex constant. In other words, height is a significant predictor of age. Who'd've thunk it?
+- As for **weight:** weight is also suggests that for each one-unit increase in weight, age is expected to increase by about 0.099 years, holding height and sex constant. In other words, weight increases with age. That makes sense. At a p-value of ~0.09, there is not enough significance for interest.
+- As for **sex:** it seems consistent throughout the data that sex does not have much to do with predicted age.
+
+## Concluding thoughts:
+The model shows that height is a strongly significant predictor of age, while weight may have a weak influence, and sex has essentially no influence. That checks out.
+
 
 
 
