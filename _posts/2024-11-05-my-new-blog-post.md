@@ -10,3 +10,47 @@ To experiment with multivariate analysis with R, we're tasked with answering the
 > The secher data("secher") are best analyzed after log-transforming birth weight as well as the abdominal and biparietal diameters. Fit a prediction weight as well as abdominal and biparietal diameters. For a prediction equation for birth weight. How much is gained by using both diameters in a prediction equation? The sum of the two regression coefficients is almost identical and equal to 3. Can this be given a nice interpretation to our analysis?
 Please provide step by step on your analysis and code you use to find out the result.
 > 
+As always, we'll be letting `R` handle all of the heavy lifting.
+## Question 1.
+To begin conducting an ANOVA and regression analysis on `cystfibr`, we first load it into our `R` library and take our initial look at it:
+```R
+# Load in cystfibr dataset
+library(ISwR)
+data("cystfibr")
+
+# Inspect dataset
+str(cystfibr)
+```
+And peeking at `cystfibr` reveals the following output:
+```R
+> # Inspect dataset
+> str(cystfibr)
+'data.frame':	25 obs. of  10 variables:
+ $ age   : int  7 7 8 8 8 9 11 12 12 13 ...
+ $ sex   : int  0 1 0 1 0 0 1 1 0 1 ...
+ $ height: int  109 112 124 125 127 130 139 150 146 155 ...
+ $ weight: num  13.1 12.9 14.1 16.2 21.5 17.5 30.7 28.4 25.1 31.5 ...
+ $ bmp   : int  68 65 64 67 93 68 89 69 67 68 ...
+ $ fev1  : int  32 19 22 41 52 44 28 18 24 23 ...
+ $ rv    : int  258 449 441 234 202 308 305 369 312 413 ...
+ $ frc   : int  183 245 268 146 131 155 179 198 194 225 ...
+ $ tlc   : int  137 134 147 124 104 118 119 103 128 136 ...
+ $ pemax : int  95 85 100 85 95 80 65 110 70 95 ...
+```
+It seems there are multiple variables at play that we could work with. Since we have our pick, let's go for a wildcard and analyze `pemax`, `age`, `weight`, `bmp`, and `fev1`. In this case, `pemax` is the dependent variable and the others are the independent variables. In other words, we're going to try to predict `pemax` based on `age`, `weight`, `bmp`, and `fev1`.
+
+### To translate that into R, we'll be creating our linear model:
+```R
+# Fit a linear model
+model <- lm(pemax ~ age + weight + bmp + fev1, data = cystfibr)
+```
+Sweet. This looks pretty familiar by now. Now we simply pass our model to `anova()`:
+```R
+# ANOVA test 
+anova_results <- anova(model)
+print(anova_results)
+```
+
+
+
+
