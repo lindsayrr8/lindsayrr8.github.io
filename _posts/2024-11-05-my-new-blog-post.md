@@ -145,7 +145,7 @@ Taking a look at its structure reveals what we're working with:
 6 3500 100 110  6
 ```
 ## Cool. What is a log-transformation and why do we use it?
-Essentially, a log-transformation means we take the logarithm of each value in a dataset, which "compresses" large numbers more than small ones. This helps when we have data with a wide range of values or a skewed distribution. Log-transforming makes the data more evenly distributed, so our analysis and predictions can become more reliable.
+Essentially, a log-transformation means we take the **logarithm** of each value in a dataset, which **"compresses" large numbers** more than small ones. This helps when we have data with a wide range of values or a skewed distribution. Log-transforming makes the data more evenly distributed, so our analysis and predictions can become more reliable.
 
 
 
