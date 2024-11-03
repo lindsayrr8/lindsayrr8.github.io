@@ -73,7 +73,7 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 - **F value:** height has an F value of 145.4600, indicating a very strong relationship with age. Weight has an F value of 3.1583, which is weaker. Sex has a low F value of 0.0001, indicating no relationship.
 - **Pr(>F) (P-value):** Height has a very small p-value of 6.634e-11, indicating that height is highly significant in predicting age. Weight has a p-value of 0.09003, which is marginally significant. Sex has a p-value of 0.99283, indicating that sex does not significantly affect age.
 
-#### All this seems logical. Let's see what happens when we focus solely on our coefficients and significance with the `summary()` function:
+All this seems logical. Let's see what happens when we focus solely on our coefficients and significance with the `summary()` function:
 ```R
 > # Check coefficients and significance
 > summary(model)
