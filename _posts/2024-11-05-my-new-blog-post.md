@@ -11,7 +11,7 @@ To experiment with multivariate analysis with R, we're tasked with answering the
 Please provide step by step on your analysis and code you use to find out the result.
 > 
 As always, we'll be letting `R` handle all of the heavy lifting.
-## Question 1.
+# Question 1.
 To begin conducting an ANOVA and regression analysis on `cystfibr`, we first load it into our `R` library and take our initial look at it:
 ```R
 # Load in cystfibr dataset
@@ -122,6 +122,7 @@ This is the predicted value of age when all independent variables (height, weigh
 ## Concluding thoughts:
 The model shows that height is a strongly significant predictor of age, while weight may have a weak influence, and sex has essentially no influence. That checks out.
 
+# Question 2:
 
 
 
