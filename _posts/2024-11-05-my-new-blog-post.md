@@ -44,7 +44,7 @@ It seems there are multiple variables at play that we could work with. Since we 
 # Fit a linear model
 model <- lm(age ~ height + weight + sex, data = cystfibr)
 ```
-Sweet. This looks pretty familiar by now. Now we simply pass our model to `anova()`:
+Sweet. This looks pretty familiar by now. Then we simply pass our model to `anova()`:
 ```R
 # ANOVA test 
 anova_results <- anova(model)
