@@ -114,7 +114,7 @@ As for **Coefficients:**
 - **(Intercept):**
 **Estimate:** -11.040546
 This is the predicted value of age when all independent variables (height, weight, sex) are zero. However, this interpretation is not practically meaningful because no one can have a height of -11 in the real world.
-- **Significance:** p-value of 0.04595 indicates that the intercept is very nearly statistically significant at the 0.05 level.
+- **Significance:** p-value of 0.04595 indicates that the intercept is statistically significant at the 0.05 level.
 - As for **height:** this tells us more of the same; it suggests that for each one-unit increase in height, age is expected to increase by approximately 0.142 years, holding weight and sex constant. In other words, height is a significant predictor of age. Who'd've thunk it?
 - As for **weight:** weight is also suggests that for each one-unit increase in weight, age is expected to increase by about 0.099 years, holding height and sex constant. In other words, weight increases with age. That makes sense. At a p-value of ~0.09, there is not enough significance for interest.
 - As for **sex:** it seems consistent throughout the data that sex does not have much to do with predicted age.
