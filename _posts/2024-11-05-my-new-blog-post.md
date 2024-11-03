@@ -147,6 +147,14 @@ Taking a look at its structure reveals what we're working with:
 ## Cool. What is a log-transformation and why do we use it?
 Essentially, a log-transformation means we take the **logarithm** of each value in a dataset, which **"compresses" large numbers** more than small ones. This helps when we have data with a wide range of values or a skewed distribution. Log-transforming makes the data more evenly distributed, so our analysis and predictions can become more reliable.
 
+Lucky for us, `R` offers a pre-packaged `log()` function that we can use to do this quickly and easily.
+```R
+# Log transformation on variables
+secher$log_bwt <- log(secher$bwt)
+secher$log_ad <- log(secher$ad)
+secher$log_bpd <- log(secher$bpd)
+```
+In English, these read: from the `secher` dataset, take the specified column and use `log()` to create a new column with the resulting values. Store the results in the original dataset in new columns that are named with "log" tacked on, respectively.
 
 
 
