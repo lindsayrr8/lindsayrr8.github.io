@@ -169,7 +169,8 @@ Splendid. Now that we've done that, we can run `head(secher)` to check out our r
 ```
 ...And there's our new columns. Well done.
 
-Now, we can use the data we calculated to create our new linear models. The first one will be a simple single-predictor model. We will do one of each for both `log(ad)` and `log(bpd)`.
+## Now, we can use the data we calculated to create our new linear models.
+The first one will be a simple **single-predictor model.** We will do one of each for both `log(ad)` and `log(bpd)`.
 ```R
 # Create log ad predictor model
 model_ad <- lm(log_bwt ~ log_ad, data = secher)
@@ -178,6 +179,56 @@ summary(model_ad)
 model_bpd <- lm(log_bwt ~ log_bpd, data = secher)
 summary(model_bpd)
 ```
-Here, we're checking to see how well `log_bwt` can be predicted by either `log_ad` or `log_bpd`.
+Here, we're checking to see how well `log_bwt` can be predicted by either `log_ad` or `log_bpd`. And it results in the following output:
+```R
+> # Create log ad predictor model
+> model_ad <- lm(log_bwt ~ log_ad, data = secher)
+> summary(model_ad)
+
+Call:
+lm(formula = log_bwt ~ log_ad, data = secher)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.58560 -0.06609  0.00184  0.07479  0.48435 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  -2.4446     0.5103  -4.791 5.49e-06 ***
+log_ad        2.2365     0.1105  20.238  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1275 on 105 degrees of freedom
+Multiple R-squared:  0.7959,	Adjusted R-squared:  0.794 
+F-statistic: 409.6 on 1 and 105 DF,  p-value: < 2.2e-16
+```
+A brief, simple takeaway from this result is that a higher `log_ad` generally predicts a higher `log_bwt`. Since the p-value for log_ad is well below 0.05, we can say with high confidence that abdominal diameter is a significant predictor of birth weight in this model. Our low residual standard error value and R-squared value of about ~80% also indicate that our model is a good fit for the data.
+
+As for `log_bpd`, we get the output:
+```R
+> # Create log bpd predictor model
+> model_bpd <- lm(log_bwt ~ log_bpd, data = secher)
+> summary(model_bpd)
+
+Call:
+lm(formula = log_bwt ~ log_bpd, data = secher)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.36478 -0.09725  0.01251  0.07703  0.51154 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  -7.0862     0.9062  -7.819 4.35e-12 ***
+log_bpd       3.3320     0.2017  16.516  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1488 on 105 degrees of freedom
+Multiple R-squared:  0.7221,	Adjusted R-squared:  0.7194 
+F-statistic: 272.8 on 1 and 105 DF,  p-value: < 2.2e-16
+```
+This boils down to a larger `bpd` generally predicting a higher `bwt`. The p-values here are also statistically significant. Our residual standard error is is slightly higher than the previous model, which still suggests that the model is a reasonably good fit. Our R-squared of about ~72% also shows that there is still a strong relationship, although not as high as in the previous model.
 
 
