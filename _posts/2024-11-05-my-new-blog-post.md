@@ -132,7 +132,18 @@ data("secher")
 # Initial view of dataset
 head(secher)
 ```
-
+Taking a look at its structure reveals what we're working with:
+```R
+> # Initial view of dataset
+> head(secher)
+   bwt bpd  ad no
+1 2350  88  92  1
+2 2450  91  98  2
+3 3300  94 110  3
+4 1800  84  89  4
+5 2900  89  97  5
+6 3500 100 110  6
+```
 
 
 
