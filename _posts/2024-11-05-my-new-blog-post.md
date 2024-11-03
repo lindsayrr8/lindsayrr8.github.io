@@ -67,4 +67,14 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 ```
 ## Interpreting the ANOVA results:
+- **Df (degrees of freedom):** Each predictor (height, weight, sex) has 1 degree of freedom, while the residuals have 21 degrees of freedom.
+- **Sum Sq (Sum of Squares):** Height explains 526.76 of the variation in age, weight explains 11.44 of the variation, and sex explains 0.00, which indicates no variation in age associated with sex.
+- **Mean Sq (Mean Square):** Again, for height it is 526.76, for weight it is 11.44, and for sex it is 0.00.
+- **F value:** height has an F value of 145.4600, indicating a very strong relationship with age. Weight has an F value of 3.1583, which is weaker. Sex has a low F value of 0.0001, indicating no relationship.
+- **Pr(>F) (P-value):** Height has a very small p-value of 6.634e-11, indicating that height is highly significant in predicting age. Weight has a p-value of 0.09003, which is marginally significant. Sex has a p-value of 0.99283, indicating that sex does not significantly affect age.
+
+
+
+
+
 
