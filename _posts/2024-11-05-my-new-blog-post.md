@@ -263,3 +263,14 @@ F-statistic: 314.9 on 2 and 104 DF,  p-value: < 2.2e-16
 ```
 
 ## Interpreting the combined results:
+The coefficients all seem to indicate statistical significance. The result is that both predictors are significant. In terms of residuals, the model shows that it is a good fit for the data.
+
+The standard residual error value is small. The multiple R-squared and adjusted R-squared are also both about ~85%, indicating that the vast majority of the variance in `log_bwt` is explained by  the combined effects of `log_ad` and `log_bpd`.
+
+The F-statistic's very low p-value also indicates that the model, including both predictors, significantly improves predictions of log_bwt compared to a model with no predictors. That's pretty strong support for the combined predictive power of `log_ad` and `log_bpd.`
+
+## Concluding thoughts
+- Both abdominal and biparietal diameters have a meaningful and statistically significant relationship with birth weight.
+- The sum of the coefficients for `log_ad` (about 1.47) and `log_bpd` (about 1.55) is close to 3. This means that when they increase together, the combined effect on `log_bwt` is roughly a 3-unit increase per 1-unit increase in both predictors.
+- Therefore, both variables contribute meaningfully and independently to the outcome.
+
