@@ -231,4 +231,35 @@ F-statistic: 272.8 on 1 and 105 DF,  p-value: < 2.2e-16
 ```
 This boils down to a larger `bpd` generally predicting a higher `bwt`. The p-values here are also statistically significant. Our residual standard error is is slightly higher than the previous model, which still suggests that the model is a reasonably good fit. Our R-squared of about ~72% also shows that there is still a strong relationship, although not as high as in the previous model.
 
+## Why not both?
+Actually, we can do both. And it might give us a more accurate overall model. We can set it up like this:
+```R
+# Create model including both to predict log(bwt)
+model_combined <- lm(log_bwt ~ log_ad + log_bpd, data = secher)
+summary(model_combined)
+```
+Running the summary of our new, combined model results in:
+```R
+> summary(model_combined)
 
+Call:
+lm(formula = log_bwt ~ log_ad + log_bpd, data = secher)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.35074 -0.06741 -0.00792  0.05750  0.36360 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  -5.8615     0.6617  -8.859 2.36e-14 ***
+log_ad        1.4667     0.1467   9.998  < 2e-16 ***
+log_bpd       1.5519     0.2294   6.764 8.09e-10 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1068 on 104 degrees of freedom
+Multiple R-squared:  0.8583,	Adjusted R-squared:  0.8556 
+F-statistic: 314.9 on 2 and 104 DF,  p-value: < 2.2e-16
+```
+
+## Interpreting the combined results:
