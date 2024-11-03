@@ -156,6 +156,28 @@ secher$log_bpd <- log(secher$bpd)
 ```
 In English, these read: from the `secher` dataset, take the specified column and use `log()` to create a new column with the resulting values. Store the results in the original dataset in new columns that are named with "log" tacked on, respectively.
 
+Splendid. Now that we've done that, we can run `head(secher)` to check out our result:
+```R
+> head(secher)
+   bwt bpd  ad no  log_bwt   log_ad  log_bpd
+1 2350  88  92  1 7.762171 4.521789 4.477337
+2 2450  91  98  2 7.803843 4.584967 4.510860
+3 3300  94 110  3 8.101678 4.700480 4.543295
+4 1800  84  89  4 7.495542 4.488636 4.430817
+5 2900  89  97  5 7.972466 4.574711 4.488636
+6 3500 100 110  6 8.160518 4.700480 4.605170
+```
+...And there's our new columns. Well done.
 
+Now, we can use the data we calculated to create our new linear models. The first one will be a simple single-predictor model. We will do one of each for both `log(ad)` and `log(bpd)`.
+```R
+# Create log ad predictor model
+model_ad <- lm(log_bwt ~ log_ad, data = secher)
+summary(model_ad)
+# Create log bpd predictor model
+model_bpd <- lm(log_bwt ~ log_bpd, data = secher)
+summary(model_bpd)
+```
+Here, we're checking to see how well `log_bwt` can be predicted by either `log_ad` or `log_bpd`.
 
 
