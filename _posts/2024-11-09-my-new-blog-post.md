@@ -219,5 +219,8 @@ model.matrix(~ a * b)
 # Fit model
 lm(z ~ a * b)
 ```
+Our resulting matrix includes 4 columns for intercept, main effect for `a`, main effect for `b`, and the interaction of `a:b`. All this is to show how these impact `z`. If any columns are dropped in the output we get for model summary, it implies that the interaction `a:b` or a main effect for either `a` or `b` isn’t providing unique information in the presence of other terms.
+
+
 
 
