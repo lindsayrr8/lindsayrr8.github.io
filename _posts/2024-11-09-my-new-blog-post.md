@@ -208,7 +208,7 @@ The line `gl(2, 4, 8)` does the same thing, but with 2 levels that are repeated 
 
 After creating a sequence of 1 to 8, we assign `y` as a vector that combines `1, 2, 3, 4` with `8, 7, 6, 5`. Then, using our vector `z`, `rnorm()` generates 8 random numbers from a standard normal distribution. 
 
-Now, our task is to create model matrices for two models:
+## Now, our task is to create model matrices for two models:
 1. z ~ a * b: Model with both main effects (a, b) and the interaction (a:b).
 2. z ~ a:b: Model with only the interaction term.
 
