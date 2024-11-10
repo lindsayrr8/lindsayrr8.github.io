@@ -253,5 +253,14 @@ Coefficients:
 (Intercept)           a2           b2        a2:b2  
     -0.3843      -0.4482       0.5999      -0.8361  
 ```
+It looks like there was no redundancy or "singularity" in our output, so nothing was dropped. The negative sign on the interaction term output for `a:b` suggests that when combined, the effects at level 2 are smaller than expected than the sum of just the individual effects of `a` and `b` themselves. This means something isn't quite right about `a` and `b` influencing `z`.
+
+Brilliant. Let's move on to assessing model number 2:
+```R
+# Generate model matrix
+model.matrix(~ a:b)
+# Fit model
+lm(z ~ a:b)
+```
 
 
