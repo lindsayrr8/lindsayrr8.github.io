@@ -1,4 +1,4 @@
-# Additive Regression and Basic Model Matrices with R
+# Additive Regression and Model Matrices with R
 
 This week, we're given the following prompt utilizing the `ashina` data frame in `R`:
 > **Question 1.** 10.1 <br />
