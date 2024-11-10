@@ -221,6 +221,37 @@ lm(z ~ a * b)
 ```
 Our resulting matrix includes 4 columns for intercept, main effect for `a`, main effect for `b`, and the interaction of `a:b`. All this is to show how these impact `z`. If any columns are dropped in the output we get for model summary, it implies that the interaction `a:b` or a main effect for either `a` or `b` isn’t providing unique information in the presence of other terms.
 
+we can then interpret a few insights from the output of our model matrix:
+```R
+> # Generate model matrix
+> model.matrix(~ a * b)
+  (Intercept) a2 b2 a2:b2
+1           1  0  0     0
+2           1  0  0     0
+3           1  1  0     0
+4           1  1  0     0
+5           1  0  1     0
+6           1  0  1     0
+7           1  1  1     1
+8           1  1  1     1
+attr(,"assign")
+[1] 0 1 2 3
+attr(,"contrasts")
+attr(,"contrasts")$a
+[1] "contr.treatment"
 
+attr(,"contrasts")$b
+[1] "contr.treatment"
+
+> # Fit model
+> lm(z ~ a * b)
+
+Call:
+lm(formula = z ~ a * b)
+
+Coefficients:
+(Intercept)           a2           b2        a2:b2  
+    -0.3843      -0.4482       0.5999      -0.8361  
+```
 
 
