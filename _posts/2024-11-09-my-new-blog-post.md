@@ -106,7 +106,7 @@ At first glance, there are a few takeaways:
 
 In other words, it seems the model has some explanatory power, but some predictors aren't significantly contributing to predicting the outcome.
 
-## Comparing these results to t-tests
+## Running t-tests on the data
 To run t-tests on the two data sets, we simply use R's built-in `t.test()` function:
 ```R
 # Compare the results with t-tests
@@ -115,5 +115,49 @@ t.test(vas ~ treat, data = full_data)
 # For subjects' period effects
 t.test(vas ~ period, data = full_data)
 ```
+And running this block of code gives the results of our t-tests:
+```R
+> # Compare the results with t-tests
+> # For active treatment vs placebo
+> t.test(vas ~ treat, data = full_data)
+
+	Welch Two Sample t-test
+
+data:  vas by treat
+t = 2.4699, df = 24.063, p-value = 0.02099
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+  7.052494 78.697506
+sample estimates:
+mean in group 0 mean in group 1 
+       -13.9375        -56.8125 
+
+> # For subjects' period effects
+> t.test(vas ~ period, data = full_data)
+
+	Welch Two Sample t-test
+
+data:  vas by period
+t = -1.8995, df = 29.872, p-value = 0.0672
+alternative hypothesis: true difference in means between group 1 and group 2 is not equal to 0
+95 percent confidence interval:
+ -64.613318   2.346651
+sample estimates:
+mean in group 1 mean in group 2 
+      -47.05000       -15.91667
+```
+
+## Given this output, we have a few primary takeaways:
+
+As for the treatment t-test:
+- The t and p values returned as statistically significant, which indicates a noticeable difference in `vas` scores between the treatment and placebo groups.
+- The mean vas score for the placebo group (group 0) is -13.94, and for the active treatment group (group 1), it’s -56.81. This implies that the active treatment generally has a lower `vas` score, which checks out with the additive model’s finding of a significant treatment effect.
+
+And the placebo t-test showed:
+- The t and p values seem to not be statistically significant. In other words, it suggests no significant difference between the `vas` scores over the two periods.
+- There is some observable difference between the means, but not enough to warrant statistical significance. 
+
+## Comparing the results of the additive model and the t-tests
+Overall, 
 
 
