@@ -212,6 +212,12 @@ After creating a sequence of 1 to 8, we assign `y` as a vector that combines `1,
 1. z ~ a * b: Model with both main effects (a, b) and the interaction (a:b).
 2. z ~ a:b: Model with only the interaction term.
 
-
+Thankfully, this has already been provided for us, so we only need to fit the models. Let's start with number 1:
+```R
+# Generate model matrix
+model.matrix(~ a * b)
+# Fit model
+lm(z ~ a * b)
+```
 
 
