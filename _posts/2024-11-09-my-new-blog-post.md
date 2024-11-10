@@ -212,7 +212,7 @@ After creating a sequence of 1 to 8, we assign `y` as a vector that combines `1,
 **1.** 	z ~ a * b: Model with both main effects (a, b) and the interaction (a:b). <br />
 **2.** 	z ~ a:b: Model with only the interaction term. <br />
 
-Thankfully, this has already been provided for us, so we only need to fit the models. Let's start with number 1:
+Thankfully, this has already been provided for us, so we only need to fit the models. **Let's start with number 1:**
 ```R
 # Generate model matrix
 model.matrix(~ a * b)
@@ -255,7 +255,7 @@ Coefficients:
 ```
 It looks like there was no redundancy or "singularity" in our output, so nothing was dropped. The negative sign on the interaction term output for `a:b` suggests that when combined, the effects at level 2 are smaller than expected than the sum of just the individual effects of `a` and `b` themselves. This means something isn't quite right about `a` and `b` influencing `z`.
 
-Brilliant. Let's move on to assessing model number 2:
+**Brilliant. Let's move on to assessing model number 2:**
 ```R
 # Generate model matrix
 model.matrix(~ a:b)
