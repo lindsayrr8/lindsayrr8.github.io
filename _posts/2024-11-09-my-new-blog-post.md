@@ -200,7 +200,7 @@ y <- c(1:4, 8:5)
 # Generates 8 random values from a normal distribution
 z <- rnorm(8)
 ```
-So what's happening here? Let's break it down.
+**So what's happening here? Let's break it down.**
 
 The `gl()` function in `R` generates factors by specifying levels and repetitions. For exmaple, `gl(2, 2, 8)` creates a factor `a` with 2 levels, each repeated until the total length is 8. The result looks like this on the inside: `a = 1, 1, 2, 2, 1, 1, 2, 2`
 
