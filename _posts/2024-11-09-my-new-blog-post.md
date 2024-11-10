@@ -158,6 +158,31 @@ And the placebo t-test showed:
 - There is some observable difference between the means, but not enough to warrant statistical significance. 
 
 ## Comparing the results of the additive model and the t-tests:
-Overall, 
+Overall, both the additive model and the t-test for treatment agree that treatment has a significant impact on `vas` scores. This supports the conclusion that treatment type (active vs. placebo) affects the outcome.
+
+The additive model excludes period due to redundancy, while the t-test results show a lack of statistical significance. Both methods indicate that period does not meaningfully contribute to explaining the `vas` outcome, aligning in their conclusions about period.
+
+# Question 2:
+> 10.3. <br />
+> Consider the following: <br />
+> a <- g1(2, 2, 8) # Creates factor with 2 levels, each repeated 2 times, length 8 <br />
+> b <- g1(2, 4, 8) # Creates factor with 2 levels, each repeated 4 times, length 8 <br />
+> x <- 1:8 <br />
+> y <- c(1:4, 8:5) <br />
+> z <- rnorm (8) <br />
+> 
+> Note: <br />
+> The rnorm() is a built-in R function that generates a vector of normally distributed random numbers. The rnorm() method takes a sample size as input and generates that many random numbers. <br />
+> 
+> Your assignment is to generate the model matrices for the models. <br />
+> 
+> z ~ a*b  #Model with interaction (a*b), <br />
+> z ~ a:b  #Model with only interaction term (a:b)). <br />
+> In your assignment, please discuss the implications. Please be reminded about the model fits and notice which models contain singularities. <br />
+> *Hint:* <br />
+> *We are looking for: model.matrix (~ a:b); lm (z ~ a:b)* <br />
+
+
+
 
 
