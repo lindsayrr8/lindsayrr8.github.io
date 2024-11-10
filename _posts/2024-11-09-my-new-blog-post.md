@@ -162,6 +162,7 @@ Overall, both the additive model and the t-test for treatment agree that treatme
 
 The additive model excludes period due to redundancy, while the t-test results show a lack of statistical significance. Both methods indicate that period does not meaningfully contribute to explaining the `vas` outcome, aligning in their conclusions about period.
 
+
 # Question 2:
 > 10.3. <br />
 > Consider the following: <br />
