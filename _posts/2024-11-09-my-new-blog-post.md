@@ -208,23 +208,48 @@ The line `gl(2, 4, 8)` does the same thing, but with 2 levels that are repeated 
 
 After creating a sequence of 1 to 8, we assign `y` as a vector that combines `1, 2, 3, 4` with `8, 7, 6, 5`. Then, using our vector `z`, `rnorm()` generates 8 random numbers from a standard normal distribution. 
 
-## Now, our task is to create model matrices for the two models:
+## Now, our task is to create two separate model matrices for the data:
 **1.** 	z ~ a * b: Model with both main effects (a, b) and the interaction (a:b). <br />
 **2.** 	z ~ a:b: Model with only the interaction term. <br />
 
-Thankfully, this has already been provided for us, so we only need to fit the models. **Let's start with number 1:**
+Thankfully, this has already been provided for us, so we only need to fit the models. We'll also be assigning what we get back to objects that we can call later. **Let's set up each step separately to suit the requirements for the exercise**
 ```R
-# Generate model matrix
-model.matrix(~ a * b)
-# Fit model
-lm(z ~ a * b)
+# Generate the model matrix for the full interaction model (a*b)
+full_model_matrix <- model.matrix(~ a * b)
+# View the model matrix for the full interaction model
+print(full_model_matrix)
+
+# Fit the full model (interaction and main effects)
+full_model <- lm(z ~ a * b)
+# View the summary stats for the full model
+summary(full_model)
+
+# Generate the model matrix for the interaction term only (a:b)
+interaction_matrix <- model.matrix(~ a:b)
+# View the model matrix for interaction only
+print(interaction_matrix)  
+
+# Fit the model with only the interaction term (a:b)
+interaction_model <- lm(z ~ a:b)
+# View the summary stats for the interaction-only model
+summary(interaction_model)
 ```
 Our resulting matrix includes 4 columns for intercept, main effect for `a`, main effect for `b`, and the interaction of `a:b`. All this is to show how these impact `z`. If any columns are dropped in the output we get, it implies that the interaction `a:b` or a main effect for either `a` or `b` isn’t providing unique information in the presence of other terms.
 
-We can then begin interpreting a few insights from the output of our model matrix:
+With our initial matrix created for the full interaction model, we can then create and examine subsequent models to compare how they overlap and measure in the presence or absence of the different conditions.
+
+In other words:
+- The first block represents the full model matrix.
+- The second block represents checking the fit of the full model.
+- The third block represents a secondary model matrix that covers only the interaction term (`a:b`).
+- The fourth block checks the fit of that model for just the interaction term (`a:b`).
+
+We can start by interpreting a few insights from the output of our initial, full model matrix:
 ```R
-> # Generate model matrix
-> model.matrix(~ a * b)
+> # Generate the model matrix for the full interaction model (a*b)
+> full_model_matrix <- model.matrix(~ a * b)
+> # View the model matrix for the full interaction model
+> print(full_model_matrix)
   (Intercept) a2 b2 a2:b2
 1           1  0  0     0
 2           1  0  0     0
@@ -242,25 +267,43 @@ attr(,"contrasts")$a
 
 attr(,"contrasts")$b
 [1] "contr.treatment"
+```
+It looks like there was no redundancy or "singularity" in our output, so nothing was dropped.
 
-> # Fit model
-> lm(z ~ a * b)
+So, let's get the summary stats and see how well the model fits:
+```R
+> # Fit the full model (interaction and main effects)
+> full_model <- lm(z ~ a * b)
+> # View the summary stats for the full model
+> summary(full_model)
 
 Call:
 lm(formula = z ~ a * b)
 
-Coefficients:
-(Intercept)           a2           b2        a2:b2  
-    -0.3843      -0.4482       0.5999      -0.8361  
-```
-It looks like there was no redundancy or "singularity" in our output, so nothing was dropped. The negative sign on the interaction term output for `a:b` suggests that when combined, the effects at level 2 are smaller than expected than the sum of just the individual effects of `a` and `b` themselves. This means something isn't quite right about `a` and `b` influencing `z`.
+Residuals:
+      1       2       3       4       5       6       7       8 
+-0.2135  0.2135 -0.3768  0.3768 -1.0315  1.0315 -0.3755  0.3755 
 
-**Brilliant. Let's move on to assessing model number 2:**
-```R
-# Generate model matrix
-model.matrix(~ a:b)
-# Fit model
-lm(z ~ a:b)
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept)   0.3587     0.5900   0.608   0.5761  
+a2           -1.7252     0.8344  -2.067   0.1075  
+b2           -0.9167     0.8344  -1.099   0.3336  
+a2:b2         2.6045     1.1801   2.207   0.0919 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8344 on 4 degrees of freedom
+Multiple R-squared:  0.5923,	Adjusted R-squared:  0.2866 
+F-statistic: 1.937 on 3 and 4 DF,  p-value: 0.2653
 ```
+A few quick insights from this output can tell us about the fit of this model. Given that our multiple R-squared comes back as 0.5923, this suggests that the model explains only about 59% of the variance for `z`. That's a moderate fit. Our p-value of 0.2653 also suggests that the model as a whole is not statistically significant. That indicates that the relationship between the predictors `a`, `b`, and their interaction for `z` is weak.
+
+**Brilliant. Let's move on to assessing the other model for the interaction only:**
+```R
+
+```
+
+
 
 
