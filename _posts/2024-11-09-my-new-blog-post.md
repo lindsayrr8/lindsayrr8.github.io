@@ -327,7 +327,27 @@ Again, it looks like nothing was dropped from our final output, so there is no "
 
 Right then, we can move on to checking the fit of this model from the summary:
 ```R
+> # View the summary stats for the interaction-only model
+> summary(interaction_model)
 
+Call:
+lm(formula = z ~ a:b)
+
+Residuals:
+      1       2       3       4       5       6       7       8 
+-0.2135  0.2135 -0.3768  0.3768 -1.0315  1.0315 -0.3755  0.3755 
+
+Coefficients: (1 not defined because of singularities)
+            Estimate Std. Error t value Pr(>|t|)
+(Intercept)  0.32134    0.59003   0.545    0.615
+a1:b1        0.03734    0.83444   0.045    0.966
+a2:b1       -1.68783    0.83444  -2.023    0.113
+a1:b2       -0.87937    0.83444  -1.054    0.351
+a2:b2             NA         NA      NA       NA
+
+Residual standard error: 0.8344 on 4 degrees of freedom
+Multiple R-squared:  0.5923,	Adjusted R-squared:  0.2866 
+F-statistic: 1.937 on 3 and 4 DF,  p-value: 0.2653
 ```
 
 
