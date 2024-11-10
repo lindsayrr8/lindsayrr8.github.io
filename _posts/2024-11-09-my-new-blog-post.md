@@ -183,6 +183,10 @@ The additive model excludes period due to redundancy, while the t-test results s
 > *Hint:* <br />
 > *We are looking for: model.matrix (~ a:b); lm (z ~ a:b)* <br />
 
+Alright, so our task is to generate model matrices. (If you're on your last surviving brain cell like I am, remember that a matrix is a two-dimensional data "table" which is set up in rows and columns.)
+
+In `R`, a model matrix is a tool that contains all the values of your independent variables from your data. Essentially, we use it because it makes complicated statistical calculations simpler and easier to work with. And we like simpler and easier!
+
 
 
 
