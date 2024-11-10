@@ -352,4 +352,4 @@ F-statistic: 1.937 on 3 and 4 DF,  p-value: 0.2653
 In this case, our multiple R-squared comes back again at 0.5923, meaning that about 59.23% of the variability in `z` can be explained by the interaction between `a` and `b`. Likewise, the same p-value as before is also not statistically significant.
 
 ## Conclusion
-Both models have essentially the same summary statistics. However, the first (full) model does not have singularities, while the second model (interaction term only) does have singularities. The model with singularities also makes interpreting coefficients inherently less reliable. Ultimately, the models also only seem to have moderate explanatory power and do not indicate that `a` and `b` have a strong relationship with `z`. 
+Both models have essentially the same summary statistics. However, the first (full) model does not have singularities, while the second model (interaction term only) does have singularities. The model with singularities also makes interpreting coefficients inherently less reliable. Ultimately, the models only seem to have moderate explanatory power and do not indicate that `a` and `b` have a strong relationship with `z`. 
