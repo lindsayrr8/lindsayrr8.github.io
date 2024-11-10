@@ -59,5 +59,40 @@ In English, our model says we're looking at the independent effects of the varia
 
 Running the summary provides us with the output:
 ```R
+> # Display a summary of the additive model
+> summary(additive_model)
 
+Call:
+lm(formula = vas ~ subject + treat + period, data = full_data)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-48.94 -18.44   0.00  18.44  48.94 
+
+Coefficients: (1 not defined because of singularities)
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  -113.06      27.39  -4.128 0.000895 ***
+subject2       51.50      37.58   1.370 0.190721    
+subject3      121.50      37.58   3.233 0.005573 ** 
+subject4       97.00      37.58   2.581 0.020867 *  
+subject5      125.00      37.58   3.326 0.004604 ** 
+subject6       31.50      37.58   0.838 0.415070    
+subject7      119.50      37.58   3.180 0.006215 ** 
+subject8      132.00      37.58   3.513 0.003142 ** 
+subject9       80.50      37.58   2.142 0.049003 *  
+subject10     116.00      37.58   3.087 0.007518 ** 
+subject11     121.50      37.58   3.233 0.005573 ** 
+subject12     154.50      37.58   4.111 0.000925 ***
+subject13     131.00      37.58   3.486 0.003318 ** 
+subject14     125.00      37.58   3.326 0.004604 ** 
+subject15      99.00      37.58   2.634 0.018768 *  
+subject16      80.50      37.58   2.142 0.049003 *  
+treat         -42.87      13.29  -3.227 0.005644 ** 
+period            NA         NA      NA       NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 37.58 on 15 degrees of freedom
+Multiple R-squared:  0.7566,	Adjusted R-squared:  0.4969 
+F-statistic: 2.914 on 16 and 15 DF,  p-value: 0.02229
 ```
