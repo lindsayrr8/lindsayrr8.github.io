@@ -301,9 +301,33 @@ A few quick insights from this output can tell us about the fit of this model. G
 
 ## Brilliant. Let's move on to assessing the other model for the interaction only:
 ```R
+> # Generate the model matrix for the interaction term only (a:b)
+> interaction_matrix <- model.matrix(~ a:b)
+> # View the model matrix for interaction only
+> print(interaction_matrix)  
+  (Intercept) a1:b1 a2:b1 a1:b2 a2:b2
+1           1     1     0     0     0
+2           1     1     0     0     0
+3           1     0     1     0     0
+4           1     0     1     0     0
+5           1     0     0     1     0
+6           1     0     0     1     0
+7           1     0     0     0     1
+8           1     0     0     0     1
+attr(,"assign")
+[1] 0 1 1 1 1
+attr(,"contrasts")
+attr(,"contrasts")$a
+[1] "contr.treatment"
+
+attr(,"contrasts")$b
+[1] "contr.treatment"
+```
+Again, it looks like nothing was dropped from our final output, so there is no "singularity."
+
+Right then, we can move on to checking the fit of this model from the summary:
+```R
 
 ```
-
-
 
 
