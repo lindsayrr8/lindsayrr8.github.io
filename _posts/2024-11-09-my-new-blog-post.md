@@ -187,7 +187,19 @@ Alright, so our task is to generate model matrices. (If you're on your last surv
 
 In `R`, a model matrix is a tool that contains all the values of your independent variables from your data. Essentially, we use it because it makes complicated statistical calculations simpler and easier to work with. And we like simpler and easier!
 
-
+## Our first step is to set up the factors and variables as instructed:
+```R
+# Creates factor with 2 levels, each repeated 2 times, length 8
+a <- gl(2, 2, 8)  
+b <- gl(2, 4, 8)
+# Creates factor with 2 levels, each repeated 4 times, length 8
+# Sequence from 1 to 8
+x <- 1:8        
+# Concatenates 1 to 4, followed by 8 to 5
+y <- c(1:4, 8:5)
+# Generates 8 random values from a normal distribution
+z <- rnorm(8)
+```
 
 
 
