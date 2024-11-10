@@ -57,4 +57,7 @@ summary(additive_model)
 ```
 In English, our model says we're looking at the independent effects of the variables (`subject`, `treat`, and `period`) on the dependent variable (`vas`).
 
+Running the summary provides us with the output:
+```R
 
+```
