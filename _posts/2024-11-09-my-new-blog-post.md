@@ -221,7 +221,7 @@ lm(z ~ a * b)
 ```
 Our resulting matrix includes 4 columns for intercept, main effect for `a`, main effect for `b`, and the interaction of `a:b`. All this is to show how these impact `z`. If any columns are dropped in the output we get, it implies that the interaction `a:b` or a main effect for either `a` or `b` isn’t providing unique information in the presence of other terms.
 
-we can then interpret a few insights from the output of our model matrix:
+We can then begin interpreting a few insights from the output of our model matrix:
 ```R
 > # Generate model matrix
 > model.matrix(~ a * b)
