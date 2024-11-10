@@ -1,7 +1,7 @@
 # Regression Modeling with R
 
 This week, we're given the following prompt utilizing the `ashina` data frame in `R`:
-> Question 1. 10.1 <br />
+> **Question 1.** 10.1 <br />
 Set up an additive model for the ashina data, as part of ISwR package <br />
 > This data contain additive effects on subjects, period and treatment. Compare the results with those obtained from t tests.
 
@@ -9,7 +9,7 @@ Putting it simply, an **additive model** is a statistical model where the effect
 
 In statistics-speak, an additive model is a **nonparametric regression method.** This is something we use when we think there is some kind of relationship between variables, but we're not assuming the details. In fact, we can use this in cases where the relationship is **unknown** and **nonlinear.**
 
-To start with this exercise, we'll set up the model by preparing the data:
+## To start with this exercise, we'll set up the model by preparing the data:
 ```R
 # Load the ISwR package and the ashina dataset
 library(ISwR)
