@@ -323,7 +323,7 @@ attr(,"contrasts")$a
 attr(,"contrasts")$b
 [1] "contr.treatment"
 ```
-Again, it looks like nothing was dropped from our final output, so there is no "singularity."
+This time, it looks like `a2` was dropped. Therefore, the second model has a singularity.
 
 Right then, we can move on to checking the fit of this model from the summary:
 ```R
@@ -349,5 +349,7 @@ Residual standard error: 0.8344 on 4 degrees of freedom
 Multiple R-squared:  0.5923,	Adjusted R-squared:  0.2866 
 F-statistic: 1.937 on 3 and 4 DF,  p-value: 0.2653
 ```
+In this case, our multiple R-squared comes back again at 0.5923, meaning that about 59.23% of the variability in `z` can be explained by the interaction between `a` and `b`. Likewise, the same p-value as before is also not statistically significant.
 
-
+## Conclusion
+Both models have essentially the same summary statistics. However, the first (full) model does not have singularities, while the second model (interaction term only) does have singularities.
