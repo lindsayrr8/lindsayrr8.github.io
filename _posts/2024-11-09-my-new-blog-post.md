@@ -244,7 +244,7 @@ In other words:
 - The third block represents a secondary model matrix that covers only the interaction term (`a:b`).
 - The fourth block checks the fit of that model for just the interaction term (`a:b`).
 
-We can start by interpreting a few insights from the output of our initial, full model matrix:
+## We can start by interpreting a few insights from the output of our initial, full model matrix:
 ```R
 > # Generate the model matrix for the full interaction model (a*b)
 > full_model_matrix <- model.matrix(~ a * b)
@@ -299,7 +299,7 @@ F-statistic: 1.937 on 3 and 4 DF,  p-value: 0.2653
 ```
 A few quick insights from this output can tell us about the fit of this model. Given that our multiple R-squared comes back as 0.5923, this suggests that the model explains only about 59% of the variance for `z`. That's a moderate fit. Our p-value of 0.2653 also suggests that the model as a whole is not statistically significant. That indicates that the relationship between the predictors `a`, `b`, and their interaction for `z` is weak.
 
-**Brilliant. Let's move on to assessing the other model for the interaction only:**
+## Brilliant. Let's move on to assessing the other model for the interaction only:
 ```R
 
 ```
