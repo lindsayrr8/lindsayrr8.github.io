@@ -55,7 +55,7 @@ additive_model <- lm(vas ~ subject + treat + period, data = full_data)
 # Display a summary of the additive model
 summary(additive_model)
 ```
-In English, our model says we're looking at the independent effects of the variables (`subject`, `treat`, and `period`) on the dependent variable (`vas`).
+In English, our model says we're looking at the independent effects of the variables `subject`, `treat`, and `period` on the dependent variable `vas`.
 
 Running the summary provides us with the output:
 ```R
