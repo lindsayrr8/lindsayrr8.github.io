@@ -107,6 +107,13 @@ At first glance, there are a few takeaways:
 In other words, it seems the model has some explanatory power, but some predictors aren't significantly contributing to predicting the outcome.
 
 ## Comparing these results to t-tests
-
+To run t-tests on the two data sets, we simply use R's built-in `t.test()` function:
+```R
+# Compare the results with t-tests
+# For active treatment vs placebo
+t.test(vas ~ treat, data = full_data)
+# For subjects' period effects
+t.test(vas ~ period, data = full_data)
+```
 
 
