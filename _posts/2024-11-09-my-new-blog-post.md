@@ -47,7 +47,14 @@ full_data <- rbind(act, plac)
 ```
 Note our two data sets: active treatment (`vas.active`) and placebo treatment `(vas.plac)`. The `act` data frame contains all the measurements for the active treatment group (`vas.active`), with additional information about which subject the data comes from (`subject`), what the treatment is (`treat = 1`), and the period (`period`). Likewise, the `plac` data frame contains all the measurements for the placebo treatment group (`vas.plac`), with the same additional information: subject (`subject`), treatment (`treat = 0`), and period (`period`).
 
+Spectacular. Now it's time to fit our additive model:
+```R
+# Fit the additive model
+additive_model <- lm(vas ~ subject + treat + period, data = full_data)
 
-
+# Display a summary of the additive model
+summary(additive_model)
+```
+In English, our model says we're looking at the independent effects of the variables (`subject`, `treat`, and `period`) on the dependent variable (`vas`).
 
 
