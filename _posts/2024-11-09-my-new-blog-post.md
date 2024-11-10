@@ -96,3 +96,17 @@ Residual standard error: 37.58 on 15 degrees of freedom
 Multiple R-squared:  0.7566,	Adjusted R-squared:  0.4969 
 F-statistic: 2.914 on 16 and 15 DF,  p-value: 0.02229
 ```
+## Interpreting these results
+At first glance, there are a few takeaways:
+- Many subjects (such as subject3, subject5, subject7, etc.) have p-values < 0.05, meaning their coefficients are statistically significant. This suggests individual differences in the `vas` scores across subjects.
+- The treatment coefficient (treat) is also significant (p = 0.0056), suggesting that treatment has a notable effect on the outcome (`vas` score).
+- `period` came back with "NA", which means it was either redundant or had no variation.
+- Our multiple R-squared value came back as 0.7566, indicating that approximately 75.7% of the variability in `vas` scores is explained by the model (which is reasonably high.)
+- However, the adjusted R-squared value came back as 0.4969, suggesting that the model explains around 49.7% of the variability in the data.
+
+In other words, it seems the model has some explanatory power, but some predictors aren't significantly contributing to predicting the outcome.
+
+## Comparing these results to t-tests
+
+
+
