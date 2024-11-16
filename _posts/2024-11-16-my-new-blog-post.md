@@ -12,14 +12,14 @@ To start analyzing time series, we're given the following prompt:
 | Month	| 2012 | 2013 |
 |-------|------|------|
 | Jan	  | 31.9 | 39.4 |
-| Feb	  |  27  | 36.2 |
+| Feb	  | 27   | 36.2 |
 | March	| 31.3 | 40.5 |
 | Apr	  |	44.6 | 44.6 |
 | May	  | 39.4 | 46.8 |
-| Jun	40.7	44.7
-| Jul	42.3	52.2
-| Aug	49.5	54
-| Sep	45	48.8
+| Jun	  | 40.7 | 44.7 |
+| Jul	  | 42.3 | 52.2 |
+| Aug	  | 49.5 |	54  |
+| Sep	  | 45   | 48.8 |
 | Oct	50	55.8
 | Nov	50.9	58.7
 | Dec	58.5	63.4
