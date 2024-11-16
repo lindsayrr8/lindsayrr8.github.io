@@ -23,3 +23,20 @@ To start analyzing time series, we're given the following prompt:
 | Oct	  | 50	 | 55.8 |
 | Nov	  | 50.9 | 58.7 |
 | Dec	  | 58.5 | 63.4 |
+
+# Constructing a time series plot with R:
+To start, we'll take this data and convert it to a format that `R` can understand. And since we'll be plotting this data, we'll also load in `ggplot2`:
+```R
+# Load ggplot2 for plotting
+library(ggplot2)
+
+# Add data to vectors
+months <- c('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
+charges_2012 <- c(31.9, 27, 31.3, 31, 39.4, 40.7, 42.3, 49.5, 45, 50, 50.9, 58.5)
+charges_2013 <- c(39.4, 36.2, 40.5, 44.6, 46.8, 44.7, 52.2, 54, 48.8, 55.8, 58.7, 63.4)
+# Add vectors to the data frame with relevant labels
+data <- data.frame(month=rep(months, 2),
+                   year=rep(c(2012, 2013), each=12),
+                   charge=c(charges_2012, charges_2013))
+```
+
