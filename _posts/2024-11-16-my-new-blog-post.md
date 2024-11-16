@@ -14,7 +14,7 @@ To start analyzing time series, we're given the following prompt:
 | Jan	  | 31.9 | 39.4 |
 | Feb	  |  27  | 36.2 |
 | March	| 31.3 | 40.5 |
-| Apr	31	44.6
+| Apr	  |	44.6 | 44.6 |
 | May	39.4	46.8
 | Jun	40.7	44.7
 | Jul	42.3	52.2
