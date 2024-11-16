@@ -20,6 +20,6 @@ To start analyzing time series, we're given the following prompt:
 | Jul	  | 42.3 | 52.2 |
 | Aug	  | 49.5 |	54  |
 | Sep	  | 45   | 48.8 |
-| Oct	50	55.8
-| Nov	50.9	58.7
-| Dec	58.5	63.4
+| Oct	  | 50	 | 55.8 |
+| Nov	  | 50.9 | 58.7 |
+| Dec	  | 58.5 | 63.4 |
