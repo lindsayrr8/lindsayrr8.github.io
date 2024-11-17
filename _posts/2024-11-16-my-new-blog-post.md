@@ -173,3 +173,7 @@ It looks like the model expects the data to continue trending upward in the same
 
 However, as always, it's important to note that while statistics can capture a lot, it can't capture everything. There are always certain assumptions you have to make (such as in this case where the model assumes the trend will continue to follow a seasonal pattern based on 2 years of prior data.) You can't always account for hidden variables and you certainly can't flawlessly predict the future. That would be fortunte telling, not statistics!
 
+## Concluding thoughts:
+## c.
+
+
