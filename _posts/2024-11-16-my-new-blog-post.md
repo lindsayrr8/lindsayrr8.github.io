@@ -61,16 +61,24 @@ Nice. Looks good so far. Specific data points are still associated with a certai
 Thankfully, using the function `ggplot()` will handle the bulk of the work for plotting our data. We simply need to set it up with a few specifications as our arguments:
 ```R
 # Plotting the time series
-ggplot(data, aes(x=interaction(year, month), y=charge, color=as.factor(year))) +
-  geom_line() +
-  geom_point() +
-  labs(title="Student Credit Card Charges Over Time", x="Month-Year", y="Charge Amount ($)") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  scale_x_discrete(labels=interaction(rep(c(2012, 2013), each=12), months))
+ggplot(data, aes(x=month, y=charge, color=as.factor(year), group=year)) + 
+  # Line connecting the points
+  geom_line() +   
+  # Points for each data point
+  geom_point() +  
+  labs(title="Student Credit Card Charges Over Time", 
+       x="Month", 
+       y="Charge Amount ($)", 
+       # Setting the legend title on the right to "Year"
+       color="Year") +   
+  # Rotate month labels for clarity
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +  
+  # Label bottom with month names
+  scale_x_discrete(labels=months) 
 ```
 In English, this tells `R`: with `ggplot()`, use the data frame `data` with the specified `aes` ("aesthetic mapping", aka, things like position and color.) It tells `R` to put the year and month information on the 'x' axis. `y=charge` means that the credit card charges will be plotted on the 'y' axis. `color=as.factor(year)` simply colors the lines by the year variable (being 2012 or 2013), making it easier for a human to read the graph. The `as.factor(year)` part keeps the years as categories (factors) instead of numbers for doing arithmetic on, since that's not what we want in this case.
 
-`geom_line()` tells `ggplot()` to plot the data as a line graph, and `geom_point() +` tells `ggplot()` to add points to the line graph. `labs()` is just setting the labels for what we've plotted, as described above. We're also using `theme()` to customize how the plot appears. In this case, we're rotating the axis labels by 45 degrees so they don't overlap and adjusting their horizontal alignment to the right with `hjust = 1`.
+`geom_line()` tells `ggplot()` to plot the data as a line graph, and `geom_point() +` tells `ggplot()` to add points to the line graph. `labs()` is just setting the labels for what we've plotted, as described above. We're also using `theme()` to customize how the plot appears. In this case, we're rotating the axis labels by 45 degrees so they don't overlap and adjusting their horizontal alignment to the right with `hjust = 1`. `scale_x_discrete(labels=...)` is also customizing the labels on the 'x' axis.
 
-`scale_x_discrete(labels=...)` is also customizing the labels on the 'x' axis. The `rep(c(2012, 2013), each=12)` part repeats each year 12 times for both 2012 and 2013, ensuring there's a pair for every month. `interaction(...)` combines each year with the corresponding month to form the correct labels. *(Remember, you've really got to spell every single detail out in order for a computer to follow instructions!)*
+
 
