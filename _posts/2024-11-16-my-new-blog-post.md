@@ -86,3 +86,26 @@ When we run our code, we get the finished graph as our output:
 
 ## Exponential smoothing model:
 ## b. 
+We are instructed to employ an **exponential smoothing model** to the same data we've been working with from above. 
+To do that, we will need the `forecast` package so we can use the `forecast()` function:
+```R
+# Install 'forecast' if not already installed
+install.packages("forecast")
+# Load the forecast package
+library(forecast)
+```
+Once that's done, we can use the `ts()` (time series) function to create a time series object from our data.
+## Wait, why?
+Wasn't what we just made in step 'a.' a time series? Well, "yesn't."
+
+In step 'a.', our data was "shaped" like a time series is, but as far as `R` was concerned, it was just any old data frame. In Order to get `R` to recognize and apply certain attributes or behaviors to our data as a time frame, we need to explicitly tell `R` that it is one. In other words, in `R`, a time frame is a specific type of object that is explicitly classed as one.
+
+Let's convert what we've got:
+```R
+# Convert data into a time series object for 2012 and 2013
+charges_ts <- ts(c(charges_2012, charges_2013), start=c(2012, 1), frequency=12)
+```
+
+
+
+
