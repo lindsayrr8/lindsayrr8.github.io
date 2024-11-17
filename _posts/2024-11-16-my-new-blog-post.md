@@ -175,5 +175,11 @@ However, as always, it's important to note that while statistics can capture a l
 
 ## Concluding thoughts:
 ## c.
+To wrap up the discussion on time series and our Exponential Smoothing Model, we can review what we've discovered.
 
+From the given data for student credit card charges between 2012 and 2013, we know that past spending habits have followed a seasonally trending pattern, with notable increases in March and October, and a substantial dip in April. As a result, we analyzed our data using a Holt-Winters Model, which returned metrics that seem to indicate a good fit. The forecast of future data is expected to trend upward following the seasonal pattern, based on the information considered from the historical data.
+
+If we wanted to explore the reasons *why* the data trends this way, we could form hypotheses and conduct additional experiments to test them. But our model has provided us with solid evidence for a good place from which we could start researching further.
+
+Overall, this analysis demonstrates the utility of time series forecasting. It can allow for the anticipation of financial trends and for planning accordingly.
 
