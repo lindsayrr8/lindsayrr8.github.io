@@ -72,3 +72,5 @@ In English, this tells `R`: with `ggplot()`, use the data frame `data` with the 
 
 `geom_line()` tells `ggplot()` to plot the data as a line graph, and `geom_point() +` tells `ggplot()` to add points to the line graph. `labs()` is just setting the labels for what we've plotted, as described above. We're also using `theme()` to customize how the plot appears. In this case, we're rotating the axis labels by 45 degrees so they don't overlap and adjusting their horizontal alignment to the right with `hjust = 1`.
 
+`scale_x_discrete(labels=...)` is also customizing the labels on the 'x' axis. The `rep(c(2012, 2013), each=12)` part repeats each year 12 times for both 2012 and 2013, ensuring there's a pair for every month. `interaction(...)` combines each year with the corresponding month to form the correct labels. *(Remember, you've really got to spell every single detail out in order for a computer to follow instructions!)*
+
