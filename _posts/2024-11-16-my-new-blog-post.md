@@ -104,8 +104,21 @@ Let's convert what we've got:
 ```R
 # Convert data into a time series object for 2012 and 2013
 charges_ts <- ts(c(charges_2012, charges_2013), start=c(2012, 1), frequency=12)
+
+# Print the time series object to check
+print(charges_ts)
 ```
+And our output looks similar, if a little different:
+```R
+> # Print the time series object to check
+> print(charges_ts)
+      Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep  Oct  Nov  Dec
+2012 31.9 27.0 31.3 31.0 39.4 40.7 42.3 49.5 45.0 50.0 50.9 58.5
+2013 39.4 36.2 40.5 44.6 46.8 44.7 52.2 54.0 48.8 55.8 58.7 63.4
+```
+That wasn't too bad. It's important to note that we need to do this in order to use certain functions associated with time series correctly.
 
+Speaking of which...
 
-
+Allow me to introduce you to the `HoltWinters()` function. What's that, you ask? Why, the names "Holt" & "Winters" refer to the **"Holt-Winters smoothing model," which is used with time series data.** It's a model that **forecasts** future data points by exponentially "smoothing" past data observations. An HW model takes into account **patterns like trends and seasonality** in your data. These two Holt and Winters fellows came up with it in the 1960's. 
 
