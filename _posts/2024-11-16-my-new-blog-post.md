@@ -165,3 +165,5 @@ Wonderful. Now we can use `forecast()` and `plot()` to make a prediction about f
 forecasted_values <- forecast(hw_model)
 plot(forecasted_values)
 ```
+
+
