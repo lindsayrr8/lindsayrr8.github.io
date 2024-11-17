@@ -169,5 +169,5 @@ And our plot output looks like:
 ![forecastsfromholtwinters](https://github.com/user-attachments/assets/79054891-5472-42ae-b7b0-4541851032d3)
 
 ## Interpreting these results:
-It looks like the model expects the data to continue trending upward in the same pattern through 2016. An upward trend does seem to be a reasonable prediction based on the increasing spending metrics from 2012 to 2013.
+It looks like the model expects the data to continue trending upward in the same seasonal pattern through 2016. An upward trend does seem to be a reasonable prediction based on the increasing spending metrics from 2012 to 2013.
 
