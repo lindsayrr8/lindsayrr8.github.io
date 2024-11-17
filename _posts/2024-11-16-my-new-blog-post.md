@@ -54,4 +54,4 @@ Running `head(data)` gives us a glimpse at the data frame we've just created, wh
 5   May 2012   39.4
 6   Jun 2012   40.7
 ```
-
+Nice. Looks good so far. Specific data points are still associated with a certain month and year, as in our original data format. We're ready to start plotting.
