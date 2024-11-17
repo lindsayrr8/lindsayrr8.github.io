@@ -82,4 +82,5 @@ With `ggplot()`, use the data frame `data` with the specified `aes` ("aesthetic 
 `geom_line()` tells `ggplot()` to plot the data as a line graph, and `geom_point() +` tells `ggplot()` to add points to the line graph. `labs()` is just setting the labels for what we've plotted, as described above. We're also using `theme()` to customize how the plot appears. In this case, we're rotating the axis labels by 45 degrees so they don't overlap and adjusting their horizontal alignment to the right with `hjust = 1`. `scale_x_discrete(labels=...)` is also customizing the labels on the 'x' axis.
 
 When we run our code, we get the finished graph as our output:
+![studentcreditcardchargesovertime](https://github.com/user-attachments/assets/cdb995bf-5ab1-4907-937d-23cecc3a7071)
 
