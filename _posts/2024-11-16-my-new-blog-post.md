@@ -38,5 +38,20 @@ charges_2013 <- c(39.4, 36.2, 40.5, 44.6, 46.8, 44.7, 52.2, 54, 48.8, 55.8, 58.7
 data <- data.frame(month=rep(months, 2),
                    year=rep(c(2012, 2013), each=12),
                    charge=c(charges_2012, charges_2013))
+
+# Initial look at the data frame
+head(data)
+```
+Running `head(data)` gives us a glimpse at the data frame we've just created, which gives the following output:
+```R
+> # Initial look at the data frame
+> head(data)
+  month year charge
+1   Jan 2012   31.9
+2   Feb 2012   27.0
+3   Mar 2012   31.3
+4   Apr 2012   31.0
+5   May 2012   39.4
+6   Jun 2012   40.7
 ```
 
