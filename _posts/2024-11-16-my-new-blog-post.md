@@ -98,7 +98,7 @@ Once that's done, we can use the `ts()` (time series) function to create a time 
 ## Wait, why?
 Wasn't what we just made in step 'a.' a time series? Well, "yesn't."
 
-In step 'a.', our data was "shaped" like a time series is, but as far as `R` was concerned, it was just any old data frame. In Order to get `R` to recognize and apply certain attributes or behaviors to our data as a time series, we need to explicitly tell `R` that it is one. In other words, in `R`, a time series is a specific type of object that is explicitly classed as one.
+In step 'a.', our data was "shaped" like a time series is, but as far as `R` was concerned, it was just any old data frame. In order to get `R` to recognize and apply certain attributes or behaviors to our data as a time series, we need to explicitly tell `R` that it is one. In other words, in `R`, a time series is a specific type of object that is explicitly classed as one.
 
 Let's convert what we've got:
 ```R
