@@ -84,7 +84,7 @@ With `ggplot()`, use the data frame `data` with the specified `aes` ("aesthetic 
 When we run our code, we get the finished graph as our output:
 ![studentcreditcardchargesovertime](https://github.com/user-attachments/assets/cdb995bf-5ab1-4907-937d-23cecc3a7071)
 
-## Exponential smoothing model:
+# Exponential smoothing model:
 ## b. 
 We are instructed to employ an **exponential smoothing model** to the same data we've been working with from above. 
 To do that, we will need the `forecast` package so we can use the `forecast()` function:
