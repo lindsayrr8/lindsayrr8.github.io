@@ -58,3 +58,17 @@ Running `head(data)` gives us a glimpse at the data frame we've just created, wh
 Nice. Looks good so far. Specific data points are still associated with a certain month and year, as in our original data format. We're ready to start plotting.
 
 ## Plotting with ggplot()
+Thankfully, using the function `ggplot()` will handle the bulk of the work for plotting our data. We simply need to set it up with a few specifications as our arguments:
+```R
+# Plotting the time series
+ggplot(data, aes(x=interaction(year, month), y=charge, color=as.factor(year))) +
+  geom_line() +
+  geom_point() +
+  labs(title="Student Credit Card Charges Over Time", x="Month-Year", y="Charge Amount ($)") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_x_discrete(labels=interaction(rep(c(2012, 2013), each=12), months))
+```
+In English, this tells `R`: with `ggplot()`, use the data frame `data`, with the specified `aes` ("aesthetic mapping", aka things like position and color.) It tells `R` to put the year and month information on the 'x' axis. `y=charge` means that the credit card charges will be plotted on the 'y' axis. `color=as.factor(year)` simply colors the lines by the year variable (being 2012 or 2013), making it easier for a human to read the graph. The `as.factor(year)` part keeps the years as categories (factors) instead of numbers for doing arithmetic on.
+
+
+
