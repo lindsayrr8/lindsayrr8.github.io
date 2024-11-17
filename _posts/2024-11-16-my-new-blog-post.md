@@ -68,7 +68,7 @@ ggplot(data, aes(x=interaction(year, month), y=charge, color=as.factor(year))) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   scale_x_discrete(labels=interaction(rep(c(2012, 2013), each=12), months))
 ```
-In English, this tells `R`: with `ggplot()`, use the data frame `data` with the specified `aes` ("aesthetic mapping", aka, things like position and color.) It tells `R` to put the year and month information on the 'x' axis. `y=charge` means that the credit card charges will be plotted on the 'y' axis. `color=as.factor(year)` simply colors the lines by the year variable (being 2012 or 2013), making it easier for a human to read the graph. The `as.factor(year)` part keeps the years as categories (factors) instead of numbers for doing arithmetic on.
+In English, this tells `R`: with `ggplot()`, use the data frame `data` with the specified `aes` ("aesthetic mapping", aka, things like position and color.) It tells `R` to put the year and month information on the 'x' axis. `y=charge` means that the credit card charges will be plotted on the 'y' axis. `color=as.factor(year)` simply colors the lines by the year variable (being 2012 or 2013), making it easier for a human to read the graph. The `as.factor(year)` part keeps the years as categories (factors) instead of numbers for doing arithmetic on, since that's not what we want in this case.
 
 
 
