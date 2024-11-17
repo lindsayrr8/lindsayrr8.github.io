@@ -25,6 +25,7 @@ To start analyzing time series, we're given the following prompt:
 | Dec	  | 58.5 | 63.4 |
 
 ## Constructing a time series plot with R:
+## a.
 To start, we'll take this data and convert it to a format that `R` can understand. And since we'll be plotting this data, we'll also load in `ggplot2`:
 ```R
 # Load ggplot2 for plotting
