@@ -128,7 +128,12 @@ What's that, you ask? Why, the names "Holt" & "Winters" refer to the **"Holt-Win
 
 So, let's use it on our data:
 ```R
+# Apply Holt-Winters model
+hw_model <- HoltWinters(charges_ts)
 
+# Print the model summary
+summary(hw_model)
 ```
+In this case, the HW model is a good fit for evaluating our data since it seems to follow a trend or seasonality. You can tweak `HoltWinters()`'s arguments further to adjust for varying specifications, but for this simple exercise we're working with just the default configurations.
 
 
