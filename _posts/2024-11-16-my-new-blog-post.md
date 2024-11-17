@@ -70,5 +70,5 @@ ggplot(data, aes(x=interaction(year, month), y=charge, color=as.factor(year))) +
 ```
 In English, this tells `R`: with `ggplot()`, use the data frame `data` with the specified `aes` ("aesthetic mapping", aka, things like position and color.) It tells `R` to put the year and month information on the 'x' axis. `y=charge` means that the credit card charges will be plotted on the 'y' axis. `color=as.factor(year)` simply colors the lines by the year variable (being 2012 or 2013), making it easier for a human to read the graph. The `as.factor(year)` part keeps the years as categories (factors) instead of numbers for doing arithmetic on, since that's not what we want in this case.
 
-
+`geom_line()` tells `ggplot()` to plot the data as a line graph, and `geom_point() +` tells `ggplot()` to add points to the line graph. `labs()` is just setting the labels for what we've plotted, as described above. We're also using `theme()` to customize how the plot appears. In this case, we're rotating the axis labels by 45 degrees so they don't overlap and adjusting their horizontal alignment to the right with `hjust = 1`.
 
