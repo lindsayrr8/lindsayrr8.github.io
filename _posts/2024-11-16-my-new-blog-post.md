@@ -136,4 +136,19 @@ summary(hw_model)
 ```
 In this case, the HW model is a good fit for evaluating our data since it seems to follow a trend or seasonality. You can tweak `HoltWinters()`'s arguments further to adjust for varying specifications, but for this simple exercise we're working with just the default configurations.
 
+Running the code gives the results we got:
+```R
+> # Print the model summary
+> summary(hw_model)
+             Length Class  Mode     
+fitted       48     mts    numeric  
+x            24     ts     numeric  
+alpha         1     -none- numeric  
+beta          1     -none- numeric  
+gamma         1     -none- numeric  
+coefficients 14     -none- numeric  
+seasonal      1     -none- character
+SSE           1     -none- numeric  
+call          2     -none- call 
+```
 
