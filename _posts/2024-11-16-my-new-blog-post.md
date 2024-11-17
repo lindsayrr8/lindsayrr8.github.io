@@ -161,5 +161,7 @@ A few of the highlights from what we're looking at here:
 
 Wonderful. Now we can use `forecast()` and `plot()` to make a prediction about future student credit card charges based on past trends:
 ```R
-
+# Plot the forecast based on Holt-Winters model
+forecasted_values <- forecast(hw_model)
+plot(forecasted_values)
 ```
