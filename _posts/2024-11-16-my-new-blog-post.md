@@ -120,7 +120,9 @@ That wasn't too bad. It's important to note that we need to do this in order to 
 
 *Speaking of which...*
 
-Allow me to introduce you to the `HoltWinters()` function. What's that, you ask? Why, the names "Holt" & "Winters" refer to the **"Holt-Winters smoothing model," which is used with time series data.** It's a model that **forecasts** future data points by exponentially "smoothing" past data observations. An HW model takes into account **patterns like trends and seasonality** in your data. These two Holt and Winters fellows came up with it in the 1960's. 
+## Allow me to introduce you to the `HoltWinters()` function.
+
+What's that, you ask? Why, the names "Holt" & "Winters" refer to the **"Holt-Winters smoothing model," which is used with time series data.** It's a model that **forecasts** future data points by exponentially "smoothing" past data observations. An HW model takes into account **patterns like trends and seasonality** in your data. These two Holt and Winters fellows came up with it in the 1960's. 
 
 So, let's use it on our data:
 ```R
