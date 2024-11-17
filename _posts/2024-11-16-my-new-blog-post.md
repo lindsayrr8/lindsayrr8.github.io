@@ -151,4 +151,12 @@ seasonal      1     -none- character
 SSE           1     -none- numeric  
 call          2     -none- call 
 ```
+## Interpreting these results
+A few of the highlights from what we're looking at here:
+- Alpha (α): Controls the level of the time series. A high alpha value means the model is more sensitive to recent data, and a low alpha means the model "smooths" out the data more.
+- Beta (β): Controls the trend (how the data is increasing or decreasing over time.)
+- Gamma (γ): Controls the seasonality (the repeating patterns in the data, such as the spikes in March or October.)
+- SSE is the difference between the observed data and the model's predictions. Since our SSE is small (compared to the values in our data), that means the model we have is doing a good job of fitting the historical data.
+- All of these values are given as 1, meaning the model is using optimal values for these parameters.
+
 
