@@ -84,6 +84,8 @@ With `ggplot()`, use the data frame `data` with the specified `aes` ("aesthetic 
 When we run our code, we get the finished graph as our output:
 ![studentcreditcardchargesovertime](https://github.com/user-attachments/assets/cdb995bf-5ab1-4907-937d-23cecc3a7071)
 
+It looks like the data follows a bit of a trend or seasonality. In both 2012 and 2013, spending spikes in March, tanks dramatically in April, creeps up to June, then dips again in August, before finally reaching a peak again in October.
+
 # Exponential smoothing model:
 ## b. 
 We are instructed to employ an **exponential smoothing model** to the same data we've been working with from above. 
