@@ -29,4 +29,7 @@ While this may be true, it also points to other insights lurking in the data. Fo
 
 Further, the metric of "1%" can differ drastically depending on the total number of people within the population we're talking about. So while this map offers a good, useful approximation of migratory patterns between states, it does not offer specific details about how many hundreds of thousands to millions of people it represents. Take Wyoming for example - it is widely known that despite the state's size, only about 500 to 600 thousand people live there. According to the data, Wyoming saw a 0.15% rate of population growth in 2024, which to a small population is a much bigger deal.
 
+The other state that caught my eye in this data is North Carolina. Its neighboring states Tennessee and South Carolina do also show significant population growth, indicating that there are lots of people moving to this southeastern region of the country. But I myself had previously considered relocating to NC - and it looks like I'm not the only one who has had that idea! (What can I say? I would miss the food in Florida, but NC has beautiful mountains *and* beaches!)
 
+## How well does this visualization hold up?
+In terms of Keim et al.'s standards for visuals, 
