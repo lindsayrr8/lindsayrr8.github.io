@@ -19,4 +19,6 @@ With the arrival of the recent new year, people tend to like to reflecting back 
 
 Just glancing at this map without much further interpretation, you can tell that in 2024, many people moved *out* of states like California, New York, Illinois, and Louisiana, among others. At the same time, many people moved *in* to states like Idaho, the Carolinas, and Tennessee, among others.
 
+The Tax Foundation attributes a large part of the incentive for this interstate migration to Americans seeking destination states with lower tax rates. It is also reasonable to surmise that many of these 2024 movers were leaving major cities and flocking to areas with an overall lower cost of living.
 
+Two observations that surprised me about this data have to do with my own state and one I've been eye-balling. Having lived in my metropolitan Florida city for over 16 years now, I have certainly seen exponential population growth, particularly in recent years. 
