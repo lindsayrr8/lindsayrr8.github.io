@@ -32,4 +32,8 @@ Further, the metric of "1%" can differ drastically depending on the total number
 The other state that caught my eye in this data is North Carolina. Its neighboring states Tennessee and South Carolina do also show significant population growth, indicating that there are lots of people moving to this southeastern region of the country. But I myself had previously considered relocating to NC - and it looks like I'm not the only one who has had that idea! (What can I say? I would miss the food in Florida, but NC has beautiful mountains *and* beaches!)
 
 ## How well does this visualization hold up?
-In terms of Keim et al.'s standards for visual analytics, 
+In terms of Keim et al.'s standards for visual analytics, this map quickly and effectively communicates the intended information. It makes use of contrasting colors to depict the overall state averages for population growth, such that anyone can quickly glance at the map and interpret the information. It provides both expected and unexpected insights and communicates them effectively.
+
+It does not, however, offer specific details of which cities or areas within these states are seeing the greatest or least population booms. This additional insight might be important for someone who is looking at this map to evaluate their options of where to move. Given that the Tax Foundation identified tax rates as a notable incentive for migratory patterns, it might also be helpful to include individual state tax rates in a similar visualization.
+
+Overall, this goes to show that it is important to decide what question you are asking before you create a data visualization so you can answer it concisely and in a way that is meaningful. Some circumstances might call for an overall approximation, while others might warrant additional details to make informed decisions.
