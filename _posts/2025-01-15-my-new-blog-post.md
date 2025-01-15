@@ -21,4 +21,12 @@ Just glancing at this map without much further interpretation, you can tell that
 
 The Tax Foundation attributes a large part of the incentive for this interstate migration to Americans seeking destination states with lower tax rates. It is also reasonable to surmise that many of these 2024 movers were leaving major cities and flocking to areas with an overall lower cost of living.
 
-Two observations that surprised me about this data have to do with my own state and one I've been eye-balling. Having lived in my metropolitan Florida city for over 16 years now, I have certainly seen exponential population growth, particularly in recent years. 
+### Two other observations that surprised me about this data have to do with my own state and one I've been eye-balling.
+
+Having lived in my metropolitan Florida city for over 16 years now, I have certainly seen exponential population growth, particularly in recent years. Yet according to the map, Florida overall has only seen growth that is slightly above average compared to other states.
+
+While this may be true, it also points to other insights lurking in the data. For one thing, this map depicts *overall* growth as a state, and its purpose is not to show growth differences clustered in certain areas *within* states. It is likely that some cities or counties have growth significantly greater than others within the same state, which can affect one's way of life regardless of overall population growth.
+
+Further, the metric of "1%" can differ drastically depending on the total number of people within the population we're talking about. So while this map offers a good, useful approximation of migratory patterns between states, it does not offer specific details about how many hundreds of thousands to millions of people it represents. Take Wyoming for example - it is widely known that despite the state's size, only about 500 to 600 thousand people live there. According to the data, Wyoming saw a 0.15% rate of population growth in 2024, which to a small population is a much bigger deal.
+
+
