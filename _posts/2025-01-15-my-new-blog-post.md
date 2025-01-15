@@ -13,4 +13,7 @@ Following certain design principles, *good* visual analytics can represent data 
 > – Communicate assessment effectively for action. <br />
 
 ### The first given task is to evaluate a data visualization that caught my eye recently.
+With the arrival of the recent new year, people tend to like to reflecting back on what happened in the previous one. While finding myself ~doomscrolling~ browsing reflections from 2024, I came across a visualization depicting which U.S. states saw the most move-in's versus move-out's last year. Being a ~broke Zillennial seeking to rent a repurposed shipping container under $2,000 per month~ young, aspiring data scientist living in a large city, this finding was particularly interesting to me:
+
+
 
