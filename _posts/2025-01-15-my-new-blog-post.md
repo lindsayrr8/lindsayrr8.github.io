@@ -6,7 +6,7 @@ Today, this blog will transition from solely focusing on statistical analysis wi
 
 Following certain design principles, *good* visual analytics can represent data insights in a quick, concise, and easily understood way. Some of the most common visual representations of data come in the form of images like line graphs, bar charts, or pie charts. These can be helpful in communicating often complex information in a simple, non-technical way.
 
-*According to Keim et al. (2008), the aim of visual analytics should be to:*
+### *According to Keim et al. (2008), the aim of visual analytics should be to:*
 > • Synthesize information and derive insight from massive, dynamic, ambiguous, and often conflicting data. <br />
 > • Detect the expected and discover the unexpected. <br />
 > • Provide timely, defensible, and understandable assessments. <br />
@@ -32,4 +32,4 @@ Further, the metric of "1%" can differ drastically depending on the total number
 The other state that caught my eye in this data is North Carolina. Its neighboring states Tennessee and South Carolina do also show significant population growth, indicating that there are lots of people moving to this southeastern region of the country. But I myself had previously considered relocating to NC - and it looks like I'm not the only one who has had that idea! (What can I say? I would miss the food in Florida, but NC has beautiful mountains *and* beaches!)
 
 ## How well does this visualization hold up?
-In terms of Keim et al.'s standards for visuals, 
+In terms of Keim et al.'s standards for visual analytics, 
