@@ -1,2 +1,2 @@
-A Welcome to Visual Analytics
+# A Welcome to Visual Analytics
 
