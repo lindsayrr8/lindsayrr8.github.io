@@ -17,4 +17,6 @@ With the arrival of the recent new year, people tend to like to reflecting back 
 
 ![state-population-changes-attributable-to-interstate-migration-fy-2024-](https://github.com/user-attachments/assets/e9262e51-5833-4c8a-bab8-5b3e1e4402f9)
 
+Just glancing at this map without much further interpretation, you can tell that in 2024, many people moved *out* of states like California, New York, Illinois, and Louisiana. At the same time, many people moved *in* to states like Idaho, the Carolinas, and Tennessee.
+
 
