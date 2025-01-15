@@ -14,6 +14,7 @@ Following certain design principles, *good* visual analytics can represent data 
 
 ### The first given task is to evaluate a data visualization that caught my eye recently.
 With the arrival of the recent new year, people tend to like to reflecting back on what happened in the previous one. While finding myself ~doomscrolling~ browsing reflections from 2024, I came across a visualization depicting **which U.S. states saw the most move-in's versus move-out's last year.** Being a ~broke Zillennial seeking to rent a repurposed shipping container under $2,000 per month~ young, aspiring data scientist living in a large city, this finding from the Tax Foundation was particularly interesting to me:
+
 ![state-population-changes-attributable-to-interstate-migration-fy-2024-](https://github.com/user-attachments/assets/e9262e51-5833-4c8a-bab8-5b3e1e4402f9)
 
 
