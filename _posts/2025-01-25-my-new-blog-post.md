@@ -36,6 +36,8 @@ For this task, we will be creating a **geographic map** using the data we find. 
 ## What graphic elements could be added to make this visualization more communicative?
 For one thing, it is critically important to decide what kind of question you're trying to answer, or what kind of story you're trying to tell when you create a visualization. In my case, I wanted to see where Florida parks and recreation are clustered on the state map. Judging by the looks of it, most of our parks are clustered around the coasts and in north/central Florida. This checks out with what is expected from state tourism.
 
+Though this provides a general idea of parks and attractions in densely dotted areas, it does not offer any specific details about each data point - that is, about the specific parks and recreational facilities on this map. Further, while the green dots do help to convey that this map intends to communicate information related to outdoor activities, it is hard to tell within the clusters where one dot begins and ends. A visual solution could be to shrink the size of the dots slightly and add some jitter to more clearly display where specific, separate locations of interest are clustered.
+
 ## How this visualization could be improved:
 
 
