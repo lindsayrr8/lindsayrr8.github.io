@@ -12,9 +12,12 @@ For this task, we will be creating a **geographic map** using the data we find. 
 *(Note: This exercise was completed on Windows, so the guide is written for Windows users.)*
 
 ## Here's a few quick steps to follow to get us started:
-1. Download Tableau Public [here.](https://public.tableau.com/app/discover)
-2. Open Tableau Public. *(On Windows, either launch from the Desktop shortcut or search "Tableau" using ⊞ Windows search.)*
-3. 
+1. Find and save your choice of dataset. *(Remember that it must include either Addresses or coordinates.)*
+2. Download Tableau Public [here.](https://public.tableau.com/app/discover)
+3. Open Tableau Public. *(On Windows, either launch from the Desktop shortcut or search "Tableau" using ⊞ Windows search.)*
+4. From the landing screen, either click "File → New" or select the storage location of your dataset by picking either a file type or a server location (such as Google Drive) under the "Connect" heading on the left of the screen. (Either way gets you to the same place.)
+5. (If you selected "File → New", then click "Data → New Data Source" from the top ribbon. Select your data from where you stored it.)
+6. 
 
 
 
