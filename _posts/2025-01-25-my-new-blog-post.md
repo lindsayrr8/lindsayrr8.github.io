@@ -23,8 +23,9 @@ For this task, we will be creating a **geographic map** using the data we find. 
 9. To ensure that Tableau definitely recognizes the data in this column as being geographical/spatial, hover over the option labeled "Geographic Role" and select the relavent attribute type. (For example, "Address", if it appears.) In my case, "Address" was not an option and Tableau considered the data in this column "text" by default. Therefore, I opted to have Tableau create a geographic association for this data by selecting: "Geographic Role → Create from → Zipcode". This worked because there are zipcodes stored in my dataset.
 10. Now, with Tableau recognizing this data as geographic, still in Sheet 1, I grabbed onto the "Address" field under "Tables" on the left side of the screen, and dragged "Address" to the blank workspace in the center of the screen where there are several boxes which say "Drop field here". (In other words, take your geographic data field and drag it into the blank workspace in the center of the screen.)
 11. Tableau should generate a map automatically with your data points already on it. Now, you can begin customizing the way this map appears.
-12. On the left side of the map area, there is a box of options labeled "Marks." To start, click "Color" and select the default color swatch of your choosing. This changes the color of the data points (dots) on your map. In my case, to make the map more visually distinguishable, I chose green dots.
-13. Next, 
+12. On the left side of the map area, there is a box of options labeled "Marks." To start, click "Color" and select the default color swatch of your choosing. This changes the color of the data points (dots) on your map. In my case, I chose green dots.
+13. Next, to make the shape of the underlying map itself more visually distinguishable, you can select from a few default map views which act similar to "themes." To do so, on the ribbon at the top of the screen, select "Map → Background Maps".
+14. 
 
 
 
