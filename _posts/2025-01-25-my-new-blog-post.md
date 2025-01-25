@@ -7,6 +7,6 @@ With our dataset, we will be using a very prominent data visualization software:
 For this task, we will be creating a **geographic map** using the data we find. Therefore, it is very important that we choose a dataset that has a built-in "Addresses" column or geographic coordinate information. This helps Tableau automatically associate our data with a map. Later on when we complete more advanced tasks with Tableau, it will be possible to add a spatial dimension to other datasets which lack one. But for now, we're going to stick to a simple exercise to demonstrate Tableau's capabilities.
 
 ## To begin, I've selected a dataset of Florida's Recreation Facilities and Parks.
-[This data](https://hub.arcgis.com/datasets/FDACS::florida-recreation-and-parks/explore?location=-0.000000%2C0.000000%2C0.70) was last provided as of July, 2020, courtesy of the Florida Department of Agriculture and Consumer Services. This data already maps nicely onto the provided visualization, but we're going to recreate it while making a few minor changes to it.
+[This data](https://hub.arcgis.com/datasets/FDACS::florida-recreation-and-parks/explore?location=-0.000000%2C0.000000%2C0.70) was last provided as of July, 2020, courtesy of the Florida Department of Agriculture and Consumer Services. The dataset already maps nicely onto the provided visualization, but we're going to recreate it while making a few minor changes to it.
 
 
