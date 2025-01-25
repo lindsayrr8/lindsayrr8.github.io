@@ -33,5 +33,5 @@ For this task, we will be creating a **geographic map** using the data we find. 
 ## And here is the result:
 ![Florida Recreation and Parks](https://github.com/user-attachments/assets/14f2f56a-d5a4-40f5-97bd-7a6f29295f0e)
 
-
+## What graphic elements could be added to make this visualization more communicative?
 
