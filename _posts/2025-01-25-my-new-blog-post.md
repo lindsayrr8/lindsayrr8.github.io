@@ -38,8 +38,12 @@ For one thing, it is critically important to decide what kind of question you're
 
 Though this provides a general idea of parks and attractions in densely dotted areas, it does not offer any specific details about each data point - that is, about the specific parks and recreational facilities on this map. Further, while the green dots do help to convey that this map intends to communicate information related to outdoor activities, it is hard to tell within the clusters where one dot begins and ends. A visual solution could be to shrink the size of the dots slightly and add some jitter to more clearly display where specific, separate locations of interest are clustered.
 
+Further, someone looking at this map would likely be seeking more specific information. Perhaps they might want to decide *which* parks or recreation facilities to visit in Florida. This map would not help much when making such a specific decision, as each dot on the map is indistinguishable from the others, but the parks and facilities they represent are quite different.
+
 ## How this visualization could be improved:
+Operating with the assumption that someone is looking at this map intending to choose parks and recreational facilities to visit in Florida, we could make several helpful changes. In addition to more clearly defining specific dots, we could use colors and shapes to create visual distinctions between different types of data points.
 
+For example, someone might like to know if these parks are indoor or outdoor, or whether they are mobility/disability accessible. They might also like to know if the locations are large or small, if there are paved or unpaved trails, if camping is allowed, or if other major attractions are nearby, among many other things.
 
-
+Making use of different colors, shapes, icons, and the addition or omission of specific, relevant information would make this map more helpful and easier to read quickly to gain the desired information. A map legend/key explaining the visual differences would also greatly help to convey complex information in a quick and simple way.
 
