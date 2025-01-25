@@ -28,7 +28,10 @@ For this task, we will be creating a **geographic map** using the data we find. 
 14. You could continue playing around with Tableau making other changes if you want, but at this point, you're done!
 15. To export your map as an image, in Tableau Public, you need to publish your map using "File → Save to Tableau Public". *(In some cases, you may be able to use "Worksheet → Export", but if this doesn't work, then follow the remaining instructions.)*
 16. Once you have signed into your Tableau Public account and the map has been successfully published, a webpage window will open where you can view it. From the webpage, where the map appears, there is a toolbar at the bottom where it says "View on Tableau Public".
-17. 
+17. From this webpage, select the download icon (the rectangle with the down-facing arrow) and click "Image". The image file of your map will be downloaded to wherever you store your Downloads by default on your computer (such as in "Downloads").
+
+## And here is the result:
+
 
 
 
