@@ -2,6 +2,8 @@
 
 As a first task to get our feet wet with **data visualization,** we're instructed to find a **free dataset** that is publicly available using [Google Dataset Search.](https://datasetsearch.research.google.com/)
 
-For this task, we will be creating a **geographic map** using the data we find. Therefore, it is very important that we choose a dataset that has a built-in "Addresses" column or geographic coordinate information. This helps Tableau automatically associate our data with a map.
+With our dataset, we will be using a very prominent data visualization software: **Tableau.** Tableau is used by professional data analysts and newbies alike. You might often hear Tableau described as "the next generation of Excel." That is, Tableau can be used to quickly and easily analyze data while also offering more advanced data customization features. **Tableau Public** is free to download, so that is the iteration of the software we will be working with today.
+
+For this task, we will be creating a **geographic map** using the data we find. Therefore, it is very important that we choose a dataset that has a built-in "Addresses" column or geographic coordinate information. This helps Tableau automatically associate our data with a map. Later on when we complete more advanced tasks with Tableau, it will be possible to add a spatial dimension to other datasets which lack one. But for now, we're going to stick to a simple exercise to demonstrate Tableau's capabilities.
 
 
