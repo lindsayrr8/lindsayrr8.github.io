@@ -13,7 +13,7 @@ For this task, we will be creating a **geographic map** using the data we find. 
 
 ## Here's a few quick steps to follow to get us started:
 1. Download Tableau Public [here.](https://public.tableau.com/app/discover)
-2. Open Tableau Public. *(On Windows, either launch from the Desktop shortcut or search "Tableau" using ⊞ Windows search.)*
+2. Open Tableau Public. *(On Windows, either launch from the Desktop shortcut or search "Tableau" using* ⊞ *Windows search.)*
 3. 
 
 
