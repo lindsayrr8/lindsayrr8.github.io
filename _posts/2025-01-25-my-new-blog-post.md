@@ -11,7 +11,7 @@ For this task, we will be creating a **geographic map** using the data we find. 
 
 *(Note: This exercise was completed on Windows, so the guide is written for Windows users.)*
 
-## Here's a few quick steps to follow to get us started:
+## Here's a few steps to follow to get us started:
 1. Find and save your choice of dataset. *(Remember that it must include either Addresses or coordinates.)*
 2. Download Tableau Public [here.](https://public.tableau.com/app/discover)
 3. Open Tableau Public. *(On Windows, either launch from the Desktop shortcut or search "Tableau" using ⊞ Windows search.)*
