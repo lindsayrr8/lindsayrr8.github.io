@@ -27,8 +27,8 @@ For this task, we will be creating a **geographic map** using the data we find. 
 13. Next, to make the shape of the underlying map itself more visually distinguishable, you can select from a few default map views which act similar to "themes." To do so, on the ribbon at the top of the screen, select "Map → Background Maps". You can click through each of these to change the visual appearance of your map and decide which works best. In this case, I chose "Normal".
 14. You could continue playing around with Tableau making other changes if you want, but at this point, you're done!
 15. To export your map as an image, in Tableau Public, you need to publish your map using "File → Save to Tableau Public". *(In some cases, you may be able to use "Worksheet → Export", but if this doesn't work, then follow the remaining instructions.)*
-16. 
-
+16. Once you have signed into your Tableau Public account and the map has been successfully published, a webpage window will open where you can view it. From the webpage, where the map appears, there is a toolbar at the bottom where it says "View on Tableau Public".
+17. 
 
 
 
