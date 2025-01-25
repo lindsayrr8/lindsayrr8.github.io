@@ -17,8 +17,11 @@ For this task, we will be creating a **geographic map** using the data we find. 
 3. Open Tableau Public. *(On Windows, either launch from the Desktop shortcut or search "Tableau" using ⊞ Windows search.)*
 4. From the landing screen, either click "File → New" or select the storage location of your dataset by picking either a file type or a server location (such as Google Drive) under the "Connect" heading on the left of the screen. (Either way gets you to the same place.)
 5. (If you selected "File → New", then click "Data → New Data Source" from the top ribbon. Select your data from where you stored it.)
-6. 
-
+6. Similar to Excel, your dataset will open in a new sheet titled "Sheet 1", which you can find at the bottom of the window next to "Data Source".
+7. Click the tab labeled "Sheet 1". On the left side of the window, under the box labeled "Data", look for the titled names of your data's columns under "Tables." These will be displayed here vertically.
+8. In my data (and likely in yours), there is a column entitled "Address" which shows up under "Tables". *(Yours should be called something similar.)* Click the drop-down arrow on the right side of where that row is selected. Doing so reveals a menu that is labeled "Add To Sheet, Duplicate, Rename," ...etc.
+9. To ensure that Tableau definitely recognizes the data in this column as being geographical/spatial, hover over the option labeled "Geographic Role" and select the relavent attribute type. (For example, "Address", if it appears.) In my case, "Address" was not an option and Tableau considered the data in this column "text." Therefore,
+10. 
 
 
 
