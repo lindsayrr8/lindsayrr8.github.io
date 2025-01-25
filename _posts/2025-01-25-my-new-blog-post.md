@@ -34,4 +34,10 @@ For this task, we will be creating a **geographic map** using the data we find. 
 ![Florida Recreation and Parks](https://github.com/user-attachments/assets/14f2f56a-d5a4-40f5-97bd-7a6f29295f0e)
 
 ## What graphic elements could be added to make this visualization more communicative?
+For one thing, it is critically important to decide what kind of question you're trying to answer, or what kind of story you're trying to tell when you create a visualization. In my case, I wanted to see where Florida parks and recreation are clustered on the state map. Judging by the looks of it, most of our parks are clustered around the coasts and in north/central Florida. This checks out with what is expected from state tourism.
+
+## How this visualization could be improved:
+
+
+
 
