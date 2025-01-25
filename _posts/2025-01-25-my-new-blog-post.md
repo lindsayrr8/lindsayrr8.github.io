@@ -22,7 +22,8 @@ For this task, we will be creating a **geographic map** using the data we find. 
 8. In my data (and likely in yours), there is a column entitled "Address" which shows up under "Tables". *(Yours should be called something similar.)* Click the drop-down arrow on the right side of where that row is selected. Doing so reveals a menu that is labeled "Add To Sheet, Duplicate, Rename," ...etc.
 9. To ensure that Tableau definitely recognizes the data in this column as being geographical/spatial, hover over the option labeled "Geographic Role" and select the relavent attribute type. (For example, "Address", if it appears.) In my case, "Address" was not an option and Tableau considered the data in this column "text" by default. Therefore, I opted to have Tableau create a geographic association for this data by selecting: "Geographic Role → Create from → Zipcode". This worked because there are zipcodes stored in my dataset.
 10. Now, with Tableau recognizing this data as geographic, still in Sheet 1, I grabbed onto the "Address" field under "Tables" on the left side of the screen, and dragged "Address" to the blank workspace in the center of the screen where there are several boxes which say "Drop field here". (In other words, take your geographic data field and drag it into the blank workspace in the center of the screen.)
-11. 
+11. Tableau should generate a map automatically with your data points already on it. Now, you can begin customizing the way this map appears.
+12. 
 
 
 
