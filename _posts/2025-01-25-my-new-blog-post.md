@@ -31,7 +31,7 @@ For this task, we will be creating a **geographic map** using the data we find. 
 17. From this webpage, select the download icon (the rectangle with the down-facing arrow) and click "Image". The image file of your map will be downloaded to wherever you store your Downloads by default on your computer (such as in "Downloads").
 
 ## And here is the result:
-
+![Florida Recreation and Parks](https://github.com/user-attachments/assets/14f2f56a-d5a4-40f5-97bd-7a6f29295f0e)
 
 
 
