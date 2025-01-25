@@ -25,7 +25,8 @@ For this task, we will be creating a **geographic map** using the data we find. 
 11. Tableau should generate a map automatically with your data points already on it. Now, you can begin customizing the way this map appears.
 12. On the left side of the map area, there is a box of options labeled "Marks." To start, click "Color" and select the default color swatch of your choosing. This changes the color of the data points (dots) on your map. In my case, I chose green dots.
 13. Next, to make the shape of the underlying map itself more visually distinguishable, you can select from a few default map views which act similar to "themes." To do so, on the ribbon at the top of the screen, select "Map → Background Maps". You can click through each of these to change the visual appearance of your map and decide which works best. In this case, I chose "Normal".
-14. 
+14. You could continue playing around with Tableau making other changes if you want, but at this point, you're done!
+15. To export your map as an image, in Tableau Public, you need to publish your map using "File → Save to Tableau Public".
 
 
 
