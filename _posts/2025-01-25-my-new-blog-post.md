@@ -9,5 +9,13 @@ For this task, we will be creating a **geographic map** using the data we find. 
 ## To begin, I've selected a dataset of Florida's Recreation Facilities and Parks.
 [This data](https://hub.arcgis.com/datasets/FDACS::florida-recreation-and-parks/explore?location=-0.000000%2C0.000000%2C0.70) was last provided as of July, 2020, courtesy of the Florida Department of Agriculture and Consumer Services. The dataset already maps nicely onto the provided visualization, but we're going to recreate it while making a few minor changes to it.
 
+*(Note: This exercise was completed on Windows, so the guide is written for Windows users.)*
+
 ## Here's a few quick steps to follow to get us started:
-1. Download Tableau Public [here](https://public.tableau.com/app/discover)
+1. Download Tableau Public [here.](https://public.tableau.com/app/discover)
+2. Open Tableau Public. (On Windows, 
+
+
+
+
+
