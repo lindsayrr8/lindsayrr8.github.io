@@ -23,3 +23,4 @@ Briefly, here are the steps I took to get started:
 After finishing my additions to the map, I saved the image with: Export → Save for the Web.
 
 And here is the result:
+![fl-ai-project-1](https://github.com/user-attachments/assets/f60cf062-c170-478c-9d45-a3e812330eb9)
