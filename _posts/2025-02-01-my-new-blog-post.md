@@ -20,4 +20,6 @@ Briefly, here are the steps I took to get started:
 > 4. I added a fourth new layer, "text," where I wrote "Florida Parks & Recreation."
 > 5. Finally, I added another layer beneath "text" where I highlighted the text with blue rectangles.
 
+After finishing my additions to the map, I saved the image with: Export → Save for the Web.
+
 And here is the result:
