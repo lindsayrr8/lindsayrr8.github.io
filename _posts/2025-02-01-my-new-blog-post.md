@@ -24,3 +24,11 @@ After finishing my additions to the map, I saved the image with: Export → Save
 
 And here is the result:
 ![fl-ai-project-1](https://github.com/user-attachments/assets/f60cf062-c170-478c-9d45-a3e812330eb9)
+
+## What do the graphics add?
+The addition of the five major cities adds a little more context to the image. Now someone looking at the map can quickly gauge where most parks are clustered in relation to the cities. For example, it looks like the most densely clustered parks and recreation facilities are around Tampa and Orlando in central Florida. There are also quite a few more along the coasts, in particular on the eastern coast of the state, intersecting Miami and Jacksonville. 
+
+## What could be improved?
+As always, this largely depends on what question we are asking and attempting to answer with this map. The addition of the new details does help to make the map more specific, but there are numerous improvements we could make depending on what we're trying to convey.
+
+In this case, someone looking at the map to decide which Florida parks to visit could quickly make the judgment to stick to central or eastern Florida due to the prevalence of recreational facilities in those areas. But while that is an important step in narrowing down one's travel plans, it still doesn't get very far down to the specifics. A few ideas to make this map even more specific might be to add other visual features such as: major or highly rated parks icons, major highways connecting these areas, visually distinct icons separating areas like "campgrounds" or "beaches," and a legend/map key explaining it all. This would still be generalized, but specific enough to then start asking more questions and making travel plans.
