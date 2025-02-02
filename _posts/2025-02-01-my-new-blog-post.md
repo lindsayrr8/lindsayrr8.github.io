@@ -23,7 +23,7 @@ Briefly, here are the steps I took to get started:
 After finishing my additions to the map, I saved the image with: Export → Save for the Web.
 
 And here is the result:
-![fl-ai-project-1](https://github.com/user-attachments/assets/f60cf062-c170-478c-9d45-a3e812330eb9)
+![fl-ai-project-2](https://github.com/user-attachments/assets/35e50c27-75ce-448a-84a5-c65d93ce66bd)
 
 ## What do the graphics add?
 The addition of the five major cities adds a little more context to the image. Now someone looking at the map can quickly gauge where most parks are clustered in relation to the cities. For example, it looks like the most densely clustered parks and recreation facilities are around Tampa and Orlando in central Florida. There are also quite a few more along the coasts, in particular on the eastern coast of the state, intersecting Miami and Jacksonville. 
