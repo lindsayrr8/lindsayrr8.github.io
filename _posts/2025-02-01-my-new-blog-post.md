@@ -14,5 +14,9 @@ This is where **vectors** come to the rescue. A vector is another kind of image 
 ## Adding vectors with Illustrator
 So to start putting some basic vector shapes on the Florida map, I've already downloaded and activated Illustrator.
 Briefly, here are the steps I took to get started:
-> 
+> 1. I opened the map image in Illustrator. I named this first layer "map base."
+> 2. I created a second new layer, "cities," where I placed the names of several major cities in Florida on the map.
+> 3. I created a third new layer, "stars," where I added yellow star shapes to visualize the cities' locations.
+> 4. I added a fourth new layer, "text," where I wrote "Florida Parks & Recreation."
+> 5. Finally, I added another layer beneath "text" where I highlighted the text with blue rectangles.
 
