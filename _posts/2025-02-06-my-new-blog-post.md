@@ -3,7 +3,7 @@
 Having been introduced to Tableau in the previous posts, we are now tasked with creating a first basic **time series visualization.** We will accomplish this using a monthly modal time series dataset sourced from data.gov. The goal of this exercise is to understand some basic practices with Tableau for the purpose of visualizing a relationship between different variables over time.
 
 ## Objective:
-The dataset contains 12 variables, of which we are instructed to select 6 for the visualization. From these 6 variables, we should conduct a basic analysis to identify meaningful trends.
+The dataset contains 10 variables, of which we are instructed to select 6 for the visualization. From these 6 variables, we should conduct a basic analysis to identify meaningful trends.
 <br ><br />
 *A note on isolating the variables:*
 
@@ -22,8 +22,8 @@ To begin, we can import the dataset, which comes to us cleaned and in the format
 - Collisions with Motor Vehicle
 - Collisions with Person
 
+## Asking a Question for Analysis:
 
-  
 
 
 
