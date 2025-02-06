@@ -66,6 +66,7 @@ To do this, I navigated to the "Sheet 1" tab that Tableau automatically generate
 > 3. Last, I changed the colors of each line so they are easier to visually differentiate.
 
 And here is the result:
+![Module4TimeSeriesAnalysis](https://github.com/user-attachments/assets/6bffc391-a18f-484e-9f99-3eba6f38fbd9)
 
 
 
