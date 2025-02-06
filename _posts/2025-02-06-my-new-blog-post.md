@@ -80,3 +80,4 @@ At first glance, it is easy to see that **each metric follows the same general t
 
 If we look closer at the **small differences in the trendlines prior to 2018,** there are also a few other things we can take note of. For one, while car on car accidents gradually increase until they plateau at about ~6,000 annually by 2018, `Ridership` is simultaneously decreasing from 10 billion in 2014 to about 9.6 billion in 2018. In other words, during this time, people were using service cars less and car accidents were happening slightly more often. However, this isn't the case as significantly for `Collision with Person` accidents, which fluctuate but remain relatively static overall, at about ~700-800 occurrences annually.
 
+The next step in the analysis process would be to seek more information to try and determine ***why*** the sharp decrease ocurred between 2018 and 2019.
