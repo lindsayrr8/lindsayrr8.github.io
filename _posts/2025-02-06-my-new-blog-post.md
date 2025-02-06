@@ -63,7 +63,10 @@ Having selected the 6 variables for analysis, we can begin creating a visualizat
 To do this, I navigated to the "Sheet 1" tab that Tableau automatically generates. From there, I followed these steps:
 > 1. From the available data fields on the left side of the screen, I selected `"Year"` and dragged it to the empty field for "columns" at the top of the blank workspace. A "ruler" with years from 2013-2020 should appear.
 > 2. Next, I selected the fields `"Collisions with Motor Vehicle, Collisions with Person, Ridership, Vehicle Revenue Hours, (and) Vehicle Revenue Miles,"` and dragged those into the empty field for "Rows" at the top of the blank workspace. 5 stacked line graphs should appear.
-> 3. 
+> 3. Last, I changed the colors of each line so they are easier to visually differentiate.
+
+And here is the result:
+
 
 
 
