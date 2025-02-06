@@ -24,8 +24,11 @@ To begin, we can import the dataset, which comes to us cleaned and in the format
 
 ## Asking a Question for Analysis:
 
+Now that we have the data, we can start asking questions that will lead us to discovering meaningful insights. There are many questions we might ask just looking at the overview of this dataset:
 
-
+How many vehicles hit a car or a person each year, and how has that changed over time?
+Are certain areas more prone to accidents than others? Has this changed over time?
+What is the relationship between vehicle revenue, vehicle miles, and ridership trends over time?
 
 
 
