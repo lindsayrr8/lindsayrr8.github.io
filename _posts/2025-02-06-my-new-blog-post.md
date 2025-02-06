@@ -68,6 +68,13 @@ To do this, I navigated to the "Sheet 1" tab that Tableau automatically generate
 And here is the result:
 ![Module4TimeSeriesAnalysis](https://github.com/user-attachments/assets/6bffc391-a18f-484e-9f99-3eba6f38fbd9)
 
+A few things of note: <br><br />
+In this visualization, I chose a line graph rather than an area chart because I feel like an area chart is visually distracting and less clear than a trendline by itself.
+
+I have also placed the variables on the y-axis and the corresponding years on the x-axis, which is often a best practice given that we expect the trendlines to follow a time scale that is visually presented in the same orientation (horizontal.)
+
+Getting this information to display clearly and concisely was a bit of a challenge with so many variables at play, but with thanks given to Occam's Razor - the simplest approach is often the best.
+
 ## Analyzing the Results:
 At first glance, it is easy to see that **each metric follows the same general trend in the data.** `Collisions with Motor Vehicle, Collisions with Person, Ridership, Vehicle Revenue Hours, (and) Vehicle Revenue Miles` all trend pretty statically between 2014 and 2018. Then, from the point between 2018 and 2019, every category trends consistently downward in numbers. It seems logical that as `Ridership` (the number of people using the service cars) decreases, the service mileage, clocked hours, and occurence of accidents would also decrease. 
 
