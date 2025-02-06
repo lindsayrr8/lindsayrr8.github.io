@@ -12,16 +12,16 @@ Generally speaking, a best practice would be to **remove the unneeded variables*
 To begin, we can import the dataset, which comes to us cleaned and in the format of an excel spreadsheet. Tableau makes this easy to do. Once we've imported the dataset, we can **select 6 variables that seem most relevant for analysis.** Our variable options are:
 
 ```
-- 5 Digit NTD ID
-- Primary USA Code
-- Primary USA City
-- Primary USA Sq Miles
-- Year
-- Vehicle Revenue Miles
-- Vehicle Revenue Hours
-- Ridership
-- Collisions with Motor Vehicle
-- Collisions with Person
+• 5 Digit NTD ID
+• Primary USA Code
+• Primary USA City
+• Primary USA Sq Miles
+• Year
+• Vehicle Revenue Miles
+• Vehicle Revenue Hours
+• Ridership
+• Collisions with Motor Vehicle
+• Collisions with Person
 ```
 
 ## Asking a Question for Analysis:
