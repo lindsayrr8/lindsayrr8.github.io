@@ -4,8 +4,7 @@ Having been introduced to Tableau in the previous posts, we are now tasked with 
 
 ## Objective:
 The dataset contains 12 variables, of which we are instructed to select 6 for the visualization. From these 6 variables, we should conduct a basic analysis to identify meaningful trends.
-
-
+<br ><br />
 *A note on isolating the variables:*
 
 Generally speaking, a best practice would be to remove the unneeded variables (data columns) in a copy of the original file before we begin. That way, we're being careful and efficient by importing only what's needed for the final analysis. However, if circumstances call for it, Tableau makes it possible to "remove" certain data from our analysis after we've already imported it. To do so, on the Data Source tab, you can right click a column with unneeded data and select "hide."
