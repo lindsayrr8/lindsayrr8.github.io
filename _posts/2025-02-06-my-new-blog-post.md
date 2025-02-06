@@ -55,5 +55,5 @@ In this case, we're asked to create **1 visualization that analyzes 6 of the var
 
 I did not select the `"5 Digit NTD ID, Primary USA Code, Primary USA City, (and) Primary USA Sq Miles"` variables because their relationships are more relevant to specific individual variables and **less relevant for a general overview.**
 
-For example, an analysis of `Ridership` per `5 Digit NTD ID` might tell us about a specific car's performance, but not about the dataset as a whole. As another example, while something like `Collisions with Motor Vehicle` in a `Primary USA City` might tell us meaningful information about accident rates in that specific places, it is much less likely to tell us about trends in the dataset as a whole.
+For example, an analysis of `Ridership` per `5 Digit NTD ID` might tell us about a specific car's performance, but not about the dataset as a whole. As another example, while something like `Collisions with Motor Vehicle` in a `Primary USA City` might tell us meaningful information about accident rates in that specific place, it is much less likely to tell us about trends in the dataset as a whole.
 
