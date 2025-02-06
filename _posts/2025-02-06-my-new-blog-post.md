@@ -7,9 +7,9 @@ The dataset contains 12 variables, of which we are instructed to select 6 for th
 <br ><br />
 *A note on isolating the variables:*
 
-Generally speaking, a best practice would be to remove the unneeded variables (data columns) in a copy of the original file before we begin. That way, we're being careful and efficient by importing only what's needed for the final analysis. However, if circumstances call for it, Tableau makes it possible to "remove" certain data from our analysis after we've already imported it. To do so, on the Data Source tab, you can right click a column with unneeded data and select "hide."
+Generally speaking, a best practice would be to **remove the unneeded variables** (data columns) in a copy of the original file before we begin. That way, we're being careful and efficient by importing only what's needed for the final analysis. However, if circumstances call for it, Tableau makes it possible to "remove" certain data from our analysis after we've already imported it. To do so, on the Data Source tab, you can right click a column with unneeded data and select "hide."
 
-To begin, we can import the dataset, which comes to us cleaned and in the format of an excel spreadsheet. Tableau makes this easy to do. Once we've imported the dataset, we can select 6 variables that seem most relevant for analysis. Our options are:
+To begin, we can import the dataset, which comes to us cleaned and in the format of an excel spreadsheet. Tableau makes this easy to do. Once we've imported the dataset, we can **select 6 variables that seem most relevant for analysis.** Our options are:
 
 - 5 Digit NTD ID
 - Primary USA Code
