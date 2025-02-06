@@ -71,7 +71,7 @@ And here is the result:
 #### A few things of note:
 In this visualization, I chose a line graph rather than an area chart because I feel like an area chart is visually distracting. Taking up all the white space looks less clear than a trendline by itself.
 
-I have also placed the variables on the y-axis and the corresponding years on the x-axis, which is often a best practice given that we expect the trendlines to follow a time scale that is visually presented in the same orientation (horizontal.)
+I have also placed the conceptual variables on the y-axis and the corresponding `Years` variable on the x-axis, which is often a best practice given that we expect the trendlines to follow a time scale that is visually presented in the same orientation (horizontal.)
 
 Getting this information to display clearly and concisely was a bit of a challenge with so many variables at play, but with thanks given to Occam's Razor - the simplest approach is often the best.
 
