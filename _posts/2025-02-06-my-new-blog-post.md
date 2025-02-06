@@ -60,7 +60,8 @@ For example, an analysis of `Ridership` per `5 Digit NTD ID` might tell us about
 ## Creating the Visualization:
 Having selected the 6 variables for analysis, we can begin creating a visualization that will help us identify general trends in the dataset.
 
-To do this, 
+To do this, I navigated to the "Sheet 1" tab that Tableau automatically generates. From there, I followed these steps:
+> 
 
 
 
