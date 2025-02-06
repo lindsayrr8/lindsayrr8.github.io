@@ -61,7 +61,8 @@ For example, an analysis of `Ridership` per `5 Digit NTD ID` might tell us about
 Having selected the 6 variables for analysis, we can begin creating a visualization that will help us identify general trends in the dataset.
 
 To do this, I navigated to the "Sheet 1" tab that Tableau automatically generates. From there, I followed these steps:
-> 
+> 1. From the available data fields on the left side of the screen, I selected `"Year"` and dragged it to the empty field for "columns" at the top of the blank workspace. A "ruler" with years from 2013-2020 should appear.
+> 2. 
 
 
 
