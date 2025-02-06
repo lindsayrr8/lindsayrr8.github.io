@@ -69,7 +69,7 @@ And here is the result:
 ![Module4TimeSeriesAnalysis](https://github.com/user-attachments/assets/6bffc391-a18f-484e-9f99-3eba6f38fbd9)
 
 ## Analyzing the Results:
-At first glance, it is easy to see that each metric follows the same general trend in the data. `Collisions with Motor Vehicle, Collisions with Person, Ridership, Vehicle Revenue Hours, (and) Vehicle Revenue Miles` all trend pretty statically between 2014 and 2018. Then, from the point between 2018 and 2019, every category trends consistently downward in numbers.
+At first glance, it is easy to see that **each metric follows the same general trend in the data.** `Collisions with Motor Vehicle, Collisions with Person, Ridership, Vehicle Revenue Hours, (and) Vehicle Revenue Miles` all trend pretty statically between 2014 and 2018. Then, from the point between 2018 and 2019, every category trends consistently downward in numbers.
 
 
 
