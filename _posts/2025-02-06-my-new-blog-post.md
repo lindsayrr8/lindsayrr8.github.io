@@ -34,9 +34,19 @@ Now that we have the data, we can start asking questions that will lead us to di
 
 In this case, we're asked to create **1 visualization that analyzes 6 of the variables at once.** Therefore, the 6 most likely variables with quantifiable data to provide a general analysis are:
 ```
-• Year, Vehicle Revenue Miles, Vehicle Revenue Hours, Ridership, Collisions with Motor Vehicle, (and) Collisions with Person
+# The date value for scale
+• Year
+# The monetary service life of vehicles
+• Vehicle Revenue Miles
+# The clocked hours of vehicles' monitary service
+• Vehicle Revenue Hours
+# The number of people riding in the vehicles
+• Ridership
+# Accidents between service cars
+• Collisions with Motor Vehicle
+# Accidents involving a service car and a person
+• Collisions with Person
 ```
-
 
 
 
