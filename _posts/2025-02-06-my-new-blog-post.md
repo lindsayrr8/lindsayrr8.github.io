@@ -68,7 +68,7 @@ To do this, I navigated to the "Sheet 1" tab that Tableau automatically generate
 And here is the result:
 ![Module4TimeSeriesAnalysis](https://github.com/user-attachments/assets/6bffc391-a18f-484e-9f99-3eba6f38fbd9)
 
-#### A few things of note: <br><br />
+#### A few things of note:
 In this visualization, I chose a line graph rather than an area chart because I feel like an area chart is visually distracting and less clear than a trendline by itself.
 
 I have also placed the variables on the y-axis and the corresponding years on the x-axis, which is often a best practice given that we expect the trendlines to follow a time scale that is visually presented in the same orientation (horizontal.)
