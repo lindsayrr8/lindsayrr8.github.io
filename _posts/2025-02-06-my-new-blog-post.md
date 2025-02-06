@@ -58,3 +58,9 @@ I did not select the `"5 Digit NTD ID, Primary USA Code, Primary USA City, (and)
 For example, an analysis of `Ridership` per `5 Digit NTD ID` might tell us about a specific car's performance, but not about the dataset as a whole. As another example, while something like `Collisions with Motor Vehicle` in a `Primary USA City` might tell us meaningful information about accident rates in that specific place, it is much less likely to tell us about **trends in the dataset as a whole.**
 
 ## Creating the Visualization:
+Having selected the 6 variables for analysis, we can begin creating a visualization that will help us identify general trends in the dataset.
+
+To do this, 
+
+
+
