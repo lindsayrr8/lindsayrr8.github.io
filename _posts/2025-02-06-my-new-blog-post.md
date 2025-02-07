@@ -40,7 +40,7 @@ In this case, we're asked to create **1 visualization that analyzes 6 of the var
 # The monetary service life of vehicles
 • Vehicle Revenue Miles
 
-# The clocked hours of vehicles' monitary service
+# The clocked hours of vehicles' monetary service
 • Vehicle Revenue Hours
 
 # The number of people riding in the vehicles
