@@ -24,7 +24,7 @@ I selected a template titled "line mode" and imported my dataset, assigning "Tim
 
 Unfortunately, without an account I can't directly export the `html` code with my new interactive graph, so I decided to recreate the graph in Python next using the Plotly Python package.
 
-# Recreating The Line Graph with Plotly for Python
+## Recreating The Line Graph with Plotly for Python
 
 
 
