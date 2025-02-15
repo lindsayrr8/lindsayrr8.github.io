@@ -25,7 +25,8 @@ I selected a template titled "line mode" and imported my dataset, assigning "Tim
 Unfortunately, without an account I can't directly export the `html` code with my new interactive graph, so I decided to recreate the graph in Python next using the Plotly Python package.
 
 ## Recreating The Line Graph with Plotly for Python
+Here's a hot tip for you: most IDE's (integrated development environments) for writing code are not configured with creating data visualizations in mind. That's why scientific programming languages like `R` exist with their own proprietary development environments, like RStudio. As a result, it can be tricky to choose the right environment for creating visualizations, and headaches will insue if you don't.
 
-
+There are tons of approachs to writing Python, but with visualizations in mind, I chose to complete this task using the available tools included with **Anaconda Navigator.** *(Yes, more snakes.)* Anaconda Navigator is a GUI that you can think of as a collection of applications useful for scientific computing with Python.
 
 
