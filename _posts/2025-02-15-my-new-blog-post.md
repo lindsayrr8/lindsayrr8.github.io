@@ -80,5 +80,15 @@ fig_line.show()
 And if we run it, we get this nifty result (PNG format):
 ![Plotly-Python-JupyterNotebook-linegraph](https://github.com/user-attachments/assets/0484d196-baa8-4512-930d-fee44e12b2eb)
 
+Now, with the code in hand, we can use a simple function to write the new line graph to `html` format. That way, I can set it as an interactive object on this blog page.
+
+To do that, I ran:
+```Python
+# Write graph to html format
+fig_line.write_html("C:/Users/user/Desktop/interactive_graph.html")
+```
+And now, the object is fully interactible on this page (infinite compatibility hurdles permitting):
+
+
 
 
