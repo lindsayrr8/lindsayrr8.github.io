@@ -66,3 +66,19 @@ Not so different from `R`, right? That's because many of these **basic data anal
 ```
 
 Very swanky. Now we're going to use the `px.line()` function from the Plotly Express package to plot the line:
+
+```Python
+# Create the line chart
+fig_line = px.line(df, x = "Time", y = "Average Position",
+                   title = "Average Position Over Time (Line Graph)",
+                   labels = {"Time": "Time", "Average Position": "Average Position"},
+                   markers = True)
+
+# Show the line chart
+fig_line.show()
+```
+And if we run it, we get this nifty result (PNG format):
+![Plotly-Python-JupyterNotebook-linegraph](https://github.com/user-attachments/assets/33cf588a-8b96-4230-bf81-1cc815957cf9)
+
+
+
