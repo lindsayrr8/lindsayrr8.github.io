@@ -22,12 +22,15 @@ I selected a [template titled "line mode"](https://chart-studio.plotly.com/~ansh
 
 <img width="390" alt="time series line graph module 5" src="https://github.com/user-attachments/assets/d2336ac1-5d88-46a8-a8f3-1bcc7404c54e" />
 
-Unfortunately, without an account I can't directly export the `html` code with my new interactive graph, so I decided to recreate the graph in Python next using the Plotly Python package.
+A simple line graph effectively shows the relationship between a relative position over a specific interval of time. This visualization does a good job of communicating the information quickly and easily. But as is nature's trade-off with simplicity, we lose potential insights when we forgo complexity. As always, how well this visualization holds up depends on the question we are intending to answer with it.
 
 ## Recreating The Line Graph with Plotly for Python
+
+Unfortunately, without a Plotly account I can't directly export the `html` code for my new interactive graph, so I decided to recreate the graph in `Python` using the Plotly Python package.
+
 Here's a hot tip for you: most IDE's *(integrated development environments)* for writing code are not configured with creating data visualizations in mind. That's why scientific programming languages like `R` exist with their own proprietary development environments, like RStudio. As a result, it can be tricky to choose the right environment for creating visualizations, and headaches will insue if you don't.
 
-There are tons of approachs to writing `Python,` but with visualizations in mind, I chose to complete this task using the available tools included with [**Anaconda Navigator.**](https://docs.anaconda.com/navigator/) *(Yes, more snakes.)* Anaconda Navigator is a free, open-source GUI that you can think of as a collection of applications useful for scientific computing, visualizing data, and working with AI, all using `Python.`
+There are tons of approaches to writing `Python,` but with visualizations in mind, I chose to complete this task using the available tools included with [**Anaconda Navigator.**](https://docs.anaconda.com/navigator/) *(Yes, more snakes.)* Anaconda Navigator is a free, open-source GUI that you can think of as a collection of applications useful for scientific computing, visualizing data, and working with AI, all using `Python.`
 
 In particular, with the spirit of Plotly's browser-based visualizing in mind, I chose to code my graph using [**Jupyter Notebook.**](https://jupyter.org/) Jupyter Notebook is another freebie interactive browser-based environment that is used by industry data scientists, analysts, researchers, and other information professionals. It differs from Plotly in that Jupyter is a little more technical. But as you will see, we will be using Plotly's `Python` package to recreate the graph utilizing Jupyter Notebook.
 
@@ -80,14 +83,14 @@ fig_line.show()
 And if we run it, we get this nifty result (PNG format):
 ![Plotly-Python-JupyterNotebook-linegraph](https://github.com/user-attachments/assets/0484d196-baa8-4512-930d-fee44e12b2eb)
 
-Now, with the code in hand, we can use a simple function to write the new line graph to `html` format. That way, I can set it as an interactive object on this blog page.
+Now, with the code in hand, we can use a simple function to write the new visualization to `html` format. That way, I can set it as an interactive object on this blog page.
 
 To do that, I ran:
 ```Python
 # Write graph to html format
 fig_line.write_html("C:/Users/user/Desktop/interactive_graph.html")
 ```
-And now, the object is fully interactible on this page ~*(infinite compatibility hurdles permitting):*~
+And now, the object is fully interactible when viewed in a web browser ~*(infinite compatibility hurdles permitting):*~
 
 <iframe src="https://static.observableusercontent.com/files/daa82ea66dbec2600a534acc2bcaee6c25f3c5ae653903612c9b11f719b61cd364c70ea26fbdcd6ecf2fc9f2ac3639e59f652c3ac8837d0c3f485fd8458d0bb9" width="100%" height="600px"></iframe>
 
