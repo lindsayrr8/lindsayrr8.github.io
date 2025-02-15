@@ -5,11 +5,11 @@ For this exercise, we are prompted to create a visualization using Plotly. To do
 **Plotly** (or Plot.ly) is a **free, open-source graphing library** that can be accessed with an internet browser. Under the hood, Plotly is a `JavaScript` library useful for creating interactive visualizations on the web. You might choose to use Plotly when you need to create dashboards, data exploration tools, or other interactive objects intended for web pages. Plotly also comes as a `Python` or `R` library, both of which are built on top of Plotly.js.
 
 ## Simple Tools for Simple Visualization Concepts
-Two of the most **basic design elements** to keep in mind when creating data visualizations are: **"Part to Whole"** and **"Ranking."**
+Two of the most **basic design elements** to keep in mind when creating data visualizations are: "Part to Whole" and "Ranking."
 
-Simply put, "Part to Whole" visualizations are intended to show how individual parts contribute to a total of something. A common example of this kind of visualization would be a pie chart.
+Simply put, **"Part to Whole"** visualizations are intended to show how individual parts contribute to a total of something. A common example of this kind of visualization would be a pie chart.
 
-"Ranking" visualizations are intended to showcase order, meaning comparing items based on some specific value. A common example of a ranking visualization is a bar chart.
+**"Ranking"** visualizations are intended to showcase order, meaning comparing items based on some specific value. A common example of a ranking visualization is a bar chart.
 
 Plotly graphics can be useful for creating basic visualizations like these quickly and easily. Many publicly available templates exist on [**Plotly Chart Studio**](https://chart-studio.plotly.com/feed/#/) which can be freely edited to suit your specific needs. At the time of this blog posting, Plotly has suspended all new account creation until further notice, so editing a public template without the need for an account is exactly the approach we'll take.
 
