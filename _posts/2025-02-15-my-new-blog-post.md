@@ -16,7 +16,7 @@ Plotly graphics can be useful for creating basic visualizations like these quick
 ## Using Plotly for Web Browsers
 To start, I searched for a simple, public line chart using the search term "time series line graph." This type of graph is most suitable for visualizing the time series dataset we've been given.
 
-I selected a template titled "line mode" and imported my dataset, assigning "Time" to the x-axis and "Average Position" to the y-axis under "Traces" in the "Structure" menu. With just a few clicks, I have my interactive time series graph that reveals data values at certain intervals when I mouse over any spot on my line.
+I selected a [template titled "line mode"](https://chart-studio.plotly.com/~anshmaniaa/82/time-series/#/) and imported my dataset, assigning "Time" to the x-axis and "Average Position" to the y-axis under "Traces" in the "Structure" menu. With just a few clicks, I have my interactive time series graph that reveals data values at certain intervals when I mouse over any spot on my line.
 
 **And here is the result** (PNG format):
 
