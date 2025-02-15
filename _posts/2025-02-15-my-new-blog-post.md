@@ -88,9 +88,10 @@ To do that, I ran:
 fig_line.write_html("C:/Users/user/Desktop/interactive_graph.html")
 ```
 And now, the object is fully interactible on this page ~*(infinite compatibility hurdles permitting):*~
-<iframe src="https://github.com/lindsayrr8/lindsayrr8.github.io/blob/main/html/02-15-25-interactive-graph" 
-        width="100%" height="500px"></iframe>
 
+<iframe src="https://github.com/lindsayrr8/lindsayrr8.github.io/blob/main/html/02-15-25-interactive-graph" 
+        width="100%" height="600px" frameborder="0" allowfullscreen>
+</iframe>
 
 
 
