@@ -78,7 +78,7 @@ fig_line = px.line(df, x = "Time", y = "Average Position",
 fig_line.show()
 ```
 And if we run it, we get this nifty result (PNG format):
-![Plotly-Python-JupyterNotebook-linegraph](https://github.com/user-attachments/assets/33cf588a-8b96-4230-bf81-1cc815957cf9)
+![Plotly-Python-JupyterNotebook-linegraph](https://github.com/user-attachments/assets/1a7dbf11-eafc-4ee1-aeec-ff3fa342ae33)
 
 
 
