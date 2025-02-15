@@ -33,6 +33,14 @@ In particular, with the spirit of Plotly's browser-based visualizing in mind, I 
 
 ### After booting up Jupyter Notebook and creating a new file, we need to import a few necessary `Python` libraries:
 ```Python
+# Use openpyxl to read our dataset, which is an excel file
+import openpyxl
+from openpyxl import Workbook, load_workbook
 
+# Use pandas for data analysis tools
+import pandas as pd
+
+# Use Plotly's python package
+import plotly.express as px
 ```
 
