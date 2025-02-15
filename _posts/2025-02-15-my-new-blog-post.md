@@ -31,3 +31,6 @@ There are tons of approachs to writing Python, but with visualizations in mind, 
 
 In particular, with the spirit of Plotly's browser-based visualizing in mind, I chose to code my graph using **Jupyter Notebook.** Jupyter Notebook is another freebie interactive browser-based environment that is used by industry data scientists, analysts, researchers, and other information professionals. It differs from Plotly in that Jupyter is a little more technical. But as you will see, we will be using Plotly's Python package to recreate the graph utilizing Jupyter Notebook.
 
+After booting up Jupyter Notebook and creating a new file, we need to import a few necessary `Python` libraries:
+
+
