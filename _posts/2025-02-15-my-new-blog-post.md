@@ -14,8 +14,16 @@ Simply put, "Part to Whole" visualizations are intended to show how individual p
 Plotly graphics can be useful for creating basic visualizations like these quickly and easily. Many publicly available templates exist on [**Plotly Chart Studio**](https://chart-studio.plotly.com/feed/#/) which can be freely edited to suit your specific needs. At the time of this blog posting, Plotly has suspended all new account creation until further notice, so editing a public template without the need for an account is exactly the approach we'll take.
 
 ## Using Plotly for Web Browsers
-To start, I searched for a simple, public line chart using the search term "time series." This type of graph is most suitable for visualizing the time series dataset we've been given. 
+To start, I searched for a simple, public line chart using the search term "time series line graph." This type of graph is most suitable for visualizing the time series dataset we've been given.
 
+I selected a template titled "line mode" and imported my dataset, assigning "Time" to the x-axis and "Average Position" to the y-axis under "Traces" in the "Structure" menu. With just a few clicks, I have my interactive time series graph that reveals data values at certain intervals when I mouse over any spot on my line.
+
+Here is the result (PNG format):
+<img width="390" alt="time series line graph module 5" src="https://github.com/user-attachments/assets/d2336ac1-5d88-46a8-a8f3-1bcc7404c54e" />
+
+Unfortunately, without an account I can't export the `html` code with my new interactive graph, so I decided to recreate the graph in Python next using the Plotly Python package.
+
+# Recreating The Line Graph with Plotly for Python
 
 
 
