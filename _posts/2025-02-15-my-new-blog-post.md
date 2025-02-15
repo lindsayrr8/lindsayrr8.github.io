@@ -33,11 +33,7 @@ In particular, with the spirit of Plotly's browser-based visualizing in mind, I 
 
 ### After loading up Jupyter Notebook and creating a new file, we need to import a few necessary `Python` libraries:
 ```Python
-# Use openpyxl to read our dataset, which is an Excel file
-import openpyxl
-from openpyxl import Workbook, load_workbook
-
-# Use pandas for data analysis tools
+# Use pandas for data analysis tools and excel file functions
 import pandas as pd
 
 # Use Plotly's python package
@@ -48,13 +44,13 @@ Cool beans. The rest really is just a few simple steps. There's very little hard
 
 The first step is to read in the dataset, which is in the format of an Excel file. Then we'll take a look at the resulting data frame:
 ```Python
-# Load the Excel file from wherever you've stored it
+# Set the file path for the Excel file from wherever you've stored it
 file_path = "C:/Users/user/Desktop/thedataset.xlsx"
 
-# Read the file into a data frame
+# Read the file into a data frame using pandas: pd.read_excel()
 df = pd.read_excel(file_path)
 
-# Display first rows to check out the data
+# Display first rows to check out the data using pandas: df.head()
 print(df.head())
 ```
 
@@ -69,3 +65,4 @@ Not so different from `R`, right? That's because many of these **basic data anal
 4           5          0.325576   0.8
 ```
 
+Very swanky. Now we're going to use the `px.line()` function from the Plotly Express package to plot the line:
