@@ -2,7 +2,7 @@
 
 For this exercise, we are prompted to create a visualization using Plotly. To do so, we are given a basic time series dataset with two columns: "Average Position" and "Time."
 
-**Plotly** (or Plot.ly) is a **free, open-source graphing library** that can be accessed with an internet browser. Under the hood, Plotly is a JavaScript library useful for creating interactive visualizations on the web. You might choose to use Plotly when you need to create dashboards, data exploration tools, or other interactive objects intended for web pages. Plotly also comes as a `Python` or `R` library, both of which are built on top of Plotly.js.
+**Plotly** (or Plot.ly) is a **free, open-source graphing library** that can be accessed with an internet browser. Under the hood, Plotly is a `JavaScript` library useful for creating interactive visualizations on the web. You might choose to use Plotly when you need to create dashboards, data exploration tools, or other interactive objects intended for web pages. Plotly also comes as a `Python` or `R` library, both of which are built on top of Plotly.js.
 
 ## Simple Tools for Simple Visualization Concepts
 Two of the most **basic design elements** to keep in mind when creating data visualizations are: **"Part to Whole"** and **"Ranking."**
