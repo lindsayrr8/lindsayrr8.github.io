@@ -27,6 +27,8 @@ Unfortunately, without an account I can't directly export the `html` code with m
 ## Recreating The Line Graph with Plotly for Python
 Here's a hot tip for you: most IDE's (integrated development environments) for writing code are not configured with creating data visualizations in mind. That's why scientific programming languages like `R` exist with their own proprietary development environments, like RStudio. As a result, it can be tricky to choose the right environment for creating visualizations, and headaches will insue if you don't.
 
-There are tons of approachs to writing Python, but with visualizations in mind, I chose to complete this task using the available tools included with **Anaconda Navigator.** *(Yes, more snakes.)* Anaconda Navigator is a GUI that you can think of as a collection of applications useful for scientific computing with Python.
+There are tons of approachs to writing Python, but with visualizations in mind, I chose to complete this task using the available tools included with **Anaconda Navigator.** *(Yes, more snakes.)* Anaconda Navigator is a free, open-source GUI that you can think of as a collection of applications useful for scientific computing, visualizing data, and working with AI, all using Python.
+
+In particular, with the spirit of Plotly's browser-based visualizing in mind, I chose to code my graph using **Jupyter Notebook.** Jupyter Notebook is another freebie interactive environment that is used by industry data scientists, analysts, researchers, and other information professionals. It differs from browser-Plotly in that Jupyter is a little more technical.
 
 
