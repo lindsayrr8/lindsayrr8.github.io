@@ -29,7 +29,7 @@ Here's a hot tip for you: most IDE's *(integrated development environments)* for
 
 There are tons of approachs to writing `Python,` but with visualizations in mind, I chose to complete this task using the available tools included with [**Anaconda Navigator.**](https://docs.anaconda.com/navigator/) *(Yes, more snakes.)* Anaconda Navigator is a free, open-source GUI that you can think of as a collection of applications useful for scientific computing, visualizing data, and working with AI, all using `Python.`
 
-In particular, with the spirit of Plotly's browser-based visualizing in mind, I chose to code my graph using **Jupyter Notebook.** Jupyter Notebook is another freebie interactive browser-based environment that is used by industry data scientists, analysts, researchers, and other information professionals. It differs from Plotly in that Jupyter is a little more technical. But as you will see, we will be using Plotly's `Python` package to recreate the graph utilizing Jupyter Notebook.
+In particular, with the spirit of Plotly's browser-based visualizing in mind, I chose to code my graph using [**Jupyter Notebook.**](https://jupyter.org/) Jupyter Notebook is another freebie interactive browser-based environment that is used by industry data scientists, analysts, researchers, and other information professionals. It differs from Plotly in that Jupyter is a little more technical. But as you will see, we will be using Plotly's `Python` package to recreate the graph utilizing Jupyter Notebook.
 
 ### After loading up Jupyter Notebook and creating a new file, we need to import a few necessary `Python` libraries:
 ```Python
