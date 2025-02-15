@@ -18,7 +18,7 @@ To start, I searched for a simple, public line chart using the search term "time
 
 I selected a template titled "line mode" and imported my dataset, assigning "Time" to the x-axis and "Average Position" to the y-axis under "Traces" in the "Structure" menu. With just a few clicks, I have my interactive time series graph that reveals data values at certain intervals when I mouse over any spot on my line.
 
-**And Here is the result** (PNG format):
+**And here is the result** (PNG format):
 <img width="390" alt="time series line graph module 5" src="https://github.com/user-attachments/assets/d2336ac1-5d88-46a8-a8f3-1bcc7404c54e" />
 
 Unfortunately, without an account I can't export the `html` code with my new interactive graph, so I decided to recreate the graph in Python next using the Plotly Python package.
