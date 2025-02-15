@@ -89,7 +89,7 @@ fig_line.write_html("C:/Users/user/Desktop/interactive_graph.html")
 ```
 And now, the object is fully interactible on this page ~*(infinite compatibility hurdles permitting):*~
 
-<iframe src="gregarious-jelly-1b9a45.netlify.app" 
+<iframe src="https://gregarious-jelly-1b9a45.netlify.app" 
         width="100%" height="600px" frameborder="0" allowfullscreen>
 </iframe>
 
