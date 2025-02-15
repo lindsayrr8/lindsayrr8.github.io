@@ -44,3 +44,27 @@ import pandas as pd
 import plotly.express as px
 ```
 
+Cool beans. The rest really is just a few simple steps. There's very little hard coding involved thanks to the wide availability of preset libraries available for `Python.`
+
+The first step is to read in the dataset, which is in the format of an Excel file. Then we'll take a look at the resulting data frame:
+```Python
+# Load the Excel file from wherever you've stored it
+file_path = "C:/Users/user/Desktop/thedataset.xlsx"
+# Read the file into a data frame
+df = pd.read_excel(file_path)
+
+# Display first rows to check out the data
+print(df.head())
+```
+
+Not so different from `R`, right? That's because many of these **basic data analysis concepts are consistent across different programming languages.** Take a look at our data frame:
+
+```Python
+  Unnamed: 0  Average Position  Time
+0           1          0.176268   0.0
+1           2          0.189679   0.2
+2           3          0.219623   0.4
+3           4          0.258176   0.6
+4           5          0.325576   0.8
+```
+
