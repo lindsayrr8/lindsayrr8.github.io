@@ -50,6 +50,7 @@ The first step is to read in the dataset, which is in the format of an Excel fil
 ```Python
 # Load the Excel file from wherever you've stored it
 file_path = "C:/Users/user/Desktop/thedataset.xlsx"
+
 # Read the file into a data frame
 df = pd.read_excel(file_path)
 
