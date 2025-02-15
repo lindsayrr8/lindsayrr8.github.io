@@ -33,7 +33,7 @@ In particular, with the spirit of Plotly's browser-based visualizing in mind, I 
 
 ### After loading up Jupyter Notebook and creating a new file, we need to import a few necessary `Python` libraries:
 ```Python
-# Use openpyxl to read our dataset, which is an excel file
+# Use openpyxl to read our dataset, which is an Excel file
 import openpyxl
 from openpyxl import Workbook, load_workbook
 
