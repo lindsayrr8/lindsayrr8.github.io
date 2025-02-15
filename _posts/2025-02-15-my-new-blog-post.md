@@ -87,7 +87,7 @@ To do that, I ran:
 # Write graph to html format
 fig_line.write_html("C:/Users/user/Desktop/interactive_graph.html")
 ```
-And now, the object is fully interactible on this page (infinite compatibility hurdles permitting):
+And now, the object is fully interactible on this page ~*(infinite compatibility hurdles permitting):*~
 
 
 
