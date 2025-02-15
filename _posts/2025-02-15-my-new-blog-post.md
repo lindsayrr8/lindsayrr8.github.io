@@ -22,7 +22,7 @@ I selected a template titled "line mode" and imported my dataset, assigning "Tim
 
 <img width="390" alt="time series line graph module 5" src="https://github.com/user-attachments/assets/d2336ac1-5d88-46a8-a8f3-1bcc7404c54e" />
 
-Unfortunately, without an account I can't export the `html` code with my new interactive graph, so I decided to recreate the graph in Python next using the Plotly Python package.
+Unfortunately, without an account I can't directly export the `html` code with my new interactive graph, so I decided to recreate the graph in Python next using the Plotly Python package.
 
 # Recreating The Line Graph with Plotly for Python
 
