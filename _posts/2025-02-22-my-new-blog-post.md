@@ -31,6 +31,7 @@ Yes, the second bar graph is interpreatable, but in the real world an extra few 
 ## Now, let's make the first chart better:
 We'll approach this by adding some color to visually differentiate the `clarity` categories:
 
+![diamonds_bar_chart](https://github.com/user-attachments/assets/1f5804df-de6f-4ddc-bfac-a043137f41d9)
 
 This updated visualization allows the viewer to quickly look at the chart and gain insights.
 
