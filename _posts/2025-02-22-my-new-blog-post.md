@@ -28,6 +28,7 @@ Did it take you a little longer to interpret the sideways bar chart than the upr
 
 Yes, the second bar graph is interpreatable, but in the real world an extra few seconds of processing makes a difference ~~*(especially if you are a driver in Florida.)*~~ If you wanted to purchase a product or service from two different companies and you only had a few seconds to glance at each graph, which would you pick to spend your time and money on?
 
-## Now, let's make the first chart better by adding some color to visually differentiate the `clarity` categories:
+## Now, let's make the first chart better:
+We'll approach this by adding some color to visually differentiate the `clarity` categories:
 
 
