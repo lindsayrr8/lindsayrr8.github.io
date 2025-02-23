@@ -10,7 +10,7 @@ In the text *"Now You See It: Simple Visualization Techniques for Quantitative A
 
 ## Creating a Basic Visualization Utilizing These Principles
 
-With these princples in mind, we are **tasked with creating a basic visualization** using `R`. In this case, I'll be focusing more on the style than the code since I've covered `R` pretty extensively already on this blog.
+With these princples in mind, we are **tasked with creating a basic visualization** using `R`. In this case, I'll be focusing more on the style than the code since I've already covered `R` pretty extensively on this blog.
 
 To complete the activity, I've chosen to create a bar chart in line with both Few and Yau's recommendations. A bar chart will be simple, easy to interpret, and easy to style with different colors. I'll be using `R`'s preset `diamonds` dataset to create the bar chart. With it, I'll be comparing the average carat weight of the diamonds in the set by their relative clarity.
 
