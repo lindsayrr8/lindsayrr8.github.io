@@ -19,7 +19,7 @@ I'll set up my initial bar chart with the variables `carat` on the y-axis and `c
 ![upright_bar_chart](https://github.com/user-attachments/assets/437a02cd-50ba-490b-95cb-b74bf478f137)
 
 
-However, I'm a firm believer that showing bad examples is necessary to understand why good examples are "good" instead of me just telling you it is, so take a look at the difference for yourself:
+However, I'm a firm believer that showing bad examples is necessary to understand why good examples are "good" instead of me just telling you it is, so **take a look at the difference for yourself:**
 
 ![bar_chart_sideways](https://github.com/user-attachments/assets/7a7d08d9-064f-4bee-81cf-cf0ea2882cf1)
 
