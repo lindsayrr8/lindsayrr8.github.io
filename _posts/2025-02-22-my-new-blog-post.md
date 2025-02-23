@@ -41,3 +41,5 @@ I chose a color spectrum from purple to very light blue to denote clarity. I avo
 The visual key indicates that the most included diamonds are represented by dark purple, while the least included diamonds are a light blue, and flawless diamonds are a whiteish blue. This color pattern mirrors the visual relationship that real diamonds with inclusions have: more inclusions creates more visual "darkness," while fewer inclusions create a clear or whiteish appearance.
 
 We know at a glance that the bigger the diamond carat weight, the more likely it is to have inclusions. We also know that most of the diamonds in the set feature inclusions, while the fewest diamonds are very very slightly included `VVS1` or flawless `IF`. These diamonds also tend to be a relatively small carat weight.
+
+(*...But you didn't need to read all that when you could just look at the graph, eh?)*
