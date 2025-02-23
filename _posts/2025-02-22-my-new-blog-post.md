@@ -1,4 +1,4 @@
-# Back to the Basics: Making Visualizations That Make Sense
+# Back to the Basics: Making "Good" Visualizations
 
 In the modern day, there are many different tools and approaches available for creating data visualizations. With the enormous amount of complex data out there, it can sometimes be intimidating to decide where to even **start visualizing it.**
 
