@@ -32,7 +32,10 @@ Yes, the second bar graph is interpreatable, but in the real world an extra few 
 We'll approach this by adding some color to visually differentiate the `clarity` categories:
 
 
-For the updated visualization, I chose a color spectrum from purple to very light blue to denote clarity. I avoided colors like red and green for "bad" and "good," because that's not the point here. I also avoided using brown or yellow since that could confuse the viewer with diamond color rather than clarity. The most included diamonds are represented by dark purple, while the least included diamonds are a light blue, and flawless diamonds are a whiteish blue.
+This updated visualization allows the viewer to quickly look at the chart and gain insights.
 
-This allows the viewer to quickly look at the chart and gain insights. We know at a glance that most of the diamonds are included `I1`, while the fewest diamonds are very very slightly included `VVS1` or flawless `IF`. This color pattern mirrors the visual relationship that real diamonds with inclusions have: more inclusions creates more visual "darkness," while fewer inclusions create a clear or whiteish appearance.
+I chose a color spectrum from purple to very light blue to denote clarity. I avoided colors like red and green for *"bad"* and *"good,"* because that's not the point I'm trying to make here. I also avoided using brown or yellow since that could confuse the viewer with diamond color rather than clarity.
 
+The most included diamonds are represented by dark purple, while the least included diamonds are a light blue, and flawless diamonds are a whiteish blue. This color pattern mirrors the visual relationship that real diamonds with inclusions have: more inclusions creates more visual "darkness," while fewer inclusions create a clear or whiteish appearance.
+
+We know at a glance that the bigger the diamond carat weight, the more likely it is to have inclusions. We also know that most of the diamonds in the set feature inclusions, while the fewest diamonds are very very slightly included `VVS1` or flawless `IF`. 
