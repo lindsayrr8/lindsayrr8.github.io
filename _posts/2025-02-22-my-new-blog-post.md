@@ -36,7 +36,7 @@ We'll approach this by adding some color to visually differentiate the `clarity`
 
 This updated visualization allows the viewer to quickly look at the chart and gain insights. It is simple, clear, and stylistic.
 
-I chose a color spectrum from purple to very light blue to denote clarity. I avoided colors like red and green for *"bad"* and *"good,"* because that's not the point I'm trying to make here. I also avoided using brown or yellow since that could confuse the viewer with diamond color rather than clarity.
+I chose a color spectrum from purple to very light blue to denote clarity. I avoided colors like red and green for *"bad"* and *"good"* because that's not the point I'm trying to make here. I also avoided using brown or yellow since that could confuse the viewer with diamond color rather than clarity.
 
 The visual key indicates that the most included diamonds are represented by dark purple, while the least included diamonds are a light blue, and flawless diamonds are a whiteish blue. This color pattern mirrors the visual relationship that real diamonds with inclusions have: more inclusions creates more visual "darkness," while fewer inclusions create a clear or whiteish appearance.
 
