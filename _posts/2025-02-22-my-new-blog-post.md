@@ -42,4 +42,4 @@ The visual key indicates that the most included diamonds are represented by dark
 
 We know at a glance that the bigger the diamond carat weight, the more likely it is to have inclusions. We also know that most of the diamonds in the set feature inclusions, while the fewest diamonds are very very slightly included `VVS1` or flawless `IF`. These diamonds also tend to be a relatively small carat weight.
 
-(*...But you didn't need to read all that when you could just look at the graph, eh?)*
+(*...But you didn't need to read all that when you could just look at the chart, eh? That's what makes a "good" visualization.)*
