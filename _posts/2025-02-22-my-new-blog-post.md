@@ -21,7 +21,7 @@ I'll set up my initial bar chart with the variables `carat` on the y-axis and `c
 
 However, I'm a firm believer that showing bad examples is necessary to understand why good examples are "good" instead of me just telling you that they are, so **take a look at the difference for yourself:**
 
-![bar_chart_sideways](https://github.com/user-attachments/assets/7a7d08d9-064f-4bee-81cf-cf0ea2882cf1)
+![horizontal_graph_updated](https://github.com/user-attachments/assets/c39dd3ea-bcd2-44a5-8ef7-1907cb035881)
 
 
 Did it take you a little longer to interpret the sideways bar chart than the upright one? This means your brain is working normally (congratulations!)
