@@ -15,10 +15,12 @@ With these princples in mind, we are **tasked with creating a basic visualizatio
 To complete the activity, I've chosen to create a bar chart in line with both Few and Yau's recommendations. A bar chart will be simple, easy to interpret, and easy to style with different colors. I'll be using `R`'s preset `diamonds` dataset to create the bar chart. With it, I'll be comparing the average carat weight of the diamonds in the set by their relative clarity.
 
 I'll set up my initial bar chart with the variables `carat` on the y-axis and `clarity` on the x-axis. This is because it's a standard practice to place categories (like clarity) on the x-axis and numerical values (like carat weight) on the y-axis. *(Humans are pretty good at evaluating things upright, but sideways can be a little weird for us.)*
+
 ![upright_bar_chart](https://github.com/user-attachments/assets/437a02cd-50ba-490b-95cb-b74bf478f137)
 
 
 However, I'm a firm believer that showing bad examples is necessary to understand why good examples are "good" instead of me just telling you it is, so take a look at the difference for yourself:
+
 ![bar_chart_sideways](https://github.com/user-attachments/assets/7a7d08d9-064f-4bee-81cf-cf0ea2882cf1)
 
 
