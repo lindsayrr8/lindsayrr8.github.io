@@ -72,7 +72,7 @@ Nice. Looking at the chart reveals the median mpg is about 26 for the most repre
 
 ## Can you see the difference?
 
-Here's one primary observation for you. On the histogram, there's a huge bar that seems to imply lots of cars in the dataset get about 15 (or fewer) mpg. When we look at the box and whisker plot, we can see that in reality, very few cars truly get 15 or fewer mpg. While the numbers on the graph are accurate (there are about 6/32 cars between the 2 bars representing ~11-15 mpg), it is a bit visually confusing.
+Here's one primary observation for you. On the histogram, there's a huge bar that seems to imply lots of cars in the dataset get about 15 or fewer mpg (even less so if we were to omit the outlier.) When we look at the box and whisker plot, we can see that in reality, very few cars truly get 15 or fewer mpg. While the numbers on the graph are accurate (there are about 6/32 cars between the 2 bars representing ~11-15 mpg), it is a bit visually confusing.
 
 In fact, there are more cars between ~23-35 mpg in the set than there are <=15 mpg. But because those are represented by tiny bars and the cars <=15 mpg are represented by a big bar (and a stubby one), it looks to be more prominent in the dataset. Therein lies the mischief on the histogram, but that wasn't evident at first glance, was it?
 
