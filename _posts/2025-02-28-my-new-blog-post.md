@@ -69,7 +69,7 @@ And here is the result:
 
 ## So when do you use either one of these guys?
 
-While this isn't an exhaustive list of distribution visualizations, there are some cases you can generally apply each of these to. A histogram is probably the best way to see the overall shape of the distribution, while the box plot is proficient at showing details like spread and outliers.
+While this isn't an exhaustive list of distribution visualizations, there are some cases you can generally apply each of these to. A histogram is probably the best way to see the overall shape of the distribution, while the box plot is proficient at showing details like spread and outliers. For best practice - use them both together!
 
 
 
