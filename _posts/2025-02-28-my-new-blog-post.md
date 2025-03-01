@@ -28,7 +28,7 @@ summary(mtcars)
 
 # Create a histogram using the mtcars dataset
 ggplot(mtcars, aes(x = mpg)) + 
-  geom_histogram(binwidth = 2, fill = "deepskyblue2", colo r = "black") + 
+  geom_histogram(binwidth = 2, fill = "deepskyblue2", color = "black") + 
   ggtitle("Distribution of MPG")
 ```
 
@@ -64,7 +64,7 @@ And here is the result:
 
 Nice. Looking at the chart reveals the median mpg is about 26 for the most represented category of cars in the dataset (being those that are 4-cylinder and ~22 to 30 mpg), with the visual addition of a few weird little 8-cylinder outliers on the other end.
 
-**A box and whisker plot is a good way to check the details of a distribution rather than its overall shape.** It's also pretty good at showing you the statistical "5-number summary" of the dataset. To give examples, from this visualization we can tell:
+**A box and whisker plot is a good way to check the details of a distribution rather than its overall shape.** It's also pretty good at showing you the statistical "5-number summary" of the dataset, highlighting differences across categories. To give examples, from this visualization we can tell:
 - the median/percentiles
 - any outliers
 - skewness and spread
@@ -105,6 +105,6 @@ While this isn't an exhaustive list of distribution visualizations, there are so
 
 ## What would Few do?
 
-Few, as in Stephen Few of *"Now you see it: An Introduction to Visual Data Sensemaking,"* might appreciate the simplicity of these visualizations. He would likely also appreciate the use of grids to contextualize units of space on these graphs. But he might well also give the histogram a slap of disapproval due to some scaling issues. In particular, our histogram has some pesky problems with misrepresenting the data involving our <=15 mpg cars, despite the numbers being accurate.
+Few, as in Stephen Few of *"Now you see it: An Introduction to Visual Data Sensemaking,"* might appreciate the simplicity of these visualizations. He would likely also appreciate the use of grids to improve readability by contextualizing units of space on these graphs. But he might well also give the histogram a slap of disapproval due to some scaling issues. In particular, our histogram has some pesky problems with misrepresenting the data involving our <=15 mpg cars, despite the numbers being accurate.
 
 Few's argument is that good visualizations should make data clearer rather than being misleading. If the box and whisker plot can do that better than the histogram in this case, then Few wouldn't tell you to use the histogram. *(Really, he'd tell you to check your bin width!)*
