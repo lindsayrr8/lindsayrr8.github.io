@@ -27,8 +27,8 @@ str(mtcars)
 summary(mtcars)
 
 # Create a histogram using the mtcars dataset
-ggplot(mtcars, aes(x=mpg)) + 
-  geom_histogram(binwidth=2, fill="deepskyblue2", color="black") + 
+ggplot(mtcars, aes(x = mpg)) + 
+  geom_histogram(binwidth = 2, fill = "deepskyblue2", colo r = "black") + 
   ggtitle("Distribution of MPG")
 ```
 
@@ -53,8 +53,8 @@ Instead, let us approach the distribution for this dataset from another angle by
 
 ```R
 # Create box plot to show comparison
-ggplot(mtcars, aes(x=factor(cyl), y=mpg)) + 
-  geom_boxplot(fill="deepskyblue2") + 
+ggplot(mtcars, aes(x = factor(cyl), y = mpg)) + 
+  geom_boxplot(fill = "deepskyblue2") + 
   ggtitle("MPG Distribution by Cylinder Count")
 ```
 
