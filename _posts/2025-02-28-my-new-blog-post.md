@@ -10,5 +10,5 @@ In other words,  **the distribution of your data significantly affects the type 
 
 To give a simple demonstration, we're turning back to `R` and its built-in `mtcars` dataset. To do this, we will also be using the `ggplot2` `R` package.
 
-*(As with most of my blog posts about visualization, this article will focus more on theory and technique than coding explanations. I have a bunch of those already available under my statistical and `R` posts.)*
+*(As with most of my blog posts about visualization, this article will focus more on theory and technique than coding explanations. I have a bunch of those already available under my statistical analysis and `R` posts.)*
 
