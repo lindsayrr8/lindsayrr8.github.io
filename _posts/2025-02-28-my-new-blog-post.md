@@ -68,6 +68,7 @@ Nice. Looking at the chart reveals the median mpg is about 26 for the most repre
 - the median/percentiles
 - any outliers
 - skewness and spread
+- categorial information
 
 ## Can you see the difference?
 
