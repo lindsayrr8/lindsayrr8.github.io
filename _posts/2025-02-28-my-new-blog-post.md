@@ -76,7 +76,7 @@ Here's one primary observation for you. On the histogram, there's a huge bar tha
 
 In fact, there are more cars between ~23-35 mpg in the set than there are <=15 mpg. But because those are represented by tiny bars and the cars <=15 mpg are represented by a big bar (and a stubby one), it looks to be more prominent in the dataset. Therein lies the mischief on the histogram, but that wasn't evident at first glance, was it?
 
-If we run some code to check the numbers, we even can see that cars with 15 or fewer mpg only represent about ~19% of the total dataset while cars with 23 or more mpg represent ~22%:
+If we run some code to check the numbers, we can even see that cars with 15 or fewer mpg only represent about ~19% of the total dataset while cars with 23 or more mpg represent ~22%:
 
 ```R
 # Count cars with mpg <= 15
