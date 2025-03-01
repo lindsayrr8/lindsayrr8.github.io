@@ -8,3 +8,4 @@ In other words,  **the distribution of your data significantly affects the type 
 
 ## So, how do we approach figuring out the distribution of a dataset?
 
+To give a simple demonstration, we're turning back to `R` and its built-in `mtcars` dataset.
