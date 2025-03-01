@@ -15,7 +15,19 @@ To give a simple demonstration, we're turning back to `R` and its built-in `mtca
 Often times when working with data visualizations, the process is not straightforward. You will likely have to experiment with multiple different kinds of visualizations until you land on one that is simplest and makes the most sense. That being said, **a very flexible place to start looking for distribution is with a histogram:**
 
 ```R
+install.packages("ggplot2")  
+library(ggplot2)
 
+data(mtcars)
+
+# Initial check of dataset
+str(mtcars)
+summary(mtcars)
+
+# Create a histogram using the mtcars dataset
+ggplot(mtcars, aes(x=mpg)) + 
+  geom_histogram(binwidth=2, fill="deepskyblue2", color="black") + 
+  ggtitle("Distribution of MPG (Miles Per Gallon)")
 ```
 And here is the result:
 
@@ -27,4 +39,8 @@ The reason a histogram is a good way to check out your dataset's distribution is
 - gaps or clusters
 
 You will also be delighted to know that, yes, **data visualizations are the fastest and easiest way to figure out distribution.**
+
+
+
+
 
