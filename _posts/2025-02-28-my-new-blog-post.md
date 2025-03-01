@@ -12,6 +12,8 @@ To give a simple demonstration, we're turning back to `R` and its built-in `mtca
 
 *(As with most of my blog posts about visualization, this article will focus more on theory and technique than coding explanations. I have a bunch of those already available under my statistical analysis and `R` posts.)*
 
+You will also be delighted to know that, yes, **data visualizations are the fastest and easiest way to figure out distribution.**
+
 Often times when working with data visualizations, the process is not straightforward. You will likely have to experiment with multiple different kinds of visualizations until you land on one that is simplest and makes the most sense. That being said, **a very flexible place to start looking for distribution is with a histogram:**
 
 ```R
@@ -41,8 +43,6 @@ The reason a histogram is a good way to check out your dataset's distribution is
 - spread/dispersion
 - outliers
 - gaps or clusters
-
-You will also be delighted to know that, yes, **data visualizations are the fastest and easiest way to figure out distribution.**
 
 However, as you've surely noticed, not all data visualizations are created equal. Each has their own strengths and weaknesses such that it is often to your benefit to **generate multiple different kinds of visualizations to determine distribution.** The more information and accuracy for you, the better! *(Especially if it only takes you a few lines of code.)*
 
