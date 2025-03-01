@@ -107,4 +107,4 @@ While this isn't an exhaustive list of distribution visualizations, there are so
 
 Few, as in Stephen Few of *"Now you see it: An Introduction to Visual Data Sensemaking,"* might appreciate the simplicity of these visualizations. He would likely also appreciate the use of grids to contextualize units of space on these graphs. But he might well also give the histogram a slap of disapproval due to some scaling issues. In particular, our histogram has some pesky problems with misrepresenting the data involving our <=15 mpg cars, despite the numbers being accurate.
 
-Few's argument is that good visualizations should make data clearer rather than being misleading. If the box and whisker plot can do that better than the histogram, then Few wouldn't tell you to use the histogram. *(Really, he'd tell you to check your bin width!)*
+Few's argument is that good visualizations should make data clearer rather than being misleading. If the box and whisker plot can do that better than the histogram in this case, then Few wouldn't tell you to use the histogram. *(Really, he'd tell you to check your bin width!)*
