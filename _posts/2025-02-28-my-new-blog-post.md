@@ -48,7 +48,7 @@ However, as you've surely noticed, not all data visualizations are created equal
 
 Histograms are great (I love them, actually.) But as with all visualizations, they have their downsides. For one thing, with histograms you're not seeing specific data points. It's also not always clear what is an outlier in the data. This could potentially become misleading.
 
-Instead, let us approach 
+Instead, let us approach the distribution for this dataset from another angle: by **creating a box and whisker plot** *(that name just tickles me.)*
 
 
 
