@@ -62,4 +62,14 @@ And here is the result:
 
 ![module-7-box-and-whisker-plot-example-1](https://github.com/user-attachments/assets/b72a40b1-4fa8-4954-a6e3-a81283d0c3c3)
 
+**A box and whisker plot is a good way to check the details of a distribution rather than its overall shape.** For instance, from this visualization we can tell:
+- the median
+- any outliers
+- skewness and spread
+
+## So when do you use either one of these guys?
+
+While this isn't an exhaustive list of distribution visualizations, there are some cases you can generally apply each of these to. A histogram is probably the best way to see the overall shape of the distribution, while the box plot is proficient at showing details like spread and outliers.
+
+
 
