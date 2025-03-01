@@ -12,5 +12,8 @@ To give a simple demonstration, we're turning back to `R` and its built-in `mtca
 
 *(As with most of my blog posts about visualization, this article will focus more on theory and technique than coding explanations. I have a bunch of those already available under my statistical analysis and `R` posts.)*
 
-Often times when working with data visuzliations, the process is not straightforward. You will likely have to experiment with multiple different kinds of visualizations until you land on one that is simplest and makes the most sense. That being said, **a very flexible place to start is with a histogram.**
+Often times when working with data visuzliations, the process is not straightforward. You will likely have to experiment with multiple different kinds of visualizations until you land on one that is simplest and makes the most sense. That being said, **a very flexible place to start is with a histogram:**
 
+```R
+
+```
