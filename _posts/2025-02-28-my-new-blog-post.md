@@ -1,4 +1,4 @@
-# Distribution Analysis Visualizations: Where Do We Start?
+# Visualizations for Distribution Analysis: Where Do We Start?
 
 So you have yourself a dataset and someone has tasked you with analyzing it for insights. Then, you're to create visualizations for the insights you collect to spare others the crunch time and the paperwork. Where do you begin?
 
