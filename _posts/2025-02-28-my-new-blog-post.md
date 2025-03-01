@@ -72,9 +72,11 @@ Nice. Looking at the chart reveals the median mpg is about 26 for the most repre
 
 ## Can you see the difference?
 
-Here's one primary observation for you. On the histogram, there's a huge bar that seems to imply lots of cars in the dataset get about 15 (or fewer) mpg. When we look at the box and whisker plot, we can see that in reality, very few cars truly get 15 or fewer mpg. While the numbers on the graph are accurate (there are about 6/32 cars between the 2 bars representing ~11-15 mpg), it is a bit visually confusing. Therein lies the mischief on the histogram, but that wasn't evident at first glance, was it?
+Here's one primary observation for you. On the histogram, there's a huge bar that seems to imply lots of cars in the dataset get about 15 (or fewer) mpg. When we look at the box and whisker plot, we can see that in reality, very few cars truly get 15 or fewer mpg. While the numbers on the graph are accurate (there are about 6/32 cars between the 2 bars representing ~11-15 mpg), it is a bit visually confusing.
 
-In fact, if we run some code to check the numbers, we can see that cars with 15 or fewer mpg only represent about ~19% of the total dataset:
+In fact, there are more cars between ~23-35 mpg in the set than there are <=15 mpg. But because those are represented by tiny bars and the cars <=15 mpg are represented by a big bar (and a stubby one), it looks to be more prominent in the dataset. Therein lies the mischief on the histogram, but that wasn't evident at first glance, was it?
+
+If we run some code to check the numbers, we even can see that cars with 15 or fewer mpg only represent about ~19% of the total dataset:
 
 ```R
 # Count cars with mpg <= 15
@@ -106,6 +108,6 @@ While this isn't an exhaustive list of distribution visualizations, there are so
 
 ## What would Few do?
 
-Few, as in visualization expert Stephen Few of *"Now you see it: An Introduction to Visual Data Sensemaking,"* might appreciate the simplicity of these visualizations. He would likely also appreciate the use of grids to improve readability by contextualizing units of space on these graphs. But he might well also give the histogram a slap of disapproval due to some scaling issues. In particular, our histogram has some pesky problems with visually misrepresenting the data involving our <=15 mpg cars, despite the numbers being accurate.
+Few, as in visualization expert Stephen Few of *"Now you see it: An Introduction to Visual Data Sensemaking,"* might appreciate the simplicity of these visualizations. He would likely also appreciate the use of grids to improve readability by contextualizing units of space on these graphs. But he might well also give the histogram a slap of disapproval due to some scaling issues. In particular, our histogram has some pesky problems with visually misrepresenting the data involving our <=15 mpg cars and ~23-25 mpg cars despite the numbers being accurate.
 
 Few's argument is that good visualizations should make data clearer rather than being misleading. If the box and whisker plot can do that better than the histogram in this case, then Few wouldn't tell you to use the histogram. *(Really, he'd tell you to check your bin width!)*
