@@ -29,12 +29,13 @@ summary(mtcars)
 # Create a histogram using the mtcars dataset
 ggplot(mtcars, aes(x=mpg)) + 
   geom_histogram(binwidth=2, fill="deepskyblue2", color="black") + 
-  ggtitle("Distribution of MPG (Miles Per Gallon)")
+  ggtitle("Distribution of MPG")
 ```
 
 And here is the result:
 
-![module-7-blog-histogram-example-1](https://github.com/user-attachments/assets/9bec478c-6fdb-4d31-8c67-4a62df8b46d8)
+![module-7-blog-histogram-example-2](https://github.com/user-attachments/assets/e03ecf96-c080-4a5c-8fa3-c6ff16d21de8)
+
 
 Cool. Just taking a quick look at the chart reveals a lot of the cars in the set are clustered around the stats of 15-22ish mpg. *(These are older cars, after all.)*
 
