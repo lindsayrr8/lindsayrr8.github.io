@@ -64,7 +64,7 @@ And here is the result:
 
 Nice. Looking at the chart reveals the median mpg is about 26 for the most represented category of cars in the dataset (being those that are 4-cylinder and ~22 to 30 mpg), with the visual addition of a few weird little 8-cylinder outliers on the other end.
 
-**A box and whisker plot is a good way to check the details of a distribution rather than its overall shape.** For instance, from this visualization we can tell:
+**A box and whisker plot is a good way to check the details of a distribution rather than its overall shape.** It's also pretty good at showing you the "5 number summary" of the dataset. To give examples, from this visualization we can tell:
 - the median(s)
 - any outliers
 - skewness and spread
