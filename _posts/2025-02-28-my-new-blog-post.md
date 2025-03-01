@@ -34,6 +34,7 @@ And here is the result:
 
 ![module-7-blog-histogram-example-1](https://github.com/user-attachments/assets/9bec478c-6fdb-4d31-8c67-4a62df8b46d8)
 
+Cool. Just taking a quick look at the chart reveals a lot of the cars in the set are clustered around the stats of 15-22ish mpg. *(These are older cars, after all.)*
 
 The reason a histogram is a good way to check out your dataset's distribution is because **histograms can show multiple different characteristics,** including:
 - shape/skew
@@ -43,7 +44,11 @@ The reason a histogram is a good way to check out your dataset's distribution is
 
 You will also be delighted to know that, yes, **data visualizations are the fastest and easiest way to figure out distribution.**
 
+However, as you've surely noticed, not all data visualizations are created equal. Each has their own strengths and weaknesses such that it is often to your benefit to **generate multiple different kinds of visualizations to determine distribution.** The more information and accuracy for you, the better! *(Especially if it only takes you a few lines of code.)*
 
+Histograms are great (I love them, actually.) But as with all visualizations, they have their downsides. For one thing, with histograms you're not seeing specific data points. It's also not always clear what is an outlier in the data. This could potentially become misleading.
+
+Instead, let us approach 
 
 
 
