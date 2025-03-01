@@ -116,7 +116,7 @@ Number of cars with 23 or more mpg: 7
 Percentage >=23 represented out of total cars: 21.88 %
 ```
 
-It sure doesn't look that close on the graph.
+It sure doesn't look like that on the graph.
 
 ## So when do you use either one of these guys?
 
