@@ -9,3 +9,5 @@ In other words,  **the distribution of your data significantly affects the type 
 ## So, how do we approach figuring out the distribution of a dataset?
 
 To give a simple demonstration, we're turning back to `R` and its built-in `mtcars` dataset.
+
+*(As with most of my blog posts about visualization, this article will focus more on theory and technique than coding explanations. I have a bunch of those already available under my statistical and `R` posts.)*
