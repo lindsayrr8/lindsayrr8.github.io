@@ -89,7 +89,7 @@ percentage <- (low_mpg_cars / total_cars) * 100
 cat("Number of cars with 15 or fewer mpg:", low_mpg_cars, "\n")
 cat("Percentage represented out of total cars:", round(percentage, 2), "%\n")
 ```
-Outputs:
+*Outputs:*
 
 ```R
 > # Print results
