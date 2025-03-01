@@ -69,6 +69,10 @@ Nice. Looking at the chart reveals the median mpg is about 26 for the most repre
 - any outliers
 - skewness and spread
 
+## Can you see the difference?
+
+Here's one primary observation for you. On the histogram, there's a huge bar that seems to imply lots of cars in the dataset get about 15 (or fewer) mpg. When we look at the box and whisker plot, we can see that in reality, very few cars truly get 15 or fewer mpg. In fact, there's only one outlier that gets around ~11 mpg. Therein lies our outlier on the histogram, but that wasn't evident, was it?
+
 ## So when do you use either one of these guys?
 
 While this isn't an exhaustive list of distribution visualizations, there are some cases you can generally apply each of these to. A histogram is probably the best way to see the overall shape of the distribution, while the box plot is proficient at showing details like spread and outliers. For best practice - use them both together!
