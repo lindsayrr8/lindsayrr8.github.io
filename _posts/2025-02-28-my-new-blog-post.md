@@ -51,9 +51,14 @@ Histograms are great (I love them, actually.) But as with all visualizations, th
 Instead, let us approach the distribution for this dataset from another angle by **creating a box and whisker plot** *(that name just tickles me):*
 
 ```R
-
+# Create box plot to show comparison
+ggplot(mtcars, aes(x=factor(cyl), y=mpg)) + 
+  geom_boxplot(fill="deepskyblue2") + 
+  ggtitle("MPG Distribution by Cylinder Count")
 ```
 
 And here is the result:
+
+![module-7-box-and-whisker-plot-example-1](https://github.com/user-attachments/assets/b72a40b1-4fa8-4954-a6e3-a81283d0c3c3)
 
 
