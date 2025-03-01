@@ -103,5 +103,8 @@ Percentage represented out of total cars: 18.75 %
 
 While this isn't an exhaustive list of distribution visualizations, there are some cases you can generally apply each of these to. A histogram is still probably the best way to see the overall shape of the distribution, while the box plot is proficient at showing details like spread and outliers. For best practice - use them both together!
 
+## What would Few do?
 
+Few, as in Stephen Few of *"Now you see it: An Introduction to Visual Data Sensemaking,"* might appreciate the simplicity of these visualizations. He would likely also appreciate the use of grids to contextualize units of space on these graphs. But he might well also give the histogram a slap of disapproval due to some scaling issues. In particular, our histogram has some pesky problems with misrepresenting the data involving our <=15 mpg cars, despite the numbers being accurate.
 
+Few's argument is that good visualizations should make data clearer rather than being misleading. If the box and whisker plot can do that better than the histogram, then Few wouldn't tell you to use the histogram. *(Really, he'd tell you to check your bin width!)*
