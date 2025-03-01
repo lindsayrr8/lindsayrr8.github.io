@@ -30,6 +30,7 @@ ggplot(mtcars, aes(x=mpg)) +
   ggtitle("Distribution of MPG (Miles Per Gallon)")
 ```
 And here is the result:
+![module-7-blog-histogram-example-1](https://github.com/user-attachments/assets/9bec478c-6fdb-4d31-8c67-4a62df8b46d8)
 
 
 The reason a histogram is a good way to check out your dataset's distribution is because **histograms can show multiple different characteristics,** including:
