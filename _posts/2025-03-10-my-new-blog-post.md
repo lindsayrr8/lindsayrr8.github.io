@@ -18,4 +18,14 @@ This can be achieved both using base `R` and the `ggplot2` package.
 
 The scatter plot using base `R`'s `plot()` function:
 
+![mod-8-base-scatter-plot](https://github.com/user-attachments/assets/3a60bf15-2256-4352-a052-7977eede992e)
+
 The scatter plot using `ggplot2`:
+
+![mod-8-ggplot2-scatter-plot](https://github.com/user-attachments/assets/647154ca-d006-4330-8151-3248e7a1d0eb)
+
+
+
+
+
+
