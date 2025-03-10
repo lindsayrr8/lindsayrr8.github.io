@@ -14,7 +14,7 @@ To demonstrate, I'll be using `R`'s built in `mtcars` dataset *(yes, there she i
 
 This can be achieved both using base `R` and the `ggplot2` package.
 
-## Can you spot the difference?
+### Can you spot the difference?
 
 The scatter plot using base `R`'s `plot()` function:
 
@@ -31,5 +31,8 @@ Well spotted, but sometimes **little differences can have a big result.** Most n
 
 Pretty straightforward, yes? Few *(as in Visualization expert Stephen Few)* thinks so, too. Above all, (and you will hear this often,) an effective visualization is one that can be **quickly and easily interpreted.** As far as Few is concerned, you should nearly always be using a grid in your visualizations.
 
+### Interpreting what we see:
+
+Just taking a quick glance at the plot, we can see that as a car's weight increases, its MPG performance decreases. This makes sense; more energy is required to move more mass. This example is typically pretty common knowledge, but it helps to illustrate the concept of visualizing relationshpis between variables on a scatter plot.
 
 
