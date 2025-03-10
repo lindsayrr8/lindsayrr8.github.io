@@ -10,7 +10,7 @@ You know the deal with these, right? A scatter plot of data points will show us 
 
 To demonstrate, I'll be using `R`'s built in `mtcars` dataset *(yes, there she is again, it's mtcars.)*
 
-This can be achieved with base `R` and the `ggplot2` package.
+This can be achieved both using base `R` and the `ggplot2` package.
 
 ## Can you spot the difference?
 
