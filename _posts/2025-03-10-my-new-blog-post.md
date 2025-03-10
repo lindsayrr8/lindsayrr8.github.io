@@ -29,7 +29,7 @@ The scatter plot using `ggplot2`:
 
 Well spotted, but sometimes **little differences can have a big result.** Most notably, the `ggplot2` image is set on a grid while the base `R`'s plot is not. Look at each of the plots again. Do you find it slightly faster and easier to read the second plot? This is because the gridlines help to guide your eye, which adds context that helps to interpret the image quickly.
 
-Pretty straightforward, yes? Few *(as in Visualization expert Stephen Few)* thinks so, too. Above all, (and you will hear this often,) an effective visualization is one that can be **clearly and easily interpreted.** As far as Few is concerned, you should nearly always be using a grid in your visualizations.
+Pretty straightforward, yes? Few *(as in Visualization expert Stephen Few)* thinks so, too. Above all, (and you will hear this often,) an effective visualization is one that can be **clearly and easily interpreted.** As far as Few is concerned, you should nearly always be using a grid in your plotted visualizations.
 
 ### Interpreting what we see:
 
