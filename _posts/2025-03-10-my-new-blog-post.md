@@ -35,4 +35,4 @@ Pretty straightforward, yes? Few *(as in Visualization expert Stephen Few)* thin
 
 Just taking a quick glance at the plot, we can see that as a car's weight increases, its MPG performance decreases. This makes sense; more energy is required to move more mass. This example is typically pretty common knowledge, but it helps to illustrate the concept of visualizing relationshpis between variables on a scatter plot.
 
-
+## So what about more complex relationships between variables?
