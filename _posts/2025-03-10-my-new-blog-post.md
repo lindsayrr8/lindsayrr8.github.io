@@ -8,4 +8,6 @@ Creating a visualization to **explore correlation** between different variables 
 
 You know the deal with these, right? A scatter plot of data points will show us any clusters or directional trends, and a line of best fit will summarize that pattern.
 
+To demonstrate, I'll be using `R`'s built in `mtcars` dataset *(yes, there she is again, it's mtcars.)*
+
 This can be achieved with base `R` and the `ggplot2` package.
