@@ -8,7 +8,7 @@ Creating a visualization to **explore correlation** between different variables 
 
 You know the deal with these, right? A scatter plot of data points will show us any clusters or directional trends, and a line of best fit will summarize that pattern.
 
-To demonstrate, I'll be using `R`'s built in `mtcars` dataset *(yes, there she is again, it's mtcars.)*
+To demonstrate, I'll be using `R`'s built in `mtcars` dataset *(yes, there she is again, it's mtcars.)* We'll be comparing a car's weight to its average MPG for the total number of cars in the dataset.
 
 This can be achieved both using base `R` and the `ggplot2` package.
 
