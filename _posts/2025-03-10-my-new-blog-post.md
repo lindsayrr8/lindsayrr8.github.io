@@ -1,6 +1,8 @@
 # Visualizing Correlation Analysis with ggplot2
 
-I've talked about correlation analysis on this blog before. Today we are going to **visualize it.**
+I've talked about correlation analysis on this blog before. Today, we are going to **visualize it.**
+
+As usual, since I've already covered correlation analysis and plenty of ggplot2, I will be focusing more on the visualization and theory aspects of this activity.
 
 Creating a visualization to **explore correlation** between different variables is a quick and easy approach to spotting trends and patterns in data. There are several ways we can go about doing this, and I will be showcasing two of these.
 
