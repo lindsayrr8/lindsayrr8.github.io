@@ -43,7 +43,7 @@ As in this case, weight is one, but not the only variable that has a relationshi
 
 ### Meet: the scatter plot matrix:
 
-Thankfully, one option we have available to us is to create a **scatter plot matrix.** This can also be done using either base `R` or `ggplot2`, and we will do so to compare the two.
+Thankfully, one option we have available to us is to create a scatter plot matrix. This can also be done using either base `R` or `ggplot2`, and we will do so to compare the two.
 
 A scatter plot matrix is good for **comparing multiple numerical variables at the same time.** It is also a good place to start with exploratory data analysis because it allows you to create just one initial visualization rather than many combinations.
 
