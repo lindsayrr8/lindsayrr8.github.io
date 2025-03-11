@@ -74,7 +74,7 @@ While the second image looks a little more interesting and utilizes gridlines, F
 
 Few would tell you to stick to the base `R` scatter plot matrix, but add gridlines and regression lines to improve visual clarity and readability. Some additional axis labels wouldn't hurt our case either.
 
-### What is the takeaway here?
+## What is the takeaway here?
 
 **Sometimes, simpler is better.** This is especially true when it comes to the realm of data visualization. However, it is important to keep both context and your audience in mind. The first, simple scatter plot would likely be useful and easily understood by a third party, while the complex scatter plot matrix would be a more applicable tool for a researcher.
 
