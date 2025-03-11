@@ -51,7 +51,7 @@ A scatter plot matrix is good for **comparing multiple numerical variables at th
 
 The scatter plot matrix using base `R`:
 
-![mod-8-matrix-base](https://github.com/user-attachments/assets/5e5c2ead-ed52-4f08-85d5-61af28fb77a4)
+![mod-8-base-matrix-v2](https://github.com/user-attachments/assets/80749377-3c1c-4e32-ba17-04d9ad8794b1)
 
 The scatter plot matrix using `ggplot2` *(and GGally):*
 
@@ -61,11 +61,13 @@ The scatter plot matrix using `ggplot2` *(and GGally):*
 
 The scatter plot matrices require a little more interpretation than the simple scatter plots did. In this context, the matrix is something I'd use for myself as a researcher, but not necessarily something I'd present to an outside party looking for quick insights.
 
-In this case, the `R` base matrix is the more simple and clearly understood visualization of the two. Despite the fact that there are no written, contextual axis labels, it is still possible to decipher what the plots represent in terms of overall patterns in the dataset. 
+Looking at the `R` base matrix, it seems that MPG and weight have the expected negative correlation. We can also see that as horsepower increases, MPG decreases. And we can see that heavier cars tend to have more horsepower. All of these observations are consistent with well established and expected outcomes thanks to the laws of physics.
 
-As for the `ggplot2` *(featuring GGally)* visualization, there is a lot going on and each plot is clearly visually distinct, but not in a way that is very meaningful. With different types of graphs used simultaneously in the absence of axis labels, it is difficult to interpret what the visualization is actually trying to tell us, especially in regards to each variable realtive to another.
+As for the `ggplot2` *(featuring GGally)* visualization, there is a lot going on and each plot is clearly visually distinct, but not in a way that is very meaningful. With different types of graphs used simultaneously in the absence of contextual axis labels, it is difficult to interpret what the visualization is actually trying to tell us, especially in regards to each variable realtive to another.
 
-While the second image looks a little more interesting, Few would tell you *not* to go with that one because it violates several of his core visualization principles: clarity, efficiency, and accuracy. He discourages "chart junk" or unnecssary visual attributes that do not aid the delivery of the information in the visualization.
+In this case, the `R` base matrix is the simpler and more clearly understood visualization of the two. Despite the fact that there are few contextual axis labels, it is still possible to decipher what the plots represent in terms of overall patterns in the dataset. 
+
+While the second image looks a little more interesting, Few would tell you *not* to use it because it violates several of his core visualization principles: clarity, efficiency, and accuracy. He discourages "chart junk" or unnecssary visual attributes that do not aid the delivery of the information in the visualization.
 
 ### What is the takeaway here?
 
