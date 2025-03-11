@@ -51,5 +51,9 @@ A scatter plot matrix is good for **comparing multiple numerical variables at th
 
 The scatter plot matrix using base `R`:
 
+![mod-8-matrix-base](https://github.com/user-attachments/assets/5e5c2ead-ed52-4f08-85d5-61af28fb77a4)
+
 The scatter plot matrix using `ggplot2`:
+
+![mod-8-matrix-gg](https://github.com/user-attachments/assets/ab4cfc15-ca54-419c-b0e9-51875a42553c)
 
