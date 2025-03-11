@@ -64,15 +64,15 @@ The scatter plot matrices require a little more interpretation than the simple s
 
 Looking at the `R` base matrix, it seems that MPG and weight have the expected negative correlation. We can also see that as horsepower increases, MPG decreases. And we can see that heavier cars tend to have more horsepower. All of these observations are consistent with well established and expected outcomes thanks to the laws of physics.
 
-As for the `ggplot2` *(featuring GGally)* visualization, each plot is visually distinct, but not in a way that is very meaningful. With different types of graphs used simultaneously in the presence of differing units, it is difficult to interpret what the visualization is actually trying to tell us, especially in regards to each variable realtive to another.
+As for the `ggplot2` *(featuring GGally)* visualization, each plot is visually distinct, but not in a way that is very meaningful. With different types of graphs used simultaneously in the presence of differing units, it is **difficult to interpret** what the visualization is actually trying to tell us, especially in regards to each variable realtive to another.
 
-In this case, the `R` base matrix is the simpler and more clearly understood visualization of the two. Despite the fact that there are few contextual axis labels and the scatter plot is not affixed to a visible grid, it is still possible to decipher what the plots represent in terms of overall patterns in the dataset. 
+In this case, the `R` base matrix is **the simpler and more clearly understood visualization** of the two. Despite the fact that there are few contextual axis labels and the scatter plot is not affixed to a visible grid, it is still possible to decipher what the plots represent in terms of overall patterns in the dataset. 
 
-While the second image looks a little more interesting and utilizes gridlines, Few would tell you *not* to use it because it violates several of his core visualization principles: clarity, efficiency, and accuracy. He discourages the use of visual clutter, or unnecssary visual attributes that do not aid the delivery of the information in the visualization.
+While the second image looks a little more interesting and utilizes gridlines, Few would tell you *not* to use it because it violates several of his **core visualization principles: clarity, efficiency, and accuracy.** He discourages the use of visual clutter, or unnecssary visual attributes that do not aid the delivery of the information in the visualization.
 
 ### What would Few do?
 
-Few would tell you to stick to the base `R` scatter plot matrix, but add gridlines and regression lines to improve visual clarity and readability. Some additional axis labels wouldn't hurt our case either.
+Few would tell you to stick to the base `R` scatter plot matrix, but add gridlines and regression lines to **improve visual clarity and readability.** Some additional axis labels wouldn't hurt our case either.
 
 ## What is the takeaway here?
 
