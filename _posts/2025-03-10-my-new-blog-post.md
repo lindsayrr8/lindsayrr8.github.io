@@ -39,9 +39,13 @@ Just taking a quick glance at the plot, we can see that as a car's weight increa
 
 The basic scatter plot with just 2 variables does look quite simple, but in reality, there are often many factors or "variables" acting on your data to produce a given outcome.
 
-As in this case, weight is one, but not the only variable that has a relationship with the MPG a car sees. The `mtcars` dataset itself has 11 variables (or columns) associated with each car. How do you visualize and explore relationships between so many variables at once?
+As in this case, weight is one, but not the only variable that has a relationship with the MPG a car sees. The `mtcars` dataset itself has 11 variables (or columns) associated with each car. **How do you visualize and explore relationships between so many variables at once?**
 
 ### Meet: the scatter plot matrix:
+
+Thankfully, one option we have available to us is to create a **scatter plot matrix.** This can also be done using either base `R` or `ggplot2`, and we will do so to compare the two.
+
+A scatter plot matrix is good for **comparing multiple numerical variables at the same time.** It is also a good place to start with exploratory data analysis because it allows you to create just one initial visualization rather than many combinations.
 
 
 
