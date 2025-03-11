@@ -70,7 +70,7 @@ In this case, the `R` base matrix is the simpler and more clearly understood vis
 
 While the second image looks a little more interesting and utilizes gridlines, Few would tell you *not* to use it because it violates several of his core visualization principles: clarity, efficiency, and accuracy. He discourages the use of visual clutter, or unnecssary visual attributes that do not aid the delivery of the information in the visualization.
 
-#### What would Few do?
+### What would Few do?
 
 Few would tell you to stick to the base `R` scatter plot matrix, but add gridlines and regression lines to improve visual clarity and readability. Some additional axis labels wouldn't hurt our case either.
 
