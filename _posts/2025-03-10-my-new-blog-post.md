@@ -70,8 +70,12 @@ In this case, the `R` base matrix is the simpler and more clearly understood vis
 
 While the second image looks a little more interesting and utilizes gridlines, Few would tell you *not* to use it because it violates several of his core visualization principles: clarity, efficiency, and accuracy. He discourages the use of visual clutter, or unnecssary visual attributes that do not aid the delivery of the information in the visualization.
 
+#### What would Few do?
+
+Few would tell you to stick to the base `R` scatter plot matrix, but add gridlines and regression lines to improve visual clarity and readability. Some additional axis labels wouldn't hurt our case either.
+
 ### What is the takeaway here?
 
-**Sometimes, simpler is better.** This is especially true when it comes to the realm of data visualization. However, it is important to keep both context and your audience in mind. The first, simple scatter plot would likely be useful and easily understood for a third party, while the complex scatter plot matrix would be a more applicable tool for a researcher.
+**Sometimes, simpler is better.** This is especially true when it comes to the realm of data visualization. However, it is important to keep both context and your audience in mind. The first, simple scatter plot would likely be useful and easily understood by a third party, while the complex scatter plot matrix would be a more applicable tool for a researcher.
 
 In the real world, you'll often need to experiment with multiple different kinds of visualizations until you strike the right balance for the information you're intending to convey. And as always, before you can begin creating your visualizations, you must ensure that you are asking a specific question that can be answered effectively.
