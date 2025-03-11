@@ -65,6 +65,8 @@ In this case, the `R` base matrix is the more simple and clearly understood visu
 
 As for the `ggplot2` *(featuring GGally)* visualization, there is a lot going on and each plot is clearly visually distinct, but not in a way that is very meaningful. With different types of graphs used simultaneously in the absence of axis labels, it is difficult to interpret what the visualization is actually trying to tell us, especially in regards to each variable realtive to another.
 
+While the second image looks a little more interesting, Few would tell you *not* to go with that one because it violates several of his core visualization principles: clarity, efficiency, and accuracy. He discourages "chart junk" or unnecssary visual attributes that do not aid the delivery of the information in the visualization.
 
+### What is the takeaway here?
 
 
