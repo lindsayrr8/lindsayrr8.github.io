@@ -58,7 +58,7 @@ The scatter plot matrix using `ggplot2` *(and GGally):*
 ![mod-8-ggplot2-scatter-matrix-v2](https://github.com/user-attachments/assets/f363f16b-03d8-4dad-90f0-3b7069377fc5)
 
 
-### There is a lot going on here: what does it all mean?
+## There is a lot going on here: what does it all mean?
 
 The scatter plot matrices require a little more interpretation than the simple scatter plots did.
 
