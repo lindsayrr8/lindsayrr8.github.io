@@ -68,7 +68,7 @@ As for the `ggplot2` *(featuring GGally)* visualization, there is a lot going on
 
 In this case, the `R` base matrix is the simpler and more clearly understood visualization of the two. Despite the fact that there are few contextual axis labels and the scatter plot is not affixed to a visible grid, it is still possible to decipher what the plots represent in terms of overall patterns in the dataset. 
 
-While the second image looks a little more interesting and utilizes gridlines, Few would tell you *not* to use it because it violates several of his core visualization principles: clarity, efficiency, and accuracy. He discourages "chart junk" or unnecssary visual attributes that do not aid the delivery of the information in the visualization.
+While the second image looks a little more interesting and utilizes gridlines, Few would tell you *not* to use it because it violates several of his core visualization principles: clarity, efficiency, and accuracy. He discourages the use of visual clutter, or unnecssary visual attributes that do not aid the delivery of the information in the visualization.
 
 ### What is the takeaway here?
 
