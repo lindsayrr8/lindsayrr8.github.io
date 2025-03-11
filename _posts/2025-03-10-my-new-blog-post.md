@@ -57,3 +57,14 @@ The scatter plot matrix using `ggplot2` *(and GGally):*
 
 ![mod-8-matrix-gg](https://github.com/user-attachments/assets/ab4cfc15-ca54-419c-b0e9-51875a42553c)
 
+### There is a lot going on here: what does it all mean?
+
+The scatter plot matrices require a little more interpretation than the simple scatter plots did. In this context, the matrix is something I'd use for myself as a researcher, but not necessarily something I'd present to an outside party looking for quick insights.
+
+In this case, the `R` base matrix is the more simple and clearly understood visualization of the two. Despite the fact that there are no written, contextual axis labels, it is still possible to decipher what the plots represent in terms of overall patterns in the dataset. 
+
+As for the `ggplot2` *(featuring GGally)* visualization, there is a lot going on and each plot is clearly visually distinct, but not in a way that is very meaningful. With different types of graphs used simultaneously in the absence of axis labels, it is difficult to interpret what the visualization is actually trying to tell us, especially in regards to each variable realtive to another.
+
+
+
+
