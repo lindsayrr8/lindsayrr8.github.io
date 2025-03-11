@@ -33,6 +33,15 @@ Pretty straightforward, yes? Few *(as in Visualization expert Stephen Few)* thin
 
 ### Interpreting what we see:
 
-Just taking a quick glance at the plot, we can see that as a car's weight increases, its MPG performance decreases. This makes sense; more energy is required to move more mass. This example is typically pretty common knowledge, but it helps to illustrate the concept of visualizing relationshpis between variables on a scatter plot.
+Just taking a quick glance at the plot, we can see that as a car's weight increases, its MPG performance decreases. In other words, **higher vehicle weight is negatively correlated with fuel economy.** This makes sense; more energy is required to move more mass. This example is typically pretty common knowledge, but it helps to illustrate the concept of visualizing relationshpis between variables on a scatter plot.
 
 ## So what about more complex relationships between variables?
+
+The basic scatter plot with just 2 variables does look quite simple, but in reality, there are often many factors or "variables" acting on your data to produce a given outcome.
+
+As in this case, weight is one, but not the only variable that has a relationship with the MPG a car sees. The `mtcars` dataset itself has 11 variables (or columns) associated with each car. How do you visualize and explore relationships between so many variables at once?
+
+### Meet: the scatter plot matrix:
+
+
+
