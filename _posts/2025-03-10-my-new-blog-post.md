@@ -47,5 +47,9 @@ Thankfully, one option we have available to us is to create a **scatter plot mat
 
 A scatter plot matrix is good for **comparing multiple numerical variables at the same time.** It is also a good place to start with exploratory data analysis because it allows you to create just one initial visualization rather than many combinations.
 
+### Can you spot the difference?
 
+The scatter plot matrix using base `R`:
+
+The scatter plot matrix using `ggplot2`:
 
