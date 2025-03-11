@@ -55,19 +55,20 @@ The scatter plot matrix using base `R`:
 
 The scatter plot matrix using `ggplot2` *(and GGally):*
 
-![mod-8-matrix-gg](https://github.com/user-attachments/assets/ab4cfc15-ca54-419c-b0e9-51875a42553c)
+![mod-8-ggplot2-scatter-matrix-v2](https://github.com/user-attachments/assets/f363f16b-03d8-4dad-90f0-3b7069377fc5)
+
 
 ### There is a lot going on here: what does it all mean?
 
-The scatter plot matrices require a little more interpretation than the simple scatter plots did. In this context, the matrix is something I'd use for myself as a researcher, but not necessarily something I'd present to an outside party looking for quick insights.
+The scatter plot matrices require a little more interpretation than the simple scatter plots did.
 
 Looking at the `R` base matrix, it seems that MPG and weight have the expected negative correlation. We can also see that as horsepower increases, MPG decreases. And we can see that heavier cars tend to have more horsepower. All of these observations are consistent with well established and expected outcomes thanks to the laws of physics.
 
 As for the `ggplot2` *(featuring GGally)* visualization, there is a lot going on and each plot is clearly visually distinct, but not in a way that is very meaningful. With different types of graphs used simultaneously in the absence of contextual axis labels, it is difficult to interpret what the visualization is actually trying to tell us, especially in regards to each variable realtive to another.
 
-In this case, the `R` base matrix is the simpler and more clearly understood visualization of the two. Despite the fact that there are few contextual axis labels, it is still possible to decipher what the plots represent in terms of overall patterns in the dataset. 
+In this case, the `R` base matrix is the simpler and more clearly understood visualization of the two. Despite the fact that there are few contextual axis labels and the scatter plot is not affixed to a visible grid, it is still possible to decipher what the plots represent in terms of overall patterns in the dataset. 
 
-While the second image looks a little more interesting, Few would tell you *not* to use it because it violates several of his core visualization principles: clarity, efficiency, and accuracy. He discourages "chart junk" or unnecssary visual attributes that do not aid the delivery of the information in the visualization.
+While the second image looks a little more interesting and utilizes gridlines, Few would tell you *not* to use it because it violates several of his core visualization principles: clarity, efficiency, and accuracy. He discourages "chart junk" or unnecssary visual attributes that do not aid the delivery of the information in the visualization.
 
 ### What is the takeaway here?
 
