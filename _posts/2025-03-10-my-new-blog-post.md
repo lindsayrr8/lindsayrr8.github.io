@@ -69,4 +69,6 @@ While the second image looks a little more interesting, Few would tell you *not*
 
 ### What is the takeaway here?
 
+**Sometimes, simpler is better.** This is especially true when it comes to the realm of data visualization. However, it is important to keep both context and your audience in mind. The first, simple scatter plot would likely be useful and easily understood for a third party, while the complex scatter plot matrix would be a more applicable tool for a researcher.
 
+In the real world, you'll often need to experiment with multiple different kinds of visualizations until you strike the right balance for the information you're intending to convey. And as always, before you can begin creating your visualizations, you must ensure that you are asking a specific question that can be answered effectively.
