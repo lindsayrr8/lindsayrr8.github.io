@@ -120,4 +120,14 @@ In the first visualization, we can see that the majority of Titanic casualties w
 
 Looking at the second visualization, it confirms that the group that experienced the most casualties was in third class men. This also checks out given that most men were made to stay behind. We can also see that the majority group of women who survived were women of first class. Among children, boys were the most disproportionately represented in casualties while the majority of girls survived. Looking at the distribution and context of data, this seems to be somewhat intentional.
 
+Presented this way, keeping up with the theme of bar charts and specific color coordination to represent different variables, I've tried to apply some of the basic design principles discussed earlier to make this information more digestible. Visualizations don't always need to be exciting or different. Sometimes a simple, clear approach gets the message across, and at the end of the day - that's the point.
 
+## Final thoughts
+
+Thinking about the horrible disaster of the Titanic and the many preventable casualties there, including those of young children, is not an enjoyable undertaking. However, if we don't think about it we can't learn from it.
+
+I'm reminded that every day, all over the world, there are researchers working hard to analyze all kinds of information that many of us have the luxury of living without thinking about. I'm grateful to the people who are doing the dirty work that keeps the rest of us safe.
+
+As an aspiring data scientist as well as a person, I will always prefer an unfortuante truth to a comfortable fallacy.
+
+*(This post is dedicated to my best friend of 16 years who has been a lifelong Titanic fanatic. Hi, Kendrix!)*
