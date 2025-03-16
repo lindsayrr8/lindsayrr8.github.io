@@ -74,4 +74,5 @@ From the first glance at the graph, the majority of female survivors is evident.
 
 The majority of male survivors came from the third class, but this makes sense given that the third class is the largest majority represented by all passengers in the dataset. What's intriguing is that nearly as many first class men survived as third class. In other words, first class men, despite being a minority of total passengers on board, had a disproportionately higher rate of survival than the majority of third class male passengers:
 
+<img width="367" alt="number-of-all-passengers-by-class-titanic" src="https://github.com/user-attachments/assets/0c38f279-92fd-42ea-b8ef-acf977c25ec8" />
 
