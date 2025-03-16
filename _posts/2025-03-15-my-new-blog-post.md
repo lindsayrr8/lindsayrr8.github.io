@@ -108,7 +108,7 @@ Creating a visualization to see the distribution of all boys versus all girls on
 
 <img width="355" alt="gender-of-total-children-titanic" src="https://github.com/user-attachments/assets/72ae144a-b8d0-4577-9e7c-9e01ca43c3f6" />
 
-Boys and girls are almost equally distributed, with there being just 3 more total boys than girls in the dataset. But significantly more female children survived than male children. This indicates that priority was given to women and female children, and men and boys were left behind.
+Boys and girls are almost equally distributed, with there being just 3 more total boys than girls in the dataset. But significantly more female children survived than male children. This indicates that priority was given to women and female children, and men and male children were left behind.
 
 ## The Concluding Analysis
 
