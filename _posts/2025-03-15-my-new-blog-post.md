@@ -40,10 +40,10 @@ Sex
 # The numerical age of the person
 Age
 
-#
+# Number of siblings or spouses aboard
 SibSp
 
-#
+# Number of parents or children aboard
 Parch
 
 # Their associated ticket number
@@ -55,7 +55,7 @@ Fare
 # Their assigned cabin, if applicable
 Cabin
 
-# 
+# Their port of embarkation (Southampton, Cherbourg, or Queenstown)
 Embarked
 
 ```
