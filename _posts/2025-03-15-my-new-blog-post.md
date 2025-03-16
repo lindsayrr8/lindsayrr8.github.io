@@ -18,3 +18,48 @@ This time, I'll be working with a [free, public dataset from the historic Titani
 
 ## Creating a Multivariate Analysis Using Tableau
 
+Lately, I've spent a lot of time with `R`, but I enjoy challenging myself with different platforms and technologies, so I've chosen to complete this activity using Tableau Public.
+
+Opening the data in Excel reveals a dataset with 12 columns and 892 rows, which are labeled as follows:
+```
+# Passenger number
+Passenger
+
+# Survival status with a value of 0 or 1
+Survived
+
+# Passenger class with a value of 1, 2, or 3
+Pclass
+
+# The person's full name
+Name
+
+# The person's sex as male or female
+Sex
+
+# The numerical age of the person
+Age
+
+#
+SibSp
+
+#
+Parch
+
+# Their associated ticket number
+Ticket
+
+# The amount paid for the ticket
+Fare
+
+# Their assigned cabin, if applicable
+Cabin
+
+# 
+Embarked
+
+```
+
+
+
+
