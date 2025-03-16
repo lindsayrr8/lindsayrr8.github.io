@@ -98,6 +98,11 @@ Checking the distribution of those who perished, these assumptions seem to follo
 
 <img width="461" alt="children-perished-per-class-and-gender-titanic" src="https://github.com/user-attachments/assets/961b857a-0a1c-4d41-9ecb-c7d66652ce87" />
 
+Interestingly, it seems that zero male children from the first class and zero female children from the second class perished based on the data in this dataset.
+
+## The Concluding Analysis
+
+Comparing the numbers we've observed overall, I've created two final visualizations that show survival rates for adults versus children per class, and adults versus children per class grouped by gender:
 
 
 
