@@ -64,6 +64,8 @@ For my analysis, I've opted to use the existing variables: `Survived`, `Class`, 
 
 The titanic disaster happened in 1912, well over 100 years ago. It's common knowledge in the modern day that at the time of the event, women and children were given priority in a limited number of lifeboats that were tragically left under-filled. There was also disparity in the economic class of passengers who survived versus those who perished.
 
+(Note: a commonly stated figure is that there were over 2,200 people aboard the Titanic, so this dataset represents a sample of about 892, not the total population.)
+
 To begin **examining how these relationships are distributed** under closer inspection, I've created a basic bar chart visualization that shows all male versus all female survivors, organized by their passenger class:
 
 <img width="428" alt="males-vs-females-by-class-titanic" src="https://github.com/user-attachments/assets/a857de69-b27f-4d83-a30a-56c6e5faee3e" />
