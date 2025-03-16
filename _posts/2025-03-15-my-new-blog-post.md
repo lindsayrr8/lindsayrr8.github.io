@@ -64,6 +64,7 @@ For my analysis, I've opted to use the existing variables: `Survived`, `Class`, 
 
 The titanic disaster happened in 1912, well over 100 years ago. It's common knowledge in the modern day that at the time of the event, women and children were given priority in a limited number of lifeboats that were tragically left under-filled. There was also disparity in the economic class of passengers who survived versus those who perished.
 
+To begin examining how these relationships are distributed under closer inspection, I've created a basic visualization that shows all male versus all female survivors, organized by their passenger class:
 
 
 
