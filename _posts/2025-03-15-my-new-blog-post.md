@@ -1,6 +1,6 @@
 # Principles of Design and Multivariate Analysis Visualization with Tableau
 
-Relationships between different variables in your data can often be complex. It follows that sometimes figuring out how to visualize those relationships quickly and concisely can be a challenge. Circumstances can differ drastically, so there isn't one best solution, but one rule to follow is that the simplest approach is often the best.
+Relationships between different variables in your data can often be complex. It follows that sometimes figuring out how to visualize those relationships quickly and concisely can be a challenge. Circumstances can differ drastically, so there isn't one best solution, but one rule to follow is that the simplest approach is often the best *(and you will hear me say that often.)*
 
 That said, when creating any visualization, there are a few basic **principles of design** you can keep in mind to incorporate into your work:
 
