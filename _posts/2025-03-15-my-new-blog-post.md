@@ -80,6 +80,12 @@ To further put that into perspective, I've put a comparison of survivors versus 
 
 <img width="553" alt="survived-vs-perished-per-class" src="https://github.com/user-attachments/assets/433d9e68-280b-4f48-b482-e6414ccff450" />
 
+These findings reflect the commonly held knowledge about the Titanic disaster. They also provide a general overview of how passengers fared in each category.
+
+## Evaluating more specific research questions:
+
+But I'm going to zoom in more and evaluate if and how outcomes differed for the children aboard versus the adults. Naturally, adults represented the majority of passengers on board, and in this dataset, children represent a small minority of just 113 individuals:
+
 
 
 
