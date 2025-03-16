@@ -124,7 +124,7 @@ Presented this way, keeping up with the theme of bar charts and specific color c
 
 ## Final thoughts
 
-Thinking about the horrible disaster of the Titanic and the many preventable casualties there, including those of young children, is not an enjoyable undertaking. However, if we don't think about it we can't learn from it.
+Thinking about the horrible disaster of the Titanic and the many preventable casualties there, including those of young children, is not an enjoyable undertaking. However, if we don't think about it then we can't learn from it.
 
 I'm reminded that every day, all over the world, there are researchers working hard to analyze all kinds of information that many of us have the luxury of living without thinking about. I'm grateful to the people who are doing the dirty work that keeps the rest of us safe.
 
