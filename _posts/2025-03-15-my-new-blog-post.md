@@ -116,8 +116,8 @@ Comparing the numbers we've observed overall, I've created two final visualizati
 
 <img width="488" alt="titanic-survivors-vs-perished-by-age-gender-class" src="https://github.com/user-attachments/assets/96549fc6-0b54-4db7-bef8-529d57dbbb40" />
 
-In the first visualization, we can see that the majority group of Titanic casualties was in third class men. This checks out given that the majority of passengers were in third class and that most men were made to stay behind. We can also see that the majority group of women who survived were women of first class. Among children, the majority survived, but only by about 9 individuals. About half of the children still did not survive.
+In the first visualization, we can see that the majority of Titanic casualties were in third class. This checks out given that the majority of passengers were in third class and other circumstances gave preference to passengers in higher classes.  Among children, the majority survived, but only by a margin of about 9 individuals. About half of the children still did not survive.
 
-Looking at the second visualization, 
+Looking at the second visualization, it confirms that the group that experienced the most casualties was in third class men. This also checks out given that most men were made to stay behind. We can also see that the majority group of women who survived were women of first class. Among children, boys were the most disproportionately represented in casualties while the majority of girls survived. Looking at the distribution and context of data, this seems to be somewhat intentional.
 
 
