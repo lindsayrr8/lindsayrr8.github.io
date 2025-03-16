@@ -88,6 +88,9 @@ But I'm going to zoom in more and evaluate if and how outcomes differed for the 
 
 <img width="312" alt="total-adults-vs-total-children-titanic" src="https://github.com/user-attachments/assets/a40e600f-b912-4732-86b3-d899eacef2f1" />
 
+What I'd like to find out is if there is any major disparity in class or gender among the children on board from this dataset. So keeping with the theme of bar graphs and presentation colors, I created another visualization to compare male versus female survival rates per each class:
+
+<img width="442" alt="gender-and-class-of-child-survivors" src="https://github.com/user-attachments/assets/fb07bca7-c608-4b43-8b3e-71f359843df9" />
 
 
 
