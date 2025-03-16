@@ -11,3 +11,10 @@ That said, when creating any visualization, there are a few basic **principles o
 5. **Balance** - balance can be symmetrical or asymmetrical, but it doesn't have to mean "same."
 
 ~~*Wow, it's just like being back in art school again! I knew I picked the right field.*~~
+
+Lucky for us, modern technology comes with a lot of these design principles already baked in.
+
+This time, I'll be working with a [free, public dataset from the historic Titanic disaster](https://www.kaggle.com/competitions/titanic/data) to demonstrate the harmony of simplicity and design in a multivariate analysis.
+
+## Creating a Multivariate Analysis Using Tableau
+
