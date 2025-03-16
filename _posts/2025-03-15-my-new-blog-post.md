@@ -76,3 +76,10 @@ The majority of male survivors came from the third class, but this makes sense g
 
 <img width="367" alt="number-of-all-passengers-by-class-titanic" src="https://github.com/user-attachments/assets/0c38f279-92fd-42ea-b8ef-acf977c25ec8" />
 
+To further put that into perspective, I've put a comparison of survivors versus perished per class next to each other:
+
+
+
+
+
+
