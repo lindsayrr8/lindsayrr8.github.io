@@ -14,7 +14,7 @@ That said, when creating any visualization, there are a few basic **principles o
 
 Lucky for us, modern technology comes with a lot of these design principles already baked in.
 
-This time, I'll be working with a [free, public dataset from the historic Titanic disaster](https://www.kaggle.com/competitions/titanic/data) to demonstrate the harmony of simplicity and design in a multivariate analysis.
+This time, I'll be working with a [popular, public dataset from the historic Titanic disaster](https://www.kaggle.com/competitions/titanic/data) to demonstrate the harmony of simplicity and design in a multivariate analysis.
 
 ## Creating a Multivariate Analysis Using Tableau
 
