@@ -87,7 +87,7 @@ These findings reflect the commonly held knowledge about the Titanic disaster. T
 
 ## Evaluating more specific research questions:
 
-But I'm going to zoom in more and evaluate if and how outcomes differed for the children aboard versus the adults. Naturally, adults represented the majority of passengers on board, and in this dataset, children represent a small minority of just 113 individuals:
+But I'm going to zoom in more and evaluate if and how outcomes differed for the children aboard versus the adults. (To do this, I'll be creating some additional calculated fields.) Naturally, adults represented the majority of passengers on board, and in this dataset, children represent a small minority of just 113 individuals:
 
 <img width="312" alt="total-adults-vs-total-children-titanic" src="https://github.com/user-attachments/assets/a40e600f-b912-4732-86b3-d899eacef2f1" />
 
