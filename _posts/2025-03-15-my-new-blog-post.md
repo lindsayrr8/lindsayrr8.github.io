@@ -72,4 +72,6 @@ In this case, I've used the typical color pattern of pink for females and blue f
 
 From the first glance at the graph, the majority of female survivors is evident. It's also evident that between the three groups of passenger classes, the most first class females survived.
 
+The majority of male survivors came from the third class, but this makes sense given that the third class is the largest majority represented by all passengers in the dataset. What's intriguing is that nearly as many first class men survived as third class. In other words, first class men, despite being a minority of total passengers on board, had a disproportionately higher rate of survival than the majority of third class male passengers:
+
 
