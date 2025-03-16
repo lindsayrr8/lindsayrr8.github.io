@@ -86,6 +86,7 @@ These findings reflect the commonly held knowledge about the Titanic disaster. T
 
 But I'm going to zoom in more and evaluate if and how outcomes differed for the children aboard versus the adults. Naturally, adults represented the majority of passengers on board, and in this dataset, children represent a small minority of just 113 individuals:
 
+<img width="323" alt="total-adults-vs-total-children-titanic" src="https://github.com/user-attachments/assets/8e4f72fa-9167-4b97-b06c-09758dbec1da" />
 
 
 
