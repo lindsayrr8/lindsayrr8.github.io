@@ -112,5 +112,7 @@ Boys and girls are almost equally distributed, with there being just 3 more tota
 
 Comparing the numbers we've observed overall, I've created two final visualizations that show survival rates for adults versus children per class, and adults versus children per class grouped by gender:
 
+<img width="480" alt="titanic-survivors-vs-perished-by-age-class" src="https://github.com/user-attachments/assets/3a4c3fc4-ac81-4fa7-8a66-e9171588fea3" />
 
+<img width="488" alt="titanic-survivors-vs-perished-by-age-gender-class" src="https://github.com/user-attachments/assets/96549fc6-0b54-4db7-bef8-529d57dbbb40" />
 
