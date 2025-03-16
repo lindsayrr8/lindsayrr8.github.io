@@ -92,6 +92,12 @@ What I'd like to find out is if there is any major disparity in class or gender 
 
 <img width="442" alt="gender-and-class-of-child-survivors" src="https://github.com/user-attachments/assets/fb07bca7-c608-4b43-8b3e-71f359843df9" />
 
+From the graph, it seems there were more female child survivors than male. It also seems that the lower the passenger class, the more likely a female child was to survive. It is most probable that this reflects the overall distribution of the data, with more passengers in general being from the third class.
+
+Checking the distribution of those who perished, these assumptions seem to follow:
+
+<img width="461" alt="children-perished-per-class-and-gender-titanic" src="https://github.com/user-attachments/assets/961b857a-0a1c-4d41-9ecb-c7d66652ce87" />
+
 
 
 
