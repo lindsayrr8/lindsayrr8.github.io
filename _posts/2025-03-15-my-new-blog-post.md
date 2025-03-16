@@ -131,6 +131,6 @@ Thinking about the horrible disaster of the Titanic and the many preventable cas
 
 I'm reminded that every day, all over the world, there are researchers working hard to analyze all kinds of information that many of us have the luxury of living without thinking about. I'm grateful to the people who are doing the dirty work that keeps the rest of us safe.
 
-As an aspiring data scientist (as well as a person,) I will always prefer an unfortuante truth to a comfortable fallacy.
+As an aspiring data scientist (as well as a person,) I will always prefer an unfortunate truth to a comfortable fallacy.
 
 *(This post is dedicated to my best friend of 16 years who has been a lifelong Titanic fanatic. Hi, Kendrix!)*
