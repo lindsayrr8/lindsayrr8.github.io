@@ -19,7 +19,7 @@ This time, I'll be working with a [popular, public dataset from the historic Tit
 
 ## Creating a Multivariate Analysis Using Tableau
 
-Lately, I've spent a lot of time with `R`, but I enjoy challenging myself with different platforms and technologies, so I've chosen to complete this activity using Tableau Public.
+Lately, I've spent a lot of time with `R`, but I enjoy challenging myself with different platforms and technologies, so I've chosen to complete this activity using Tableau Public *(and to keep my SQL polished.)*
 
 Opening the data in Excel reveals a dataset with 12 columns and 892 rows, which are labeled as follows:
 ```
