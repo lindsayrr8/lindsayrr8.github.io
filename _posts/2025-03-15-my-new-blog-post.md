@@ -78,6 +78,8 @@ The majority of male survivors came from the third class, but this makes sense g
 
 To further put that into perspective, I've put a comparison of survivors versus perished per class next to each other:
 
+<img width="553" alt="survived-vs-perished-per-class" src="https://github.com/user-attachments/assets/433d9e68-280b-4f48-b482-e6414ccff450" />
+
 
 
 
