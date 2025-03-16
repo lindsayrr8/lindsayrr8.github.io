@@ -70,3 +70,6 @@ To begin **examining how these relationships are distributed** under closer insp
 
 In this case, I've used the typical color pattern of pink for females and blue for males because it's so common that it's immediately visually interpretable. *(But you may not always want to go this route.)*
 
+From the first glance at the graph, the majority of female survivors is evident. It's also evident that between the three groups of passenger classes, the most first class females survived.
+
+
