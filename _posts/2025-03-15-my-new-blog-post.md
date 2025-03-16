@@ -100,6 +100,14 @@ Checking the distribution of those who perished, these assumptions seem to follo
 
 Interestingly, it seems that zero male children from the first class and zero female children from the second class perished based on the data in this dataset.
 
+But in order to verify if female children were likely given priority over male children in lifeboats, we'd need to see how this distribution compares to the total overall distribution of children. (For example, were there more boys than girls on board?)
+
+Creating a visualization to see the distribution of all boys versus all girls on board, it seems that the answer is unfortunate:
+
+
+
+Boys and girls are almost equally distributed, with there being just 3 more total boys than girls in the dataset. But significantly more female children survived than male children. This indicates that priority was given to women and female children, and men and boys were left behind.
+
 ## The Concluding Analysis
 
 Comparing the numbers we've observed overall, I've created two final visualizations that show survival rates for adults versus children per class, and adults versus children per class grouped by gender:
