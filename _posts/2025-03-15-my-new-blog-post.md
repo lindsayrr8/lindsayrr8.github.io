@@ -60,6 +60,10 @@ Embarked
 
 ```
 
+For my analysis, I've used the existing variables: `Survived`, `Class`, `Sex`, and `Age`.
+
+
+
 
 
 
