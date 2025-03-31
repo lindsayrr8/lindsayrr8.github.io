@@ -24,3 +24,6 @@ Here base R looks a little cleaner while ggplot2 looks a little more detailed. I
 From at least 1965 to about 1975, unemployment followed a rising trend. From about 1975 to 2000, it oscillated and spiked fairly consistently about each decade. But between 2005 and 2015, and particularly around 2010, unemployment rates spiked and continued to remain higher than previous averages. It's reasonable to assume that the extreme spike around 2010 reflects the infamous 2008 recession.
 
 
+### Will looking at the data in the form of other visalizations reveal additional insights? Let's find out.
+
+
