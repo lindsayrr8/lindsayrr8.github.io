@@ -37,5 +37,11 @@ And if we expand on this one using more of ggplot2's capabilities, it can be mod
 
 In line form rather than as bars, we can see more of the little variations as unemployment trends change over time. In the grand scheme of factors that influence highly complex metrics like unemployment, small fluctuations can sometimes be otherwise hidden warning signs. This becomes especially valuable when we move into the medium of predictive analytics.
 
-But looking at the graphs, 
+But looking at the graphs, despite their additional complexity, we can still see the overall trends with relative ease. Unemployment peaks do tend to happen roughly around the mark of each decade, following a somewhat cyclical pattern.
+
+The second graph, which plots both unemployment and the median unemployment duration, adds an additional layer of complexity. Here, you can see a direct relationship between high unemployment rates and longer periods of unemployment. This likely reflects compounding conditions resulting from fallout during economic events. But as is the trade off, with more complexity comes more challenge at interpretation.
+
+One thing I find interesting about these graphs is the implications I'm made to think about from the limited information given. As I often mention here, the trade off with simplicity and ease of interpreting a visualization necessitates a loss of certain kinds of information.
+
+While it isn't present on any of these visualizations, I'm left to consider the implications of experiencing multiple economic crises in one lifetime. Timing is a factor that can dramatically affect economic outcomes for many years after the fact.
 
