@@ -10,10 +10,13 @@ How does the same visualization differ with different types of graphs and differ
 To begin, I've chosen to group the dates in the `economics` dataset per 5 years. I'll also be highlighting peak years in dark red:
 
 **Base R plot:**
+
 ![base-r-graph-1](https://github.com/user-attachments/assets/06357720-c460-4a74-9e4f-035280f1b129)
 
 
 **And the same plot recreated with ggplot2:**
+
+![graph-2-ggplot2](https://github.com/user-attachments/assets/ba3e3d4b-e633-4ebf-9397-198fcb572334)
 
 
 
