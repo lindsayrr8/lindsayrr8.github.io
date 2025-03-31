@@ -45,3 +45,5 @@ One thing I find interesting about these graphs is the implications I'm made to 
 
 While it isn't present on any of these visualizations, I'm left to consider the implications of experiencing multiple economic crises in one lifetime. Timing is a factor that can dramatically affect economic outcomes for many years after the fact.
 
+## Visualization in Time Series Analysis
+This exercise has demonstrated how visualization is an especially critical aspect of time series analysis. Visualizations like these graphs offer us the ability to capture both small fluctuations and important, overall trends in a dataset. The challenge lies with striking a balance between complexity and simplicity while navigating an inherent loss of information. They should therefore be carefuly crafted to convey the most necessary and relevant information, the discretion of which is up to the inquiring data analyst.
