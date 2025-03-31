@@ -30,7 +30,7 @@ Let's start with an example. We've all seen a very common economic visualization
 
 ![qplot-graph-4](https://github.com/user-attachments/assets/b2f2a729-d866-407b-9f95-c2b055295edd)
 
-And if we expand on this one using more of ggplot2's capabilities, it can look like this as well:
+And if we expand on this one using more of ggplot2's capabilities, it can be modified to look like this as well:
 
 ![spaghetti-plot-ggplot2](https://github.com/user-attachments/assets/246bd4f3-379c-4e1d-85cb-db083a90dbe1)
 
