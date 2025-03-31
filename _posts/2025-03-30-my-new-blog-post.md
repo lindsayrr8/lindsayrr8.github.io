@@ -35,5 +35,7 @@ And if we expand on this one using more of ggplot2's capabilities, it can be mod
 ![spaghetti-plot-ggplot2](https://github.com/user-attachments/assets/246bd4f3-379c-4e1d-85cb-db083a90dbe1)
 
 
+In line form rather than as bars, we can see more of the little variations as unemployment trends change over time. In the grand scheme of factors that influence highly complex metrics like unemployment, small fluctuations can sometimes be otherwise hidden warning signs. This becomes especially valuable when we move into the medium of predictive analytics.
 
+But looking at the graphs, 
 
