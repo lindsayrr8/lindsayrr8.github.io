@@ -26,4 +26,7 @@ From at least 1965 to about 1975, unemployment followed a rising trend. From abo
 
 ### Will looking at the data in the form of other visalizations reveal additional insights? Let's find out.
 
+Let's start with an example. We've all seen a very common economic visualization in the form of some variation of a sparkline. This one was made with `qplot()`, which is a part of ggplot2:
+
+![qplot-graph-4](https://github.com/user-attachments/assets/b2f2a729-d866-407b-9f95-c2b055295edd)
 
