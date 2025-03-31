@@ -4,5 +4,16 @@ This week, we're going to briefly cover some visual differences between plots us
 
 To do this, we'll be using the `economics` dataset that comes packaged in with RStudio, which showcases unemployment rates over time.
 
+## Comparing the Methods
+How does the same visualization differ with different types of graphs and different implementation methods? As we've seen before, base R and ggplot2 share their similarities and they each have their advantages.
+
+To begin, I've chosen to group the dates in the `economics` dataset per 5 years. I'll also be highlighting peak years in dark red:
+
+**Base R plot:**
+![base-r-graph-1](https://github.com/user-attachments/assets/06357720-c460-4a74-9e4f-035280f1b129)
+
+
+**And the same plot recreated with ggplot2:**
+
 
 
