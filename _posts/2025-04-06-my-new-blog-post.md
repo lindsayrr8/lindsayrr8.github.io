@@ -20,5 +20,11 @@ We'll be evaluating how well each of these visualizations implement **Edward Tuf
 
 First, I created the initial visualization using `ggplot2` as I normally would:
 
+![ggplot2-mod-11](https://github.com/user-attachments/assets/80ea6829-9473-4671-8a9b-2695c00b6f7b)
+
+And then I created the same visualization using lattice to compare:
+
+![lattice-mod-11](https://github.com/user-attachments/assets/35238071-afc0-4722-9db4-8feb220eb4ba)
+
 
 
