@@ -26,5 +26,20 @@ And then I created the same visualization using `lattice` to compare:
 
 ![lattice-mod-11](https://github.com/user-attachments/assets/35238071-afc0-4722-9db4-8feb220eb4ba)
 
+The first ``ggplot2`` visualization maintains Tufte's principles of labelling clearly and keeping a simple, clean graph with no extras. The font used is of a serif format, which Tufte likes to use for titles.
+
+The second `lattice` visualization also maintains Tufte's principles for clear labeling and clean presentation. In this case, a sans serif font is used for the axis labels.
+
+## Are you serif they're any different?
+
+Both graphs are extremely similar, but from a technical and design perspective the small differences should be intentional choices. In truth, Tufte wouldn't mind either of these visualizations based solely on his visualization principles alone.
+
+But here's a fun fact for you: if you weren't already aware, "serif" refers to the little ticks or "feet" at the ends of letters, while "sans serif" means a font doesn't have the little ticks/feet. An example of a popular serif font is Times New Roman, and an example of a popular sans serif font is Arial.
+
+It's not a blanket rule, but generally speaking, serif fonts are not very ADA compliant. This means that people who have certain visual disabilities and impairments can have a harder time reading serif fonts. For this reason, sans serif fonts are generally considered more ADA compliant and therefore preferrable for a wider audience.
+
+This doesn't mean that serif fonts are "bad" or a "wrong" choice. It simply means that as a visualization professional, you should always consider whoever your audience will be when you design something to be viewed.
+
+
 
 
