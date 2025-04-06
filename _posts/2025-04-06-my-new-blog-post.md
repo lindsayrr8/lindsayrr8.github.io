@@ -44,3 +44,5 @@ This doesn't mean that serif fonts are "bad" or a "wrong" choice. It simply mean
 
 Both graphs are fine by most standards, including Tufte's, but I tend to prefer the second `lattice` visualization in this case. It seems a little more compact and "cleaner" as well as utilizing a sans serif font. This makes it a little more accommodating for a wider audience.
 
+`ggplot2` and `lattice` are very similar `R` packages. If I had to make a comparison between them, I'd say that `ggplot2` gives you a little more control and style options, while `lattice` feels more like base `R`. At the end of the day, if you portray the data clearly and accurately, then the method you use to do so is not of the most significant importance.
+
