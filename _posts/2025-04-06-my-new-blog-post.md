@@ -34,11 +34,11 @@ The second `lattice` visualization also maintains Tufte's principles for clear l
 
 Both graphs are extremely similar, but from a technical and design perspective the small differences should be intentional choices. In truth, Tufte wouldn't mind either of these visualizations based solely on his visualization principles alone.
 
-But here's a fun fact for you: if you weren't already aware, "serif" refers to the little ticks or "feet" at the ends of letters, while "sans serif" means a font doesn't have the little ticks/feet. An example of a popular serif font is Times New Roman, and an example of a popular sans serif font is Arial.
+But here's a fun fact for you: if you weren't already aware, **"serif"** refers to the little ticks or "feet" at the ends of letters, while **"sans serif"** means a font doesn't have the little ticks/feet. An example of a popular serif font is Times New Roman, and an example of a popular sans serif font is Arial.
 
-It's not a blanket rule, but generally speaking, serif fonts are not very ADA compliant. This means that people who have certain visual disabilities and impairments can have a harder time reading serif fonts. For this reason, sans serif fonts are generally considered more ADA compliant and therefore preferrable for a wider audience.
+It's not a blanket rule, but generally speaking, serif fonts are not very ADA compliant. This means that people who have certain visual impairments and disabilities can have a harder time reading serif fonts. For this reason, sans serif fonts are generally considered more ADA compliant and therefore preferable for a wider audience.
 
-This doesn't mean that serif fonts are "bad" or a "wrong" choice. It simply means that as a visualization professional, you should always consider whoever your audience will be when you design something to be viewed.
+This doesn't mean that serif fonts are "bad" or a "wrong" choice. It simply means that as a visualization professional, you should always consider whoever your audience will be when you design something to be viewed by others.
 
 
 
