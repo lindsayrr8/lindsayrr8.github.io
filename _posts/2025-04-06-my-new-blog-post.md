@@ -16,4 +16,4 @@ We'll be evaluating how well each of these visualizations implement **Edward Tuf
 - **Use comparison:** Because humans think in comparative terms. An isolated figure may not tell us much, but, for example, a steeply increasing line next to a steeply decreasing line creates context with which to interpret the information.
 - **Don't distort the data:** Don't be that guy. Maintain your personal integrity alongside your data integrity.
 
-- 
+
