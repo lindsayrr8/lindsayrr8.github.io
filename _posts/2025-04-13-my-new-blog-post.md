@@ -36,6 +36,7 @@ After checking my initial results, I returned to the **"Edges"** tab and assigne
 
 ## And here is the result:
 
+![addams-family-social-network](https://github.com/user-attachments/assets/a8c35d74-6807-46eb-8b00-384c0bc0bd12)
 
 
 
