@@ -19,20 +19,20 @@ From here I added a few more customizations for *(attempted)* readability improv
 After checking my initial results, I returned to the **"Edges"** tab and assigned different hex codes under the **Color** coliumn to lines of differing relationship types. (Colorizing things into categories helps the brain decipher information quicker than a series of scrambled black lines!)
 
 ### The colors I chose were:
-> Married - red
-> Father-Daughter - pink
-> Mother-Daughter - pink
-> Father-Son - blue
-> Mother-son - blue
-> Siblings - green
-> Uncle-nephew - dark purple
-> Uncle-niece - light purple
-> Servant-Master - black
-> Servant-Mistress - black
-> Assistant - black
-> Cousins - yellow
-> Cousins-in-law - yellow
-> Mother-in-Law - magenta
+> Married - red <br />
+> Father-Daughter - pink <br />
+> Mother-Daughter - pink <br />
+> Father-Son - blue <br />
+> Mother-son - blue <br />
+> Siblings - green <br />
+> Uncle-nephew - dark purple <br />
+> Uncle-niece - light purple <br />
+> Servant-Master - black <br />
+> Servant-Mistress - black <br />
+> Assistant - black <br />
+> Cousins - yellow <br />
+> Cousins-in-law - yellow <br />
+> Mother-in-Law - magenta <br />
 
 ## And here is the result:
 
