@@ -38,5 +38,11 @@ After checking my initial results, I returned to the **"Edges"** tab and assigne
 
 ![addams-family-social-network](https://github.com/user-attachments/assets/a8c35d74-6807-46eb-8b00-384c0bc0bd12)
 
+## Concluding thoughts
+I've always felt that Excel is just basic programming with a UI. In this case, most things were pretty quick and easy to accomplish.
 
+The thing I like about programming is that there are often multiple ways to approach and complete the same task. With a UI and a simplified user experience, (meaning more things left under the hood,) the trade off often comes with some restrictions on customization.
 
+Ultimately, using NodeXL was fairly straight forward, but had its limitations for someone who is used to programming everything from the database to the visualizations. I would use this plugin again for quick and easy visualizing, but I almost prefer the tried-and-true hardcoding for its flexibility and full user control. 
+
+*(How deep in are you when you think the console is easier than the application?)*
