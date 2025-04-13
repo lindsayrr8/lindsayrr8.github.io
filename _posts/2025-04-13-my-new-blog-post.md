@@ -45,4 +45,4 @@ The thing I like about programming is that there are often multiple ways to appr
 
 Ultimately, using NodeXL was fairly straightforward, but had its limitations for someone who is used to programming everything from the database to the visualizations. I would use this plugin again for quick and easy visualizing, but I almost prefer the tried-and-true hardcoding for its flexibility and full user control. 
 
-*(How deep in are you when you think the console is easier than the application?)*
+*(How deep in are you when you think the console is better than the application?)*
