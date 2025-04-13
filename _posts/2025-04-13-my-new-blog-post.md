@@ -13,6 +13,12 @@ Next, I moved to the **"Vertices" tab** and input the name for each Person1 unde
 
 After handling Person1, I input the values for Person2 under the **Labels** column, still on the Vertices tab. Again, these should correspond to identical values from the "Edges" tab. Doing this tells NodeXL where to map and label values in the resulting visualization.
 
-From here I added a few more customizations for *(attempted)* readability improvements. I set all cells in the "Size" column to size 3.0, which increased the dot size for each data point slightly. Then I ensured every cell in the "Visibility" column was set to "Show" so that they would appear on the visualization.
+From here I added a few more customizations for *(attempted)* readability improvements. I set all cells in the **"Size"** column to size 3.0, which increased the dot size for each data point slightly. Then I ensured every cell in the **"Visibility"** column was set to "Show" so that they would appear on the visualization.
+
+## Generating a Simple Social Network Visualization
+After checking my initial results, I returned to the **"Edges"** tab and assigned different hex codes to lines of differing relationship types. (Colorizing things into categories helps the brain decipher information quicker than a series of scrambled black lines.)
+
+
+
 
 
