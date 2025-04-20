@@ -16,5 +16,34 @@ As such, it gives me immense satisfaction to combine these skills and interests 
 
 ## A simple data visualization with `animation`
 
+Why do we animate things? For the same reason we visualize things: to communicate information to people.
 
+The cool thing about nature and everything in it is that things are true and at work even if we don't understand them. The purpose of visualization is to either remove ambiguity from something we don't understand on apper, or to transfer something we do understand to others so that we can cooperatively take action that produces results. Sometimes, that visualization comes in a moving form.
+
+The more time I've spent with `R`, the more grateful I am that it is such a simple, concise, and straightforward programming language. It makes tasks like animation extremely simple and approachable.
+
+In the spirit of that, I am sharing my code and the resulting animation with you here so that you can try it yourself if you're curious:
+
+```R
+
+# Load data and get mean mpg by cylinder
+data(mtcars)
+agg <- aggregate(mpg ~ cyl, data = mtcars, FUN = mean)
+cylinders <- as.character(agg$cyl)
+mpg_vals <- agg$mpg
+
+# Animate growing bars
+saveGIF({
+  for (i in seq(0, 1, length.out = 20)) {
+    barplot(mpg_vals * i,
+            names.arg = cylinders,
+            col = c("skyblue", "orchid", "purple"),
+            ylim = c(0, max(mpg_vals)),
+            main = sprintf("Average MPG by Cylinder Count (%.0f%%)", i * 100),
+            ylab = "Miles Per Gallon")
+  }
+}, movie.name = "mpg_by_cyl.gif", interval = 0.1)
+```
+
+Running the `saveGIF()`function in this case bypasses a few object-hosting headaches like we might have with an `html` object. Instead, we can upload the visualization somewhere as a simple GIF file:
 
