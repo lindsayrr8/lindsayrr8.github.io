@@ -45,7 +45,7 @@ saveGIF({
 }, movie.name = "mpg_by_cyl.gif", interval = 0.1)
 ```
 
-Running the `saveGIF()`function in this case bypasses a few object-hosting headaches like we might have with an `html` object. Instead, we can upload the visualization somewhere as a simple GIF file:
+Running the `saveGIF()`function in this case bypasses a few object-hosting headaches like we might have with an `html` object. Instead, we can upload the visualization directly somewhere as a simple GIF file:
 
 ![mpg_by_cyl](https://github.com/user-attachments/assets/281c0c06-077c-4cb3-98db-d3ca64219863)
 
