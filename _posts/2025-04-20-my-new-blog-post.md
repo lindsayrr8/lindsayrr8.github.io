@@ -22,7 +22,7 @@ The cool thing about nature and everything in it is that things are true and at 
 
 The more time I've spent with `R`, the more grateful I am that it is such a simple, concise, and straightforward programming language. It makes tasks like animation extremely simple and approachable.
 
-In the spirit of that, I am sharing my code and the resulting animation with you here so that you can try it yourself if you're curious:
+In the spirit of that, I am sharing my code and the resulting animation with you here so that you can try it yourself if you're also curious:
 
 ```R
 
