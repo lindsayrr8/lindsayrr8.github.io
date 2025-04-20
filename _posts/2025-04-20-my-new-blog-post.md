@@ -18,7 +18,7 @@ As such, it gives me immense satisfaction to combine these skills and interests 
 
 Why do we animate things? For the same reason we visualize things: to communicate information to people.
 
-The cool thing about nature and everything in it is that things are true and at work even if we don't understand them. The purpose of visualization is to either remove ambiguity from something we don't understand on apper, or to transfer something we do understand to others so that we can cooperatively take action that produces results. Sometimes, that visualization comes in a moving form.
+The cool thing about nature and everything in it is that things are true and at work even if we don't understand them. The purpose of visualization is to either remove ambiguity from something we don't understand on paper, or to transfer something we do understand to others so that we can cooperatively take action that produces results. Sometimes, that visualization comes in a moving form.
 
 The more time I've spent with `R`, the more grateful I am that it is such a simple, concise, and straightforward programming language. It makes tasks like animation extremely simple and approachable.
 
