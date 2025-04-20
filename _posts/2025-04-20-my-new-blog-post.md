@@ -51,4 +51,4 @@ Running the `saveGIF()`function in this case bypasses a few object-hosting heada
 
 
 ## Final thoughts
-I'm looking forward to making more animated visualizations in the future. I can already imagine the ways I can use this ability to both optimize and express my creativity through my work!
+I'm looking forward to making more animated visualizations with `R` in the future. I will also be combining this approach with my knowledge of other software platforms, as well as audio, video, and image manipulation. I can already imagine the ways I can use this ability to both optimize and express my creativity through my work!
