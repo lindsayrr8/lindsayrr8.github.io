@@ -50,5 +50,5 @@ Running the `saveGIF()`function in this case bypasses a few object-hosting heada
 ![mpg_by_cyl](https://github.com/user-attachments/assets/281c0c06-077c-4cb3-98db-d3ca64219863)
 
 
-
-
+## Final thoughts
+I'm looking forward to making more animated visualizations in the future. I can already imagine the ways I can use this ability to both optimize and express my creativity through my work!
