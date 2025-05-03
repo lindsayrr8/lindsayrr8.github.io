@@ -51,4 +51,5 @@ For books on KU, I pulled the top 5 titles and their respective genres. Then I p
 
 I found that the best-selling genres on KU tend to be pretty diverse, meaning writing in different genres on KU could be flexible in terms of performance. These books are also priced low to buy outright, with 4 of the top 5 books priced at $1. This could be a **sales strategy** to attract non-KU customers to buy the book for a low price (which is close enough to "free.")
 
+But which genres are most frequently "best-sellers" on KU? (After all, authors get paid for engagement on KU books. Which books have the highest relative metrics of engagement?)
 
