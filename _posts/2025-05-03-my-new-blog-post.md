@@ -52,7 +52,7 @@ I found that the best-selling genres on KU tend to be pretty diverse, meaning wr
 
 But which genres are most frequently "best-sellers" on KU? (After all, authors get paid for engagement on KU books. Which books have the highest relative metrics of engagement?)
 
-#### Genres vs. Best Sellers on KU
+### Genres vs. Best Sellers on KU
 
 Here I plotted the 10 most frequently occurring genres on KU:
 
