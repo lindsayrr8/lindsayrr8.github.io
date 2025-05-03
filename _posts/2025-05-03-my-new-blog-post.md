@@ -111,4 +111,5 @@ Pulling the stats for the top 5 best selling titles that are not on KU, there is
 5      Scott Osman     5     0          Business & Money    5 Not on KU
 ```
 
+...they are all **free!**
 
