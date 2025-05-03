@@ -31,6 +31,6 @@ So what is the best course of action?
 # Analysis Objective
 As a reader, a writer, and an aspiring data analyst, I decided to **investigate Amazon's e-book sales stats.** I wanted to know about trends like what genres are popular among e-books, which books tend to be best sellers, and whether or not these books are significantly represented by those offered via Kindle Unlimited. 
 
-
+This way an author could make informed decisions about what genre they write in, what kind of performance they might expect on average, and whether or not they might be better off publishing their work on Kindle Unlimited to give them the best results.
 
 
