@@ -33,7 +33,7 @@ As a reader, a writer, and an aspiring data analyst, I decided to **investigate 
 
 This way an author could make informed decisions about what genre they write in, what kind of performance they might expect on average, and whether or not they might be better off publishing their work on Kindle Unlimited to give them the best results.
 
-To perform this analysis, I've used [this](https://www.kaggle.com/datasets/asaniczka/amazon-kindle-books-dataset-2023-130k-books) free, publicly available dataset on Kindle E-Books from Kaggle.com. I cleaned and performed mild restructuring on the dataset, then pulled some stats on it using `R`.
+To perform this analysis, I've used [this](https://www.kaggle.com/datasets/asaniczka/amazon-kindle-books-dataset-2023-130k-books) free, publicly available dataset on Kindle E-Books from Kaggle.com. I did a little cleaning and performed mild restructuring on the dataset, then pulled some stats on it using `R`.
 
 
 
