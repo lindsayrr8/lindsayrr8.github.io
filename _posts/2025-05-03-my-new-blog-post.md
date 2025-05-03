@@ -72,4 +72,10 @@ But not all niches are equal opportunity; if you wanted to write a Romance book 
 
 ### So which genre gives you the best odds of success?
 
+Here is a comparison of best sellers in each genre versus the total count of books in that genre on KU among the top 10 genres:
+
+
+
+These odds aren't great, but they do help to make an informed decision. In that case, how do they compare to books that are NOT on KU?
+
 
