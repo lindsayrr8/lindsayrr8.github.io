@@ -96,7 +96,7 @@ Overall, these odds aren't great, but they do help an author to make an informed
 
 ## In that case, how do the odds compare to books that are NOT on KU?
 
-
+Here, there are a few different factors at play. Now that Kindle Unlimited is not a part of purchase considerations, other things like price will certainly matter more. Does that mean genre sales will perform differently?
 
 
 
