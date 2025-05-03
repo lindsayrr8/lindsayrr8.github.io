@@ -42,6 +42,13 @@ To start, taking a look at the dataset, there are 133,102 observations or "books
 
 This is telling. From here, I decided to break down some stats within best sellers that *are* on KU versus those that are *not* on KU to gain some insights across different metrics like genre and price range.
 
+## Books on Kindle Unlimited
 
+For books on KU, I pulled the top 5 titles and their respective genres. Then I plotted these with their outright-buy price:
+
+![top-5-on-KU-by-genre-price](https://github.com/user-attachments/assets/5c192104-7e1b-4f85-b65f-2b9b7d92474c)
+
+
+I found that the best-selling genres on KU tend to be pretty diverse. They are also priced low to buy outright, with 4 of the top 5 books priced at $1. This could be a **sales strategy** to attract non-KU customers to buy the book for a low price (which is close enough to "free.")
 
 
