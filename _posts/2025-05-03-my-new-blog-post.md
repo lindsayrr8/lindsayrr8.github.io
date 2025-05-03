@@ -10,7 +10,7 @@ There are already numerous discussions about how Amazon's position in the book r
 
 ### E-Book Economics?
 
-One thing I *don't* do is purchase e-books from Amazon. Several years ago with the rise of **e-readers,** I acquired a used Kindle Paperwhite to try to make more time for reading as a busy, over-encumbered college student. This changed the game for me as I started renting **free e-books** from my local library via my Kindle. 
+One thing I *don't* do is purchase **e-books** from Amazon. Several years ago with the rise of **e-readers,** I acquired a used Kindle Paperwhite to try to make more time for reading as a busy, over-encumbered college student. This changed the game for me as I started renting **free e-books** from my local library via my Kindle. 
 
 Amazon's finance department was a few steps ahead of me, however. In 2014, **Kindle Unlimited** was launched, which offered consumers access to thousands of "free" e-books for a small fee of about $12 per month. But why would consumers pay $12 monthly for access to e-books they can get for free at the library?
 
