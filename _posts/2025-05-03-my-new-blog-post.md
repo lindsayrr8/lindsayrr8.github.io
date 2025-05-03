@@ -76,7 +76,22 @@ Here is a comparison of best sellers in each genre versus the total count of boo
 
 ![book-count-vs-best-sellers-in-genre](https://github.com/user-attachments/assets/6511e145-096b-466b-b954-4d00a1eb2b49)
 
+Running some numbers on this, based on the data in the dataset, I found that the "best" and "worst" genres to write in in terms of odds of writing a best seller are: Science & Math (best odds) and LGBTQ+ (worst odds.)
 
-These odds aren't great, but they do help to make an informed decision. In that case, how do they compare to books that are NOT on KU?
+```R
+> # Show results
+> best_genre
+# A tibble: 1 × 4
+  category_name  all_ku_count best_seller_count success_rate
+  <chr>                 <int>             <int>        <dbl>
+1 Science & Math          385                89        0.231
+> worst_genre
+# A tibble: 1 × 4
+  category_name all_ku_count best_seller_count success_rate
+  <chr>                <int>             <int>        <dbl>
+1 LGBTQ+ eBooks         3906                14      0.00358
+```
+
+Overall, these odds aren't great, but they do help to make an informed decision. In that case, how do they compare to books that are NOT on KU?
 
 
