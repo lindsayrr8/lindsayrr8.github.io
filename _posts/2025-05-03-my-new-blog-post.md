@@ -74,6 +74,7 @@ But not all niches are equal opportunity; if you wanted to write a Romance book 
 
 Here is a comparison of best sellers in each genre versus the total count of books in that genre on KU among the top 10 genres:
 
+![book-count-vs-best-sellers-in-genre](https://github.com/user-attachments/assets/6511e145-096b-466b-b954-4d00a1eb2b49)
 
 
 These odds aren't great, but they do help to make an informed decision. In that case, how do they compare to books that are NOT on KU?
