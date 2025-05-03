@@ -70,6 +70,6 @@ As an example, if you wanted to **write a book in a popular category** such as M
 
 But not all niches are equal opportunity; if you wanted to write a Romance book and publish it on KU, you'd contend with the odds of 26/1650 or about 0.01% chances of writing a best seller. There are many books of this genre in the dataset, but proportionally fewer of them are best sellers even within their own niche.
 
-
+### So which genre gives you the best odds of success?
 
 
