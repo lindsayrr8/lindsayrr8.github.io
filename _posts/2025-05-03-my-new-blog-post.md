@@ -62,7 +62,7 @@ And here I plotted the 10 most frequent best sellers by genre on KU:
 
 ![top-10-genres-best-sellers-KU](https://github.com/user-attachments/assets/bb2eeea4-f141-4e27-99df-8fe7ac865866)
 
-From this, it appears that certain genres have their niches of varying popularity. Among these, some genres are produced more often than others, and those genres also tend to be top 10 best sellers more often (such as Literature & Fiction, Teen & Young Adult, or Mystery/Thriller/Suspense.)
+From this, it appears that certain genres have their niches of varying popularity. Among these, some genres are produced more often than others (such as Literature & Fiction, Teen & Young Adult, or Mystery/Thriller/Suspense.)
 
 In other words, you could take 1 of **2 approaches:** write in a popular category and compete with many other books, or write in a niche category and take your chances as a best seller among a smaller audience.
 
