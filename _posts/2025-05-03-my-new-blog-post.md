@@ -6,9 +6,9 @@ Though Amazon is not primarily known for its book sales anymore, it still mainta
 
 <img width="512" alt="passive secrets amazon book sales" src="https://github.com/user-attachments/assets/d6c851c7-01f4-4497-bd27-1df355f281b0" />
 
-### E-Book Economics?
-
 There are already numerous discussions about how Amazon's position in the book retail market affects traditional retail methods like brick-and-mortar bookstores. One strength of Amazon's business model that has enticed 71% of consumers to choose purchasing books online is likely the **convenience** factor. It's quick and easy for someone to add a book to their cart from the same place and within the same transaction that they're purchasing other items. *(I myself have purchased paper books from Amazon before.)*
+
+### E-Book Economics?
 
 One thing I *don't* do is purchase e-books from Amazon. Several years ago with the rise of **e-readers,** I acquired a used Kindle Paperwhite to try to make more time for reading as a busy, over-encumbered college student. This changed the game for me as I started renting **free e-books** from my local library via my Kindle. 
 
