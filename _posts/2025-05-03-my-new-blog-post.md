@@ -40,5 +40,8 @@ To start, taking a look at the dataset, there are 133,102 observations or "books
 
 ![all-best-sellers-vs-on-KU](https://github.com/user-attachments/assets/f24f38b8-fd3a-483e-a39a-97615b7b8074)
 
+This is telling. From here, I decided to break down some stats within best sellers that *are* on KU versus those that are *not* on KU to gain some insights across different metrics like genre and price range.
+
+
 
 
