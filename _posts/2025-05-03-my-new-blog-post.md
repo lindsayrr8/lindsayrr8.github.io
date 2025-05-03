@@ -98,6 +98,17 @@ Overall, these odds aren't great, but they do help an author to make an informed
 
 Here, there are a few different factors at play. Now that Kindle Unlimited is not a part of purchase considerations, other things like price will certainly matter more. Does that mean genre sales will perform differently? Once again, only 35% of best sellers in the dataset are NOT on Kindle Unlimited, so the window of opportunity is proportionally smaller.
 
+Pulling the stats for the top 5 best selling titles that are not on KU, there is one damning thing they have in common:
 
+```R
+> top_5_bestsellers_non_ku
+
+            author stars price             category_name rank ku_status
+1     Sharon Eucce     5     0          Business & Money    1 Not on KU
+2      Norah Evers     5     0                Nonfiction    2 Not on KU
+3 Matthew Mitchell     5     0                Nonfiction    3 Not on KU
+4     Terri DeNeui     5     0 Health, Fitness & Dieting    4 Not on KU
+5      Scott Osman     5     0          Business & Money    5 Not on KU
+```
 
 
