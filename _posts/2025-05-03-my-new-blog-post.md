@@ -8,7 +8,7 @@ Though Amazon is not primarily known for its book sales anymore, it still mainta
 
 There are already numerous discussions about how Amazon's position in the book retail market affects traditional retail methods like brick-and-mortar bookstores. One strength of Amazon's business model that has enticed 71% of consumers to choose purchasing books online is likely the **convenience** factor. It's quick and easy for someone to add a book to their cart from the same place and within the same transaction that they're purchasing other items. *(I myself have purchased paper books from Amazon before.)*
 
-### E-Book Economics?
+## E-Book Economics?
 
 One thing I *don't* do is purchase **e-books** from Amazon. Several years ago with the rise of **e-readers,** I acquired a used Kindle Paperwhite to try to make more time for reading as a busy, over-encumbered college student. This changed the game for me as I started renting **free e-books** from my local library via my Kindle. 
 
@@ -16,7 +16,7 @@ Amazon's finance department was a few steps ahead of me, however. In 2014, **Kin
 
 Amazon had the answer to that. Any e-books offered on Kindle Unlimited were **not allowed to be offered on any other platform** or by any other service. So if you want an e-book that's on Kindle Unlimited, that's the only place you're going to get it without purchasing it outright.
 
-### An Author's Dilemma
+## An Author's Dilemma
 
 Naturally, as this approach has pros and cons for potential readers, it also has its pros and cons for authors.
 
