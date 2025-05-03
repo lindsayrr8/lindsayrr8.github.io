@@ -66,7 +66,7 @@ From this, it appears that certain genres have their niches of varying popularit
 
 In other words, you could take 1 of **2 approaches:** write in a popular category and compete with many other books, or write in a niche category and take your chances as a best seller among a smaller audience.
 
-As an example, if you wanted to **write a book in a popular category** such as Mystery and publish it on KU, around 96/3077 (or 0.03%) of similar books are best sellers. Concurrently, if you wanted to **write in a less popular niche** such as a Science/Math book and publish it on KU, you'd have about an 89/385 or a 0.20% chance of writing a best seller.
+As an example, if you wanted to **write a book in a popular category** such as Mystery and publish it on KU, around 96/3077 (or 0.03%) of similar books are best sellers. Concurrently, if you wanted to **write in a less popular niche** such as a Science/Math book and publish it on KU, you'd have about an 89/385 or a 0.23% chance of writing a best seller.
 
 Therefore, not all niches are equal opportunity; if you wanted to write a Romance book and publish it on KU, you'd contend with 26/1650 or about an average 0.01% chance of writing a best seller. There are many books of this genre in the dataset, but proportionally fewer of them are best sellers even within their own niche.
 
