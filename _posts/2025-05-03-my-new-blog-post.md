@@ -4,9 +4,7 @@ In 1994, the world's largest online retailer began as a small online bookstore i
 
 Though Amazon is not primarily known for its book sales anymore, it still maintains significant influence over the book retail market, both in terms of paper books and digital ones. I recently came across this visualization from [passivesecrets.com](https://passivesecrets.com/amazon-book-sales-statistics/) which shows just how much:
 
-
 <img width="512" alt="passive secrets amazon book sales" src="https://github.com/user-attachments/assets/d6c851c7-01f4-4497-bd27-1df355f281b0" />
-
 
 ### E-Book Economics?
 
