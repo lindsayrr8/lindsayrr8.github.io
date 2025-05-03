@@ -20,7 +20,7 @@ Amazon had the answer to that. Any e-books offered on Kindle Unlimited were **no
 
 Naturally, as this approach has pros and cons for potential readers, it also has its **pros and cons** for authors.
 
-On one hand, publishing e-books is easier than ever, opening doors for new authors to self-publish and get their work in front of more readers. Someone in Amazon's pool of Kindle Unlimited readers who might have otherwise never given your work a chance could be inclined to give it a try for "free." *(Note that authors **do** get paid for engagement with their work on Kindle Unlimited.)*
+On one hand, publishing e-books is easier than ever, opening doors for new authors to self-publish and get their work in front of more readers. Someone in Amazon's pool of Kindle Unlimited readers who might have otherwise never given your work a chance could be inclined to give it a try for "free." *(Note that **authors do get paid** for engagement with their work on Kindle Unlimited.)*
 
 On the other hand, publishing an e-book on Kindle Unlimited brings about **two restrictions;** One, if a potential reader does *not* have Kindle Unlimited, they might be less likely to purchase an e-book they could otherwise get for "free" using the subscription. And if they don't have access to the e-book, they might also not purchase the paper book, thus excluding certain readers.
 
