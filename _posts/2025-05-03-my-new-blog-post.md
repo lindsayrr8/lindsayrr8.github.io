@@ -14,7 +14,7 @@ One thing I *don't* do is purchase **e-books** from Amazon. Several years ago wi
 
 Amazon's finance department was a few steps ahead of me, however. In 2014, **Kindle Unlimited** was launched, which offered consumers access to thousands of "free" e-books for a small fee of about $12 per month. But why would consumers pay $12 monthly for access to e-books they can get for free at the library?
 
-Amazon had the answer to that. Any e-books offered on Kindle Unlimited were **not allowed to be offered on any other platform** or by any other service. So if you want that 
+Amazon had the answer to that. Any e-books offered on Kindle Unlimited were **not allowed to be offered on any other platform** or by any other service. So if you want an e-book that's on Kindle Unlimited, that's the only place you're going to get it without purchasing it outright.
 
 
 ### Analysis Objective
