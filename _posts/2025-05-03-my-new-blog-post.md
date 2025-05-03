@@ -46,7 +46,7 @@ This is telling. From here, I decided to break down some stats within best selle
 
 For books on KU, I pulled the top 5 titles and their respective genres. Then I plotted these with their outright-buy price:
 
-![top-5-on-KU-by-genre-price](https://github.com/user-attachments/assets/5c192104-7e1b-4f85-b65f-2b9b7d92474c)
+![top-5-on-KU-by-genre-price](https://github.com/user-attachments/assets/a304b226-654d-4177-8926-9044066be200)
 
 
 I found that the best-selling genres on KU tend to be pretty diverse, meaning writing in different genres on KU could be flexible in terms of performance. These books are also priced low to buy outright, with 4 of the top 5 books priced at $1. This could be a **sales strategy** to attract non-KU customers to buy the book for a low price (which is close enough to "free.")
