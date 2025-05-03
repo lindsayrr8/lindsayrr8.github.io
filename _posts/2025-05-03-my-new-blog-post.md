@@ -1,4 +1,4 @@
-# Amazon E-Book Sales Performance Analysis
+# Amazon E-Book Sales Performance Analysis: Kindle Unlimited vs. Unrestricted Access
 
 In 1994, the world's largest online retailer began as a small online bookstore in a Washington garage. I am of course talking about **Amazon,** which is so often cited in modern discussions surrounding business and e-commerce.
 
@@ -16,6 +16,17 @@ Amazon's finance department was a few steps ahead of me, however. In 2014, **Kin
 
 Amazon had the answer to that. Any e-books offered on Kindle Unlimited were **not allowed to be offered on any other platform** or by any other service. So if you want an e-book that's on Kindle Unlimited, that's the only place you're going to get it without purchasing it outright.
 
+### An Author's Dilemma
+
+Naturally, as this approach has pros and cons for potential readers, it also has its pros and cons for authors.
+
+On one hand, publishing e-books is easier than ever, opening doors for new authors to self-publish and get their work in front of more readers.
+
+On the other hand, publishing an e-book on Kindle Unlimited brings about two things; One, if a potential reader does *not* have Kindle Unlimited, they might be less likely to purchase an e-book they could otherwise get for "free" using the subscription. And if they don't have access to the e-book, they might also not purchase the paper book, thus excluding certain readers.
+
+Two, if your e-book is published on Kindle Unlimited, you also cannot publish or distribute the e-book on other platforms like Kobo (or other e-readers), local libraries, or through promotional giveaways, further limiting your pool of potential readers.
+
+So what is the best course of action?
 
 ### Analysis Objective
 
