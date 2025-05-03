@@ -92,6 +92,12 @@ Running some numbers on this, based on the data in the dataset, I found that the
 1 LGBTQ+ eBooks         3906                14      0.00358
 ```
 
-Overall, these odds aren't great, but they do help to make an informed decision. In that case, how do they compare to books that are NOT on KU?
+Overall, these odds aren't great, but they do help to make an informed decision.
+
+## In that case, how do the odds compare to books that are NOT on KU?
+
+
+
+
 
 
