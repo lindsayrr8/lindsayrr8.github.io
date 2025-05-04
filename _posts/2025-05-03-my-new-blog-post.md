@@ -44,11 +44,7 @@ This is telling. From here, I decided to break down some stats within best selle
 
 ## Books on Kindle Unlimited
 
-For books on KU, I pulled the top 5 titles and their respective genres. Then I plotted these with their outright-buy price:
-
-![top-5-titles-on-KU-by-genre-price](https://github.com/user-attachments/assets/c3fe3f9f-7192-427f-b1ca-63871dd526ed)
-
-I found that the best-selling genres on KU tend to be pretty diverse, meaning writing in different genres on KU could be flexible in terms of performance. These books are also priced low to buy outright, with 4 of the top 5 books priced at $1. This could be a **sales strategy** to attract non-KU customers to buy the book for a low price (which is close enough to "free.")
+For books on KU, I found that the best-selling genres on KU tend to be pretty diverse, meaning writing in different genres on KU could be flexible in terms of performance. These books are also priced low to buy outright, with many of the top performing books priced at $1. This could be a **sales strategy** to attract non-KU customers to buy the book for a low price (which is close enough to "free.")
 
 But which genres are most frequently "best-sellers" on KU? (After all, authors get paid for engagement on KU books. Which books have the highest relative metrics of engagement?)
 
