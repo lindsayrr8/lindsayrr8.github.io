@@ -62,9 +62,9 @@ From this, it appears that certain genres have their niches of varying popularit
 
 In other words, you could take 1 of **2 approaches:** write in a popular category and compete with many other books, or write in a niche category and take your chances as a best seller among a smaller audience.
 
-As an example, if you wanted to **write a book in a popular category** such as Mystery and publish it on KU, around 96/3077 (or 0.03%) of similar books are best sellers. Concurrently, if you wanted to **write in a less popular niche** such as a Science/Math book and publish it on KU, you'd have about an 89/385 or a 0.23% chance of writing a best seller.
+As an example, if you wanted to **write a book in a popular category** such as Mystery and publish it on KU, around 96/3077 (or 3.1%) of similar books are best sellers. Concurrently, if you wanted to **write in a less popular niche** such as a Science/Math book and publish it on KU, you'd have about an 89/385 or a 23.1% chance of writing a best seller.
 
-Therefore, not all niches are equal opportunity; if you wanted to write a Romance book and publish it on KU, you'd contend with 26/1650 or about an average 0.01% chance of writing a best seller. There are many books of this genre in the dataset, but proportionally fewer of them are best sellers even within their own niche.
+Therefore, not all niches are equal opportunity; if you wanted to write a Romance book and publish it on KU, you'd contend with 26/1650 or about an average 1.58% chance of writing a best seller. There are many books of this genre in the dataset, but proportionally fewer of them are best sellers even within their own niche.
 
 ### So which genre gives you the best odds of success?
 
@@ -72,7 +72,7 @@ Here is a comparison of best sellers in each genre versus the total count of boo
 
 ![book-count-vs-best-sellers-in-genre](https://github.com/user-attachments/assets/6511e145-096b-466b-b954-4d00a1eb2b49)
 
-Running some numbers on this, based on the data in the dataset, I found that the "best" and "worst" genres to write in in terms of odds of writing a best seller are: Science & Math (best odds at 0.23%) and LGBTQ+ (worst odds at 0.00%.)
+Running some numbers on this, based on the data in the dataset, I found that the "best" and "worst" genres to write in in terms of odds of writing a best seller are: Science & Math (best odds at 23.1%) and LGBTQ+ (worst odds at 0.3%.)
 
 ```R
 > # Show results
@@ -161,9 +161,9 @@ If we maintain the assumption that we can take one of two approaches to crafting
 1 Engineering & Transportation        5320           28      0.00526
 ```
 
-Our optimal chance of writing a best seller based on the data in this dataset falls into the Children's E-Books category, being 93/4581 or a 0.02% chance of success when compared to the performance of similar books.
+Our optimal chance of writing a best seller based on the data in this dataset falls into the Children's E-Books category, being 93/4581 or a 2.03% chance of success when compared to the performance of similar books.
 
-Our worst bet of writing a best seller comes in as an Engineering & Transportation genre book, being about 28/5320 or around 0.00%. Yikes. *(Maybe Engineers already have enough reading to do.)*
+Our worst bet of writing a best seller comes in as an Engineering & Transportation genre book, being about 28/5320 or around 0.53%. Yikes. *(Maybe Engineers already have enough reading to do.)*
 
 ## Interpreting These Results
 Quantitatively, this shows that based on the given data, you have **marginally higher chances of writing a best seller in certain categories when publishing via Kindle Unlimited rather than without it.** This differs across genres, and odds of writing a best seller across all genres remain slim.
