@@ -169,5 +169,8 @@ Our optimal chance of writing a best seller based on the data in this dataset fa
 
 Our worst bet of writing a best seller comes in as an Engineering & Transportation genre book, being about 28/5320 or around 0.00%. Yikes. *(Maybe Engineers already have enough reading to do.)*
 
+## Interpreting These Results
+Quantitatively, this shows that based on the given data, you have marginally higher chances of writing a best seller in certain categories when publishing via Kindle Unlimited rather than without it. This differs across genres, and odds of writing a best seller across all genres remain slim.
 
+For better or for worse, when considering the best course of action for a new or non-established author, in most cases it is worth considering publishing your work via Kindle Unlimited. This could allow it to reach more potential readers, give those potential readers more buying/acquisition options, and potentially help to corner your specific market based on the genre you're writing in.
 
