@@ -117,6 +117,8 @@ That checks out (people love free stuff!) But it's not the best news for a starv
 
 In that case, I went to take a look at the *non-zero* price distribution for non-KU best sellers:
 
+![price-dist-best-sellers-not-on-KU](https://github.com/user-attachments/assets/a2657a83-bfaf-4b4d-a298-6a5c9d584b54)
 
 
+Most of these were under $20 with a few outliers, so I limited the graph to show just the majority and break down the distribution of the price under $20. From that, we can see that many of the e-books cluster in price around $15, $10, and $1.
 
