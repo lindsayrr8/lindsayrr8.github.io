@@ -1,4 +1,4 @@
-# Amazon E-Book Sales Performance Analysis: Kindle Unlimited vs. Unrestricted Access
+# Amazon E-Book Best Sellers Analysis: Kindle Unlimited vs. Non-KU
 
 In 1994, the world's largest online retailer began as a small online bookstore in a Washington garage. I am of course talking about **Amazon,** which is so often cited in modern discussions surrounding business and e-commerce.
 
