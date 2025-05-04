@@ -115,7 +115,7 @@ Pulling the stats for the top 5 best selling titles that are not on KU, there is
 
 That checks out (people love free stuff!) But it's not the best news for a starving author. 
 
-In that case, I went to take a look at the *non-zero* price distribution for non-KU best sellers:
+In that case, I went to take a look at more of the *non-zero* price distribution for non-KU best sellers:
 
 ![price-dist-best-sellers-not-on-KU](https://github.com/user-attachments/assets/a2657a83-bfaf-4b4d-a298-6a5c9d584b54)
 
