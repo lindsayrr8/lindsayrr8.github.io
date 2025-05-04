@@ -176,7 +176,7 @@ However, the **trade off for doing so would exclude you from publishing your wor
 
 A) This dataset does not include revenue for each specific book title. Rather, it groups books by genre into "best sellers" or not. Therefore, the monetary value of an invidiaul "best seller" may be significantly higher from one book to another, which could skew results.
 
-B) This dataset also does NOT include sales metrics for paper books, many of which can be sold as both a paperbook *and* an e-book on Amazon. Therefore, just because an e-book version does not perform well does not necessarily mean that the paper version also sells poorly. This can also skew these results.
+B) This dataset also does not include sales metrics for paper books, many of which can be sold as both a paperbook *and* an e-book on Amazon. Therefore, just because an e-book version does not perform well does not necessarily mean that the paper version also sells poorly. This can also skew these results.
 
 C) The dataset also does not specify whether an individual book that is on KU was purchased for the cash price or accessed for "free" via KU, so it cannot evaluate specific sales metrics per book titles in a given genre. What it can do is show an overview of reach to potential readers across genres via the e-book format and/or the Kindle platform.
 
