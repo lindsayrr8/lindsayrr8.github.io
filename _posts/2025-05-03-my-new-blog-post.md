@@ -128,7 +128,9 @@ Which leads me to my next question... **does this price distribution differ amon
 
 It seems the answer is yes. When all books prices are compared (meaning those with Kindle Unlimited status are combined with those which do not have KU,) it is evident that there are **more books with KU status in the price range of $5 and under.** This is likley another indicator that KU books are also offered at a low price to entice customers who do not have a KU subscription to give them a try via purchasing.
 
+## What does it mean?
 
+In this case I don't have data available with this dataset to see what percent of the best sellers are acquired via KU versus by purchase. However, it is reasonable to assume that some amount of the 65% of books which are KU best sellers are acquired through both KU and without it. In other words, **books on KU which are also available for purchase have the additional advantage of giving potential readers more buying options.**
 
 
 
