@@ -124,8 +124,7 @@ Most of these were under $20 with a few outliers, so I limited the graph to show
 
 Which leads me to my next question... **does this price distribution differ among *all* best sellers?** Remember that customers who do not have a KU subscription can still choose to outright buy Kindle Unlimited books:
 
+![price-dist-all-best-sellers-under-20](https://github.com/user-attachments/assets/66b73fb4-7f79-442c-bb2a-e42eea6b6b67)
 
-
-
-
+It seems the answer is yes. 
 
