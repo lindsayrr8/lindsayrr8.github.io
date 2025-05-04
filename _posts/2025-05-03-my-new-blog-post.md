@@ -144,6 +144,10 @@ Further, if Amazon has an algorithmic incentive to advertise KU books to current
 
 So, if you're a non-KU book, you'll be competing with both KU books *and* the $0 not-on-KU books. Combine this with the fact that many non-KU e-books can also be freely accessed via local libraries. The race between KU and non-KU is really starting to tighten.
 
-But let's look more at that. Suppose you are a brave, non-KU e-book. What factors besides price (such as genre) will give you better odds of becoming a best seller?
+But let's look more at that. Suppose you are a brave, non-KU e-book. What factors besides price (such as genre) will give you **better odds of becoming a best seller?**
+
+![top-10-non-KU-genres-vs-best-sellers](https://github.com/user-attachments/assets/dce8de7c-ab9b-44ec-a883-5e2894d8fe5c)
+
+
 
 
