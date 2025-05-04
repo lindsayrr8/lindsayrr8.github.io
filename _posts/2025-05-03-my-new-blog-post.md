@@ -161,9 +161,11 @@ If we maintain the assumption that we can take one of two approaches to crafting
 1 Engineering & Transportation        5320           28      0.00526
 ```
 
-Our optimal chance of writing a best seller based on the data in this dataset falls into the Children's E-Books category, being 93/4581 or a 2.03% chance of success when compared to the performance of similar books.
+Our optimal chance of writing a best seller in the top 10 genres based on the data in this dataset falls into the Children's E-Books category, being 93/4581 or a 2.03% chance of success when compared to the performance of similar books.
 
-Our worst bet of writing a best seller comes in as an Engineering & Transportation genre book, being about 28/5320 or around 0.53%. Yikes. *(Maybe Engineers already have enough reading to do.)*
+Our worst bet of writing a top 10 genre best seller comes in as an Engineering & Transportation genre book, being about 28/5320 or around 0.53%. Yikes. *(Maybe Engineers already have enough reading to do.)*
+
+*(These numbers go down even more in other genres outside the top 10 genres represented in the dataset. However, there is less engagement overall with those categories.)*
 
 ## Interpreting These Results
 Quantitatively, this shows that based on the given data, you have **higher chances of writing a best selling e-book in certain categories when publishing via Kindle Unlimited rather than without it.** This differs across genres, and odds of writing a best seller across all genres remain mostly slim.
@@ -183,39 +185,39 @@ C) The dataset also does not specify whether an individual book that is on KU wa
 ### Overall success rates according to findings:
 
 ```R
-print(success_rates_by_genre, n = nrow(success_rates_by_genre))
+ print(success_rates_by_genre, n = nrow(success_rates_by_genre))
 # A tibble: 31 × 4
-   category_name                success_rate_overall success_rate_ku success_rate_non_ku
-   <chr>                        <chr>                <chr>           <chr>              
- 1 Arts & Photo graphy          1.5%                 7.9%            0.6%               
- 2 Biographies & Memoirs        2.5%                 7.2%            1.8%               
- 3 Business & Money             2.4%                 9.6%            1.6%               
- 4 Children's eBooks            2.6%                 5.1%            2.0%               
- 5 Comics                       0.8%                 2.8%            0.0%               
- 6 Computers & Technology       1.4%                 7.4%            0.3%               
- 7 Cookbooks, Food & Wine       1.1%                 3.1%            0.3%               
- 8 Crafts, Hobbies & Home       1.7%                 5.5%            0.3%               
- 9 Education & Teaching         1.1%                 5.4%            0.3%               
-10 Engineering & Transportation 1.0%                 4.3%            0.5%               
-11 Foreign Language             0.6%                 1.7%            0.3%               
-12 Health, Fitness & Dieting    2.8%                 11.6%           1.2%               
-13 History                      3.1%                 7.8%            1.9%               
-14 Humor & Entertainment        0.7%                 1.2%            0.3%               
-15 LGBTQ+ eBooks                0.3%                 0.4%            0.1%               
-16 Law                          0.6%                 4.5%            0.1%               
-17 Literature & Fiction         4.4%                 6.9%            1.2%               
-18 Medical                      0.5%                 6.2%            0.0%               
-19 Mystery, Thriller & Suspense 1.7%                 3.1%            0.4%               
-20 Nonfiction                   5.4%                 18.5%           3.2%               
-21 Parenting & Relationships    1.2%                 3.5%            0.5%               
-22 Politics & Social Sciences   2.7%                 15.6%           1.8%               
-23 Reference                    1.4%                 6.4%            0.6%               
-24 Religion & Spirituality      2.6%                 4.2%            1.7%               
-25 Romance                      1.2%                 1.6%            0.0%               
-26 Science & Math               3.1%                 23.1%           1.7%               
-27 Science Fiction & Fantasy    0.8%                 1.2%            0.1%               
-28 Self-Help                    0.8%                 2.9%            0.4%               
-29 Sports & Outdoors            0.4%                 1.4%            0.2%               
-30 Teen & Young Adult           2.6%                 4.8%            0.9%               
-31 Travel                       1.8%                 6.2%            0.3%        
+   category_name                sucess_rate_overall ku_sr non_ku_sr
+   <chr>                        <chr>               <chr> <chr>    
+ 1 Arts & Photo graphy          1.5%                7.9%  0.6%     
+ 2 Biographies & Memoirs        2.5%                7.2%  1.8%     
+ 3 Business & Money             2.4%                9.6%  1.6%     
+ 4 Children's eBooks            2.6%                5.1%  2.0%     
+ 5 Comics                       0.8%                2.8%  0.0%     
+ 6 Computers & Technology       1.4%                7.4%  0.3%     
+ 7 Cookbooks, Food & Wine       1.1%                3.1%  0.3%     
+ 8 Crafts, Hobbies & Home       1.7%                5.5%  0.3%     
+ 9 Education & Teaching         1.1%                5.4%  0.3%     
+10 Engineering & Transportation 1.0%                4.3%  0.5%     
+11 Foreign Language             0.6%                1.7%  0.3%     
+12 Health, Fitness & Dieting    2.8%                11.6% 1.2%     
+13 History                      3.1%                7.8%  1.9%     
+14 Humor & Entertainment        0.7%                1.2%  0.3%     
+15 LGBTQ+ eBooks                0.3%                0.4%  0.1%     
+16 Law                          0.6%                4.5%  0.1%     
+17 Literature & Fiction         4.4%                6.9%  1.2%     
+18 Medical                      0.5%                6.2%  0.0%     
+19 Mystery, Thriller & Suspense 1.7%                3.1%  0.4%     
+20 Nonfiction                   5.4%                18.5% 3.2%     
+21 Parenting & Relationships    1.2%                3.5%  0.5%     
+22 Politics & Social Sciences   2.7%                15.6% 1.8%     
+23 Reference                    1.4%                6.4%  0.6%     
+24 Religion & Spirituality      2.6%                4.2%  1.7%     
+25 Romance                      1.2%                1.6%  0.0%     
+26 Science & Math               3.1%                23.1% 1.7%     
+27 Science Fiction & Fantasy    0.8%                1.2%  0.1%     
+28 Self-Help                    0.8%                2.9%  0.4%     
+29 Sports & Outdoors            0.4%                1.4%  0.2%     
+30 Teen & Young Adult           2.6%                4.8%  0.9%     
+31 Travel                       1.8%                6.2%  0.3%          
 ```
