@@ -126,5 +126,9 @@ Which leads me to my next question... **does this price distribution differ amon
 
 ![price-dist-all-best-sellers-under-20](https://github.com/user-attachments/assets/66b73fb4-7f79-442c-bb2a-e42eea6b6b67)
 
-It seems the answer is yes. 
+It seems the answer is yes. When all books prices are compared (meaning those with Kindle Unlimited status are combined with those which do not have KU,) it is evident that there are **more books with KU status in the price range of $5 and under.** This is likley another indicator that KU books are also offered at a low price to entice customers who do not have a KU subscription to give them a try.
+
+
+
+
 
