@@ -130,7 +130,9 @@ It seems the answer is yes. When all books prices are compared (meaning those wi
 
 ## What does it mean?
 
-In this case I don't have data available with this dataset to see what percent of the best sellers are acquired via KU versus by purchase. However, it is reasonable to assume that some amount of the 65% of books which are KU best sellers are acquired through both KU and without it. In other words, **books on KU which are also available for purchase have the additional advantage of giving potential readers more buying options.**
+In this case I don't have data available with this dataset to see what percent of the best sellers are acquired via KU versus by outright purchase when both options are available for an individual book.
+
+However, it is reasonable to assume that some amount of the 65% of books which are KU best sellers are acquired through both KU and without it. In other words, **books on KU which are also available for purchase have the additional advantage of giving potential readers more buying/acquisition options.**
 
 
 
