@@ -134,5 +134,8 @@ In this case I don't have data available with this dataset to see what percent o
 
 However, it is reasonable to assume that some amount of the 65% of books which are KU best sellers are acquired through both KU and without it. In other words, **books on KU which are also available for purchase have the additional advantage of giving potential readers more buying/acquisition options.**
 
+This potential relationship is even more evident when both options are viewed together:
+
+![price-dist-best-both-ku-and-non](https://github.com/user-attachments/assets/f9d39919-9ea5-4421-8078-2a1edc068dbd)
 
 
