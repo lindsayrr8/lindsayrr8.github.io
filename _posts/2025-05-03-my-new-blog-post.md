@@ -36,7 +36,7 @@ This way an author could make informed decisions about what genre they write in,
 To perform this analysis, I've used [this](https://www.kaggle.com/datasets/asaniczka/amazon-kindle-books-dataset-2023-130k-books) free, publicly available dataset on Kindle E-Books from Kaggle.com. I did a little cleaning and performed mild restructuring on the dataset, then pulled some stats on it using `R`.
 
 # Exploratory Analysis
-To start, taking a look at the dataset, there are 133,102 observations or "books" represented. These books are associated with 8 variables ranging from title, to price, to genre, to whether or not a book is a best seller, to whether or not a book is on Kindle Unlimited. Among the books, 31 genres are included. All of these are e-books, and about **27% of all the books are on Kindle Unlimited.** Probing further, I found that interestingly, about **65% of all best-selling books are available on Kindle Unlimited:**
+To start, taking a look at the dataset, there are 133,102 observations or "books" represented. These books are associated with 8 variables ranging from title, to price, to genre, to whether or not a book is a best seller, to whether or not a book is on Kindle Unlimited. Among the books, 31 genres are included. All of these are e-books, and about 27% of all the books are on Kindle Unlimited. Probing further, I found that about **65% of best sellers are on Kindle Unlimited:**
 
 ![all-best-sellers-vs-on-KU](https://github.com/user-attachments/assets/f24f38b8-fd3a-483e-a39a-97615b7b8074)
 
@@ -221,3 +221,12 @@ C) The dataset also does not specify whether an individual book that is on KU wa
 30 Teen & Young Adult           2.6%                 4.8%    0.9%       
 31 Travel                       1.8%                 6.2%    0.3%         
 ```
+
+Short summary of this project:
+
+> Problem Description
+In order for an author to make an informed decision about how to publish their e-book on Amazon, I will be performing an exploratory analysis to examine trends and factors that influence success as a best seller. I will look at pricing, genre, and best selling ratios for both those that participate in the Kindle Unlimited program and those that don’t. Specifically, I want to see if there is a measurable difference in performance among books published with KU versus those that are not published with KU. I want to determine if books on KU are more successful as best sellers than books that are not on KU.
+>
+> Solution:
+> For my exploratory analysis, I used R studio to implement visual techniques such as visual distribution, ranking, part-to-whole, and color association to show interesting or significant trends in Amazon kindle book sales performance. I looked at how the dataset was divided between best sellers that are on Kindle Unlimited versus those that are not. I then looked at top genres represented in the dataset and which of these genres were best sellers for books on Kindle Unlimited versus those that are not. I compared the number of best sellers for KU and non-KU books per each category. I also looked at how pricing was distributed and how these distributions differed in each category (KU or not.) Finally, I computed the success rates of best sellers in each genre per each category (KU or not) to show which of these had better performance as best sellers than others.
+>  
