@@ -122,3 +122,10 @@ In that case, I went to take a look at more of the *non-zero* price distribution
 
 Most of these were under $20 with a few outliers, so I limited the graph to show just the majority and break down the distribution of the price under $20. From that, we can see that many of the e-books cluster in price around $15, $10, and $1. Among these, there were about as many in each of those price ranges as are there are in the $0 price range.
 
+Which leads me to my next question... **does this price distribution differ among *all* best sellers?** Remember that customers who do not have a KU subscription can still choose to outright buy Kindle Unlimited books:
+
+
+
+
+
+
