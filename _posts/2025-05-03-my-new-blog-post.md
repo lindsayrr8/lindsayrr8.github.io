@@ -140,6 +140,10 @@ This potential relationship is even more evident when both options are viewed to
 
 Further, if Amazon has an algorithmic incentive to advertise KU books to current and potential KU subscribers, that may also be another factor that gives Kindle Unlimited books an advantage.
 
+## What are the odds?
 
+So, if you're a non-KU book, you'll be competing with both KU books *and* the $0 not-on-KU books. Combine this with the fact that many non-KU e-books can also be freely accessed via local libraries. The race between KU and non-KU is really starting to tighten.
+
+But let's look more at that. Suppose you are a brave, non-KU e-book. What factors besides price (such as genre) will give you better odds of becoming a best seller?
 
 
