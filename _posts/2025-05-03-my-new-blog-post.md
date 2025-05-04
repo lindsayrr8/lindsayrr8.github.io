@@ -138,4 +138,8 @@ This potential relationship is even more evident when both options are viewed to
 
 ![price-dist-best-both-ku-and-non](https://github.com/user-attachments/assets/f9d39919-9ea5-4421-8078-2a1edc068dbd)
 
+Further, if Amazon has an algorithmic incentive to advertise KU books to current and potential KU subscribers, that may also be another factor that gives Kindle Unlimited books an advantage.
+
+
+
 
