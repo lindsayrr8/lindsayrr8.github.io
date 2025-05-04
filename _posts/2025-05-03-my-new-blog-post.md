@@ -148,6 +148,21 @@ But let's look more at that. Suppose you are a brave, non-KU e-book. What factor
 
 ![top-10-non-KU-genres-vs-best-sellers](https://github.com/user-attachments/assets/dce8de7c-ab9b-44ec-a883-5e2894d8fe5c)
 
+Based on these results, the odds of writing a best selling e-book seem even slimmer for non-KU books than those for KU books did, despite the evident differences in category/genre preference.
 
+If we maintain the assumption that we can take one of two approaches to crafting a potential best seller, being writing a book in a popular genre with many best sellers versus writing a book in a niche genre, then we get the following outcomes:
+
+```R
+> best_odds
+# A tibble: 1 × 4
+  category_name     total_books best_sellers success_rate
+  <chr>                   <int>        <int>        <dbl>
+1 Children's eBooks        4581           93       0.0203
+> worst_odds
+# A tibble: 1 × 4
+  category_name                total_books best_sellers success_rate
+  <chr>                              <int>        <int>        <dbl>
+1 Engineering & Transportation        5320           28      0.00526
+```
 
 
