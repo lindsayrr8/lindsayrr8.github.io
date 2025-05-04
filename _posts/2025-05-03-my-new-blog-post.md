@@ -165,4 +165,9 @@ If we maintain the assumption that we can take one of two approaches to crafting
 1 Engineering & Transportation        5320           28      0.00526
 ```
 
+Our optimal chance of writing a best seller based on the data in this dataset falls into the Children's E-Books category, being 93/4581 or a 0.02% chance of success when compared to the performance of similar books.
+
+Our worst bet of writing a best seller comes in as an Engineering & Transportation genre book, being about 28/5320 or around 0.00%. Yikes. *(Maybe Engineers already have enough reading to do.)*
+
+
 
