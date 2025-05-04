@@ -166,9 +166,17 @@ Our optimal chance of writing a best seller based on the data in this dataset fa
 Our worst bet of writing a best seller comes in as an Engineering & Transportation genre book, being about 28/5320 or around 0.53%. Yikes. *(Maybe Engineers already have enough reading to do.)*
 
 ## Interpreting These Results
-Quantitatively, this shows that based on the given data, you have **marginally higher chances of writing a best seller in certain categories when publishing via Kindle Unlimited rather than without it.** This differs across genres, and odds of writing a best seller across all genres remain slim.
+Quantitatively, this shows that based on the given data, you have **higher chances of writing a best selling e-book in certain categories when publishing via Kindle Unlimited rather than without it.** This differs across genres, and odds of writing a best seller across all genres remain mostly slim.
 
 For better or for worse, when considering the best course of action for a new or non-established author, in most cases **it is worth considering publishing your work via Kindle Unlimited.** This could allow it to reach more potential readers, give those potential readers more buying/acquisition options, and potentially help to corner your specific market based on the genre you're writing in.
 
-However, the **trade off for doing so would exclude you from publishing your work on other platforms** or benefitting from the exposure of sharing your books with local libraries. Based on the findings from the data, I would absolutely recommend prospective authors to do their research in their genre of choice before publishing (and probably before writing, too.)
+However, the **trade off for doing so would exclude you from publishing your work on other platforms** or benefitting from the exposure of sharing your books with local libraries. Based on the findings from the data, I would absolutely recommend prospective authors to do their research in their genre of choice before publishing *(and probably before writing, too.)*
+
+### A few things to note about these findings are that:
+
+A) This dataset does not include revenue for each specific book title. Rather, it groups books by genre into "best sellers" or not. Therefore, the monetary value of an invidiaul "best seller" may be significantly higher from one book to another, which could skew results.
+
+B) This dataset also does NOT include sales metrics for paper books, many of which can be sold as both a paperbook *and* an e-book on Amazon. Therefore, just because an e-book version does not perform well does not necessarily mean that the paper version also sells poorly. This can also skew these results.
+
+C) The dataset also does not specify whether an individual book that is on KU was purchased for the cash price or accessed for "free" via KU, so it cannot evaluate specific sales metrics per book titles in a given genre. What it can do is show an overview of reach to potential readers across genres via the e-book format and/or the Kindle platform.
 
