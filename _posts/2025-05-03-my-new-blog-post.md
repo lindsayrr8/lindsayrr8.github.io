@@ -174,3 +174,6 @@ Quantitatively, this shows that based on the given data, you have marginally hig
 
 For better or for worse, when considering the best course of action for a new or non-established author, in most cases it is worth considering publishing your work via Kindle Unlimited. This could allow it to reach more potential readers, give those potential readers more buying/acquisition options, and potentially help to corner your specific market based on the genre you're writing in.
 
+However, the trade off for doing so would exclude you from publishing your work on other platforms or benefitting from the exposure of sharing your books with local libraries. Based on the findings from the data, I would absolutely recommend prospective authors to do their research in their genre of choice before publishing (and probably before writing, too.)
+
+
